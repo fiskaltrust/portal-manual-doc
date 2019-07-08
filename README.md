@@ -1,2 +1,1 @@
-# portal-manual-doc
-Repository for ft-Portal manual
+# fiskaltrust portal manual doc
