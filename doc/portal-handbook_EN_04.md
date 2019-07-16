@@ -113,7 +113,7 @@ Screenshot 1: Homepage | [https://www.fiskaltrust.at](https://www.fiskaltrust.at
 
 ![Number 1](Numbers/1.png)  By clicking on the hyperlink "*LOGIN*" on the homepage the ft.portal can be accessed.
 
-The registration of a user and the company is explained in chapter "[Registration and Login](###Registration_and_Login)".
+The registration of a user and the company is explained in chapter "[Registration and Login](#registration_and_login)".
 
 ## Landing_Page
 
@@ -129,7 +129,7 @@ Screenshots 2_1 and 2_2: Landing-Page of the ft.portal | [https://portal.fiskalt
 ![Number 1](Numbers/1.png) 
 The login or registration of a user in the ft.portal is initiated by clicking on ![Portal](Buttons/035.png "Portal")
 
-![Number 2](Numbers/2.png) By clicking on ![Scan](Buttons/022.png "Scan") the function to scan receipts is activated. See chapter [Scanned QR-Codes](###Scanned_QR_codes).
+![Number 2](Numbers/2.png) By clicking on ![Scan](Buttons/022.png "Scan") the function to scan receipts is activated. See chapter [Scanned QR-Codes](#scanned_qr_codes).
 
 ![Number 3](Numbers/3.png) **Text:** Connection partner
 
@@ -148,9 +148,9 @@ Screenshot 3: Login, link for registration with ft.portal and password reset | [
 
 ![Number 1](Numbers/1.png) If you are not registered as a user at the ft.portal you can click \[Register\] without filling in the access data and get to the new registration.
 
-![Number 2](Numbers/2.png) If you are already registered at the ft.portal and therefore have an e-mail address and a password, you can login by filling in the access data and clicking on \[Login\]. All portal functions released for the respective user are then available. (see chapter "[Dashboard](##Dashboard)")
+![Number 2](Numbers/2.png) If you are already registered at the ft.portal and therefore have an e-mail address and a password, you can login by filling in the access data and clicking on \[Login\]. All portal functions released for the respective user are then available. (see chapter "[Dashboard](#dashboard)")
 
-![Number 3](Numbers/3.png) If you have forgotten your password as a user, you can click on "*If you have forgotten your password, please click here:*". This will take you to the page where you can request a new password. (see chapter "[Reset-password](###Reset_password)")
+![Number 3](Numbers/3.png) If you have forgotten your password as a user, you can click on "*If you have forgotten your password, please click here:*". This will take you to the page where you can request a new password. (see chapter "[Reset-password](#reset_password)")
 
 ### Registration:User's_Email_address
 
@@ -242,7 +242,7 @@ The field "Company name" is a mandatory field. The company name is to be indicat
 
 ![Number 3](Numbers/3.png) Since the user is created as the company's so-called "primary contact", the user's e-mail address has already been added to the company and cannot be changed.
 
-![Number 4](Numbers/4.png) Enter the master data of the company. This master data can be changed later in the ft.portal and is also the basis for the voluntary display to be released by the user in [https://portal.fiskaltrust.at/public/filterpartners](https://portal.fiskaltrust.at/public/filterpartners). (see chapter "[Overview of roles and contractual relationships](###Overview_of_roles_and_contractual_relationships)")
+![Number 4](Numbers/4.png) Enter the master data of the company. This master data can be changed later in the ft.portal and is also the basis for the voluntary display to be released by the user in [https://portal.fiskaltrust.at/public/filterpartners](https://portal.fiskaltrust.at/public/filterpartners). (see chapter "[Overview of roles and contractual relationships](#overview_of_roles_and_contractual_relationships)")
 
 The fields "Zip Code" and "City" are mandatory fields.
 
@@ -310,7 +310,7 @@ After clicking on the link in the confirmation e-mail, an information page will 
 ![Screenshot 14](portal-sandbox.fiskaltrust.at/Account/009.png)
 Screenshot 14: Information page after calling the confirmation link
 
-By clicking on "this link" the login page of the ft.portal will be opened. (see chapter "[Login](###Login)")
+By clicking on "this link" the login page of the ft.portal will be opened. (see chapter "[Login](#login)")
 
 #### Exception:Activation_link_has_expired_or_is_invalid
 
@@ -349,7 +349,7 @@ Screenshot 19: Captcha to check whether the function is called by a person.
 
 ![Number 1](Numbers/1.png) **Text:** "If you have already registered your email address, we can email you a password reset link. Enter your e-mail address and click on \[send link\].
 
-![Number 2](Numbers/2.png) For the correct execution of the captcha check see chapter [Enter Captcha](####Enter_Captcha)
+![Number 2](Numbers/2.png) For the correct execution of the captcha check see chapter [Enter Captcha](#enter_captcha)
 
 ![Screenshot 20](portal-sandbox.fiskaltrust.at/Account/015.png)
 Screenshot 20: Information that an email was sent with a confirmation link to reset the password.
@@ -361,7 +361,7 @@ Screenshot 21: Email with a password reset link.
 
 If the password reset link from the user registration confirmation email has not been called up correctly (by click) within 24 hours of sending, this activation link will expire. If an expired or invalid activation link is called up, an information page is opened.
 
-The procedure for the new login begins anew (see chapter [Exception: Activation link has expired or is invalid](####Exception:Activation_link_has_expired_or_is_invalid))
+The procedure for the new login begins anew (see chapter [Exception: Activation link has expired or is invalid](#exceptionactivation_link_has_expired_or_is_invalid))
 
 If you do not receive the e-mail with the confirmation link - e.g. because you do not have access to the e-mail account - you can contact [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
 
@@ -382,7 +382,7 @@ Screenshot 22: Dashboard - overview page with the functions shared with the user
 
 ![Number 4](Numbers/4.png) By clicking on the symbol ![Menu](Buttons/028.png "Menu") , the displayed menu can be reduced in size on the left margin of the page.
 
-![Number 5](Numbers/5.png) By clicking on the text "Log out e-mail address" the user is logged out of the ft.portal and the landing page is called up. (see chapter [Landing Page](##Landing_Page))
+![Number 5](Numbers/5.png) By clicking on the text "Log out e-mail address" the user is logged out of the ft.portal and the landing page is called up. (see chapter [Landing Page](#landing_page))
 
 ![Number 6](Numbers/6.png) Search field - The knowledge based articles are searched for the expression entered here.
 
@@ -412,7 +412,7 @@ Screenshot 24: Page detail - Menu structure Log off
 
 ![Number 2](Numbers/2.png) Alternatively, you can log out by clicking on the company name or the user name and then clicking on the menu item ![Number 3](Numbers/3.png) "Logout".
 
-After logging out, the landing page is called up. [Landing Page](##Landing_Page)
+After logging out, the landing page is called up. [Landing Page](#landing_page)
 
 ## User
 
@@ -538,7 +538,7 @@ Screenshot 32: Active role as CashSys manufacturer - inactive partner role
 
 ![Number 1](Numbers/1.png) **Text:** "These roles are currently assigned to your company in the fiskaltrust.Portal"
 
-![Number 2](Numbers/2.png) The slider is set to \[Enabled\]. This indicates that the respective role is enabled. By clicking on the slider the role can be put back and the contract can be cancelled. (see chapter [Resetting the Roleof CashSys manufacturer](####Resetting_the_role_of_CashSys_manufacturer))
+![Number 2](Numbers/2.png) The slider is set to \[Enabled\]. This indicates that the respective role is enabled. By clicking on the slider the role can be put back and the contract can be cancelled. (see chapter [Resetting the Roleof CashSys manufacturer](#resetting_the_role_of_cashsys_manufacturer))
 
 ![Number 3](Numbers/3.png) **Text:** "The cash register manufacturer role is already assigned to your company."
 
@@ -546,7 +546,7 @@ Screenshot 32: Active role as CashSys manufacturer - inactive partner role
 
 Click on this link to download the contract text. This is personalised with the name of the signatory as well as the date and time of the conclusion of the contract. (Example: "Read and accepted on 29.05.2016 at 17:40:22 by \_jennifer \_test\_poscreator")
 
-![Number 5](Numbers/5.png) This slider can be used to set whether the company's contact details appear in the public partner list or not ([https://portal.fiskaltrust.at/public/filterpartners](https://portal.fiskaltrust.at/public/filterpartners)). (see chapter " [Activating the role - Public partner list](####Activating_the_role_public_partner_list) ")
+![Number 5](Numbers/5.png) This slider can be used to set whether the company's contact details appear in the public partner list or not ([https://portal.fiskaltrust.at/public/filterpartners](https://portal.fiskaltrust.at/public/filterpartners)). (see chapter " [Activating the role - Public partner list](#activating_the_role_public_partner_list) ")
 
 After the conclusion of the contract an e-mail confirmation is sent to the user of the company.
 
@@ -724,7 +724,7 @@ Screenshot 44: Example of a positive check result of a check of the company regi
 
 Only after a positive check of the classification key can this classification key be used to personalize a signature creation device (SmartCard).
 
-To use the ft.Personalization Tool see chapter [ft.Personalization Tool](###ft.personalization_tool).
+To use the ft.Personalization Tool see chapter [ft.Personalization Tool](#ftpersonalization_tool).
 
 ### Account_settings
 
@@ -747,7 +747,7 @@ Screenshot 46: Company - Employees
 
 ![Number 2](Numbers/2.png) By clicking on the arrow next to the pictograms to display the authorizations, the sliders for changing the authorizations are displayed.
 
-The different authorizations are described in chapter "[Employees of the company authorization administrations](###Employees_of_the_company_authorization_administration)".
+The different authorizations are described in chapter "[Employees of the company authorization administrations](#employees_of_the_company_authorization_administration)".
 
 ![Number 3](Numbers/3.png) In this case, the primary contact of the company is displayed. This user always has full rights. These authorizations cannot be reset either. Therefore the sliders are grey and cannot be changed.
 
@@ -946,7 +946,7 @@ Screenshot 66: List of CashSys dealers assigned to a POS product
 
 ### Overview_of_assigned_CashSys_operators
 
-Each cash register operator (idF CashSys operator) can log in to the ft.Portal like any other user and any company independently. (see "[Registration and Login](###Registration_and_Login)")
+Each cash register operator (idF CashSys operator) can log in to the ft.Portal like any other user and any company independently. (see "[Registration and Login](#registration_and_login)")
 
 The assignment of the CashSys operator to a CashSys dealer is shown below.
 
@@ -965,7 +965,7 @@ Screenshot 68: CashSys operators - overview
 
 The invitation of a CashSys operator can only be made by a CashSys dealer, but not by a manufacturer or consultant.
 
-However, the role of a CashSys dealer can also be activated by these companies and thus taken over in parallel to another role. (see chapter "[Company Role CashSys manufacturer](###Company_Role_CashSys_manufacturer)")
+However, the role of a CashSys dealer can also be activated by these companies and thus taken over in parallel to another role. (see chapter "[Company Role CashSys manufacturer](#company_role_cashsys_manufacturer)")
 
 [![https://portal.fiskaltrust.at/PosOperator/PosOperators/](portal-sandbox.fiskaltrust.at/PosOperator/PosOperators/001.png "https://portal.fiskaltrust.at/PosOperator/PosOperators/")](https://portal.fiskaltrust.at/PosOperator/PosOperators/)
 Screenshot 69: Invitation of the CashSys operators (POSOperator) by a CashSys dealer (POSDealer)
@@ -974,7 +974,7 @@ Screenshot 69: Invitation of the CashSys operators (POSOperator) by a CashSys de
 
 There are two ways to add CashSys operators to a CashSys dealer:
 
-1. ![Number 2](Numbers/2.png) add a single CashSys operator see chapter [Add CashSys operator](####Add_CashSys_operator).
+1. ![Number 2](Numbers/2.png) add a single CashSys operator see chapter [Add CashSys operator](#add_cashsys_operator).
 2. ![Number 3](Numbers/3.png) add several CashSys operators by importing a CSV file.
     1. ![Number 4](Numbers/4.png)  The CSV file is to be imported and selected via \[Choose File\].
     2. ![Number 5](Numbers/5.png)  Then the import is carried out by clicking on \[Import\].
@@ -1003,7 +1003,7 @@ There are two ways to add CashSys operators to a CashSys dealer:
 
 ![Number 7](Numbers/7.png) **Text:** "PDF document as an attachment to the e-mail invitation"
 
-Import a PDF document, which is sent to the CashSys operators as an attachment on the e-mail invitations. This PDF document can be individually adapted to the rollout concept (see chapter [Example of a PDF attachment](####Example_of_a_PDF_attachment))
+Import a PDF document, which is sent to the CashSys operators as an attachment on the e-mail invitations. This PDF document can be individually adapted to the rollout concept (see chapter [Example of a PDF attachment](#example_of_a_pdf_attachment))
 
 #### Add_CashSys_operator
 
@@ -1064,7 +1064,7 @@ Screenshot 75: Example e-mail invitation of a CashSys operator.
 
 CashSys operator
 
-  By clicking on the link, the portal login is called up and the CashSys operator has to register as a new user and as a new company or log in with his existing data. (see chapter "[Registration and Login](###Registration_and_Login)")
+  By clicking on the link, the portal login is called up and the CashSys operator has to register as a new user and as a new company or log in with his existing data. (see chapter "[Registration and Login](#registration_and_login)")
 
 #### Example_of_a_PDF_attachment
 
@@ -1165,7 +1165,7 @@ Screenshot 79: Example of a request of a CashSys operator
 
 ### AT-Finanz-Online_messages
 
-For further information see chapter [Messages](###Messages).
+For further information see chapter [Messages](#messages).
 
 ### Export
 
@@ -1227,19 +1227,19 @@ Screenshot 85: Download in the ft.portal
 
 ## Configuration_of_a_cash_register
 
-For using a template or a package see chapter [Buying a package in the shop or using a template](###buy_package_in_shop_or_use_template).
+For using a template or a package see chapter [Buying a package in the shop or using a template](#buy_package_in_shop_or_use_template).
 
 [![https://portal.fiskaltrust.at/CashBox/](portal-sandbox.fiskaltrust.at/CashBox/001.png "https://portal.fiskaltrust.at/CashBox/")](https://portal.fiskaltrust.at/CashBox/)
 Screenshot 86: Overview of configured and available configuration containers
 
 The creation and management of the components is discussed in the following chapters:
 
-- [Signature_creation_device](###signature_creation_device)
-- [Helper](###Helper)
-- [Queue](###Queue)
-- [Cash_Box](###Cash_Box)
+- [Signature_creation_device](#signature_creation_device)
+- [Helper](#helper)
+- [Queue](#queue)
+- [Cash_Box](#cash_box)
 
-For further information for CashSys manufacturers or dealers see chapter [Rollout for CashSys manufacturers and dealers - Important process steps](##Rollout_for_CashSys_manufacturers_and_dealers_Important_process_steps).
+For further information for CashSys manufacturers or dealers see chapter [Rollout for CashSys manufacturers and dealers - Important process steps](#rollout_for_cashsys_manufacturers_and_dealers_important_process_steps).
 
 ### Signature_creation_device
 
@@ -1437,7 +1437,7 @@ German fiskalization does not (yet) include a signature creation device. This fu
 [![https://portal.fiskaltrust.at/Queue/](portal-sandbox.fiskaltrust.at/Queue/004.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
 Screenshot 101: Queue overview
 
-![Number 1](Numbers/1.png) Click on ![Receipt](Buttons/014.png "Receipt") to go to the receipt check. For further explanations see chapter [Receipt validation](###Receipt_validation)
+![Number 1](Numbers/1.png) Click on ![Receipt](Buttons/014.png "Receipt") to go to the receipt check. For further explanations see chapter [Receipt validation](#receipt_validation)
 
 ![Number 2](Numbers/2.png) Here the current status of the CashSys is displayed, by clicking on ![Questionmark](Buttons/015.png "Questionmark") a message about the status can be sent.
 
@@ -1447,7 +1447,7 @@ Screenshot 101: Queue overview
 
 ![Number 5](Numbers/5.png) The Action Journal can be accessed by clicking on ![Ajournal](Buttons/018.png "Ajournal"). All status changes and important actions are displayed here.
 
-![Number 6](Numbers/6.png) The queue export can be started by pressing the button ![Export](Buttons/019.png "Export"). For further information see chapter [Queue - Export](####Queue_Export).
+![Number 6](Numbers/6.png) The queue export can be started by pressing the button ![Export](Buttons/019.png "Export"). For further information see chapter [Queue - Export](#queue_export).
 
 ![Number 7](Numbers/7.png) The POS archive can be placed in the shopping cart by clicking on ![Dollarsign](Buttons/020.png "Dollarsign").
 
@@ -1579,7 +1579,7 @@ Screenshot 111: Edit CashBox by Drag\&Drop
 
 ![Number 1](Numbers/1.png) Here you can see your already created queues. This corresponds to a data acquisition protocol and therefore a CashSys in the sense of the RKSV.
 
-![Number 2](Numbers/2.png) Here you can see your already created helpers. Further information see chapter [Helpers](###Helper).
+![Number 2](Numbers/2.png) Here you can see your already created helpers. Further information see chapter [Helpers](#helper).
 
 ![Number 3](Numbers/3.png) Here you can see the signature creation devices that you have already created.
 
@@ -1608,9 +1608,9 @@ Screenshot 113: Ready configured CashBox
 
 ![Number 2](Numbers/2.png) By clicking on "+Add" you can create a new configuration container.
 
-![Number 3](Numbers/3.png) In the section Queues you will find the deposited cash register identification number as well as the automatically generated AES key (Base64 encryption), which is required to register the cash register with Finanz Online. By clicking on ![Gear](Buttons/030.png "Gear") you can configure your queue(s) and set which signature creation devices the queue can access. See Chapter [AT Finanz Online Messages](###AT-Finanz-Online_messages).
+![Number 3](Numbers/3.png) In the section Queues you will find the deposited cash register identification number as well as the automatically generated AES key (Base64 encryption), which is required to register the cash register with Finanz Online. By clicking on ![Gear](Buttons/030.png "Gear") you can configure your queue(s) and set which signature creation devices the queue can access. See Chapter [AT Finanz Online Messages](#at-finanz-online_messages).
 
-For further information see chapter "[Messages](###Messages) ".
+For further information see chapter "[Messages](#messages) ".
 
 By clicking on ![Gear](Buttons/030.png "Gear") you can edit them again.
 
@@ -1637,7 +1637,7 @@ Screenshot 116: Download Launcher
 
 ![Number 1](Numbers/1.png) By clicking on this button, you download the launcher you need for commissioning. This is a ZIP file that you download into the download folder. Extract the file from your download folder with a right-click, then click "Extract" and "Save".
 
-For further information see chapter [Overview first configuration container](####Overview_first_configuration_container)
+For further information see chapter [Overview first configuration container](#overview_first_configuration_container)
 
 ## Shop
 
@@ -1712,7 +1712,7 @@ As soon as an invoice has been created for your products, you can view it under 
 
 ### Offers
 
-Offers created by fiskaltrust are listed here. By clicking on ![Folder](Buttons/032.png "Folder") the respective offer is put into the shopping cart and you can make the payment as in chapter [Shopping cart](###Shopping_cart).  
+Offers created by fiskaltrust are listed here. By clicking on ![Folder](Buttons/032.png "Folder") the respective offer is put into the shopping cart and you can make the payment as in chapter [Shopping cart](#shopping_cart).  
 
 [![https://portal.fiskaltrust.at/Shop/Products/](portal-sandbox.fiskaltrust.at/Shop/Quotes/001.png "https://portal.fiskaltrust.at/Shop/Products/")](https://portal.fiskaltrust.at/Shop/Products/)  
 Screenshot 123: Offers
@@ -1787,7 +1787,7 @@ Payment in the webshop | Credit card (Mastercard, Visa) or <br />Paypal account 
 ### Create_the_**CashSys_dealer**_(contact_and_company)
 
 | **1 Registration** <br />![Screenshot 127](portal-sandbox.fiskaltrust.at/Process/001.png)|
-  | To register the contact and the company, please go to [https://portal.fiskaltrust.at](https://portal.fiskaltrust.at)<br />(Test environment under [https://portal-sandbox.fiskaltrust.at](https://portal-sandbox.fiskaltrust.at)) top left on \[Portal\] and follow the instructions<br />(see chapter "[Registration and Login](###Registration_and_Login)")<br />The re-registration of a company and a user on the fiskaltrust.portal must be performed jointly in order to connect the user as the primary contact with the company. This connection can currently only be established later by the fiskaltrust.support. |
+  | To register the contact and the company, please go to [https://portal.fiskaltrust.at](https://portal.fiskaltrust.at)<br />(Test environment under [https://portal-sandbox.fiskaltrust.at](https://portal-sandbox.fiskaltrust.at)) top left on \[Portal\] and follow the instructions<br />(see chapter "[Registration and Login](#registration_and_login)")<br />The re-registration of a company and a user on the fiskaltrust.portal must be performed jointly in order to connect the user as the primary contact with the company. This connection can currently only be established later by the fiskaltrust.support. |
 |------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **2 TIP** <br> ![Screenshot 128](portal-sandbox.fiskaltrust.at/Process/002.png) |
   | The data of the company - especially the name, UID number and postal code - should be recorded and not skipped. In the event that the company is not created, the company can be created by another new contact. A new company can only be created for an existing contact via the fiskaltrust.Hotline.<br />Only if the contact is created NEW and the company already exists in the fiskaltrust.Portal, the entry of company data can be skipped.|
@@ -1795,9 +1795,9 @@ Payment in the webshop | Credit card (Mastercard, Visa) or <br />Paypal account 
   |If you (also) log into the production system under this link: [https://portal.fiskaltrust.at](https://portal.fiskaltrust.at), the access data will be transferred from the production system to the sandbox in irregular intervalls. This allows you to register in the sandbox even after the next update.|
 | **4 Email confirmation** <br />![Screenshot 129](portal-sandbox.fiskaltrust.at/Process/003.png)<br />Screenshot 129 - Example: Confirming your e-mail
   |The fiskaltrust.portal sends an email to the newly registered address. Please click on the link to complete the registration. Then log in with the access data you have just created.|
-| **5 Conclusion of contract** <br />![Screenshot 130](portal-sandbox.fiskaltrust.at/Process/004.png)[Conclusion of contract](####Conclusion_of_contract)|
+| **5 Conclusion of contract** <br />![Screenshot 130](portal-sandbox.fiskaltrust.at/Process/004.png)[Conclusion of contract](#conclusion_of_contract)|
   |Click on the company name in the menu sidebar on the left and then on {Overview} and move the switch at the CashSys dealer to ON.<br />
-  (see chapter [Overview of roles and contractual relationships - example in which "no role" is assigned](###Overview_of_roles_and_contractual_relationships_example_in_which"no_role"_is_assigned) |
+  (see chapter [Overview of roles and contractual relationships - example in which "no role" is assigned](#overview_of_roles_and_contractual_relationships) |
 | **6 Public Partner List** |
   |If desired, set the "Public Partner List" slider to "ON". (this activates the display in the Public Partner List) |
 | **7 {AccountID} and {AccessToken}** |
@@ -1833,7 +1833,7 @@ TIP | 6 TIP | It is possible to design the e-mail invitation individually by the
 | 3\. Optional Employees | Add employees for the **CashSys dealer** |
 TIP | 4 TIP | The **CashSys dealer** can create its employees in the portal and grant them access rights.                                                                                                                                                                                                                                                  |
 | 5 Add employees | Log in as CashSys dealer, click on the company name in the menu on the left and employees, click on Add, enter the e-mail address of the employee.                                                                                                                                                                                                     |
-| ![Screenshot 132](portal-sandbox.fiskaltrust.at/Process/006.png) | Every person who should work with the fiskaltrust.portal have to be added as employees.<br />(see chapter [Add employees](###Add_employees)) |
+| ![Screenshot 132](portal-sandbox.fiskaltrust.at/Process/006.png) | Every person who should work with the fiskaltrust.portal have to be added as employees.<br />(see chapter [Add employees](#add_employees)) |
 | 6 E-mail confirmation | If the employee is found in the portal, he can be assigned directly. Otherwise, first name and surname must be added and the employee can be created again. The employee then receives an e-mail invitation with a confirmation link.                                                                           |
 
 ### Entry_of_the_**CashSys-dealer**_as_a_**CashSys-operator**
@@ -1875,7 +1875,7 @@ TIP | 4 TIP | The **CashSys dealer** can create its employees in the portal and 
 
 In the menu item "Configuration" a "CashBox" can be created manually.
 
-Another possibility is the use of a free or chargeable "template". This is a preconfigured "sample template" with various properties to be defined, which is made available in the [ft.shop](https://portal.fiskaltrust.at/Shop/Products "Fiskaltrust Shop"). With such a template you can easily create many similarly configured CashBoxes. These CashBoxes can then furthermore be processed as described in chapter [Cash Box](###Cash_Box).
+Another possibility is the use of a free or chargeable "template". This is a preconfigured "sample template" with various properties to be defined, which is made available in the [ft.shop](https://portal.fiskaltrust.at/Shop/Products "Fiskaltrust Shop"). With such a template you can easily create many similarly configured CashBoxes. These CashBoxes can then furthermore be processed as described in chapter [Cash Box](#cash_box).
 
 If you would like to do so, please contact our support team at [info@fiskaltrust.at](mailto:info@fiskaltrust.at) We will be happy to advise you on the individual implementation.
 
