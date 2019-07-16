@@ -46,7 +46,7 @@
     "resource": [
       {
         "files": [
-          "doc/**/images/**"
+          "doc/**"
         ],
         "exclude": [
           "**/bin/**",
