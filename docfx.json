@@ -46,7 +46,10 @@
     "resource": [
       {
         "files": [
-          "doc/**"
+          "doc/**/*.png",
+          "doc/**/*.jpg",
+          "doc/**/*.tiff",
+          "doc/**/*.gif"
         ],
         "exclude": [
           "**/bin/**",
