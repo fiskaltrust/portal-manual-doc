@@ -2,7 +2,9 @@ $excludedUris = @(
     "https://signaturcloud.fiskaltrust.at", 
     "https://signaturcloud.fiskaltrust.fr", 
     "https://helipad.fiskaltrust.cloud",
-    "https://packages.fiskaltrust.cloud"
+    "https://packages.fiskaltrust.cloud",
+    "https://www.fiskaltrust.",
+    "localhost"
 );
 
 function ContainsExcludedUri($line) {
