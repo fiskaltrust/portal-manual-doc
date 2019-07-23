@@ -2,7 +2,7 @@
 A click on the company's name in the left sidebar opens the menu with all commands to manage all the company related data.
 
 ####<a name="company-overview"></a> Overview of the company
-[![Company overview, roles and API-Access](images/AccountProfile/Overview.png)]((https://portal.fiskaltrust.fr/AccountProfile))
+[![Company overview, roles and API-Access](images/AccountProfile/Overview.png)](https://portal.fiskaltrust.fr/AccountProfile)]
 Screenshot-FR 28: Company overview, roles and API-Access | https://portal.fiskaltrust.fr/AccountProfile
 
 After opening the menu with a click on the _company name_<img src="../images/Numbers/circle-1o.svg" width="24px"> the roles of the company can be changed with the command _Overview_<img src="../images/Numbers/circle-2o.svg" width="24px">. Further more the keys for the API-Access can be retrieved or reseted.
