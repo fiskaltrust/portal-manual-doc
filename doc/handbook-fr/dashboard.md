@@ -5,7 +5,7 @@ After a user has logged in, the dashboard an overview page is called up. Via the
 Therefore, the menu structure may look different depending on the roles assigned.
 
 [![https://portal.fiskaltrust.fr/Home/Dashboard/](images/Home/Dashboard/Dashboard.png "https://portal.fiskaltrust.at/Home/Dashboard/")](https://portal.fiskaltrust.fr/Home/Dashboard/)
-Screenshot-FR 22: Dashboard - overview page with the functions shared with the user
+Dashboard - overview page with the functions shared with the user
 
 <img src="../images/Numbers/circle-1o.svg" width="24px"> Name of the user<br>Click on the username to access the submenus *Overview*, *Data*, *Change password* and *Change user name*.
 
@@ -25,8 +25,8 @@ Screenshot-FR 22: Dashboard - overview page with the functions shared with the u
 
 ### Dashboard display on a mobile device
 
-![Screenshot 23](../handbook-at/images/portal-sandbox.fiskaltrust.at/Home/Dashboard/002.png)
-Screenshot-FR 23: Dashboard on a mobile device
+![Dashboard on a mobile device](../handbook-at/images/portal-sandbox.fiskaltrust.at/Home/Dashboard/002.png)
+Dashboard on a mobile device
 
 The display differs, for example, when using a smartphone or an Internet browser with a different language setting.
 

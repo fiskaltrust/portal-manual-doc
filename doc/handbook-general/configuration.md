@@ -7,7 +7,7 @@ Screenshot 41: Overview of configured and available configuration containers
 
 The creation and management of the components is discussed in the following chapters:
 
-- [Signature_creation_device](#SCU)
+- [Signature creation device](#SCU)
 - [Helper](#helper)
 - [Queue](#queue)
 - [CashBox](#cashbox)
@@ -18,7 +18,7 @@ The CashBox is a kind of configuration container and is restricted by national l
 
 ### Queue
 
-The functions are described in the currently valid interface description: [https://github.com/fiskaltrust/interface-doc](https://github.com/fiskaltrust/interface-doc). Be aware that a queue like the SCU itself are based on national laws. Refer to the chapters in the appendices for the national implementations. 
+The functions are described in the currently valid interface description: [https://github.com/fiskaltrust/interface-doc](https://github.com/fiskaltrust/interface-doc). Be aware that a queue like the SCU itself are based on national laws. Refer to the chapters in the appendices for the national implementations.
 
 ### Helper
 
@@ -78,7 +78,7 @@ Screenshot 45: Helper - Configuration
 
 ![Number 3](../images/Numbers/3.png) Here you can create a URL for your Helper. By clicking on ![net pipe](../images/Buttons/012.png "net pipe") you get a URL, which is suitable for local use without internet connection, because no firewall settings are required.
 
-![Number 4](../images/Numbers/4.png) By clicking on the ![http](../images/Buttons/013.png "http") button, the system generates a URL for you with which the POS system can access the helper. You can rename the URL yourself. This can look like this: [http://localhost.1200/Helperfiskaltrust]()
+![Number 4](../images/Numbers/4.png) By clicking on the ![http](../images/Buttons/013.png "http") button, the system generates a URL for you with which the POS system can access the helper. You can rename the URL yourself. This can look like this: http://localhost.1200/Helperfiskaltrust
 
 Click on \[Save\] to save the Helper configuration.
 
@@ -89,5 +89,5 @@ Screenshot 46: Helper - Delete
 
 For legal reasons it is currently not possible to delete the helper.
 
-###<a name="SCU"></a> Signature Creation Unit
-Refer to the chapters in the appendices for the national implementations. 
+### Signature Creation Unit<a name="SCU"></a>
+Refer to the chapters in the appendices for the national implementations.

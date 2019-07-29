@@ -1,5 +1,326 @@
 ## Configuration
 
-### Signature Creation Unit (SCU)
+Before starting with the configuration the master data of the enterprise and the outlet has to be completed and checked. For this see chapter [_Master data_](company.md#ny-master-data) and [_Outlets_](company.md#company-outlets)
 
-### Queue
+### CashBox
+
+#### Creation of a CashBox
+
+[![https://portal-sandbox.fiskaltrust.fr/CashBox](images/CashBox/CashBox.png "http://portal.fiskaltrust.fr/CashBox")](http://portal.fiskaltrust.fr/CashBox)
+Creating the configuration containers
+
+By opening the menu _Configuration_<img src="../images/Numbers/circle-1o.svg" width="24px"> and clicking on _CashBox_<img src="../images/Numbers/circle-2o.svg" width="24px"> the overview of all configured CashBoxes (configuration containers) is shown.
+Click on [+&nbsp;Add]<img src="../images/Numbers/circle-3o.svg" width="24px"> to create a new configuration container.
+
+#### Add a CashBox
+
+[![https://portal-sandbox.fiskaltrust.fr/CashBox](images/CashBox/Create.png "http://portal.fiskaltrust.fr/CashBox")](http://portal.fiskaltrust.fr/CashBox)
+Configuration container - Add
+
+<img src="../images/Numbers/circle-1o.svg" width="24px"> In this field, you can change the name of the configuration container. It should be unique so a CashBox can be identified in even a long list.
+
+<img src="../images/Numbers/circle-2o.svg" width="24px"> If you are working in a network mode, enter the IP address of the endpoint here. 
+
+<img src="../images/Numbers/circle-3o.svg" width="24px"> Click on [Save] to save the changes to the configuration container ad go back to the overview.
+
+<img src="../images/Numbers/circle-4o.svg" width="24px"> Clicking [Cancel] cancels the operation without saving the changes and show the overview.
+
+####<a name ="overview-firstcashbox"></a> Overview first CashBox
+
+[![https://portal-sandbox.fiskaltrust.fr/CashBox](images/CashBox/CashBox-Details.png "http://portal.fiskaltrust.fr/CashBox")](http://portal.fiskaltrust.fr/CashBox)
+Overview - First configuration container 
+
+<img src="../images/Numbers/circle-1o.svg" width="24px"> After creating a CashBox, it is initially empty, it only has the _CashBoxID_ and the _AccessToken_ which are required to access the CashBox. It can be seen by opening the information section by clicking on the chevron on the beginning of the line.
+
+<img src="../images/Numbers/circle-2o.svg" width="24px"> This area shows all the assigned queues, helpers and SCUs for the configuration container. Since the CashBox has just been created and nothing is stored yet, the fields are empty.
+
+<img src="../images/Numbers/circle-3o.svg" width="24px"> By clicking on ![dotnet Launcher](../images/Buttons/024.png "dotnet Launcher") you can download the _dotnet Launcher_. This must be used if there is an internet connection to the cash register.
+
+<img src="../images/Numbers/circle-4o.svg" width="24px"> The _dotnet useOffline Launcher_ should be used if no internet connection can be established. This can be downloaded by clicking on ![Download](../images/Buttons/025.png "Download").
+
+<img src="../images/Numbers/circle-5o.svg" width="24px"> For using the fiskaltrust.Service with a MacOS or Linux system the _mono useOffline Launcher_ is needed. It can be downloaded by clicking on ![mono Launcher](../images/Buttons/026.png "mono Launcher"). This is set to _useOffline_ by default.
+
+<img src="../images/Numbers/circle-6o.svg" width="24px"> If no _ArchiveAuditable_ has yet been purchased, the purchase can be made by clicking on ![Dollarsign](../images/Buttons/020.png "Dollarsign"). If a package has already been purchased, the validity date is displayed here.
+
+<img src="../images/Numbers/circle-7o.svg" width="24px"> The CashBox can be edited with a click on ![Drag&Drop](../images/Buttons/027.png "Drag&Drop") by Drag & Drop.
+
+<img src="../images/Numbers/circle-8o.svg" width="24px"> The CashBox can also be edited in a list view by clicking on ![List](../images/Buttons/028.png "List").
+
+<img src="../images/Numbers/circle-9o.svg" width="24px"> By clicking on ![Trash](../images/Buttons/029.png "Trash") an empty configuration container can be deleted.
+
+#### Edit CashBox by Drag & Drop
+
+[![https://portal-sandbox.fiskaltrust.fr/CashBox](images/CashBox/Edit-DragDrop.png "http://portal.fiskaltrust.fr/CashBox")](http://portal.fiskaltrust.fr/CashBox)
+Edit CashBox by Drag & Drop
+
+<img src="../images/Numbers/circle-1o.svg" width="24px"> The first widget shows all the created queues in this account. This corresponds to a data acquisition protocol and therefore a POS-System.
+
+<img src="../images/Numbers/circle-2o.svg" width="24px"> The second widget shows all created Helpers, which can be used in a CashBox, further information see chapter [_Helpers_](../handbook-general/configuration.md#helper).
+
+<img src="../images/Numbers/circle-3o.svg" width="24px"> The last widget contains all the SCUs created in this account and can be used in a CashBox, further information can be found in chapter [_Signature creation unit_](#SCU).<br>A SCU must not be direct associated to a CashBox. Because the configuration container has a connection to the outlet and the SCU is coupled to an outlet, a loose coupling in between exists. It is essential for legal compliance to use the same outlet number in the SCU-configuration and the CashBox-configuration.<br>This loose coupling enabley the usage of a single SCU for more than one queue in the same outlet.
+
+<img src="../images/Numbers/circle-4o.svg" width="24px"> The field _Outlet_ is mandatory and has to contain the number of a valid outlet. For further informations see chapter [_Outlets_](company.md#outlets).
+
+<img src="../images/Numbers/circle-5o.svg" width="24px"> This field contains the active CashBox. Using Drag & Drop, untits from the three widgets on the right side can be integrated in this CashBox.
+
+Clicking on [Save] stores the changes to the configuration container.
+
+#### Edit CashBox by List
+
+Furthermore, the CashBox can be edited via a list.
+[![https://portal-sandbox.fiskaltrust.fr/CashBox](images/CashBox/Edit-List.png "http://portal.fiskaltrust.fr/CashBox")](http://portal.fiskaltrust.fr/CashBox)
+Edit CashBox by list
+
+<img src="../images/Numbers/circle-1o.svg" width="24px"> The list view is divided into three sections showing the available objects (_Queues_, _Helper_, _Signature creation Unit_).
+
+<img src="../images/Numbers/circle-2o.svg" width="24px"> The required objects can be added to the cash box by ticking the checkbox at the beginning if the row.
+
+<img src="../images/Numbers/circle-3o.svg" width="24px"> Click ![Gear](../images/Buttons/030.png "Gear") on the ending of a row to display the settings for each object.
+
+<img src="../images/Numbers/circle-4o.svg" width="24px"> Each Queue owns a certificate for signing all the data send to. With the button  ![Certificate download](../images/Buttons/039.png "Certificate download") the certificate of a queue can be downloaded and verfified.
+
+<img src="../images/Numbers/circle-5o.svg" width="24px"> For filtering all the tables/sections in this window at least 3 characters have to be entered. 
+
+#### Ready configured CashBox
+
+[![https://portal-sandbox.fiskaltrust.fr/CashBox](images/CashBox/Cashbox-Detail-Configured.png "http://portal.fiskaltrust.at/CashBox")](http://portal.fiskaltrust.fr/CashBox)
+Ready configured CashBox
+
+<img src="../images/Numbers/circle-1o.svg" width="24px"> By clicking on [+&nbsp;Add] you can create a new configuration container (CashBox).
+
+<img src="../images/Numbers/circle-2o.svg" width="24px"> In the section _Queues_ the deposited POS-System identification number (_CashBoxID_) as well as the automatically generated AES key (Base64 encryption) (_AccessToken_) can be found.<br>Clicking on ![Gear](../images/Buttons/030.png "Gear") the confiiguration of the queue can be edited.
+
+<img src="../images/Numbers/circle-3o.svg" width="24px"> In this section the connected helpers as well as the package name and version is shown. By clicking on ![Gear](../images/Buttons/030.png "Gear") each helper can be configured in a own window.
+
+<img src="../images/Numbers/circle-4o.svg" width="24px"> The connected signature creation units can be displayed here. But it is not necessary to connect a CashBox one-to-one to a SCU. Because a SCU can be used more than once for an outlet there is a loose connection between SCU and CashBox.
+
+#### Delete a CashBox
+For legal reasons it is currently not possible to delete a CashBox. However, there is the exception, that if the CashBox was not yet in use, it can still be deleted.
+
+Before deleting a CashBox it has to be ensured that all elements from the configuration container are removed. Removing the element from the CashBox do not delete them, they are only put back in the general section for further use.<br>If a CashBox is not empty it can not be deleted.<br>By deleting a CashBox only the wrapping configuration container gets removed from the system. No data, certificate, queue, archives or anything else is touched or deleted.
+[![https://portal-sandbox.fiskaltrust.fr/CashBox](images/CashBox/Delete.png "http://portal.fiskaltrust.fr/CashBox")](http://portal.fiskaltrust.fr/CashBox)
+Delete CashBox
+
+#### Download Launcher
+
+[![https://portal-sandbox.fiskaltrust.fr/CashBox](images/CashBox/CashBox-Download-Launcher.png "http://portal.fiskaltrust.fr/CashBox")](http://portal.fiskaltrust.fr/CashBox)
+Download Launcher
+
+<img src="../images/Numbers/circle-1o.svg" width="24px"> By clicking on one of this buttons, the launcher needed for commissioning is downloaded. This is a ZIP file that you download into the download folder. The zip-file can be founded in the local download-folder and ectrected there for further use on a POS-System.
+
+For further information see chapter [Overview first CashBox](#overview-firstcashbox)
+
+###<a name="queue"></a> Queue
+
+#### Creating a queue
+
+[![https://portal.fiskaltrust.fr/Queue/](images/portal-sandbox.fiskaltrust.fr/Queue/001.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
+Creating the queue
+
+![Number 1](../images/Numbers/1.png) To get to the creation and configuration of a queue, click on the menu item "*Queue*".
+
+![Number 2](../images/Numbers/2.png) Click on \[Create new\] to add a new queue.
+
+# TODO!!! NO FRENCH PROTAL ONLINE
+
+#### Add a queue
+
+[![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/002.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
+Queue - Adding
+
+![Number 1](../images/Numbers/1.png) In this field, you can change the name of the queue.
+
+![Number 2](../images/Numbers/2.png) Here you can select the appropriate storage method depending on your operating system.
+
+![Number 3](../images/Numbers/3.png) The package version can also be selected using a dropdown menu. These can be updated by clicking on ![Refresh](../images/Buttons/008.png "Refresh")
+
+![Number 4](../images/Numbers/4.png) Here you can set a timeout for the connection attempt with the signature creation device. (The time is given in milliseconds)
+
+![Number 5](../images/Numbers/5.png) Enter the country in which you would like to use fiskaltrust here.
+
+![Number 6](../images/Numbers/6.png) Enter the desired health insurance identification number here.
+
+![Number 7](../images/Numbers/7.png) The system automatically generates the encryption key for you when you click on ![Encryptgen](../images/Buttons/038.png "Encryptgen").
+
+![Number 8](../images/Numbers/8.png) Click on \[Save\] to save the configuration of the queue.
+
+##### Fiskalization example for Germany
+
+[![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/003.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
+Fiskalization - Example Germany
+
+German fiskalization does not (yet) include a signature creation device. This function is in test mode.
+
+#### Queue overview
+
+[![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/004.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
+Queue overview
+
+![Number 1](../images/Numbers/1.png) Click on ![Receipt](../images/Buttons/014.png "Receipt") to go to the receipt check. For further explanations see chapter [Receipt validation](messages.md#receipt-validation)
+
+![Number 2](../images/Numbers/2.png) Here the current status of the PosSystem is displayed, by clicking on ![Questionmark](../images/Buttons/015.png "Questionmark") a message about the status can be sent.
+
+![Number 3](../images/Numbers/3.png) By clicking on ![Refresh](../images/Buttons/016.png "Refresh") a status check is immediately transmitted to Finanz Online.
+
+![Number 4](../images/Numbers/4.png) By clicking on ![List](../images/Buttons/017.png "List") all transmitted receipts are displayed.
+
+![Number 5](../images/Numbers/5.png) The Action Journal can be accessed by clicking on ![Ajournal](../images/Buttons/018.png "Ajournal"). All status changes and important actions are displayed here.
+
+![Number 6](../images/Numbers/6.png) The queue export can be started by pressing the button ![Export](../images/Buttons/019.png "Export"). For further information see chapter "Queue - Export" in the national appendices.
+
+![Number 7](../images/Numbers/7.png) The POS archive can be placed in the shopping cart by clicking on ![Dollarsign](../images/Buttons/020.png "Dollarsign").
+
+![Number 8](../images/Numbers/8.png) By clicking on ![Connect](../images/Buttons/021.png "Connect") the connected SCUs can be displayed and managed.
+
+![Number 9](../images/Numbers/9.png) Here the configuration of the queue can be opened by clicking on ![Gear](../images/Buttons/009.png "Gear").
+
+![Number 10](../images/Numbers/10.png) Click on ![Gear](../images/Buttons/009.png "Gear") to edit the description, package version and timeout of the queue.
+
+![Number 11](../images/Numbers/11.png) Click ![Trash](../images/Buttons/011.png "Trash") to delete the queue. However, the button for deleting the queue is currently inactive for legal reasons, so no queue can be deleted there will be an option to hide queues in the future.
+
+#### SCUs used by Queues
+
+[![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/QueueATSCUList/001.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
+Queue - Connected Signature Creation Devices (SCU)
+
+![Number 1](../images/Numbers/1.png) By setting a check mark the SCU to be connected to the queue is selected.
+
+![Number 2](../images/Numbers/2.png) The previously selected URL of the SCU is stored here.
+
+![Number 3](../images/Numbers/3.png) The drop-down menu allows you to choose between different timeout modes. Normal and Backup, and different times.
+
+![Number 4](../images/Numbers/4.png) Click on \[Save\]  to save the configuration of the queue.
+
+#### Queue configuration
+
+[![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/Configuration/001.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
+Queue configuration
+
+![Number 1](../images/Numbers/1.png) In this field, you can change the name of the signature creation device.
+
+![Number 2](../images/Numbers/2.png) Here you can create a URL for your queue. By clicking on ![net pipe](../images/Buttons/012.png "net pipe") you get a URL, which is suitable for local use without internet connection, because no firewall settings are required.
+
+![Number 3](../images/Numbers/3.png) By clicking on ![http](../images/Buttons/013.png "http"), the system generates a URL for you with which the POS system can access the queue. You can rename the URL yourself. This can look like this: [http://localhost.1200/Queuefiskaltrust]()
+
+![Number 4](../images/Numbers/4.png) Click on \[Save\] to save the configuration of the queue.
+
+#### Receipt journal of a Queue
+
+![](images/portal-sandbox.fiskaltrust.at/Queue/ReceiptJournal/001.png)
+Queue - Overview ReceiptJournal
+
+![Number 1](../images/Numbers/1.png) The receipts created so far are listed here.
+
+![Number 2](../images/Numbers/2.png) Click on ![Eye](../images/Buttons/023.png "Eye") to display the respective receipt.
+
+After selecting a receipt, it is displayed as follows.This view makes it possible to verify the accuracy of the receipt content.
+
+[![https://portal.fiskaltrust.at/Queue](images/portal-sandbox.fiskaltrust.at/Queue/005.png "https://portal.fiskaltrust.at/Queue")](https://portal.fiskaltrust.at/Queue)
+Queue - Start receipt
+
+#### Edit a queue
+
+[![https://portal.fiskaltrust.at/Queue](images/portal-sandbox.fiskaltrust.at/Queue/Edit/001.png "https://portal.fiskaltrust.at/Queue")](https://portal.fiskaltrust.at/Queue)
+Queue - Edit
+
+![Number 1](../images/Numbers/1.png) In this field, you can change the name of the queue.
+
+![Number 2](../images/Numbers/2.png) The previously selected package name is displayed here.
+
+![Number 3](../images/Numbers/3.png) Here you can select from the various package versions using the drop-down menu. These can be updated by clicking on ![Refresh](../images/Buttons/008.png "Refresh").
+
+#### Export a queue
+
+[![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/ExportConfiguration/001.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
+Queue - Export
+
+![Number 1](../images/Numbers/1.png) First you have to define the area which should be exported, this is done with the help of the receipt number and the slider.
+
+![Number 2](../images/Numbers/2.png) The export format must then be dragged to the left ![Number 4](../images/Numbers/4.png) using Drag\&Drop.
+
+![Number 3](../images/Numbers/3.png) The export target is also dragged to the left ![Number 4](../images/Numbers/4.png) using Drag\&Drop.
+
+![Number 5](../images/Numbers/5.png) Click on \[Start\] to start the export, then you will be redirected to a page showing the progress of the export. After completion of the export you will receive an info mail.
+
+### Signature creation unit (SCU)<a name="SCU"></a>
+
+#### Creation of a SCU
+
+[![https://portal.fiskaltrust.at/SignatureCreation/](images/portal-sandbox.fiskaltrust.at/SignatureCreation/001.png "https://portal.fiskaltrust.at/SignatureCreation/")](https://portal.fiskaltrust.at/SignatureCreation/)
+Adding a signature creation device
+
+![Number 1](../images/Numbers/1.png) To create, configure and delete the signature creation devices, click on the "Signature creation device" menu item.
+
+![Number 2](../images/Numbers/2.png) Click on \[Create\] to open a page where a new signature creation device can be created.
+
+#### Add Signature creation unit
+
+[![https://portal.fiskaltrust.at/SignatureCreation/](images/portal-sandbox.fiskaltrust.at/SignatureCreation/002.png "https://portal.fiskaltrust.at/SignatureCreation/")](https://portal.fiskaltrust.at/SignatureCreation/)
+Adding a signature creation device
+
+![Number 1](../images/Numbers/1.png) **Text:** "Here you can assign another signature creation device to your company. Enter the data and click on "Save".
+
+![Number 1](../images/Numbers/2.png) Here you can name your signature creation device.
+
+![Number 3](../images/Numbers/3.png) Here you can select the package to be used. This must be specified by the PosCreator.
+
+![Number 4](../images/Numbers/4.png) Click on \[Save\] to save the configuration of the SCU.
+
+#### Overview of Signature creation units
+
+[![https://portal.fiskaltrust.at/SignatureCreation/](images/portal-sandbox.fiskaltrust.at/SignatureCreation/003.png "https://portal.fiskaltrust.at/SignatureCreation/")](https://portal.fiskaltrust.at/SignatureCreation/)
+Overview - Signature Creation Devices (SCU)
+
+![Number 1](../images/Numbers/1.png) To get to the configuration of the signature creation devices, click on the menu item "*Signature creation device*".
+
+![Number 2](../images/Numbers/2.png) Click on \[Create\] to go to the page for creating a new signature creation device.
+
+![Number 3](../images/Numbers/3.png) The name of the SCU is displayed here.
+
+![Number 4](../images/Numbers/4.png) By clicking on ![Gear](../images/Buttons/009.png "Gear"), the basic settings and package configuration for individual use of the signature creation device in the cash register can be called up again.
+
+![Number 5](../images/Numbers/5.png) By clicking on ![Edit](../images/Buttons/005.png "Edit") things like the description, package name, version and mode of SCU may be edited.
+
+![Number 6](../images/Numbers/6.png) Click on ![Trash](../images/Buttons/029.png "Trash") to delete the SCU. However, the button to delete the helper is currently inactive for legal reasons, so no helper can currently be deleted.
+
+![Number 7](../images/Numbers/7.png) A brief overview of the data for the selected signature creation device is displayed here.
+
+![Number 8](../images/Numbers/8.png) The search function can be used to search for a SCU by entering any parameter in the search field.
+
+#### Configuration of a Signature creation unit
+
+[![https://portal.fiskaltrust.at/SignatureCreation/](images/portal-sandbox.fiskaltrust.at/SignatureCreation/004.png "https://portal.fiskaltrust.at/SignatureCreation/")](https://portal.fiskaltrust.at/SignatureCreation/)
+Signature Creation Device - Configuration
+
+![Number 1](../images/Numbers/1.png) The serial number of the certificate is stored here after creation.
+
+![Number 2](../images/Numbers/2.png) In this field, you can change the name of the signature creation device.
+
+![Number 3](../images/Numbers/3.png) Here you can create a URL for your signature creation device. By clicking on ![net pipe](../images/Buttons/012.png "net pipe") you get a URL, which is suitable for local use without internet connection, because no firewall settings are required.
+
+![Number 4](../images/Numbers/4.png) By clicking on the ![http](../images/Buttons/013.png "http"), the system generates a URL for you with which the POS system can access the SCU. You can rename the URL yourself. This can look like this: [http://localhost.1200/SCUfiskaltrust]()
+
+![Number 5](../images/Numbers/5.png) Click on \[Save\] to save the configuration of the SCU.
+
+#### Edit a Signature creation unit
+
+[![https://portal.fiskaltrust.at/SignatureCreation/](images/portal-sandbox.fiskaltrust.at/SignatureCreation/005.png "https://portal.fiskaltrust.at/SignatureCreation/")](https://portal.fiskaltrust.at/SignatureCreation/)
+Signature creation device - Edit
+
+![Number 1](../images/Numbers/1.png) In this field, you can change the name of the signature creation device.
+
+![Number 2](../images/Numbers/2.png) Here you can use the dropdown menu to select from the various package names.
+
+![Number 3](../images/Numbers/3.png) The package version can also be selected using a dropdown menu. These can be updated by clicking on ![Refresh](../images/Buttons/008.png "Refresh").
+
+![Number 4](../images/Numbers/4.png) In the field Mode you can choose between the different modes "Normal", "Backup" and "Deactivated".
+
+![Number 5](../images/Numbers/5.png) Click on \[Save\] to save the configuration of the SCU.
+
+#### Delete a Signature creation unit
+
+For legal reasons, it is currently not possible to delete the signature creation device.
+[![https://portal.fiskaltrust.at/SignatureCreation/](images/portal-sandbox.fiskaltrust.at/SignatureCreation/006.png "https://portal.fiskaltrust.at/SignatureCreation/")](https://portal.fiskaltrust.at/SignatureCreation/)
+Signature creation device - Delete
+
+![Number 1](../images/Numbers/1.png) The button for deleting a SCU is currently inactive.
