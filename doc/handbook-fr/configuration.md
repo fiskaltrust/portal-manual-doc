@@ -121,7 +121,7 @@ Creating the queue
 
 ![Number 2](../images/Numbers/2.png) Click on \[Create new\] to add a new queue.
 
-# TODO!!! NO FRENCH PROTAL ONLINE
+# TODO!!! NO FRENCH PORTAL ONLINE
 
 #### Add a queue
 

@@ -4,7 +4,7 @@
 
 The invitation of a PosOperator can only be made by a PosDealer, but not by a PosCreator or consultant.
 
-However, the role of a PosDealer can also be activated by these companies and thus taken over in parallel to another role. (see chapter "[Company Role PosCreator](company.md#company-role-poscreator)")
+However, the role of a PosDealer can also be activated by these companies and thus taken over in parallel to another role. (see chapter "[Roles](company.md#roles)")
 
 [![https://portal.fiskaltrust.fr/PosOperator/](images/PosOperator/PosOperator.png "https://portal.fiskaltrust.fr/PosOperator" )](https://portal.fiskaltrust.fr/POSOperator)
 PosOperator - Overview

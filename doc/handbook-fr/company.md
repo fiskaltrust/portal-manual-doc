@@ -1,7 +1,7 @@
-###<a name="company"></a> Company
+### Company<a name="company"></a>
 A click on the company's name in the left sidebar opens the menu with all commands to manage all the company related data.
 
-####<a name="company-overview"></a> Overview of the company
+#### Overview of the company<a name="company-overview"></a>
 [![Company overview, roles and API-Access](images/AccountProfile/Overview.png)](https://portal.fiskaltrust.fr/AccountProfile)]
 Company overview, roles and API-Access | https://portal.fiskaltrust.fr/AccountProfile
 
@@ -121,7 +121,7 @@ This section is only available for fiskaltrust.Portal users with the role _PosDe
 ![Select sales areas for partners](images/AccountProfile/Territory.png)
 Select sales areas for partners
 
-#### <a name="company-outlets"></a>Outlets
+#### <a name="outlets"></a>Outlets
 Before starting with configuring the fiskaltrust.SecurityMechanism at least one outlet must be configured.
 
 ![List of outlets](images/AccountOutlet/AccountOutlet.png)
