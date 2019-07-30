@@ -2,174 +2,127 @@
 
 ### Invitation of PosOperators by PosDealers
 
-The invitation of a PosOperator can only be made by a PosDealer, but not by a manufacturer or consultant.
+The invitation of a PosOperator can only be made by a PosDealer, but not by a PosCreator or consultant.
 
 However, the role of a PosDealer can also be activated by these companies and thus taken over in parallel to another role. (see chapter "[Company Role PosCreator](company.md#company-role-poscreator)")
 
-[![https://portal.fiskaltrust.at/POSOperator](images/portal-sandbox.fiskaltrust.at/POSOperator/001.png "https://portal.fiskaltrust.at/POSOperator" )](https://portal.fiskaltrust.at/POSOperator)
-Screenshot-AT 45: Invitation of the PosOperators by a PosDealer
+[![https://portal.fiskaltrust.fr/PosOperator/](images/PosOperator/PosOperator.png "https://portal.fiskaltrust.fr/PosOperator" )](https://portal.fiskaltrust.fr/POSOperator)
+PosOperator - Overview
 
-![Number 1](../images/Numbers/1.png) The assignments of the PosOperators can be found under the menu item "Invitations".
+By opening the PosOperator menu<img src="../images/Numbers/circle-1o.svg" width="24px"> an _Overview_<img src="../images/Numbers/circle-2o.svg" width="24px"> with the assigned PosOperators is shown.
 
-There are two ways to add PosOperators to a PosDealer:
+The assignments of the PosOperators can be found under the menu item _Invitation_<img src="../images/Numbers/circle-3o.svg" width="24px">.
 
-1. ![Number 2](../images/Numbers/2.png) add a single PosOperator see chapter [Add PosOperator](#add-posoperator).
-2. ![Number 3](../images/Numbers/3.png) add several PosOperators by importing a CSV file.
-    1. ![Number 4](../images/Numbers/4.png)  The CSV file is to be imported and selected via \[Choose File\].
-    2. ![Number 5](../images/Numbers/5.png)  Then the import is carried out by clicking on \[Import\].
-    3. ![Number 6](../images/Numbers/6.png)  The necessary structure of the CSV file is described using an example. This example can be obtained via \[Download demo CSV file\].
+There are two ways to add/assign PosOperators to a PosDealer:
 
-| Fields of the CSV file | Description |
-|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ContactFirstName | First name of the primary contact |
-| ContactLastName | Last name of primary contact |
-| ContactTitle | (Academic) Title of primary contact (before name) |
-| ContactSuffix | Name suffix of the primary contact (after the name) |
-| ContactEMail | E-mail address of the primary contact IMPORTANT\! This e-mail address will be the user's login to this newly created company.                     |
-| ContactMobilePhone | Mobile phone number of the primary contact |
-| AccountName | Company name |
-| AccountWeb | URL of the company's website |
-| IMPORTANT: All information about financial online messages and all invoices will be sent to this e-mail address\!        |
-| AccountPhone | Company phone number |
-| AccountAddressLine1 | Address, first line of the company |
-| AccountAddressLine2 | Address, second line of the company |
-| AccountPostalCode | Postcode of the company |
-| AccountCity | Address, first line of the company |
-| AccountCountry | Address, first line of the company |
-| AccountIdVat | UID number of the company; This is important for the Finanz Online-Meldungen\! AccountIdFibu; company register number (if available) |<
-| AccountIdGln | GLN of the company ([https://firmen.wko.at](https://firmen.wko.at)) |
-| AccountIdTax | Tax office tax number of the company 2 digits tax office number, 3 digits "/" 4 digits tax number = 9 digits without special characters and without spaces. |
+1. For adding a single PosOperator, see chapter [_Add PosOperator_](#add-posoperator).
+2. Adding several PosOperators by importing a CSV file with _Invitation_.
 
-![Number 7](../images/Numbers/7.png) **Text:** "PDF document as an attachment to the e-mail invitation"
+[![https://portal.fiskaltrust.fr/PosOperator/PosOperators](images/PosOperator/PosOperators.png "https://portal.fiskaltrust.fr/PosOperator/PosOperators" )](https://portal.fiskaltrust.fr/POSOperator)
+Invite PosOperators to a PosDealer account
 
-Import a PDF document, which is sent to the PosOperators as an attachment on the e-mail invitations. This PDF document can be individually adapted to the rollout concept (see chapter [Example of a PDF attachment](#example-of-a-pdf-attachment))
+<img src="../images/Numbers/circle-1o.svg" width="24px"> The CSV file is to be imported and selected via [Choose File].
+<img src="../images/Numbers/circle-2o.svg" width="24px"> Then the import is carried out by clicking on [Import].
+<img src="../images/Numbers/circle-3o.svg" width="24px"> The necessary structure of the CSV file is described using an example. This example can be obtained via [Download demo CSV file].
 
-####<a name="add-posoperator"></a> Add PosOperator
+| Fields of the CSV file | Description | Mandatory |
+|------------------------|-------------|:---------:|
+| ContactFirstName | First name of the primary contact | yes |
+| ContactLastName | Last name of primary contact | yes |
+| ContactTitle | (Academic) Title of primary contact (before name) | no |
+| ContactSuffix | Name suffix of the primary contact (after the name) | no |
+| ContactEMail | E-mail address of the primary contact<br>**IMPORTANT!**<br>This e-mail address will be the user's login to this newly created company. | yes |
+| ContactMobilePhone | Mobile phone number of the primary contact | no |
+| AccountName | Company name, this should be written like in the commercial register | yes |
+| AccountWeb | URL of the company's website | no |
+| AccountEMail |Generel e-mail address of the company<br>**IMPORTANT!**<br>All information about financial messages and all invoices will be sent to this e-mail address! | no |
+| AccountPhone | Company phone number | no |
+| AccountAddressLine1 | Address, first line of the company | no |
+| AccountAddressLine2 | Address, second line of the company | no |
+| AccountPostalCode | Postcode of the company | yes |
+| AccountCity | Address, first line of the company | yes |
+| AccountCountry | Address, first line of the company | yes |
+| AccountIdVat | UID number of the company.<br>**IMPORTANT!**<br>This is one of the identification criterias for legalisation of the service. | yes |
+| AccountIdFibu| The _SIREN_ of the company<br>**IMPORTANT!**<br>This is one of the identification criterias for legalisation of the service. | yes |
+| AccountIdGln | GLN of the company. | no |
+| AccountIdTax | Tax office tax number of the company. | yes |
 
-[![https://portal.fiskaltrust.at/PosOperator/CreatePosOperator/](images/portal-sandbox.fiskaltrust.at/PosOperator/CreatePosOperator/001.png "https://portal.fiskaltrust.at/PosOperator/CreatePosOperator/")](https://portal.fiskaltrust.at/PosOperator/CreatePosOperator/)
+Not all of the fields _AccountIdVat_, _AccountIdTax_ and _AccountIdFibu_ are mandatory. Only one of the three fields have to be completed. It is recommended to use the field _AccountIdFibu_.
 
-Screenshot-AT 46: Add PosOperator
+A pdf-file can be first choosen<img src="../images/Numbers/circle-4o.svg" width="24px"> and then imported<img src="../images/Numbers/circle-5o.svg" width="24px"> a PDF document, which is sent to the PosOperators as an attachment on the e-mail invitations. This PDF document can be individually adapted to the rollout concept.
 
-PosOperators can be added manually using this function. This is particularly interesting for the on-site support given by the PosDealer if a PosOperator wants to use the ft.services immediately - in connection with the commissioning of a cash register.
+Before sending the invitation to all PosOperators listed in the csv file a text message<img src="../images/Numbers/circle-6o.svg" width="24px"> can be added to this invitation email.
+
+By accepting the invitation the PosOperator gets assigned to the PosDealer's account and this get some rights on the PosOperators account. This surrogating rights can be defined in the claims list<img src="../images/Numbers/circle-7o.svg" width="24px">.
+
+##### Error message importing a csv-file for invitations
+![Import error on PosOperator invitations](images/PosOperator/Import.png "https://portal.fiskaltrust.at/PosOperator/CreatePosOperator/")
+If not all of the mandatory fields of the csv file are completed an error message with the wrong or missing data is shown.
+
+#### Add PosOperator<a name="add-posoperator"></a>
+
+[![https://portal.fiskaltrust.fr/PosOperator/CreatePosOperator/](images/PosOperator//CreatePosOperator.png "https://portal.fiskaltrust.fr/PosOperator/CreatePosOperator/")](https://portal.fiskaltrust.fr/PosOperator/CreatePosOperator/)
+Add PosOperator manually
+
+PosOperators can be added manually using this function, by clicking the [+&nbsp;Add]-button in the PosOperator's list head section. This is particularly interesting for the on-site support given by the PosDealer if a PosOperator wants to use the ft.Services immediately - in connection with the commissioning of a POS-System.
 
 The following fields are mandatory fields and must therefore be filled in:
 
-- Contact E-Mail
 - Contact First name
 - Contact Surname
-- company's name
-- zip code
+- Contact E-Mail
+- Company's name
+- Zip code
+- City
 - location
 
 This is to guarantee that the PosOperator can be found correctly in the ft.Portal via his e-mail address and can be assigned to the PosDealer.
 
-[![https://portal.fiskaltrust.at/PosOperator/PosOperators/](images/portal-sandbox.fiskaltrust.at/PosOperator/PosOperators/002.png "https://portal.fiskaltrust.at/PosOperator/PosOperators/")](https://portal.fiskaltrust.at/PosOperator/PosOperators/)
-Screenshot-AT 47: Assigning, editing and deleting a PosOperator 
+#### Managing the invitations
+[![https://portal.fiskaltrust.fr/PosOperator/PosOperators/](images/PosOperator/PosOperators-Overview.png "https://portal.fiskaltrust.fr/PosOperator/PosOperators/")](https://portal.fiskaltrust.fr/PosOperator/PosOperators/)
+Assigning, editing and deleting a PosOperator 
 
-![Number 1](../images/Numbers/1.png) Status of the invitation:
+<img src="../images/Numbers/circle-1o.svg" width="24px"> Status of the invitation:
+- ![Notsent](../images/Buttons/002.png "Notsent") E-mail invitation has not been sent yet.
+- ![Error](../images/Buttons/002.png "Error") The data of the PosOperator is not correct and can not be assigned to the PosDealers account. It must be corrected with ![Edit](../images/Buttons/005.png "Edit").
+- ![Checkmark](../images/Buttons/003.png "Checkmark") E-mail invitation was sent by clicking on ![Mail](../images/Buttons/004.png "Mail").
 
-- ![Notsent](../images/Buttons/002.png "Notsent") Email invitation has not been sent yet. 
-- ![Checkmark](../images/Buttons/003.png "Checkmark") Email invitation was sent by clicking on ![Mail](../images/Buttons/004.png "Mail") or ![Edit](../images/Buttons/005.png "Edit").
+<img src="../images/Numbers/circle-2o.svg" width="24px"> By clicking on [Assign all cash register users] the e-mail invitation can be sent to **all** not yet invited PosOperators.
 
-![Number 2](../images/Numbers/2.png) By clicking on ![Mail](../images/Buttons/004.png "Mail") the e-mail invitation can be sent to a single PosOperator. The e-mail invitation can be sent as an attachment with an individually designed PDF document.
+<img src="../images/Numbers/circle-3o.svg" width="24px"> By clicking on [+&nbsp;Add] a [manual invitation](#add-posoperator) can be down.
 
-![Number 3](../images/Numbers/3.png) By clicking on \[Assign all cash register users\] the e-mail invitation can be sent to ALL not yet invited PosOperators.
+<img src="../images/Numbers/circle-4o.svg" width="24px"> A click on [Protocol](#protocol) shows the history of invitations of this account.
 
-![Number 4](../images/Numbers/4.png) The individual PosOperator can be edited again by clicking on ![Edit](../images/Buttons/005.png "Edit").
+<img src="../images/Numbers/circle-5o.svg" width="24px"> By clicking on ![Mail](../images/Buttons/004.png "Mail") the e-mail invitation can be sent to a single PosOperator. The e-mail invitation can be sent as an attachment with an individually designed PDF document.
+![example of an invitation e-mail](images/PosOperator/PosOperator-Invitation-Email.png)
+Example e-mail invitation of a PosOperator.
 
-[![portal.fiskaltrust.at/PosOperator/](images/portal-sandbox.fiskaltrust.at/PosOperator/EditPosOperator/001.png "https://portal-sandbox.fiskaltrust.at/PosOperator/")](https://portal-sandbox.fiskaltrust.at/PosOperator/)
-Screenshot-AT 48: Edit PosOperator
+<img src="../images/Numbers/circle-6o.svg" width="24px"> The individual PosOperator can be edited again by clicking on ![Edit](../images/Buttons/005.png "Edit").
 
-![Number 5](../images/Numbers/5.png) The individual PosOperator can be removed by clicking ![Remove](../images/Buttons/006.png "Remove")
+<img src="../images/Numbers/circle-7o.svg" width="24px"> The individual PosOperator can be removed by clicking ![Remove](../images/Buttons/006.png "Remove")
 
-![Number 6](../images/Numbers/6.png) By clicking \[Protocol\)] the historical sequence of the assignment can be called up.
+<img src="../images/Numbers/circle-8o.svg" width="24px"> The resend-button ![Resend](../images/Buttons/016.png "Resend") sends the invitation again to the PosOperator's e-mail address.
 
-[![https://portal.fiskaltrust.at/PosOperator/](images/portal-sandbox.fiskaltrust.at/PosOperator/PosOperatorHistory/001.png "https://portal.fiskaltrust.at/PosOperator/")](https://portal.fiskaltrust.at/PosOperator/)
-Screenshot-AT 49 Protocol overview of the historical sequence of assignments 
+<img src="../images/Numbers/circle-9o.svg" width="24px"> By entering text in the search field the list of PosOperators gets filtered and only the PosOperators matching the entered text are shown.
 
-![Number 1](../images/Numbers/1.png) The period of the log overview can be restricted using this function.
+#### Protocol of invitations<a name="protocol"></a>
+[![https://portal.fiskaltrust.fr/PosOperator/](images/PosOperator/PosOperatorsHistory.png "https://portal.fiskaltrust.fr/PosOperator/")](https://portal.fiskaltrust.fr/PosOperator/)
+Protocol of PosOperator invitations
 
-![Number 2](../images/Numbers/2.png) By clicking ![Info](../images/Buttons/007.png "Info") the detailed data for the invitation of a PosOperator can be called up.
+<img src="../images/Numbers/circle-1o.svg" width="24px"> The start date  of the log overview can be restricted using this field.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> The last date  of the log overview can be restricted using this field.
+<img src="../images/Numbers/circle-3o.svg" width="24px"> By clicking on [Invoke&nbsp;protocol] the overview is filtered by the entered dsates. If the two fields are empty the whole protocol without any filter is shown
+<img src="../images/Numbers/circle-4o.svg" width="24px"> By clicking on the button this window gets closed and the _Invitation_ module is shown.
+<img src="../images/Numbers/circle-5o.svg" width="24px"> Entering a text filters the overview. By deleting all entered data in the search field the whole overview data is shown.
+<img src="../images/Numbers/circle-6o.svg" width="24px"> Status of the invitation:
+- ![Not sent](../images/Buttons/002.png "Not sent") E-mail invitation has not been sent yet.
+- ![Error](../images/Buttons/002.png "Error") The data of the PosOperator is not correct and can not be assigned to the PosDealers account.
+- ![Checkmark](../images/Buttons/003.png "Checkmark") E-mail invitation was sent.
 
-[![https://portal.fiskaltrust.at/PosOperator/](images/portal-sandbox.fiskaltrust.at/PosOperator/DetailsInvitation/001.png "https://portal.fiskaltrust.at/PosOperator/")](https://portal.fiskaltrust.at/PosOperator/)
-Screenshot-AT 50: Detailed data of the protocol from the invitation of a PosOperator
-
-The following e-mail invitation is sent:
-
-![](images/portal-sandbox.fiskaltrust.at/Email/009.png)
-Screenshot-AT 51: Example e-mail invitation of a PosOperator.
-
-PosOperator
-
-  By clicking on the link, the portal login is called up and the PosOperator has to register as a new user and as a new company or log in with his existing data. (see chapter "[Registration and Login](registration-login.md)")
-
-####<a name="example-of-a-pdf-attachment"></a> Example of a pdf-attachment
-
-PosDealer name
-
-street
-
-Zip Code - City
-
-client name
-
-street
-
-Zip Code - City
-
-Cash register safety device for 1.4.2017
-
-Dear customer\! Dear Customer\!
-
-With this letter we would like to inform you about the procedure **to retrofit your cash register system with the prescribed manipulation protection** to meet the cash register obligation set April 1. 2017 with **fiskaltrust**.
-
-1. cash register software:
-
-The XXX version must be installed ... This costs EUR XXX.
-
-2. important steps for setting up the manipulation protection with fiskaltrust:
-    1. registration of your company at https://portal.fiskaltrust.at (according to e-mail)
-    2. installation of the free fiskaltrust security device
-    3. acquisition of a signature creation device from the trust service provider
-    4. registration of the cash register via Finanz Online and examination of the start receipt
-3. start of live operation set April 1. 2017 at the latest
-4. there is a bonus of at least € 200,- for purchase or conversion. (bonus payments ended with 31st of december 2017)
-
-> fiskaltrust ensures compliance with the law and offers interesting additional products to simplify and optimise the legal obligations.
-
-We recommend the product fiskaltrust.Carefree as a cost-effective all-in-one package.
-
-Further information can be found on the supplement or can also be found here:
-
-https://www.fiskaltrust.at
-
-[https://www.bmf.gv.at/steuern/selbststaendige-unternehmer/Sicherheitseinrichtung_in_Registrierkassen.html](https://www.bmf.gv.at/steuern/selbststaendige-unternehmer/Sicherheitseinrichtung_in_Registrierkassen.html "https://www.bmf.gv.at/steuern/selbststaendige-unternehmer/Sicherheitseinrichtung_in_Registrierkassen.html")
-
-If you have any questions please do not hesitate to contact us
-
-Contact us
-
-How do I get to the
-manipulation protection
-for my cash register?
-
-Installation of the technical safety device
-
-fiskaltrust - All-In-One
-
-All processes are optimally supported in the **free fiskaltrust.Portal**:
-
-1. You are a **PosOperator** recieved an invetation email from the **PosDealer**
-2. Free **Registration** as a user and company on [https://portal.fiskaltrust.at](https://portal.fiskaltrust.at)
-3. **Assignment** of the company to the PosDealer, tax consultant by e-mail invitations
-4. **Configuration** of the cash register in the fiskaltrust.Portal
-5. Acquisition of a signature creation device (chip or online)
-6. **Commissioning** Safety device = creation of start receipt
-7. **Reporting** Notification of the cash register and signature creation device via Finanz Online
-8. **Checking** the start receipt via Finanz Online or BMF-App
-9. Legally compliant audit-proof data backup 
-10. Preparation of the **monthly receipts**
-11. Preparation of **yearly receipt** and verification via Finanz Online
-12. **Notification** of failures, recommissioning or deregistrations via Finanz Online
-
-![](images/portal-sandbox.fiskaltrust.at/002.png)
+<img src="../images/Numbers/circle-7o.svg" width="24px"> Available commands for this PosOperator:
+- ![Details](../images/Buttons/007.png "Details") Detailed information about this contact is shown.
+![Details of an invitation](images/PosOperator/DetailsInvitation.png)
+- ![Resend](../images/Buttons/040.png "Resend") Sends the invitation to this contact again.
+- ![Delete](../images/Buttons/006.png "Delete") Deletes this row from the protocol.
+- ![Copy](../images/Buttons/041.png "Copy") Shows a window with the direct link for the invitation. This can be copyied in the clipboard and send by direct message.
+![Direct link of an invitation](images/PosOperator/PosOperator-Invitation-Link.png)
