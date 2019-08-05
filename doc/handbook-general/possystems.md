@@ -1,6 +1,6 @@
 ## PosSystems
 
-### Manage POS-System
+### Manage POS-System<a name="manage-pos-system"></a>
 
 ![POS-Systems](images/POSSystem/POSSystem.png)
 Screenshot 28: POS-Systems
