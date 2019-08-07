@@ -25,7 +25,7 @@ Configuration container - Add
 
 <img src="../images/Numbers/circle-4o.svg" width="24px"> Clicking [Cancel] cancels the operation without saving the changes and show the overview.
 
-####<a name ="overview-firstcashbox"></a> Overview first CashBox
+#### Overview first CashBox<a name ="overview-firstcashbox"></a>
 
 [![https://portal-sandbox.fiskaltrust.fr/CashBox](images/CashBox/CashBox-Details.png "http://portal.fiskaltrust.fr/CashBox")](http://portal.fiskaltrust.fr/CashBox)
 Overview - First configuration container 
@@ -110,77 +110,83 @@ Download Launcher
 
 For further information see chapter [Overview first CashBox](#overview-firstcashbox)
 
-###<a name="queue"></a> Queue
+### Queue<a name="queue"></a>
 
-#### Creating a queue
+[![https://portal.fiskaltrust.fr/Queue/](images/Queue/Queue.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
+Overview of queues
 
-[![https://portal.fiskaltrust.fr/Queue/](images/portal-sandbox.fiskaltrust.fr/Queue/001.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
-Creating the queue
+To get to the creation and _Configuration_<img src="../images/Numbers/circle-1o.svg" width="24px"> of a queue, click on the menu item _Queue_<img src="../images/Numbers/circle-2o.svg" width="24px">.
 
-![Number 1](../images/Numbers/1.png) To get to the creation and configuration of a queue, click on the menu item "*Queue*".
+To find a specific queue a text can be entered in the search field<img src="../images/Numbers/circle-3o.svg" width="24px">. Starting with the second entered character the table beneath gets filtered automatically.
 
-![Number 2](../images/Numbers/2.png) Click on \[Create new\] to add a new queue.
-
-# TODO!!! NO FRENCH PORTAL ONLINE
+A click on the button _+&nbsp;Create new_<img src="../images/Numbers/circle-4o.svg" width="24px"> adds a new queue to the accoung
 
 #### Add a queue
 
-[![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/002.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
+[![https://portal.fiskaltrust.fr/Queue/](images/Queue/Create.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
 Queue - Adding
 
-![Number 1](../images/Numbers/1.png) In this field, you can change the name of the queue.
+<img src="../images/Numbers/circle-1o.svg" width="24px"> This field, holds the name of the queue. It can be anything which helps to identify each queue.
 
-![Number 2](../images/Numbers/2.png) Here you can select the appropriate storage method depending on your operating system.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> The appropriate storage method depending on your operating system can be selected. This value can not be changed after creation of the queue.
 
-![Number 3](../images/Numbers/3.png) The package version can also be selected using a dropdown menu. These can be updated by clicking on ![Refresh](../images/Buttons/008.png "Refresh")
+<img src="../images/Numbers/circle-3o.svg" width="24px"> The package version can also be selected using a dropdown menu. For updating the package version a click on ![Refresh](../images/Buttons/008.png "Refresh") is mandatory.<br>**To configure the POS-System with a law compliant fiksaltrust.Service the correct package has to be selected. The certified version for the used POS-System is written on the certificate, knows your PosDealer oder PosCreator.**
 
-![Number 4](../images/Numbers/4.png) Here you can set a timeout for the connection attempt with the signature creation device. (The time is given in milliseconds)
+<img src="../images/Numbers/circle-4o.svg" width="24px"> Sets a timeout in milliseconds for the connection attempt with the signature creation unit.
 
-![Number 5](../images/Numbers/5.png) Enter the country in which you would like to use fiskaltrust here.
+<img src="../images/Numbers/circle-5o.svg" width="24px"> The country in which the queue is used can be selected in this dropdown list. This value can not be changed after creation of the queue.<br>**For a law compliant configuration _France (FR)_ has to be chosen.**
 
-![Number 6](../images/Numbers/6.png) Enter the desired health insurance identification number here.
+<img src="../images/Numbers/circle-6o.svg" width="24px"> This identification value has to be unique in the account. This value can not be changed after creation of the queue.
 
-![Number 7](../images/Numbers/7.png) The system automatically generates the encryption key for you when you click on ![Encryptgen](../images/Buttons/038.png "Encryptgen").
+<img src="../images/Numbers/circle-7o.svg" width="24px"> The [_Save_]-button creates the queue and stores it.
 
-![Number 8](../images/Numbers/8.png) Click on \[Save\] to save the configuration of the queue.
+#### Queue configuration
 
-##### Fiskalization example for Germany
+The configuration has to be done directly after the creation of a queue. Nevertheless it can be changed afterwards with the ![Configuration](../images/Buttons/009.png "Configuration") button in the queue overview.
 
-[![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/003.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
-Fiskalization - Example Germany
+[![https://portal.fiskaltrust.fr/Queue/](images/Queue/Configuration.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
+Queue configuration
 
-German fiskalization does not (yet) include a signature creation device. This function is in test mode.
+<img src="../images/Numbers/circle-1o.svg" width="24px"> This box can be ticked to activate the verification of the connection certificate.
+
+<img src="../images/Numbers/circle-2o.svg" width="24px"> Activating this options speeds up the signing of the first certificate, but slows down the queue starting.
+
+<img src="../images/Numbers/circle-3o.svg" width="24px"> This line gives the possibility to add a key-value-pair to the configuration of the queue.<br><img src="../images/Numbers/circle-4o.svg" width="24px"> The ![add line](../images/Buttons/042.png "add line") button adds another line for a new pair and the ![remove line](../images/Buttons/043.png "remove line") button removes the line from the configuration.
+
+<img src="../images/Numbers/circle-5o.svg" width="24px"> The name of the queue can be changed in this field.
+
+<img src="../images/Numbers/circle-6o.svg" width="24px"> The type of the storage can only be defined on queue creation and can not be changed later on.
+
+<img src="../images/Numbers/circle-7o.svg" width="24px"> The package version can also be selected using a dropdown menu. For updating the package version a click on ![Refresh](../images/Buttons/008.png "Refresh") is mandatory.<br>**To configure the POS-System with a law compliant fiksaltrust.Service the correct package has to be selected. The certified version for the used POS-System is written on the certificate, knows your PosDealer oder PosCreator.**
+
+<img src="../images/Numbers/circle-8o.svg" width="24px"> The URL to access the queue can be defined in this field. By clicking on ![net pipe](../images/Buttons/012.png "net pipe") a URL is used, which is suitable for local use without internet connection, because no firewall settings are required. By clicking on ![http](../images/Buttons/013.png "http"), the system generates a URL with which the POS-System can access the queue. The URL can be renamed, to have it like this: [http://localhost.1200/Queuefiskaltrust]().<br>The ![add URL](../images/Buttons/042.png "add URL") button adds another line for a new URL and the ![remove URL](../images/Buttons/043.png "remove URL") button removes the URL from the configuration.
+
+<img src="../images/Numbers/circle-9o.svg" width="24px"> [Save] or [Save and close] saves the configuration of the queue (and closes the configuration module).
 
 #### Queue overview
 
-[![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/004.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
+By opening the _Queue_-Module in the _Configuration_-menu an overview from all created queues are shown.
+
+[![https://portal.fiskaltrust.fr/Queue/](images/Queue/Queue-New.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
 Queue overview
 
-![Number 1](../images/Numbers/1.png) Click on ![Receipt](../images/Buttons/014.png "Receipt") to go to the receipt check. For further explanations see chapter [Receipt validation](messages.md#receipt-validation)
+<img src="../images/Numbers/circle-1o.svg" width="24px"> Clicking on the _chevron right_ shows the base information for this queue and the used CashBox, if already configured.
 
-![Number 2](../images/Numbers/2.png) Here the current status of the PosSystem is displayed, by clicking on ![Questionmark](../images/Buttons/015.png "Questionmark") a message about the status can be sent.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> This column shows the localisation (for which country the queue is used) and the _CashBox identification_.
 
-![Number 3](../images/Numbers/3.png) By clicking on ![Refresh](../images/Buttons/016.png "Refresh") a status check is immediately transmitted to Finanz Online.
+<img src="../images/Numbers/circle-3o.svg" width="24px"> The third column contains a checkmark ![Checkmark](../images/Buttons/044.png "Checkmark") when the queue is activated. A so called _start receipt_ has been send and the queue is ready to sign and chain receipts or contains already some receipts.<br>If this column is empty no start receipt was send or a _stop receipt_ was send and the queue does not accept any receipt for chaining and signing.
 
-![Number 4](../images/Numbers/4.png) By clicking on ![List](../images/Buttons/017.png "List") all transmitted receipts are displayed.
+<img src="../images/Numbers/circle-4o.svg" width="24px"> A queue contains two type of journals. Both of them are chained and secured against changes and contains already transmitted receipts.<br>By clicking on ![ReceiptJournal](../images/Buttons/017.png "ReceiptJournal") all transmitted receipts are displayed in a list, see chapter [_ReceiptJournal of a queue_](#receiptjournal-of-a-queue).<br>By clicking on ![ActionJournal](../images/Buttons/018.png "ActionJournal") all important actions and status changes of the queue a shown in a list, see chapter [_ActionJournal of a queue_](#actionjournal-of-a-queue).
 
-![Number 5](../images/Numbers/5.png) The Action Journal can be accessed by clicking on ![Ajournal](../images/Buttons/018.png "Ajournal"). All status changes and important actions are displayed here.
+<img src="../images/Numbers/circle-5o.svg" width="24px"> To stop the transmission from the local POS-System to the queue the ![Disable upload](../images/Buttons/045.png "Disable upload") button can be clicked. Starting from this moment the queue does not save any receipt in the cloud. With ![Reset upload](../images/Buttons/046.png "Reset upload") the queue receives all the not transmitted receipts form the moment the button is clicked.
 
-![Number 6](../images/Numbers/6.png) The queue export can be started by pressing the button ![Export](../images/Buttons/019.png "Export"). For further information see chapter "Queue - Export" in the national appendices.
+<img src="../images/Numbers/circle-6o.svg" width="24px"> The queue export can be started by pressing the button ![Export](../images/Buttons/019.png "Export"). For further information see chapter [_Export a queue_](#export-a-queue).
 
-![Number 7](../images/Numbers/7.png) The POS archive can be placed in the shopping cart by clicking on ![Dollarsign](../images/Buttons/020.png "Dollarsign").
+<img src="../images/Numbers/circle-8o.svg" width="24px"> The last column contains the commands to manage a queue.<br> By clicking on ![Used french signature creation unit](../images/Buttons/021.png "Used french signature creation unit") the connected SCUs can be displayed and managed. For further information see chapter [_SCUs used by a queue_](#scus-used-by-a-queue).<br>Here the configuration of the queue can be opened by clicking on ![Configure queue](../images/Buttons/009.png "Configure queue"), see [_Configure a queue_](#configure-a-queue).<br>Clicking on ![Edit](../images/Buttons/005.png "Edit") edits the description, package version and timeout of the queue, see [_Edit a queue_](#edit-a-queue).<br>Clicking on ![Trash](../images/Buttons/011.png "Trash") deletes the queue. However, the button for deleting the queue is currently inactive for legal reasons, so no queue can be deleted after creation. The possibility to delete a queue does not depend on the status or the content of a queue. Once created no deletion is possible. There will be an option to hide queues in the future.
 
-![Number 8](../images/Numbers/8.png) By clicking on ![Connect](../images/Buttons/021.png "Connect") the connected SCUs can be displayed and managed.
+#### SCUs used by a queue<a name="scus-used-by-a-queue"></a>
 
-![Number 9](../images/Numbers/9.png) Here the configuration of the queue can be opened by clicking on ![Gear](../images/Buttons/009.png "Gear").
-
-![Number 10](../images/Numbers/10.png) Click on ![Gear](../images/Buttons/009.png "Gear") to edit the description, package version and timeout of the queue.
-
-![Number 11](../images/Numbers/11.png) Click ![Trash](../images/Buttons/011.png "Trash") to delete the queue. However, the button for deleting the queue is currently inactive for legal reasons, so no queue can be deleted there will be an option to hide queues in the future.
-
-#### SCUs used by Queues
-
-[![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/QueueATSCUList/001.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
+[![https://portal.fiskaltrust.fr/Queue/](images/Queue/QueueFRSCUList/inactive.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
 Queue - Connected Signature Creation Devices (SCU)
 
 ![Number 1](../images/Numbers/1.png) By setting a check mark the SCU to be connected to the queue is selected.
@@ -191,20 +197,11 @@ Queue - Connected Signature Creation Devices (SCU)
 
 ![Number 4](../images/Numbers/4.png) Click on \[Save\]  to save the configuration of the queue.
 
-#### Queue configuration
+#### Configure a Queue<a name="configure-a-queue"></a>
 
-[![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/Configuration/001.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
-Queue configuration
+#### Edit a Queue<a name="edit-a-queue"></a>
 
-![Number 1](../images/Numbers/1.png) In this field, you can change the name of the signature creation device.
-
-![Number 2](../images/Numbers/2.png) Here you can create a URL for your queue. By clicking on ![net pipe](../images/Buttons/012.png "net pipe") you get a URL, which is suitable for local use without internet connection, because no firewall settings are required.
-
-![Number 3](../images/Numbers/3.png) By clicking on ![http](../images/Buttons/013.png "http"), the system generates a URL for you with which the POS system can access the queue. You can rename the URL yourself. This can look like this: [http://localhost.1200/Queuefiskaltrust]()
-
-![Number 4](../images/Numbers/4.png) Click on \[Save\] to save the configuration of the queue.
-
-#### Receipt journal of a Queue
+#### ReceiptJournal of a Queue<a name="receiptjournal-of-a-queue"></a>
 
 ![](images/portal-sandbox.fiskaltrust.at/Queue/ReceiptJournal/001.png)
 Queue - Overview ReceiptJournal
@@ -218,6 +215,8 @@ After selecting a receipt, it is displayed as follows.This view makes it possibl
 [![https://portal.fiskaltrust.at/Queue](images/portal-sandbox.fiskaltrust.at/Queue/005.png "https://portal.fiskaltrust.at/Queue")](https://portal.fiskaltrust.at/Queue)
 Queue - Start receipt
 
+#### ActionJournal of a Queue<a name="actionjournal-of-a-queue"></a>
+
 #### Edit a queue
 
 [![https://portal.fiskaltrust.at/Queue](images/portal-sandbox.fiskaltrust.at/Queue/Edit/001.png "https://portal.fiskaltrust.at/Queue")](https://portal.fiskaltrust.at/Queue)
@@ -229,7 +228,7 @@ Queue - Edit
 
 ![Number 3](../images/Numbers/3.png) Here you can select from the various package versions using the drop-down menu. These can be updated by clicking on ![Refresh](../images/Buttons/008.png "Refresh").
 
-#### Export a queue
+#### Export a queue<a name="export-a-queue"></a>
 
 [![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/ExportConfiguration/001.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
 Queue - Export
