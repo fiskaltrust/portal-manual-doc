@@ -140,7 +140,7 @@ Queue - Adding
 
 <img src="../images/Numbers/circle-7o.svg" width="24px"> The [_Save_]-button creates the queue and stores it.
 
-#### Queue configuration
+#### Queue configuration<a name="configure-a-queue"></a>
 
 The configuration has to be done directly after the creation of a queue. Nevertheless it can be changed afterwards with the ![Configuration](../images/Buttons/009.png "Configuration") button in the queue overview.
 
@@ -189,81 +189,67 @@ Queue overview
 [![https://portal.fiskaltrust.fr/Queue/](images/Queue/QueueFRSCUList/inactive.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
 Queue - Connected Signature Creation Devices (SCU)
 
-![Number 1](../images/Numbers/1.png) By setting a check mark the SCU to be connected to the queue is selected.
+<img src="../images/Numbers/circle-1o.svg" width="24px"> By setting a check mark the SCU to be connected to the queue is selected.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> The SIRET of the attached outlet to the SCU is shown.
+<img src="../images/Numbers/circle-3o.svg" width="24px"> Shows the serial number of the certificate used by this SCU.
+<img src="../images/Numbers/circle-4o.svg" width="24px"> With the button ![Download certificate](../images/Buttons/047.png "Download certificate") the certificate of the SCU can be downloaded.
 
-![Number 2](../images/Numbers/2.png) The previously selected URL of the SCU is stored here.
+![Certificate detail](images/Queue/QueueFRSCUList/certificate-detail.png)
+Detail of a certificate
 
-![Number 3](../images/Numbers/3.png) The drop-down menu allows you to choose between different timeout modes. Normal and Backup, and different times.
-
-![Number 4](../images/Numbers/4.png) Click on \[Save\]  to save the configuration of the queue.
-
-#### Configure a Queue<a name="configure-a-queue"></a>
+The content of the certificate can verified with a double click on it.
 
 #### Edit a Queue<a name="edit-a-queue"></a>
 
+[![https://portal.fiskaltrust.fr/Queue/](images/Queue/Edit.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
+Edit a queue
+
+<img src="../images/Numbers/circle-1o.svg" width="24px"> The name of the queue can be changed with this field.
+
+<img src="../images/Numbers/circle-2o.svg" width="24px"> Various package versions can be selected by using the drop-down menu. These can be updated by clicking on ![Refresh](../images/Buttons/008.png "Refresh"). To take this change in effect on the POS-Systems, this has to be restarted.<br>**To configure the POS-System with a law compliant fiksaltrust.Service the correct package has to be selected. The certified version for the used POS-System is written on the certificate, knows your PosDealer oder PosCreator.**
+
+<img src="../images/Numbers/circle-3o.svg" width="24px"> Sets a timeout in milliseconds for the connection attempt with the signature creation unit.
+
+All other values shown on the page are read-only and con not be changed. Tis values shows the current state of the queue and the saved counters of the different receipt types.
+
+At the most bottom of the page the buttons [Save] or [Save and close] saves the configuration of the queue (and closes the configuration module).
+
 #### ReceiptJournal of a Queue<a name="receiptjournal-of-a-queue"></a>
 
-![](images/portal-sandbox.fiskaltrust.at/Queue/ReceiptJournal/001.png)
+[![https://portal.fiskaltrust.fr/Queue/](images/Queue/ReceiptJournal.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
 Queue - Overview ReceiptJournal
 
-![Number 1](../images/Numbers/1.png) The receipts created so far are listed here.
+This journal shows all receipt created by a POS-System connected to the fiskaltrust.Service. All _special receipt types_ like a closure receipt, an archive request or warnings are shown in the [ActionJournal](#actionjournal-of-a-queue).
 
-![Number 2](../images/Numbers/2.png) Click on ![Eye](../images/Buttons/023.png "Eye") to display the respective receipt.
+<img src="../images/Numbers/circle-1o.svg" width="24px"> This dropdown limits the shown rows of a journal to 50, 100, 500 or a full list. If the journal is long the last open _full list_ can take some time to be shown.
 
-After selecting a receipt, it is displayed as follows.This view makes it possible to verify the accuracy of the receipt content.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> This dropdown list defines the type of receipt shown.
 
-[![https://portal.fiskaltrust.at/Queue](images/portal-sandbox.fiskaltrust.at/Queue/005.png "https://portal.fiskaltrust.at/Queue")](https://portal.fiskaltrust.at/Queue)
-Queue - Start receipt
+<img src="../images/Numbers/circle-3o.svg" width="24px"> The first column shows the date/time the receipt was created.
+
+<img src="../images/Numbers/circle-4o.svg" width="24px"> Shows the overall counter of all receipts in the queue.
+
+<img src="../images/Numbers/circle-5o.svg" width="24px"> Shows the receipt number created by the fiskltrust.Service.
+
+<img src="../images/Numbers/circle-6o.svg" width="24px"> The button ![Show Receipt](../images/Buttons/023.png "Show receipt") displays the respective receipt.
+
+#### Detailed receipt
+[![https://portal.fiskaltrust.fr/Queue/](images/Queue/ShowReceipt.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
+Queue - Detailed receipt
+
+After selecting a receipt, it is displayed as follows. This view makes it possible to verify the accuracy of the receipt content.
 
 #### ActionJournal of a Queue<a name="actionjournal-of-a-queue"></a>
+[![https://portal.fiskaltrust.fr/Queue/](images/Queue/ActionJournal.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
+Queue - Overview ActionJournal
 
-#### Edit a queue
-
-[![https://portal.fiskaltrust.at/Queue](images/portal-sandbox.fiskaltrust.at/Queue/Edit/001.png "https://portal.fiskaltrust.at/Queue")](https://portal.fiskaltrust.at/Queue)
-Queue - Edit
-
-![Number 1](../images/Numbers/1.png) In this field, you can change the name of the queue.
-
-![Number 2](../images/Numbers/2.png) The previously selected package name is displayed here.
-
-![Number 3](../images/Numbers/3.png) Here you can select from the various package versions using the drop-down menu. These can be updated by clicking on ![Refresh](../images/Buttons/008.png "Refresh").
+This list shows all _special receipt types_ of a queue. For regular receipts see [ReceiptJournal](#receiptjournal-of-a-queue). A click of the right chevron<img src="../images/Numbers/circle-1o.svg" width="24px"> opens the detailed view of the data of the receipt.
 
 #### Export a queue<a name="export-a-queue"></a>
 
-[![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/ExportConfiguration/001.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
-Queue - Export
-
-![Number 1](../images/Numbers/1.png) First you have to define the area which should be exported, this is done with the help of the receipt number and the slider.
-
-![Number 2](../images/Numbers/2.png) The export format must then be dragged to the left ![Number 4](../images/Numbers/4.png) using Drag\&Drop.
-
-![Number 3](../images/Numbers/3.png) The export target is also dragged to the left ![Number 4](../images/Numbers/4.png) using Drag\&Drop.
-
-![Number 5](../images/Numbers/5.png) Click on \[Start\] to start the export, then you will be redirected to a page showing the progress of the export. After completion of the export you will receive an info mail.
+TODO!
 
 ### Signature creation unit (SCU)<a name="SCU"></a>
-
-#### Creation of a SCU
-
-[![https://portal.fiskaltrust.at/SignatureCreation/](images/portal-sandbox.fiskaltrust.at/SignatureCreation/001.png "https://portal.fiskaltrust.at/SignatureCreation/")](https://portal.fiskaltrust.at/SignatureCreation/)
-Adding a signature creation device
-
-![Number 1](../images/Numbers/1.png) To create, configure and delete the signature creation devices, click on the "Signature creation device" menu item.
-
-![Number 2](../images/Numbers/2.png) Click on \[Create\] to open a page where a new signature creation device can be created.
-
-#### Add Signature creation unit
-
-[![https://portal.fiskaltrust.at/SignatureCreation/](images/portal-sandbox.fiskaltrust.at/SignatureCreation/002.png "https://portal.fiskaltrust.at/SignatureCreation/")](https://portal.fiskaltrust.at/SignatureCreation/)
-Adding a signature creation device
-
-![Number 1](../images/Numbers/1.png) **Text:** "Here you can assign another signature creation device to your company. Enter the data and click on "Save".
-
-![Number 1](../images/Numbers/2.png) Here you can name your signature creation device.
-
-![Number 3](../images/Numbers/3.png) Here you can select the package to be used. This must be specified by the PosCreator.
-
-![Number 4](../images/Numbers/4.png) Click on \[Save\] to save the configuration of the SCU.
 
 #### Overview of Signature creation units
 
@@ -286,35 +272,18 @@ Overview - Signature Creation Devices (SCU)
 
 ![Number 8](../images/Numbers/8.png) The search function can be used to search for a SCU by entering any parameter in the search field.
 
-#### Configuration of a Signature creation unit
+#### Creation of a SCU
 
-[![https://portal.fiskaltrust.at/SignatureCreation/](images/portal-sandbox.fiskaltrust.at/SignatureCreation/004.png "https://portal.fiskaltrust.at/SignatureCreation/")](https://portal.fiskaltrust.at/SignatureCreation/)
-Signature Creation Device - Configuration
+[![https://portal.fiskaltrust.at/SignatureCreation/](images/portal-sandbox.fiskaltrust.at/SignatureCreation/001.png "https://portal.fiskaltrust.at/SignatureCreation/")](https://portal.fiskaltrust.at/SignatureCreation/)
+Adding a signature creation device
 
-![Number 1](../images/Numbers/1.png) The serial number of the certificate is stored here after creation.
+![Number 1](../images/Numbers/1.png) To create, configure and delete the signature creation devices, click on the "Signature creation device" menu item.
 
-![Number 2](../images/Numbers/2.png) In this field, you can change the name of the signature creation device.
+![Number 2](../images/Numbers/2.png) Click on \[Create\] to open a page where a new signature creation device can be created.
 
-![Number 3](../images/Numbers/3.png) Here you can create a URL for your signature creation device. By clicking on ![net pipe](../images/Buttons/012.png "net pipe") you get a URL, which is suitable for local use without internet connection, because no firewall settings are required.
+#### Add Signature creation unit
 
-![Number 4](../images/Numbers/4.png) By clicking on the ![http](../images/Buttons/013.png "http"), the system generates a URL for you with which the POS system can access the SCU. You can rename the URL yourself. This can look like this: [http://localhost.1200/SCUfiskaltrust]()
-
-![Number 5](../images/Numbers/5.png) Click on \[Save\] to save the configuration of the SCU.
-
-#### Edit a Signature creation unit
-
-[![https://portal.fiskaltrust.at/SignatureCreation/](images/portal-sandbox.fiskaltrust.at/SignatureCreation/005.png "https://portal.fiskaltrust.at/SignatureCreation/")](https://portal.fiskaltrust.at/SignatureCreation/)
-Signature creation device - Edit
-
-![Number 1](../images/Numbers/1.png) In this field, you can change the name of the signature creation device.
-
-![Number 2](../images/Numbers/2.png) Here you can use the dropdown menu to select from the various package names.
-
-![Number 3](../images/Numbers/3.png) The package version can also be selected using a dropdown menu. These can be updated by clicking on ![Refresh](../images/Buttons/008.png "Refresh").
-
-![Number 4](../images/Numbers/4.png) In the field Mode you can choose between the different modes "Normal", "Backup" and "Deactivated".
-
-![Number 5](../images/Numbers/5.png) Click on \[Save\] to save the configuration of the SCU.
+To connect a SCU to a CashBox or more special to a queue see [Outlets](#outlets) and[SCUs used by a queue](#scus-used-by-a-queue)
 
 #### Delete a Signature creation unit
 
@@ -322,4 +291,4 @@ For legal reasons, it is currently not possible to delete the signature creation
 [![https://portal.fiskaltrust.at/SignatureCreation/](images/portal-sandbox.fiskaltrust.at/SignatureCreation/006.png "https://portal.fiskaltrust.at/SignatureCreation/")](https://portal.fiskaltrust.at/SignatureCreation/)
 Signature creation device - Delete
 
-![Number 1](../images/Numbers/1.png) The button for deleting a SCU is currently inactive.
+The button for deleting a SCU is for legal reasons inactive. No once created SCU can be deleted from the fiskaltrust.Service. In the future there will be a filter to hide unused or inactive SCUs.

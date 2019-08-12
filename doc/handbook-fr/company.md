@@ -115,13 +115,13 @@ By entering the valid UID and the company name does not match, the check does no
 ![data check for a UID with a wrong company name](images/AccountProfile/Edit-UID-Data-Check-wrong-companyname.png)
 Data check for a UID with a wrong company name
 
-#### <a name="company-sales-area"></a>Sales area
+#### Sales area<a name="company-sales-area"></a>
 This section is only available for fiskaltrust.Portal users with the role _PosDealer_. By checking the boxes before the named areas the company is shown in the public list of fiskaltrust.Partners on http://www.fiskaltrust.fr/partners.
 
 ![Select sales areas for partners](images/AccountProfile/Territory.png)
 Select sales areas for partners
 
-#### <a name="outlets"></a>Outlets
+#### Outlets<a name="outlets"></a>
 Before starting with configuring the fiskaltrust.SecurityMechanism at least one outlet must be configured.
 
 ![List of outlets](images/AccountOutlet/AccountOutlet.png)
