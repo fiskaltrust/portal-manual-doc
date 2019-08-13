@@ -77,7 +77,7 @@ Edit CashBox by list
 
 <img src="../images/Numbers/circle-3o.svg" width="24px"> Click ![Gear](../images/Buttons/030.png "Gear") on the ending of a row to display the settings for each object.
 
-<img src="../images/Numbers/circle-4o.svg" width="24px"> Each Queue owns a certificate for signing all the data send to. With the button  ![Certificate download](../images/Buttons/039.png "Certificate download") the certificate of a queue can be downloaded and verfified.
+<img src="../images/Numbers/circle-4o.svg" width="24px"> Each Queue owns a certificate from a SCU for signing all the data send to. With the button ![Certificate download](../images/Buttons/039.png "Certificate download") the certificate of a assigned SCU can be downloaded and verified.
 
 <img src="../images/Numbers/circle-5o.svg" width="24px"> For filtering all the tables/sections in this window at least 3 characters have to be entered. 
 
@@ -117,7 +117,7 @@ Overview of queues
 
 To get to the creation and _Configuration_<img src="../images/Numbers/circle-1o.svg" width="24px"> of a queue, click on the menu item _Queue_<img src="../images/Numbers/circle-2o.svg" width="24px">.
 
-To find a specific queue a text can be entered in the search field<img src="../images/Numbers/circle-3o.svg" width="24px">. Starting with the second entered character the table beneath gets filtered automatically.
+To find a specific queue, a text can be entered in the search field<img src="../images/Numbers/circle-3o.svg" width="24px">. Starting with the second entered character the table beneath gets filtered automatically.
 
 A click on the button _+&nbsp;Create new_<img src="../images/Numbers/circle-4o.svg" width="24px"> adds a new queue to the accoung
 
@@ -251,44 +251,38 @@ TODO!
 
 ### Signature creation unit (SCU)<a name="SCU"></a>
 
-#### Overview of Signature creation units
+The SCU is the part of the fiskaltrust.Service for securing all the receipts send to it. In France the SCU is the holder of the certificate to guarantee the unalterability, securtiy, conservation and archiving of the send data.
 
-[![https://portal.fiskaltrust.at/SignatureCreation/](images/portal-sandbox.fiskaltrust.at/SignatureCreation/003.png "https://portal.fiskaltrust.at/SignatureCreation/")](https://portal.fiskaltrust.at/SignatureCreation/)
-Overview - Signature Creation Devices (SCU)
+#### Overview of signature creation units
 
-![Number 1](../images/Numbers/1.png) To get to the configuration of the signature creation devices, click on the menu item "*Signature creation device*".
+[![https://portal.fiskaltrust.fr/SignatureCreationUnit/](images/SignatureCreationUnit/SignatureCreationUnit.png "https://portal.fiskaltrust.fr/SignatureCreationUnit/")](https://portal.fiskaltrust.fr/SignatureCreationUnit/)
+Overview - Signature Creation Units (SCU)
 
-![Number 2](../images/Numbers/2.png) Click on \[Create\] to go to the page for creating a new signature creation device.
+To find a specific SCU, a text can be entered in the search field<img src="../images/Numbers/circle-1o.svg" width="24px">. Starting with the second entered character the table beneath gets filtered automatically.
 
-![Number 3](../images/Numbers/3.png) The name of the SCU is displayed here.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> Clicking on [+&nbsp;Create] opens the module for creating a new signature creation unit, see [_Creation of a SCU_](#creation-of-a-scu).
 
-![Number 4](../images/Numbers/4.png) By clicking on ![Gear](../images/Buttons/009.png "Gear"), the basic settings and package configuration for individual use of the signature creation device in the cash register can be called up again.
+<img src="../images/Numbers/circle-3o.svg" width="24px"> The SIRET used by the SCU is displayed here. This reflects the loose coupling of the SCU to the outlet, see for more information chapter [_Outlets_](company.md#outlets).
 
-![Number 5](../images/Numbers/5.png) By clicking on ![Edit](../images/Buttons/005.png "Edit") things like the description, package name, version and mode of SCU may be edited.
+<img src="../images/Numbers/circle-4o.svg" width="24px"> Shows the serial number of the certificate of the SCU. 
 
-![Number 6](../images/Numbers/6.png) Click on ![Trash](../images/Buttons/029.png "Trash") to delete the SCU. However, the button to delete the helper is currently inactive for legal reasons, so no helper can currently be deleted.
+<img src="../images/Numbers/circle-5o.svg" width="24px"> Each SCU holds a certificate for signing all the data send to. With the button ![Certificate download](../images/Buttons/047.png "Certificate download") the certificate of this SCU can be downloaded and verified.
 
-![Number 7](../images/Numbers/7.png) A brief overview of the data for the selected signature creation device is displayed here.
+<img src="../images/Numbers/circle-6o.svg" width="24px"> Click on ![Delete SCU](../images/Buttons/029.png "Delete SCU") to delete the SCU. However, the button to delete any signature creation unit is currently inactive for legal reasons, so no SCU can be deleted.
 
-![Number 8](../images/Numbers/8.png) The search function can be used to search for a SCU by entering any parameter in the search field.
+#### Creation of a SCU<a name="creation-of-a-scu"></a>
 
-#### Creation of a SCU
+[![https://portal.fiskaltrust.fr/SignatureCreationUnitFR/](images/SignatureCreationUnitFR/Create.png "https://portal.fiskaltrust.fr/SignatureCreationUnitFR/")](https://portal.fiskaltrust.fr/SignatureCreationUnitFR/)
+Adding a signature creation unit
 
-[![https://portal.fiskaltrust.at/SignatureCreation/](images/portal-sandbox.fiskaltrust.at/SignatureCreation/001.png "https://portal.fiskaltrust.at/SignatureCreation/")](https://portal.fiskaltrust.at/SignatureCreation/)
-Adding a signature creation device
+To create the signature creation unit, command _Signature creation device_<img src="../images/Numbers/circle-2o.svg" width="24px"> in the _Configuration_<img src="../images/Numbers/circle-1o.svg" width="24px"> menu. A click on [+&nbsp;Create] opens the page for adding a new SCU to the company.
 
-![Number 1](../images/Numbers/1.png) To create, configure and delete the signature creation devices, click on the "Signature creation device" menu item.
+In the dropdown list all [outlets](company.md#outlets) of the company are shown. To create a SCU an outlet has to be selected. It is not necessary to create more then one SCU for an outlet, but at least one per outlet has to be created. It is not possible to use one signature creation unit for more then one outlet because the SIRET of the selected outlet is used to created the certificate for a SCU.
 
-![Number 2](../images/Numbers/2.png) Click on \[Create\] to open a page where a new signature creation device can be created.
-
-#### Add Signature creation unit
+#### Add signature creation unit
 
 To connect a SCU to a CashBox or more special to a queue see [Outlets](#outlets) and[SCUs used by a queue](#scus-used-by-a-queue)
 
-#### Delete a Signature creation unit
+#### Delete a signature creation unit
 
-For legal reasons, it is currently not possible to delete the signature creation device.
-[![https://portal.fiskaltrust.at/SignatureCreation/](images/portal-sandbox.fiskaltrust.at/SignatureCreation/006.png "https://portal.fiskaltrust.at/SignatureCreation/")](https://portal.fiskaltrust.at/SignatureCreation/)
-Signature creation device - Delete
-
-The button for deleting a SCU is for legal reasons inactive. No once created SCU can be deleted from the fiskaltrust.Service. In the future there will be a filter to hide unused or inactive SCUs.
+The button for deleting a signature creation unit is for legal reasons inactive. No created SCU can be deleted from the fiskaltrust.Service. In the future there will be a filter to hide unused or inactive SCUs.
