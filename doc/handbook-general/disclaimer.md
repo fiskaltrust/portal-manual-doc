@@ -28,9 +28,7 @@ Here are all technical terms used in this manual and their meaning described.
 |PosOperator| POS-System user        | USer, operator of a POS-System or cash register sold and/or installed by a PosDealer and created by a PosCreator |
 | POS-System| Point of Sales System  | A System (hardware and/or software) acting as a cash register |
 
-
 ## Software
 This chapter describes the necessary software for using the fiskaltrust.Portal.
 ### Internet Browser
 If your Browser does not display some content correctly or features are not available or not behaving as expected, try using the actual version of _Google Chrome_.
-

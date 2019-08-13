@@ -5,7 +5,7 @@
 #### Active roles and contractual relationships including API-access
 
 ![Active roles and API-access](images/AccountProfile/overview-active-roles.png)
-Screenshot 1: Overview - All roles and contractual relationships with fiskaltrust
+Overview - All roles and contractual relationships with fiskaltrust
 
 ![Number 1](../images/Numbers/1.png) **Text:** "Here you see all active roles and contractual relationships of your company."
 
@@ -27,7 +27,7 @@ If you are currently logged in as the company's primary contact, you can reset t
 
 Add new employees to your company and manage their permissions.
 ![Company- Employees](images/AccountProfile/Employee.png)
-Screenshot 2: Company - Employees
+Company - Employees
 
 ![Number 1](../images/Numbers/1.png) By default, the primary contact of the company is the user who registered the company as an employee.
 
@@ -44,7 +44,7 @@ If no employee has the administrative rights, you loose the possibility to acces
 ####<a name="add-employees"></a> Add employees
 
 ![Add employees](images/AccountProfile/AddEmployee.png)
-Screenshot 3: Add employees
+Add employees
 
 ![Number 1](../images/Numbers/1.png) **Text:** "Here you can assign a new employee to your company. To do this, enter his/her e-mail address."
 
@@ -53,14 +53,14 @@ Screenshot 3: Add employees
 #### Assign employees
 
 ![Assign empoyee to the company](images/AccountProfile/AssociateEmployeeToCompany.png)
-Screenshot 4: Assign found fiskaltrust.contact as employee to the company
+Assign found fiskaltrust.contact as employee to the company
 
 ![Number 1](../images/Numbers/1.png) If the contact with the e-mail address that you are looking for has already been created in the ft.portal and is therefore found during the search, it is displayed.
 
 This allows this user to be assigned as an employee. The master data of the sales activity cannot be changed here.
 
-![Screenshot 5](images/AccountProfile/AssociateEmployeeToCompany-Email.png)
-Screenshot 5: Email information that you have been assigned to a company as a fiskaltrust contact.
+![E-Mail for assigned employee](images/AccountProfile/AssociateEmployeeToCompany-Email.png)
+Email information that you have been assigned to a company as a fiskaltrust contact.
 
 A contact can only be assigned to one company as an employee.
 
@@ -71,19 +71,19 @@ If no contact is found, it can be invited on the next page.
 On this page the master data of the new contact can be entered to create it in the ft.portal as a new user and at the same time as an employee of the company.
 
 ![Add employees / Employee data](images/AccountProfile/AddNewEmployee.png)
-Screenshot 6: Add employees / Employee data
+Add employees / Employee data
 
 ![Number 1](../images/Numbers/1.png) **Text:** "Enter the employee's master data here. The employee is created in the fiskaltrust.portal and receives an invitation by e-mail to re-register with a personal password".
 
 After creating a new user - who is not yet registered as a contact in the ft.portal - an e-mail invitation will be sent to him.
 
-![Screenshot 6](images/AccountProfile/AddNewEmployee-Email.png)
-Screenshot 6: E-mail invitation of a new employee who is to register in the portal and is already assigned to a company as a contact.
+![E-Mail invitation of employee](images/AccountProfile/AddNewEmployee-Email.png)
+E-mail invitation of a new employee who is to register in the portal and is already assigned to a company as a contact.
 
 ###<a name="Employees-of-the-company-authorization-administration"></a> Employees of the company authorization administration
 
 ![Authorization management for an employee](images/AccountProfile/Employee-Rights.png)
-Screenshot 7: Authorization management for an employee
+Authorization management for an employee
 
 ![Number 1](../images/Numbers/1.png) **Text:** "** Authorizations for the employee:**
 

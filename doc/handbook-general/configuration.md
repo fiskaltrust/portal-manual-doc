@@ -3,7 +3,7 @@
 For using a template or a package see chapter [Buying a package in the shop or using a template](shop.md#buy-package-in-shop-or-use-a-template).
 
 [![https://portal.fiskaltrust.at/CashBox/](images/CashBox/001.png "https://portal.fiskaltrust.at/CashBox/")](https://portal.fiskaltrust.at/CashBox/)
-Screenshot 41: Overview of configured and available configuration containers
+Overview of configured and available configuration containers
 
 The creation and management of the components is discussed in the following chapters:
 
@@ -27,7 +27,7 @@ Helpers are modules which are extending the [CashBox](#cashbox) with further fun
 #### Installation of the helpers
 
 [![https://portal.fiskaltrust.at/Helper/](images/Helper/001.png "https://portal.fiskaltrust.at/Helper/")](https://portal.fiskaltrust.at/Helper/)
-Screenshot 42: Plant of the Helper
+Overview of the Helpers
 
 ![Number 1](../images/Numbers/1.png) In order to get to the installation and configuration of the helpers, click on the menu item "*Helper*".
 
@@ -36,7 +36,7 @@ Screenshot 42: Plant of the Helper
 #### Add a helper
 
 [![https://portal.fiskaltrust.at/Helper/](images/Helper/002.png "https://portal.fiskaltrust.at/Helper/")](https://portal.fiskaltrust.at/Helper/)
-Screenshot 43: Add Helper
+Add Helper
 
 ![Number 1](../images/Numbers/1.png) In this field the name of the helper can be changed.
 
@@ -49,7 +49,7 @@ Screenshot 43: Add Helper
 #### Overview Helper
 
 [![https://portal.fiskaltrust.at/Helper/](images/Helper/003.png "https://portal.fiskaltrust.at/Helper/")](https://portal.fiskaltrust.at/Helper/)
-Screenshot 44: Overview Helper
+Overview Helper
 
 ![Number 1](../images/Numbers/1.png) To get to the Helper configuration, click on the menu item "*Helper*".
 
@@ -70,7 +70,7 @@ Screenshot 44: Overview Helper
 #### Helper configuration
 
 [![https://portal.fiskaltrust.at/Helper/](images/Helper/004.png "https://portal.fiskaltrust.at/Helper/")](https://portal.fiskaltrust.at/Helper/)
-Screenshot 45: Helper - Configuration
+Helper - Configuration
 
 ![Number 1](../images/Numbers/1.png) Here you can choose between the individual modes "least active" and "round robin" in the dropdown menu.
 
@@ -85,9 +85,9 @@ Click on \[Save\] to save the Helper configuration.
 #### Helper delete
 
 [![https://portal.fiskaltrust.at/Helper/](images/Helper/005.png "https://portal.fiskaltrust.at/Helper/")](https://portal.fiskaltrust.at/Helper/)
-Screenshot 46: Helper - Delete
+Helper - Delete
 
 For legal reasons it is currently not possible to delete the helper.
 
 ### Signature Creation Unit<a name="SCU"></a>
-Refer to the chapters in the appendices for the national implementations.
+Refer to the chapters in the appendices for the national implementations of a signature creation unit.

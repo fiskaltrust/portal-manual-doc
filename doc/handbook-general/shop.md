@@ -21,7 +21,7 @@ A list and the current descriptions of our products can be found as a remunerati
 Under the section "Products" you will find all products offered by us. Here you can put the selected products into the shopping cart.
 
 ![Products](images/Shop/Products/001.png)
-Screenshot 47: Products
+Products
 
 ![Number 1](../images/Numbers/1.png) Here you can specify the number of pieces of the selected products that you would like to put into the shopping cart
 
@@ -32,14 +32,14 @@ Screenshot 47: Products
 In the shopping cart you will see a list of your selected products before payment. Here the contents of the shopping cart can be edited again.
 
 ![Shopping cart](images/Shop/Cart/001.png)
-Screenshot 48: Shopping cart
+Shopping cart
 
 ![Number 1](../images/Numbers/1.png) All products in your shopping cart are displayed here.
 
 ![Number 2](../images/Numbers/2.png) By clicking on \[Checkout\] you will be redirected to the next page where you can select your payment method.
 
 ![CheckOut](images/Shop/Checkout/001.png)
-Screenshot 49: Checkout
+Checkout
 
 ![Number 1](../images/Numbers/1.png) Here you can see a list of the selected products
 
@@ -52,13 +52,13 @@ Screenshot 49: Checkout
 Overview of previous orders as well as invoices and their status.
 
 ![Orders](images/Shop/Orders/001.png)
-Screenshot 50: Orders
+Orders
 
 ### Pay Agreements
 
 This section shows the next payment due date for each annually recurring payment of subscription products.
 ![Pay Agreements](images/Shop/PayAgreements/001.png "https://portal.fiskaltrust.at/Shop/Products/")](https://portal.fiskaltrust.at/Shop/Products/)
-Screenshot 51: Pay Agreements
+Pay Agreements
 
 ### Subscriptions
 
@@ -69,7 +69,7 @@ In "Subcriptions" you can view your subscription products.
 In this section, you will see a list of your available entitlements.
 
 ![Entitlements](images/Shop/Entitlements/001.png)
-Screenshot 52: Entitlements
+Entitlements
 
 ### Invoices
 
@@ -80,7 +80,7 @@ As soon as an invoice has been created for your products, you can view it under 
 Offers created by fiskaltrust are listed here. By clicking on ![Folder](../images/Buttons/032.png "Folder") the respective offer is put into the shopping cart and you can make the payment as in chapter [Shopping cart](#shopping-cart).  
 
 ![Offers](images/Shop/Quotes/001.png)
-Screenshot 53: Offers
+Offers
 
 ### Shipping Notes
 

@@ -4,7 +4,6 @@
 ## User and Company
 ### [Company](handbook-general/company.md)
 ## [PosOperator](handbook-general/posoperator.md)
-## [PosDealer](handbook-general/posdealer.md)
 ## [Tools](handbook-general/tools.md)
 ## [PosSystems](handbook-general/possystems.md)
 ## [Configuration](handbook-general/configuration.md)
