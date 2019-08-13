@@ -15,7 +15,7 @@ Homepage | [https://www.fiskaltrust.fr](https://www.fiskaltrust.fr) with link to
 <img src="../images/Numbers/circle-1o.svg" width="24px"> By clicking on the hyperlink _PORTAIL_ on the homepage the fiskaltrust.Portal can be accessed.
 The registration of the user and the company can is explained in chapter [Registration](registration-login.md#registration).
 
-### <a name="landing-page"></a>Landing page
+### Landing page<a name="landing-page"></a>
 The landing page is the welcome page of the fiskaltrust.Portal and can be accessed directly via the URL: https://portal.fiskaltrust.fr
 
 ![Landing page of the fiskaltrust.Portal](images/www.fiskaltrust.fr/portal-landing-page.png)

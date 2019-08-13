@@ -7,7 +7,7 @@ Search the knowledge base
 
 ### Questions & Answers
 
-The "Questions & Answers" function is currently inactive. However, you can still view questions that have already been asked and their answers. At FAQ-section at the homepage, you will find a list of frequently asked questions. Should you as a partner (PosCreator, PosDealer) have any further special questions, please do not hesitate to contact us by e-mail at [info@fiskaltrust.at](mailto:info@fiskaltrust.at) for Austria or for France at [contact@fiskaltrust.fr](mailto:contact@fiskaltrust.fr) .
+The "Questions & Answers" function is currently inactive. However, you can still view questions that have already been asked and their answers. At FAQ-section at the homepage, you will find a list of frequently asked questions. Should you as a partner (PosCreator, PosDealer) have any further special questions, please do not hesitate to contact us by email at [info@fiskaltrust.at](mailto:info@fiskaltrust.at) for Austria or for France at [contact@fiskaltrust.fr](mailto:contact@fiskaltrust.fr) .
 ![Questions & Answers](images/KBArticle/Index/001.png)
 Questions & Answers
 

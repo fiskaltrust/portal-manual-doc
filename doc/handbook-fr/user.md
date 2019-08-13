@@ -1,14 +1,14 @@
-### <a name="user"></a>User
+### User<a name="user"></a>
 
 All the user data including password and user name can be managed by opening the menu by clicking on the _name of the user_<img src="../images/Numbers/circle-1o.svg" width="24px"> in the left sidebar.
 
-#### <a name="user-overview"></a>Overview of the user
+#### Overview of the user<a name="user-overview"></a>
 ![User overview](images/ContactProfile/overview.png)
 User overview
 
-With the command _Overview_<img src="../images/Numbers/circle-2o.svg" width="24px"> the initial data like _E-Mail_, _Address_ and _Phone_ number is shown. Additional all roles the user has in the ft.Portal are listed.
+With the command _Overview_<img src="../images/Numbers/circle-2o.svg" width="24px"> the initial data like _Email_, _Address_ and _Phone_ number is shown. Additional all roles the user has in the ft.Portal are listed.
 
-#### <a name="user-data"></a>User data
+#### User data<a name="user-data"></a>
 ![User data](images/ContactProfile/EditProfile.png)
 User data
 
@@ -24,7 +24,7 @@ All changes can be stored in the ft.Portal by clicking on the button [Save]. The
 
 Changes in the fields _Culture_ and _Time zone_ are taking effect, after a [Logout](registration-login.md#logout) and a new [Login](registration-login.md#login) of the user.
 
-#### <a name="user-change-password"></a>Change password
+#### Change password<a name="user-change-password"></a>
 ![Change password](images/ContactProfile/PasswordEdit.png)
 Change password
 
@@ -34,13 +34,13 @@ All the fields shown in this form are mandatory and have to be filled out before
 
 The new password has to be entered twice<img src="../images/Numbers/circle-4o.svg" width="24px"> in _New password_ and again in _Confirm password_. The button [Save] stores the new password, which can be used with the next new login at the fiskaltrust.Portal. The button [Cancel] closes the window without any changes saved and brings the user back to the [Overview](#user-overview).
 
-#### <a name="user-change-username"></a>Change user name
+#### Change user name<a name="user-change-username"></a>
 ![Change user name](images/ContactProfile/UsernameEdit.png)
 Change user name
 
 After opening the menu with a click on the _user name_<img src="../images/Numbers/circle-1o.svg" width="24px"> the name of the active user can be changed with the command _Change user name_<img src="../images/Numbers/circle-2o.svg" width="24px">.
 
-This forms shows the _Current user name_ which is the E-Mail address of the current user. The _New user name_<img src="../images/Numbers/circle-3o.svg" width="24px"> can be entered and has to be a valid E-Mail address. Be aware that all messages from the fiskaltrust.Portal and/or fiskaltrust.Service are send to the entered E-Mail address. The new E-Mail address has to be unique. This means the E-Mail address should not be used in our system by another user.
+This forms shows the _Current user name_ which is the email address of the current user. The _New user name_<img src="../images/Numbers/circle-3o.svg" width="24px"> can be entered and has to be a valid email address. Be aware that all messages from the fiskaltrust.Portal and/or fiskaltrust.Service are send to the entered email address. The new email address has to be unique. This means the email address should not be used in our system by another user.
 
 By clicking on the Button [Save] the new user name is stored and can be used. For the best user experience a a [Logout](registration-login.md#logout) and a new [Login](registration-login.md#login) should be done.
 The button [Cancel] closes the window without any changes saved and brings the user back to the [Overview](#user-overview).

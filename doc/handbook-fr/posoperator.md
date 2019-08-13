@@ -31,11 +31,11 @@ Invite PosOperators to a PosDealer account
 | ContactLastName | Last name of primary contact | yes |
 | ContactTitle | (Academic) Title of primary contact (before name) | no |
 | ContactSuffix | Name suffix of the primary contact (after the name) | no |
-| ContactEMail | E-mail address of the primary contact<br>**IMPORTANT!**<br>This e-mail address will be the user's login to this newly created company. | yes |
+| ContactEMail | Eail address of the primary contact<br>**IMPORTANT!**<br>This email address will be the user's login to this newly created company. | yes |
 | ContactMobilePhone | Mobile phone number of the primary contact | no |
 | AccountName | Company name, this should be written like in the commercial register | yes |
 | AccountWeb | URL of the company's website | no |
-| AccountEMail |Generel e-mail address of the company<br>**IMPORTANT!**<br>All information about financial messages and all invoices will be sent to this e-mail address! | no |
+| AccountEMail |Generel email address of the company<br>**IMPORTANT!**<br>All information about financial messages and all invoices will be sent to this email address! | no |
 | AccountPhone | Company phone number | no |
 | AccountAddressLine1 | Address, first line of the company | no |
 | AccountAddressLine2 | Address, second line of the company | no |
@@ -49,7 +49,7 @@ Invite PosOperators to a PosDealer account
 
 Not all of the fields _AccountIdVat_, _AccountIdTax_ and _AccountIdFibu_ are mandatory. Only one of the three fields have to be completed. It is recommended to use the field _AccountIdFibu_.
 
-A pdf-file can be first choosen<img src="../images/Numbers/circle-4o.svg" width="24px"> and then imported<img src="../images/Numbers/circle-5o.svg" width="24px"> a PDF document, which is sent to the PosOperators as an attachment on the e-mail invitations. This PDF document can be individually adapted to the rollout concept.
+A pdf-file can be first choosen<img src="../images/Numbers/circle-4o.svg" width="24px"> and then imported<img src="../images/Numbers/circle-5o.svg" width="24px"> a PDF document, which is sent to the PosOperators as an attachment on the email invitations. This PDF document can be individually adapted to the rollout concept.
 
 Before sending the invitation to all PosOperators listed in the csv file a text message<img src="../images/Numbers/circle-6o.svg" width="24px"> can be added to this invitation email.
 
@@ -70,38 +70,38 @@ The following fields are mandatory fields and must therefore be filled in:
 
 - Contact First name
 - Contact Surname
-- Contact E-Mail
+- Contact Email
 - Company's name
 - Zip code
 - City
 - location
 
-This is to guarantee that the PosOperator can be found correctly in the ft.Portal via his e-mail address and can be assigned to the PosDealer.
+This is to guarantee that the PosOperator can be found correctly in the ft.Portal via his email address and can be assigned to the PosDealer.
 
 #### Managing the invitations
 [![https://portal.fiskaltrust.fr/PosOperator/PosOperators/](images/PosOperator/PosOperators-Overview.png "https://portal.fiskaltrust.fr/PosOperator/PosOperators/")](https://portal.fiskaltrust.fr/PosOperator/PosOperators/)
 Assigning, editing and deleting a PosOperator 
 
 <img src="../images/Numbers/circle-1o.svg" width="24px"> Status of the invitation:
-- ![Notsent](../images/Buttons/002.png "Notsent") E-mail invitation has not been sent yet.
+- ![Notsent](../images/Buttons/002.png "Notsent") Email invitation has not been sent yet.
 - ![Error](../images/Buttons/002.png "Error") The data of the PosOperator is not correct and can not be assigned to the PosDealers account. It must be corrected with ![Edit](../images/Buttons/005.png "Edit").
-- ![Checkmark](../images/Buttons/003.png "Checkmark") E-mail invitation was sent by clicking on ![Mail](../images/Buttons/004.png "Mail").
+- ![Checkmark](../images/Buttons/003.png "Checkmark") Email invitation was sent by clicking on ![Email](../images/Buttons/004.png "Email").
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> By clicking on [Assign all cash register users] the e-mail invitation can be sent to **all** not yet invited PosOperators.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> By clicking on [Assign all cash register users] the email invitation can be sent to **all** not yet invited PosOperators.
 
 <img src="../images/Numbers/circle-3o.svg" width="24px"> By clicking on [+&nbsp;Add] a [manual invitation](#add-posoperator) can be down.
 
 <img src="../images/Numbers/circle-4o.svg" width="24px"> A click on [Protocol](#protocol) shows the history of invitations of this account.
 
-<img src="../images/Numbers/circle-5o.svg" width="24px"> By clicking on ![Mail](../images/Buttons/004.png "Mail") the e-mail invitation can be sent to a single PosOperator. The e-mail invitation can be sent as an attachment with an individually designed PDF document.
-![example of an invitation e-mail](images/PosOperator/PosOperator-Invitation-Email.png)
-Example e-mail invitation of a PosOperator.
+<img src="../images/Numbers/circle-5o.svg" width="24px"> By clicking on ![Email](../images/Buttons/004.png "Email") the email invitation can be sent to a single PosOperator. The email invitation can be sent as an attachment with an individually designed PDF document.
+![example of an invitation email](images/PosOperator/PosOperator-Invitation-Email.png)
+Example email invitation of a PosOperator.
 
 <img src="../images/Numbers/circle-6o.svg" width="24px"> The individual PosOperator can be edited again by clicking on ![Edit](../images/Buttons/005.png "Edit").
 
 <img src="../images/Numbers/circle-7o.svg" width="24px"> The individual PosOperator can be removed by clicking ![Remove](../images/Buttons/006.png "Remove")
 
-<img src="../images/Numbers/circle-8o.svg" width="24px"> The resend-button ![Resend](../images/Buttons/016.png "Resend") sends the invitation again to the PosOperator's e-mail address.
+<img src="../images/Numbers/circle-8o.svg" width="24px"> The resend-button ![Resend](../images/Buttons/016.png "Resend") sends the invitation again to the PosOperator's email address.
 
 <img src="../images/Numbers/circle-9o.svg" width="24px"> By entering text in the search field the list of PosOperators gets filtered and only the PosOperators matching the entered text are shown.
 
@@ -115,9 +115,9 @@ Protocol of PosOperator invitations
 <img src="../images/Numbers/circle-4o.svg" width="24px"> By clicking on the button this window gets closed and the _Invitation_ module is shown.
 <img src="../images/Numbers/circle-5o.svg" width="24px"> Entering a text filters the overview. By deleting all entered data in the search field the whole overview data is shown.
 <img src="../images/Numbers/circle-6o.svg" width="24px"> Status of the invitation:
-- ![Not sent](../images/Buttons/002.png "Not sent") E-mail invitation has not been sent yet.
+- ![Not sent](../images/Buttons/002.png "Not sent") Email invitation has not been sent yet.
 - ![Error](../images/Buttons/002.png "Error") The data of the PosOperator is not correct and can not be assigned to the PosDealers account.
-- ![Checkmark](../images/Buttons/003.png "Checkmark") E-mail invitation was sent.
+- ![Checkmark](../images/Buttons/003.png "Checkmark") Email invitation was sent.
 
 <img src="../images/Numbers/circle-7o.svg" width="24px"> Available commands for this PosOperator:
 - ![Details](../images/Buttons/007.png "Details") Detailed information about this contact is shown.

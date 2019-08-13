@@ -46,20 +46,20 @@ If no employee has the administrative rights, you loose the possibility to acces
 ![Add employees](images/AccountProfile/AddEmployee.png)
 Add employees
 
-![Number 1](../images/Numbers/1.png) **Text:** "Here you can assign a new employee to your company. To do this, enter his/her e-mail address."
+![Number 1](../images/Numbers/1.png) **Text:** "Here you can assign a new employee to your company. To do this, enter his/her email address."
 
-![Number 2](../images/Numbers/2.png) After entering the e-mail address, the e-mail address is searched for in the ft.portal.
+![Number 2](../images/Numbers/2.png) After entering the email address, the email address is searched for in the ft.portal.
 
 #### Assign employees
 
 ![Assign empoyee to the company](images/AccountProfile/AssociateEmployeeToCompany.png)
 Assign found fiskaltrust.contact as employee to the company
 
-![Number 1](../images/Numbers/1.png) If the contact with the e-mail address that you are looking for has already been created in the ft.portal and is therefore found during the search, it is displayed.
+![Number 1](../images/Numbers/1.png) If the contact with the email address that you are looking for has already been created in the ft.portal and is therefore found during the search, it is displayed.
 
 This allows this user to be assigned as an employee. The master data of the sales activity cannot be changed here.
 
-![E-Mail for assigned employee](images/AccountProfile/AssociateEmployeeToCompany-Email.png)
+![Email for assigned employee](images/AccountProfile/AssociateEmployeeToCompany-Email.png)
 Email information that you have been assigned to a company as a fiskaltrust contact.
 
 A contact can only be assigned to one company as an employee.
@@ -73,12 +73,12 @@ On this page the master data of the new contact can be entered to create it in t
 ![Add employees / Employee data](images/AccountProfile/AddNewEmployee.png)
 Add employees / Employee data
 
-![Number 1](../images/Numbers/1.png) **Text:** "Enter the employee's master data here. The employee is created in the fiskaltrust.portal and receives an invitation by e-mail to re-register with a personal password".
+![Number 1](../images/Numbers/1.png) **Text:** "Enter the employee's master data here. The employee is created in the fiskaltrust.portal and receives an invitation by email to re-register with a personal password".
 
-After creating a new user - who is not yet registered as a contact in the ft.portal - an e-mail invitation will be sent to him.
+After creating a new user - who is not yet registered as a contact in the ft.portal - an email invitation will be sent to him.
 
-![E-Mail invitation of employee](images/AccountProfile/AddNewEmployee-Email.png)
-E-mail invitation of a new employee who is to register in the portal and is already assigned to a company as a contact.
+![Email invitation of employee](images/AccountProfile/AddNewEmployee-Email.png)
+Email invitation of a new employee who is to register in the portal and is already assigned to a company as a contact.
 
 ###<a name="Employees-of-the-company-authorization-administration"></a> Employees of the company authorization administration
 

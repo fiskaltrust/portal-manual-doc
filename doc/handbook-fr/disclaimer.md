@@ -3,7 +3,7 @@
 ## Disclaimer
 This part of the portal.Manual is protected by copyright and my not be reproduced or distributed in whole or in part without the prior written consent of fiskaltrust SAS.
 
-### <a name="general-and-important-information"></a>General and important information
+### General and important information<a name="general-and-important-information"></a>
 
 The manual describes the market specific functions of the fiskaltrust.Portal for France. Also note that there exists [a manual for the general functions](../handbook-general/disclaimer.md), which describes all the non-market fixed commands.
 
@@ -11,10 +11,10 @@ The individual pages described are sometimes called up with a delay of up to 60 
 
 We are pleased about any information for the improvement of our services.
 
-### <a name="contact"></a>Contact
+### Contact<a name="contact"></a>
 Please find here all possibilities to get in touch with fiskaltrust SAS.
 
-#### <a name="support-information"></a>Support information of fiskaltrust SAS
+#### Support information of fiskaltrust SAS<a name="support-information"></a>
 Please note the following information when using our support. This enables us to process your inquiry as quickly and completely as possible.
 
 fiskaltrust exclusively provides technical support for cash register manufacturers (hereinafter referred to as PosCreators). Each PosDealer and/or PosCreator is responsible to offer an approbriate support for their own customers.
@@ -38,13 +38,13 @@ To purchase the fiskaltrust.Products:
   * Payments are possible with SlimPay, SEPA payment
   * Credit card or bank account can be used with SlimPay
 
-#### <a name="support-accessibility"></a>Accessibility of the support hotline
+#### Accessibility of the support hotline<a name="support-accessibility"></a>
 We offer a first-level support in French language. For deeper ongoing technical question an English or German support is established.
 
 For contacting the support please choose only __one way__ to communicate with. Multiple communication ways will complicate and retard answering.
 * Support hotline (EN/GE): +43 (1) 5 330 330
 * Support hotline (FR): +33 (1) 73 19 30 33
-* E-Mail: contact@fiskaltrust.fr
+* Email: contact@fiskaltrust.fr
 
 Office hours:
 * Monday - Thursday: 9.00 - 16.00

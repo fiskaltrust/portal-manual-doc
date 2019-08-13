@@ -67,7 +67,7 @@ Assign an existing PosDealer to a POS-System
 ![Assigned PosDealers](images/POSSystem/Dealers/Dealers.png)
 POS-System - assigned PosDeales
 
-![Number 1](../images/Numbers/1.png) **Text:** "Here you see a list of all dealers assigned to your POS-System POS software\_1A. You can assign further dealers. If a company is not yet registered in the fiskaltrust.portal, an invitation will be sent to it by e-mail."
+![Number 1](../images/Numbers/1.png) **Text:** "Here you see a list of all dealers assigned to your POS-System POS software\_1A. You can assign further dealers. If a company is not yet registered in the fiskaltrust.portal, an invitation will be sent to it by email."
 
 ### Request POS-System as PosDealer
 
@@ -90,8 +90,8 @@ Request was submitted
 
 If the PosCreator accepts the assignment, the connection between the PosDealer and the manufacturer's POS-System is established.
 
-![E-Mail request for assigning POS-System](images/POSSystem/SearchPossystem/SearchPosSystem-Email.png)
-E-Mail request with the request to assign a POS-System to a PosDealer
+![Email request for assigning POS-System](images/POSSystem/SearchPossystem/SearchPosSystem-Email.png)
+Email request with the request to assign a POS-System to a PosDealer
 
 By clicking on the "Link to accept the PosDealer" or the link below, the assignment is accepted. With the login the overview of the PosDealers and manufacturer is called up.
 

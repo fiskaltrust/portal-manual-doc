@@ -15,7 +15,7 @@ Dashboard - overview page with the functions shared with the user
 
 <img src="../images/Numbers/circle-4o.svg" width="24px"> By clicking on the symbol ![Menu](../images/Buttons/028.png "Menu"),<br>the displayed menu can be reduced in size on the left margin of the page.
 
-<img src="../images/Numbers/circle-5o.svg" width="24px"> By clicking on the text _Log out e-mail address_<br>the user is logged out of the ft.portal and the landing page is called up. (see chapter [Landing Page](portal.md#landing-page))
+<img src="../images/Numbers/circle-5o.svg" width="24px"> By clicking on the text _Log out email address_<br>the user is logged out of the ft.portal and the landing page is called up. (see chapter [Landing Page](portal.md#landing-page))
 
 <img src="../images/Numbers/circle-6o.svg" width="24px"> Search field<br>The knowledge based articles are searched for the expression entered here.
 

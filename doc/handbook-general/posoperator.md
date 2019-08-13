@@ -23,17 +23,17 @@ Search for his consultant or PosDealer
 
 ![Number 1](../images/Numbers/1.png) **Text:** "Search of his PosDealer or (tax) consultant in the fiskaltrust.Portal
 
-![Number 2](../images/Numbers/2.png) In this search field you can enter either enter a part of the name or the e-mail address.
+![Number 2](../images/Numbers/2.png) In this search field you can enter either enter a part of the name or the email address.
 
 By clicking on the button \[Search\] the entire fiskaltrust.Portal is searched for the search term.
 
 ![List of PosDealers](images/PosOperator/PosDealerConsultantSearchResult.png)
 List of PosDealers found
 
-You can send these companies an e-mail inquiry by clicking on the button ![Number 1](../images/Numbers/1.png) "Request assignment - Dealer".
+You can send these companies an email inquiry by clicking on the button ![Number 1](../images/Numbers/1.png) "Request assignment - Dealer".
 
 ![The assignment as PosDealer or consultant was requested](images/PosOperator/PosOperator-List-long.png)
-The assignment as PosDealer or consultant was requested by e-mail.
+The assignment as PosDealer or consultant was requested by email.
 
 This request is immediately visible in the list of PosDealers or consultants and can be accepted by the respective company.
 

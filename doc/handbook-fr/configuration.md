@@ -1,6 +1,6 @@
 ## Configuration
 
-Before starting with the configuration the master data of the enterprise and the outlet has to be completed and checked. For this see chapter [_Master data_](company.md#ny-master-data) and [_Outlets_](company.md#company-outlets)
+Before starting with the configuration the master data of the enterprise and the outlet has to be completed and checked. For this see chapter [_Master data_](company.md#company-master-data) and [_Outlets_](company.md#outlets)
 
 ### CashBox
 
@@ -281,7 +281,7 @@ In the dropdown list all [outlets](company.md#outlets) of the company are shown.
 
 #### Add signature creation unit
 
-To connect a SCU to a CashBox or more special to a queue see [Outlets](#outlets) and[SCUs used by a queue](#scus-used-by-a-queue)
+To connect a SCU to a CashBox or more special to a queue see [Outlets](company.md#outlets) and[SCUs used by a queue](#scus-used-by-a-queue)
 
 #### Delete a signature creation unit
 
