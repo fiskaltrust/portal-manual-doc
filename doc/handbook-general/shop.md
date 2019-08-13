@@ -27,7 +27,7 @@ Products
 
 ![Number 2](../images/Numbers/2.png) By clicking on ![Shoppingcart](../images/Buttons/031.png "Shoppingcart") you can put the desired product into the shopping cart.
 
-###<a name="shopping-cart"></a> Shopping cart
+### Shopping cart<a name="shopping-cart"></a>
 
 In the shopping cart you will see a list of your selected products before payment. Here the contents of the shopping cart can be edited again.
 
@@ -86,8 +86,8 @@ Offers
 
 For hardware orders, the delivery notes are displayed under the menu item "Shipping notes". Shipment tracking is possible via [https://gls-group.eu/AT/de/paket-verfolgen](https://gls-group.eu/AT/de/paket-verfolgen).
 
-###<a name="buy-package-in-shop-or-use-a-template"></a> Buy package in shop or use a template
+### Buy package in shop or use a template<a name="buy-package-in-shop-or-use-a-template"></a>
 
-In the menu item "Configuration" a "CashBox" can be created manually.
+In the menu item "Configuration" a [CashBox](configuration.md#cashbox) can be created manually.
 
 Another possibility is the use of a free or chargeable "template". This is a preconfigured "sample template" with various properties to be defined, which is made available in the fiskaltrust.Shop. With such a template you can easily create many similarly configured CashBoxes. These CashBoxes can then furthermore be processed as described in chapter [CashBox](configuration.md#cashbox).

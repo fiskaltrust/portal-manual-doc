@@ -7,8 +7,18 @@ Overview of configured and available configuration containers
 
 The creation and management of the components is discussed in the following chapters:
 
+**in general**
 - [Signature creation device](#SCU)
 - [Helper](#helper)
+- [Queue](#queue)
+- [CashBox](#cashbox)
+
+**for Austria**
+- [Signature creation device](../handbook-at/configuration.md#SCU)
+- [CashBox](../handbook-at/configuration.md#cashbox)
+
+**in France**
+- [Signature creation device](../handbook-fr/configuration.md#SCU)
 - [Queue](#queue)
 - [CashBox](#cashbox)
 
