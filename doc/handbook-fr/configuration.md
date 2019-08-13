@@ -286,3 +286,9 @@ To connect a SCU to a CashBox or more special to a queue see [Outlets](company.m
 #### Delete a signature creation unit
 
 The button for deleting a signature creation unit is for legal reasons inactive. No created SCU can be deleted from the fiskaltrust.Service. In the future there will be a filter to hide unused or inactive SCUs.
+
+### Templates
+
+TODO!
+
+### Up
