@@ -1,6 +1,6 @@
 ## Fiskalization
 
-###<a name="personalization-tool"></a> ft.Personalization-Tool
+### ft.Personalization-Tool<a name="personalization-tool"></a>
 
 #### ft.Personalization-Tool Download & installation
 

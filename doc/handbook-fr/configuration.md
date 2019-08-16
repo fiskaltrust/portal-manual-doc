@@ -163,7 +163,7 @@ Queue configuration
 
 <img src="../images/Numbers/circle-9o.svg" width="24px"> [Save] or [Save and close] saves the configuration of the queue (and closes the configuration module).
 
-#### Queue overview
+#### Queue overview<a name="queue-overview"></a>
 
 By opening the _Queue_-Module in the _Configuration_-menu an overview from all created queues are shown.
 
@@ -247,7 +247,63 @@ This list shows all _special receipt types_ of a queue. For regular receipts see
 
 #### Export a queue<a name="export-a-queue"></a>
 
-TODO!
+[![https://portal.fiskaltrust.fr/Queue/Exports/](images/Queue/Exports.png "https://portal.fiskaltrust.fr/Queue/Exports/")](https://portal.fiskaltrust.fr/Queue/Exports/)
+Queue - Overview Exports
+
+An overview of all running and finished exports of the account can be seen in the menu _Tools_<img src="../images/Numbers/circle-1o.svg" width="24px"> and submenu _Export_<img src="../images/Numbers/circle-2o.svg" width="24px">.
+
+<img src="../images/Numbers/circle-3o.svg" width="24px"> A line of the table represents on export. By clicking on the chevron right more details of the export can be shown. If the export finished successfully a list of downloadable archives is shown.
+
+<img src="../images/Numbers/circle-4o.svg" width="24px"> By clicking on the filename this file is transfered from the fiskaltrust.Storage to the local system. 
+
+<img src="../images/Numbers/circle-5o.svg" width="24px"> The column _Formats_ shows all exported journals and formats as own icon. The information which format and/or journal is included in the export a tooltip is shown by each icon.
+
+<img src="../images/Numbers/circle-6o.svg" width="24px"> In the third column the location of the files ![Location](../images/Buttons/048.png "Location") is shown or if the export is running ![Exporting](../images/Buttons/008.png "Exporting").
+
+<img src="../images/Numbers/circle-7o.svg" width="24px"> The column _State_ shows information to the export. Until the export is not finished no detailed information is given. After the export finished, the chains and paths are shown. In the second line the user gets informed if errors occurred or exists in the chain.
+
+<img src="../images/Numbers/circle-8o.svg" width="24px"> In the last column the number of exported receipts are shown and which queue id is concerned.
+
+<img src="../images/Numbers/circle-9o.svg" width="24px"> To created a new export a click on [+&nbsp;Create&nbsp;new&nbsp;export] can be done. This function can be called direct with the button ![Export a queue](../images/Buttons/019.png "Export a queue") from the queue configuration too, see chapter [_Queue overview_](#queue-overview).
+
+#### Create a new export for a queue
+
+[![https://portal.fiskaltrust.fr/Queue/Exports/](images/Queue/ExportConfiguration/ExportConfiguration.png "https://portal.fiskaltrust.fr/Queue/Exports/")](https://portal.fiskaltrust.fr/Queue/Exports/)
+Create new export for a queue
+
+<img src="../images/Numbers/circle-1o.svg" width="24px"> The first and the last receipt number for the export can be defined. By leaving the field, the information about date and time will be shown at the end points of the slider<img src="../images/Numbers/circle-4o.svg" width="24px">.
+
+<img src="../images/Numbers/circle-2o.svg" width="24px"> The date and time for the first receipt to export can be defined. By leaving the field, the information about date and time will be shown at the end point of the slider<img src="../images/Numbers/circle-4o.svg" width="24px">.
+
+<img src="../images/Numbers/circle-3o.svg" width="24px"> The date and time for the last receipt to export can be defined. By leaving the field, the information about date and time will be shown at the start point of the slider<img src="../images/Numbers/circle-4o.svg" width="24px">.
+
+<img src="../images/Numbers/circle-4o.svg" width="24px"> The range of exported receipts can be adjusted by sliding the end points of the slider.
+
+<img src="../images/Numbers/circle-5o.svg" width="24px"> The drop area holds all the export formats, journals and storages for an export. It can be filled with dragging the elements on the right side to this area.
+
+<img src="../images/Numbers/circle-6o.svg" width="24px"> Formats and journals available for an export.<br>The element _Full export (xml)_ creates an archive in xml-format with all receipt types in the selected range. The export result at least two files. The file _XML.fileid.full.xml_ contains all the archived receipts and the file _XML.fileid.path#.xml_ contains the chain of the full journal. If there is more then one path in the queue, for each path a single xml-file is created.<br>All other elements creates an archive of the mentioned receipt type. This archive is downloadable as zip-file and contains a single csv-file in plain text with the range of the exported receipts.<br>
+With a click on ![Gear](../images/Buttons/030.png "Gear") on an element, the used filename can be changed.
+
+[![https://portal.fiskaltrust.fr/Queue/Exports/](images/Queue/ExportConfiguration/ExportConfiguration-ConfigFile.png "https://portal.fiskaltrust.fr/Queue/Exports/")](https://portal.fiskaltrust.fr/Queue/Exports/)
+Change filename of an archive to export
+
+Each element from the format section can be used only once per export.
+
+<img src="../images/Numbers/circle-7o.svg" width="24px"> This elements define the storage location of an export. This elements can be used more than one time for an export. This offers the possibility to save an export at more than one place at the same time.<br>
+The element _Database to Azure-Storage_ exports the database to the used Azure-Storage.<br>
+With _Azure-Storage_ another personal storage at Azure can be used to save the export. To use this element the access credentials have to be defined with a clock on ![Gear](../images/Buttons/030.png "Gear") of this element.
+
+[![https://portal.fiskaltrust.fr/Queue/Exports/](images/Queue/ExportConfiguration/ExportConfiguration-ConfigAzureStorage.png "https://portal.fiskaltrust.fr/Queue/Exports/")](https://portal.fiskaltrust.fr/Queue/Exports/)
+Define credentials for the Azure Storage to save the export
+
+The location element _FTP-Server_ offers a ftp-transfer of the exported archives. This element can be used when the ftp-credentials are entered after a click on ![Gear](../images/Buttons/030.png "Gear") of this element.
+
+[![https://portal.fiskaltrust.fr/Queue/Exports/](images/Queue/ExportConfiguration/ExportConfiguration-ConfigFTP.png "https://portal.fiskaltrust.fr/Queue/Exports/")](https://portal.fiskaltrust.fr/Queue/Exports/)
+Define credentials for a FTP-Server to save the export
+
+All entered credentials are not saved from the fiskaltrust.Portal. They are only used once for saving the export in the defined location.
+
+<img src="../images/Numbers/circle-8o.svg" width="24px"> The click on [Start export and close] queues the export and closes the window. The status of the export can be verified in the list of exports of the queue, see [_Export a queue_](#export-a-queue).
 
 ### Signature creation unit (SCU)<a name="SCU"></a>
 
@@ -287,8 +343,32 @@ To connect a SCU to a CashBox or more special to a queue see [Outlets](company.m
 
 The button for deleting a signature creation unit is for legal reasons inactive. No created SCU can be deleted from the fiskaltrust.Service. In the future there will be a filter to hide unused or inactive SCUs.
 
-### Templates
+### Template
 
-TODO!
+[![https://portal.fiskaltrust.fr/Template/](images/Template/Template.png "https://portal.fiskaltrust.fr/Template/")](https://portal.fiskaltrust.fr/Template/)
+List of available templates
 
-### Up
+Instead of creating and configuring a CashBox manual a template (payable or free of charge) can be used. This preconfigured template can be purchased in the fiskaltrust.Shop. With this kind of template many similare CashBoxes can be created easily and further used like described in the chapter [_CashBox_](#cashbox).
+
+If you are in need of templates for creating and configurating CashBoxes do not hesitate to contact the support at contact@fiskaltrust.fr. fiskaltrust France is happy to help you to reach this goals.
+
+The template management can be found in _Configuration_<img src="../images/Numbers/circle-1o.svg" width="24px"> at the command _Template_<img src="../images/Numbers/circle-2o.svg" width="24px">
+
+<img src="../images/Numbers/circle-3o.svg" width="24px"> In the first column the template name is shown. More information regarding the template will be shown after a click on the chevron right.
+
+<img src="../images/Numbers/circle-4o.svg" width="24px"> Shows the status of the template. It can be completely deactivated, visible for everyone or only for connected PosDealers and/or PosOperators.
+
+<img src="../images/Numbers/circle-5o.svg" width="24px"> A click on [+&nbsp;Create new] creates a new template from scratch.
+
+<img src="../images/Numbers/circle-6o.svg" width="24px"> A click on ![Clone template](../images/Buttons/033.png "Clone template") clones the template and opens the newly created template for changes.
+
+<img src="../images/Numbers/circle-7o.svg" width="24px"> The button ![Edit](../images/Buttons/005.png "Edit") opens the template for changes.
+
+#### Create template
+
+[![https://portal.fiskaltrust.fr/Template/](images/Template/Create.png "https://portal.fiskaltrust.fr/Template/")](https://portal.fiskaltrust.fr/Template/)
+Create a template
+
+The first two fields give the template a clear name and description. In the field _Content_ the commands for this template are saved. This will be normally prefilled from the fiskaltrust.Support.<br>
+In _ImageUrl_ an absolute URL to a kind of product image can be stored. For more description of this template an abosulte URL can be entered in _LinkUrl_.<br>
+The dropdown list in _Mode_ defines the acces rights for a template by chosing one of the elements.
