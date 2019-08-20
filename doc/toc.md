@@ -35,3 +35,4 @@
 ## [Tools](handbook-fr/tools.md)
 ## [PosSystems](handbook-fr/possystems.md)
 ## [Configuration](handbook-fr/configuration.md)
+## [Export fiscal archive](handbook-fr/fiscal-archive.md)
