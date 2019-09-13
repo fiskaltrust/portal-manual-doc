@@ -4,6 +4,7 @@ $excludedUris = @(
     "https://helipad.fiskaltrust.cloud",
     "https://packages.fiskaltrust.cloud",
     "https://www.fiskaltrust.",
+    "https://portal.fiskaltrust.",
     "localhost"
 );
 
