@@ -24,11 +24,11 @@ The creation and management of the components is discussed in the following chap
 
 ### CashBox
 
-The CashBox is a kind of configuration container and is restricted by national laws. Refer to the chapter "Configuration" in the Appendix for each country.
+The CashBox is a configuration container and is restricted by national laws. Refer to the chapter "Configuration" in the Appendix for each country.
 
 ### Queue
 
-The functions are described in the currently valid interface description: [https://github.com/fiskaltrust/interface-doc](https://github.com/fiskaltrust/interface-doc). Be aware that a queue like the SCU itself are based on national laws. Refer to the chapters in the appendices for the national implementations.
+The functions are described in the currently valid interface description: [https://github.com/fiskaltrust/interface-doc](https://github.com/fiskaltrust/interface-doc). Be aware that a queue, like the SCU itself, are based on national laws. Refer to the chapters in the appendices for the national implementations.
 
 ### Helper
 
@@ -69,7 +69,7 @@ Overview Helper
 
 ![Number 4](../images/Numbers/4.png) By clicking on ![Gear](../images/Buttons/009.png "Gear"), the basic settings and package configuration for individual use of the Helper in the cash register can be called up again.
 
-![Number 5](../images/Numbers/5.png) By clicking on ![Edit](../images/Buttons/010.png "Edit") things like the description, package name and version of the helper may be edited.
+![Number 5](../images/Numbers/5.png) By clicking on ![Edit](../images/Buttons/010.png "Edit"), things like the description, package name and version of the helper may be edited.
 
 ![Number 6](../images/Numbers/6.png) Click on ![Trash](../images/Buttons/011.png "Trash") to delete the helper. However, the button to delete the helper is currently inactive for legal reasons, so no helper can currently be deleted.
 
@@ -104,4 +104,4 @@ Refer to the chapters in the appendices for the national implementations of a si
 
 ### Update
 
-With this module the configuration of a group of CashBox (grouped by package version) can be updted to a new versio of the fiskaltrust.Service.
+With this module the configuration of a group of CashBox (grouped by package version) can be updated to a new version of the fiskaltrust.Service.

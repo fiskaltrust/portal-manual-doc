@@ -2,7 +2,7 @@
 
 ### Invitation of PosOperators by PosDealers
 
-The invitation of a PosOperator can only be made by a PosDealer, but not by a PosCreator or consultant.
+The invitation of a PosOperator can only be made by a PosDealer and not by a PosCreator or consultant.
 
 However, the role of a PosDealer can also be activated by these companies and thus taken over in parallel to another role. (see chapter "[Roles](company.md#roles)")
 
@@ -31,11 +31,11 @@ Invite PosOperators to a PosDealer account
 | ContactLastName | Last name of primary contact | yes |
 | ContactTitle | (Academic) Title of primary contact (before name) | no |
 | ContactSuffix | Name suffix of the primary contact (after the name) | no |
-| ContactEMail | Eail address of the primary contact<br>**IMPORTANT!**<br>This email address will be the user's login to this newly created company. | yes |
+| ContactEmail | Email address of the primary contact<br>**IMPORTANT!**<br>This email address will be the user's login to the newly created company. | yes |
 | ContactMobilePhone | Mobile phone number of the primary contact | no |
-| AccountName | Company name, this should be written like in the commercial register | yes |
+| AccountName | Company name, this should be written exactly as it is in the commercial register | yes |
 | AccountWeb | URL of the company's website | no |
-| AccountEMail |Generel email address of the company<br>**IMPORTANT!**<br>All information about financial messages and all invoices will be sent to this email address! | no |
+| AccountEmail |General email address of the company<br>**IMPORTANT!**<br>All information about financial messages and all invoices will be sent to this email address! | no |
 | AccountPhone | Company phone number | no |
 | AccountAddressLine1 | Address, first line of the company | no |
 | AccountAddressLine2 | Address, second line of the company | no |
@@ -49,11 +49,11 @@ Invite PosOperators to a PosDealer account
 
 Not all of the fields _AccountIdVat_, _AccountIdTax_ and _AccountIdFibu_ are mandatory. Only one of the three fields have to be completed. It is recommended to use the field _AccountIdFibu_.
 
-A pdf-file can be first choosen<img src="../images/Numbers/circle-4o.svg" width="24px"> and then imported<img src="../images/Numbers/circle-5o.svg" width="24px"> a PDF document, which is sent to the PosOperators as an attachment on the email invitations. This PDF document can be individually adapted to the rollout concept.
+A pdf-file can be first choosen<img src="../images/Numbers/circle-4o.svg" width="24px"> and then imported<img src="../images/Numbers/circle-5o.svg" width="24px"> as a PDF document, which is sent to the PosOperators as an attachment in the email invitations. This PDF document can be individually adapted to the rollout concept.
 
 Before sending the invitation to all PosOperators listed in the csv file a text message<img src="../images/Numbers/circle-6o.svg" width="24px"> can be added to this invitation email.
 
-By accepting the invitation the PosOperator gets assigned to the PosDealer's account and this get some rights on the PosOperators account. This surrogating rights can be defined in the claims list<img src="../images/Numbers/circle-7o.svg" width="24px">.
+By accepting the invitation the PosOperator gets assigned to the PosDealer's account and thus get some access rights on the PosOperators account. This surrogating of rights can be defined in the claims list<img src="../images/Numbers/circle-7o.svg" width="24px">.
 
 ##### Error message importing a csv-file for invitations
 ![Import error on PosOperator invitations](images/PosOperator/Import.png "https://portal.fiskaltrust.at/PosOperator/CreatePosOperator/")
@@ -64,17 +64,17 @@ If not all of the mandatory fields of the csv file are completed an error messag
 [![https://portal.fiskaltrust.fr/PosOperator/CreatePosOperator/](images/PosOperator//CreatePosOperator.png "https://portal.fiskaltrust.fr/PosOperator/CreatePosOperator/")](https://portal.fiskaltrust.fr/PosOperator/CreatePosOperator/)
 Add PosOperator manually
 
-PosOperators can be added manually using this function, by clicking the [+&nbsp;Add]-button in the PosOperator's list head section. This is particularly interesting for the on-site support given by the PosDealer if a PosOperator wants to use the ft.Services immediately - in connection with the commissioning of a POS-System.
+PosOperators can be added manually using this function, by clicking the [+&nbsp;Add]-button in the PosOperator's list head section. This is particularly interesting for the on-site support given by the PosDealer, if a PosOperator wants to use the ft.Services immediately - in connection with the commissioning of a POS-System.
 
 The following fields are mandatory fields and must therefore be filled in:
 
 - Contact First name
 - Contact Surname
-- Contact Email
+- Contact Email address
 - Company's name
 - Zip code
 - City
-- location
+- Location
 
 This is to guarantee that the PosOperator can be found correctly in the ft.Portal via his email address and can be assigned to the PosDealer.
 
@@ -87,9 +87,9 @@ Assigning, editing and deleting a PosOperator
 - ![Error](../images/Buttons/002.png "Error") The data of the PosOperator is not correct and can not be assigned to the PosDealers account. It must be corrected with ![Edit](../images/Buttons/005.png "Edit").
 - ![Checkmark](../images/Buttons/003.png "Checkmark") Email invitation was sent by clicking on ![Email](../images/Buttons/004.png "Email").
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> By clicking on [Assign all cash register users] the email invitation can be sent to **all** not yet invited PosOperators.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> By clicking on [Assign all cash register users] the email invitation can be sent to **all**  PosOperators who have not yet been invited.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px"> By clicking on [+&nbsp;Add] a [manual invitation](#add-posoperator) can be down.
+<img src="../images/Numbers/circle-3o.svg" width="24px"> By clicking on [+&nbsp;Add] a [manual invitation](#add-posoperator) can be created.
 
 <img src="../images/Numbers/circle-4o.svg" width="24px"> A click on [Protocol](#protocol) shows the history of invitations of this account.
 
@@ -109,10 +109,10 @@ Example email invitation of a PosOperator.
 [![https://portal.fiskaltrust.fr/PosOperator/](images/PosOperator/PosOperatorsHistory.png "https://portal.fiskaltrust.fr/PosOperator/")](https://portal.fiskaltrust.fr/PosOperator/)
 Protocol of PosOperator invitations
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> The start date  of the log overview can be restricted using this field.
-<img src="../images/Numbers/circle-2o.svg" width="24px"> The last date  of the log overview can be restricted using this field.
-<img src="../images/Numbers/circle-3o.svg" width="24px"> By clicking on [Invoke&nbsp;protocol] the overview is filtered by the entered dsates. If the two fields are empty the whole protocol without any filter is shown
-<img src="../images/Numbers/circle-4o.svg" width="24px"> By clicking on the button this window gets closed and the _Invitation_ module is shown.
+<img src="../images/Numbers/circle-1o.svg" width="24px"> The start date of the log overview can be restricted using this field.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> The last date of the log overview can be restricted using this field.
+<img src="../images/Numbers/circle-3o.svg" width="24px"> By clicking on [Invoke&nbsp;protocol] the overview is filtered by the entered dates. If the two fields are empty the whole protocol without any filter is shown
+<img src="../images/Numbers/circle-4o.svg" width="24px">. By clicking on this button the window is closed and the _Invitation_ module is shown.
 <img src="../images/Numbers/circle-5o.svg" width="24px"> Entering a text filters the overview. By deleting all entered data in the search field the whole overview data is shown.
 <img src="../images/Numbers/circle-6o.svg" width="24px"> Status of the invitation:
 - ![Not sent](../images/Buttons/002.png "Not sent") Email invitation has not been sent yet.
@@ -124,5 +124,5 @@ Protocol of PosOperator invitations
 ![Details of an invitation](images/PosOperator/DetailsInvitation.png)
 - ![Resend](../images/Buttons/040.png "Resend") Sends the invitation to this contact again.
 - ![Delete](../images/Buttons/006.png "Delete") Deletes this row from the protocol.
-- ![Copy](../images/Buttons/041.png "Copy") Shows a window with the direct link for the invitation. This can be copyied in the clipboard and send by direct message.
+- ![Copy](../images/Buttons/041.png "Copy") Shows a window with the direct link for the invitation. This can be copied in the clipboard and send by direct message.
 ![Direct link of an invitation](images/PosOperator/PosOperator-Invitation-Link.png)
