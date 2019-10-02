@@ -16,7 +16,7 @@ Add a POS-System
 
 ### Overview
 
-![POS-Systems overview](images/POSSystem/POSSystem-overview.png)
+![POS-Systems overview](/images/POSSystem/POSSystem-Overview.png)
 POS-Systems - overview
 
 ![Number 1](../images/Numbers/1.png) **Text:** "Here you can manage your own POS-Systems and assign them to industries, properties and dealers."
