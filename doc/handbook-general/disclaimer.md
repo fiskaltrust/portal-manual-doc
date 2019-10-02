@@ -20,7 +20,9 @@ Version history
 | SSCU | Sichere Signaturerstellungseinheit | Secure Signature Creation Unit |
 
 ## Terms
+
 Here are all technical terms used in this manual and their meaning described.
+
 |Term       | English                | Meaning  |
 |-----------|------------------------|----------|
 |PosCreator | POS-System creator     | Developer, manufacturer, creator of a POS-System or cash register |
