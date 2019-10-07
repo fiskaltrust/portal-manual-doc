@@ -2,7 +2,7 @@
 
 Before starting with the configuration the master data of the enterprise and the outlet has to be completed and checked. For this see chapter [_Master data_](company.md#company-master-data) and [_Outlets_](company.md#outlets)
 
-### CashBox<a name="CashBox"></a>
+### CashBox<a name="Cashbox"></a>
 
 #### Creation of a CashBox
 
