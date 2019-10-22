@@ -121,7 +121,7 @@ To find a specific queue, a text can be entered in the search field<img src="../
 
 A click on the button _+&nbsp;Create new_<img src="../images/Numbers/circle-4o.svg" width="24px"> adds a new queue to the accoung
 
-#### Add a queue
+#### Add a queue<a name="add-a-queue"></a>
 
 [![https://portal.fiskaltrust.fr/Queue/](images/Queue/Create.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
 Queue - Adding
@@ -370,5 +370,96 @@ The template management can be found in _Configuration_<img src="../images/Numbe
 Create a template
 
 The first two fields give the template a clear name and description. In the field _Content_ the commands for this template are saved. This will be normally prefilled from the fiskaltrust.Support.<br>
-In _ImageUrl_ an absolute URL to a kind of product image can be stored. For more description of this template an abosulte URL can be entered in _LinkUrl_.<br>
-The dropdown list in _Mode_ defines the acces rights for a template by chosing one of the elements.
+In _ImageUrl_ an absolute URL to a kind of product image can be stored. For more description of this template an absolute URL can be entered in _LinkUrl_.<br>
+The dropdown list in _Mode_ defines the access rights for a template by choosing one of the elements.
+
+A template always start with 
+
+```
+{ "ftCashBoxId": "|[cashbox_id]|",​
+     "ftQueues": [​{​"Id": "|[queue0_id]|",
+```
+
+Then add queue type: `"Package": "fiskaltrust.service.azure",`
+The type of packages can be found in the dropdown list of [creating a new queue](#add-a-queue).
+
+Then introduce queue parameters, anew block has to be started: `"Configuration": {`
+
+For example a connection string can be included `"connectionstring": "DefaultEndpointsProtocol=http://endpoint.cloud;AccountName=ftRealAccountName;AccountKey=TheACcountKey;",`
+
+or other queue parameter, like `"asscdtretry": 2,`
+
+Then beginning of the queue core starts with
+```
+"init_ftQueue": [{ "ftQueueId": "|[queue0_id]|", 
+                   "ftCashBoxId": "|[cashbox_id]|", 
+                   "CountryCode": "FR", 
+                   "Timeout": 15000 }],
+```
+
+and the specific of the country 
+```
+"init_ftQueueFR": [ { "ftQueueFRId": "|[queue0_id]|",
+```
+
+but also the queue name 
+```
+"CashBoxIdentification": "ChaîneCloud|[count]|" } ],
+```
+
+then the SCU that this queues connect to:
+```
+"ftSignaturCreationUnitFRId": "|[scu0_id]|",
+```
+
+and the SIRET used for this queue:
+```
+"Siret": "|[siret]|",
+```
+
+To initialize a SCU for a queue the following block can be used:
+```
+"init_ftSignaturCreationUnitFR": [{
+        "ftSignaturCreationUnitFRId": "|[scu0_id]|",
+        "Siret": "|[siret]|"
+    }
+```
+
+As last parameter the endpoint for the ChaîneCloude product has to be defined:
+```
+"Url": ["https://signaturcloud-azure-sandbox.fiskaltrust.fr/"]
+```
+**Example of a standard template:**
+```
+{
+    "ftCashBoxId": "|[cashbox_id]|",
+    "ftQueues": [{
+            "Id": "|[queue0_id]|",
+            "Package": "fiskaltrust.service.azure",
+            "Configuration": {
+                "connectionstring": "|[signaturcloud-storage-connectionstring]|",
+                "init_ftQueue": [{
+                        "ftQueueId": "|[queue0_id]|",
+                        "ftCashBoxId": "|[cashbox_id]|",
+                        "CountryCode": "FR",
+                        "Timeout": 15000
+                    }
+                ],
+                "init_ftQueueFR": [{
+                        "ftQueueFRId": "|[queue0_id]|",
+                        "ftSignaturCreationUnitFRId": "|[scu0_id]|",
+                        "Siret": "|[siret]|",
+                        "CashBoxIdentification": "ChaîneCloud|[count]|"
+                    }
+                ],
+                "init_ftSignaturCreationUnitAT": [],
+                "init_ftSignaturCreationUnitFR": [{
+                        "ftSignaturCreationUnitFRId": "|[scu0_id]|",
+                        "Siret": "|[siret]|"
+                    }
+                ]
+            },
+            "Url": ["https://signaturcloud-azure-sandbox.fiskaltrust.fr/"]
+        }
+    ]
+}```
