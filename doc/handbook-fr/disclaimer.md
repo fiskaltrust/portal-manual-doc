@@ -9,7 +9,7 @@ The manual describes the market specific functions of the fiskaltrust.Portal for
 
 The individual pages described are sometimes called up with a delay of up to 60 seconds. This is due to the fact that some very complex processes, such as a database search or querying external services, are carried out in the background.
 
-We are pleased receive any information for the improvement of our services.
+We are pleased to receive any information for the improvement of our services.
 
 ### Contact<a name="contact"></a>
 Please find here all possibilities to contact fiskaltrust SAS.
