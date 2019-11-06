@@ -1,7 +1,7 @@
 ## Access for fiscal control
 
 ### 1. Login
-In order to access the fiscal information, the controller willm need the PosOperator to login to the portal at https://portal.fiskaltrust.fr with his proper credentials.
+In order to access the fiscal information, the controller will need the PosOperator to login to the portal at https://portal.fiskaltrust.fr with his proper credentials.
 
 [![https://portal.fiskaltrust.fr/](images/fiscal-archive/01-login.png "https://portal.fiskaltrust.fr/" )](https://portal.fiskaltrust.fr/)
 Export fiscal archive - Login to the fiskaltrust.Portal
