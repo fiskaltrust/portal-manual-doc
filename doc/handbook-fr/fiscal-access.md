@@ -29,7 +29,7 @@ Export fiscal archive - Identify the queue to be exported in the fiskaltrust.Por
 
 <img src="../images/Numbers/circle-5o.svg" width="24px"> To start the configuration of the queue's export click on the export button ![Export queue](../images/Buttons/019.png "Export queue").
 
-### 3. Define the limits of the recepits to epxort
+### 3. Define the limits of the receipts to export
 
 The first step to create a fiscal archive is the definition of receipts to be included in the export. For defining these limits, there are several possibilities offered by the fiskaltrust.Portal. Each of the methods result in the same archive. They are present to offer the best ways to limit the export. 
 
