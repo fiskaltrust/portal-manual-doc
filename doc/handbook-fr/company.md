@@ -116,7 +116,7 @@ By entering the valid UID and the company name does not match, the check does no
 Data check for a UID with a wrong company name
 
 #### Sales area<a name="company-sales-area"></a>
-This section is only available for fiskaltrust.Portal users with the role _PosDealer_. By checking the boxes before the named areas the company is shown in the public list of fiskaltrust.Partners on http://www.fiskaltrust.fr/partners.
+This section is only available for fiskaltrust.Portal users with the role _PosDealer_. By checking the boxes before the named areas the company is shown in the public list of fiskaltrust.Partners on https://fiskaltrust.fr/partenaires/.
 
 ![Select sales areas for partners](images/AccountProfile/Territory.png)
 Select sales areas for partners
