@@ -9,21 +9,21 @@ The manual describes the market specific functions of the fiskaltrust.Portal for
 
 The individual pages described are sometimes called up with a delay of up to 60 seconds. This is due to the fact that some very complex processes, such as a database search or querying external services, are carried out in the background.
 
-We are pleased about any information for the improvement of our services.
+We are pleased to receive any information for the improvement of our services.
 
 ### Contact<a name="contact"></a>
-Please find here all possibilities to get in touch with fiskaltrust SAS.
+Please find here all possibilities to contact fiskaltrust SAS.
 
 #### Support information of fiskaltrust SAS<a name="support-information"></a>
 Please note the following information when using our support. This enables us to process your inquiry as quickly and completely as possible.
 
-fiskaltrust exclusively provides technical support for cash register manufacturers (hereinafter referred to as PosCreators). Each PosDealer and/or PosCreator is responsible to offer an approbriate support for their own customers.
+fiskaltrust exclusively provides technical support for cash register manufacturers (hereinafter referred to as PosCreators). Each PosDealer and/or PosCreator is responsible to offer appropriate support for their own customers.
 
 The PosCreator and fiskaltrust assure each other of mutual support at least to the same extent and quality as this support is also assured to the respective customers within the framework of the user contracts.
 
 Before contacting our support personally please read the information available on our website in advance.
 * Frequently asked questions: (https://www.fiskaltrust.fr/faq)
-* The existing knowledge base ca be searched for articles and further informations directly in the [fiskaltrust.Portal](https://portal.fiskaltrust.fr). Please enter the searched information at the top of the page in the _Search..._ area and start the search with pressing <kbd>ENTER</kbd>.
+* The existing knowledge base can be searched for articles and further information directly in the [fiskaltrust.Portal](https://portal.fiskaltrust.fr). Please enter the searched information at the top of the page in the _Search..._ area and start the search with pressing <kbd>ENTER</kbd>.
 
 The support offered by fiskaltrust includes:
 * Acceptance of inquiries (electronically or by telephone)
@@ -36,12 +36,12 @@ To purchase the fiskaltrust.Products:
 * First point of sales is your vendor
 * The webshop integrated in the fiskaltrust.Portal
   * Payments are possible with SlimPay, SEPA payment
-  * Credit card or bank account can be used with SlimPay
+  * Credit card or bank transfers can be used with SlimPay
 
 #### Accessibility of the support hotline<a name="support-accessibility"></a>
-We offer a first-level support in French language. For deeper ongoing technical question an English or German support is established.
+We offer a first-level support in French language. For deeper ongoing technical questions English or German support is established.
 
-For contacting the support please choose only __one way__ to communicate with. Multiple communication ways will complicate and retard answering.
+For contacting the support please choose only __one way__ to communicate with. Multiple communication ways will complicate and delay answers.
 * Support hotline (EN/GE): +43 (1) 5 330 330
 * Support hotline (FR): +33 (1) 73 19 30 33
 * Email: contact@fiskaltrust.fr
