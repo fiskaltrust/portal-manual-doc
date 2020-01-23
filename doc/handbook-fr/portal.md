@@ -3,17 +3,17 @@
 
 Please note that various menus and functions presented in this manual are only visible and therefore available after the corresponding authorization has been assigned in the user administration.
 
-The so-called _primary contact_ is the user who has all authorizations for a company and can therefore administer the authorizations.
+The _primary contact_ is the user who has all authorizations for a company and can therefore administer the authorizations.
 
 ### Homepage
-The fiskaltrust.Portal (hereinafter _ft.Portal_ or simple _Portal_) can be used free of charge by all partners and their PosOperators. It can be reached directly via the URL https://portal.fiskaltrust.fr or via the hyperlink on the homepage https://www.fiskaltrust.fr
+The fiskaltrust.Portal (hereinafter _ft.Portal_ or simply _Portal_) can be used free of charge by all partners and their PosOperators. It can be reached directly via the URL https://portal.fiskaltrust.fr or via the hyperlink on the homepage https://www.fiskaltrust.fr.
 All PosOperators, PosDealers, Consultants and PosCreators can easily manage the necessary functions for operating the POS-Systems via the Portal.
 
 ![Homepage of fiskaltrust](images/www.fiskaltrust.fr/portal-homepage.png)
 Homepage | [https://www.fiskaltrust.fr](https://www.fiskaltrust.fr) with link to fiskaltrust.Portal
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> By clicking on the hyperlink _PORTAIL_ on the homepage the fiskaltrust.Portal can be accessed.
-The registration of the user and the company can is explained in chapter [Registration](registration-login.md#registration).
+<img src="../images/Numbers/circle-1o.svg" width="24px"> By clicking on the hyperlink _PORTAIL_ on the homepage, the fiskaltrust.Portal can be accessed.
+The registration of the user and the company is explained in chapter [Registration](registration-login.md#registration).
 
 ### Landing page<a name="landing-page"></a>
 The landing page is the welcome page of the fiskaltrust.Portal and can be accessed directly via the URL: https://portal.fiskaltrust.fr
