@@ -6,7 +6,7 @@ The ft.Shop can be reached directly at
 
 ### Methods to purchase ft.Products
 
-You can order ft.products either through your PosDealer (as so-called "Entitlements") or directly through the ft.shop. Please clarify the appropriate method with your PosDealer. You can also place bulk orders with our support team. You can contact us for 
+You can order ft.products either through your PosDealer (as "Entitlements") or directly through the ft.shop. Please clarify the appropriate method with your PosDealer. You can also place bulk orders with our support team. You can contact us for 
 - Austria at [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
 - France at [contact@fiskaltrust.fr](mailto:contact@fiskaltrust.fr).
 
@@ -86,7 +86,7 @@ Offers
 
 For hardware orders, the delivery notes are displayed under the menu item "Shipping notes". Shipment tracking is possible via [https://gls-group.eu/AT/de/paket-verfolgen](https://gls-group.eu/AT/de/paket-verfolgen).
 
-### Buy package in shop or use a template<a name="buy-package-in-shop-or-use-a-template"></a>
+### Buy a package in shop or use a template<a name="buy-package-in-shop-or-use-a-template"></a>
 
 In the menu item "Configuration" a [CashBox](configuration.md#cashbox) can be created manually.
 
