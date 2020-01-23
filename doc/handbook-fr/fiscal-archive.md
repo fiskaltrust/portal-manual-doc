@@ -62,7 +62,7 @@ Here the time of the fiskaltrust.Service is used. For this the date and/or time 
 
 ### 4. Define journals to export
 
-The journals included in an export have to be defined in this step. The fiskaltrust.Service divides the journal in several types.
+The journals included in an export have to be defined in this step. The fiskaltrust.Service divides the journal in several types. The fields and contents of the journals are described in the chapter _Condition “Archiving”_ of the file _11.fiskaltrust-security-mechansim.md_
 
 [![https://portal.fiskaltrust.fr/Queue/](images/fiscal-archive/04_1-drag-journal-elements.png "https://portal.fiskaltrust.fr/Queue/" )](https://portal.fiskaltrust.fr/Queue/)
 Export fiscal archive - Drag journal elements to the export container
@@ -74,26 +74,25 @@ For removing an element from the export container, just do the inverse and drag 
 [![https://portal.fiskaltrust.fr/Queue/](images/fiscal-archive/04_2-journal-elements.png "https://portal.fiskaltrust.fr/Queue/" )](https://portal.fiskaltrust.fr/Queue/)
 Export fiscal archive - Journal elements to export
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> **Ticket journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-1o.svg" width="24px"> **Ticket journal**<br>A journal/file of all tickets issued in the selected queue.
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> **Bill journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-2o.svg" width="24px"> **Bill journal**<br>A journal/file of all bills issued in the selected queue.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px"> **Invoice journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-3o.svg" width="24px"> **Invoice journal**<br>A journal/file of all invoices issued in the selected queue.
 
-<img src="../images/Numbers/circle-4o.svg" width="24px"> **Copy journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-4o.svg" width="24px"> **Copy journal**<br>A journal/file of all duplicates issued in the selected queue.
 
-<img src="../images/Numbers/circle-5o.svg" width="24px"> **Payment Prove journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-5o.svg" width="24px"> **Payment Prove journal**<br>A journal/file of all payment proves issued in the selected queue.
 
-<img src="../images/Numbers/circle-6o.svg" width="24px"> **Training journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-6o.svg" width="24px"> **Training journal**<br>A journal/file of all receipts issued in training mode in the selected queue.
 
-<img src="../images/Numbers/circle-7o.svg" width="24px"> **Grand total journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-7o.svg" width="24px"> **Grand total journal**<br>A journal/file of all counters created and maintained in the selected queue.
 
-<img src="../images/Numbers/circle-8o.svg" width="24px"> **Archive journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-8o.svg" width="24px"> **Archive journal**<br>A journal/file of all archives created from the selected queue.
 
-<img src="../images/Numbers/circle-9o.svg" width="24px"> **Log journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-9o.svg" width="24px"> **Log journal**<br>A journal/file of all log entries done in the selected queue.
 
-**Full export (XML)**<br>
-This type is a combination of the eight journals mentioned above. These eight journals are converted to a xml-format containing the same data. This xml-file can be opened as clear text file with every editor. However, the xml is formated in a way that it can be opened in _Microsoft Excel_ too.
+**Full export (XML)**<br>This type is a combination of the eight journals mentioned above. These eight journals are converted to a xml-format containing the same data. This xml-file can be opened as clear text file with every editor. On the other hand the xml is formatted in that way, to be ready to open in _Microsoft Excel_ too.
 
 ### 5. Define export locations
 
