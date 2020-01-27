@@ -18,7 +18,7 @@ A list and the current descriptions of our products can be found as a remunerati
 
 ### Products
 
-Under the section "Products" you will find all products offered by us. Here you can put the selected products into the shopping cart.
+Under the section _Products_ you will find all products offered by us. Here you can put the selected products into the shopping cart.
 
 ![Products](images/Shop/Products/001.png)
 Products
@@ -62,7 +62,7 @@ Pay Agreements
 
 ### Subscriptions
 
-In "Subcriptions" you can view your subscription products.
+In _Subcriptions_ you can view your subscription products.
 
 ### Entitlements (claims)
 
@@ -73,7 +73,7 @@ Entitlements
 
 ### Invoices
 
-As soon as an invoice has been created for your products, you can view it under "Invoices".
+As soon as an invoice has been created for your products, you can view it under _Invoices_.
 
 ### Offers
 
@@ -84,7 +84,7 @@ Offers
 
 ### Shipping Notes
 
-For hardware orders, the delivery notes are displayed under the menu item "Shipping notes". Shipment tracking is possible via [https://gls-group.eu/AT/de/paket-verfolgen](https://gls-group.eu/AT/de/paket-verfolgen).
+For hardware orders, the delivery notes are displayed under the menu item _Shipping notes_. Shipment tracking is possible via [https://gls-group.eu/AT/de/paket-verfolgen](https://gls-group.eu/AT/de/paket-verfolgen).
 
 ### Buy a package in shop or use a template<a name="buy-package-in-shop-or-use-a-template"></a>
 

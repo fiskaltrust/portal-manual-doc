@@ -1,5 +1,7 @@
 ## Knowledge base
 
+The knowledge base gives all users of the fiskaltrust.Portal to get information about common use cases and configuration problems and their solutions. All information provided in this database is available in the national language and coordinated with the national installations.
+
 ### Search the knowledge base
 
 ![Search the knowledge base](images/KBArticle/Search/001.png)
