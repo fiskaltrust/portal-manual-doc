@@ -4,15 +4,18 @@ The ft.Shop can be reached directly at
 - Austria: [https://portal.fiskaltrust.at/shop/](https://portal.fiskaltrust.at/shop/)
 - France: [https://portal.fiskaltrust.fr/shop/](https://portal.fiskaltrust.fr/shop/)
 
-### Methods to purchase ft.Products
+### Methods to purchase fiskaltrust.Products
 
-You can order ft.products either through your PosDealer (as "Entitlements") or directly through the ft.shop. Please clarify the appropriate method with your PosDealer. You can also place bulk orders with our support team. You can contact us for 
+You can order ft.products either through your PosDealer (as "Entitlements") or directly through the ft.shop. Please clarify the appropriate method with your PosDealer. You can also place bulk orders with our support team. You can contact us for
+
 - Austria at [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
 - France at [contact@fiskaltrust.fr](mailto:contact@fiskaltrust.fr).
+- Germany at [info@fiskaltrust.de](mailto:info@fiskaltrust.de).
 
 ### Description of ft.Products
 
 A list and the current descriptions of our products can be found as a remuneration sheet on our homepage 
+
 - for Austria at [https://www.fiskaltrust.at/entgeltblatt](https://www.fiskaltrust.at/entgeltblatt)
 - for France at [https://www.fiskaltrust.fr/tarifs](https://www.fiskaltrust.fr/tarifs)
 
@@ -23,9 +26,11 @@ Under the section _Products_ you will find all products offered by us. Here you 
 ![Products](images/Shop/Products/001.png)
 Products
 
-![Number 1](../images/Numbers/1.png) Here you can specify the number of pieces of the selected products that you would like to put into the shopping cart
+![Number 1](../images/Numbers/1.png) Here you can specify for which outlet the product is designated. For some markets and/or products this preselection is necessary to create a law compliant product. As example for France the product _ChaîneCloud_ needs for the production the correct location (outlet) preselected.
 
-![Number 2](../images/Numbers/2.png) By clicking on ![Shoppingcart](../images/Buttons/031.png "Shoppingcart") you can put the desired product into the shopping cart.
+![Number 2](../images/Numbers/2.png) Here you can specify the number of pieces of the selected products that you would like to put into the shopping cart.
+
+![Number 3](../images/Numbers/3.png) By clicking on ![Shoppingcart](../images/Buttons/031.png "Shoppingcart") you can put the desired product into the shopping cart.
 
 ### Shopping cart<a name="shopping-cart"></a>
 
