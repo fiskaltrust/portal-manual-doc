@@ -1,20 +1,21 @@
 ## Access for fiscal control
 
 ### 1. Login
-In order to access the fiscal information, the controller will need the PosOperator to login to the portal at https://portal.fiskaltrust.fr with his proper credentials.
+
+In order to access the fiscal information, the auditor will need the PosOperator to login to the portal at https://portal.fiskaltrust.fr with his proper credentials.
 
 [![https://portal.fiskaltrust.fr/](images/fiscal-archive/01-login.png "https://portal.fiskaltrust.fr/" )](https://portal.fiskaltrust.fr/)
 Export fiscal archive - Login to the fiskaltrust.Portal
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> Enter the email-address of the account to get fiscal archive.
+<img src="../images/Numbers/circle-1o.svg" width="24px"> Enter the e-mail address of the account to get fiscal archives.
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> Enter the password according to the email-address used as user.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> Enter the password according to the e-mail address used as user.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px"> Click on button [Login] to gain access to the fiskaltrust.Portal.
+<img src="../images/Numbers/circle-3o.svg" width="24px"> Click on button \[Login\] to gain access to the fiskaltrust.Portal.
 
 ### 2. Identify queue for creating the fiscal archive
 
-As the second step, the queue for the POS-System and/or outlet has to be identified for the fiscal control. An outlet usually has one queue which holds all the receipts issued. To enhance performance or avoid working issues there can be more than one queue per outlet. In this case, this and the following steps have to be repeated to get for each queue to access the fiscal information.
+As the second step, the queue for the POS-System and/or outlet has to be identified for the fiscal control. An outlet usually has one queue which holds all the receipts issued. To enhance performance or avoid working issues there can be more than one queue per outlet. In this case, this and the following steps have to be repeated to get for each queue access the fiscal information.
 
 [![https://portal.fiskaltrust.fr/Queue/](images/fiscal-archive/02-identify-queue.png "https://portal.fiskaltrust.fr/Queue/" )](https://portal.fiskaltrust.fr/Queue/)
 Export fiscal archive - Identify the queue to be exported in the fiskaltrust.Portal
@@ -31,12 +32,13 @@ Export fiscal archive - Identify the queue to be exported in the fiskaltrust.Por
 
 ### 3. Define the limits of the receipts to export
 
-The first step to create a fiscal archive is the definition of receipts to be included in the export. For defining these limits, there are several possibilities offered by the fiskaltrust.Portal. Each of the methods result in the same archive. They are present to offer the best ways to limit the export. 
+The first step to create a fiscal archive is the definition of receipts to be included in the export. For defining these limits, there are several possibilities offered by the fiskaltrust.Portal. Each of the methods result in the same archive. They are present to offer the best ways to limit the export.
 
 [![https://portal.fiskaltrust.fr/Queue/](images/fiscal-archive/03-define-queue-limits.png "https://portal.fiskaltrust.fr/Queue/" )](https://portal.fiskaltrust.fr/Queue/)
 Export fiscal archive - Define the receipts to be included in the fiscal archive
 
 #### Select by receipt number
+
 Here the numbering of the queue itself is used, **don't use the local receipt number**. By changing value in the first line, the slider limits are ajusted automatically.
 
 <img src="../images/Numbers/circle-1o.svg" width="24px"> Enter the number of the first receipt (which will be included) to export. If this number is larger than the maximum of the receipts stored in the queue nothing is exported.
@@ -44,6 +46,7 @@ Here the numbering of the queue itself is used, **don't use the local receipt nu
 <img src="../images/Numbers/circle-2o.svg" width="24px"> Enter the number of the last receipt (which will be included) to export. If this number is larger than the maximum of the receipts stored in the queue, the whole queue starting with the number entered by _from:_ is exported.
 
 #### Select by date and time
+
 Here the time of the fiskaltrust.Service is used. For this the date and/or time cannot be tampered with by the POS-System.
 
 <img src="../images/Numbers/circle-3o.svg" width="24px"> Enter the date of the first day which should be included in the fiscal archive. By changing the date, the time of this day is set to _00:00_ so the first receipt of the day is included in all circumstances.<br>By clicking on ![Select date](../images/Buttons/049.png "Select date") the date can be selected from a graphical calendar.
@@ -58,7 +61,7 @@ Here the time of the fiskaltrust.Service is used. For this the date and/or time 
 
 <img src="../images/Numbers/circle-7o.svg" width="24px"> By dragging the left handle of the slider the starting point of the export can be fixed. When the dragging is finished and the mouse button is released, the date and time of the first exported receipt will be shown on the left handle.
 
-<img src="../images/Numbers/circle-8o.svg" width="24px"> By dragging the right handle of the slider the end point of the export can be fixed. When the dragging is finished and the mouse button is released the date and time of the last exported receipt will be shown on the left handle.
+<img src="../images/Numbers/circle-8o.svg" width="24px"> By dragging the right handle of the slider the end point of the export can be fixed. When the dragging is finished and the mouse button is released the date and time of the last exported receipt will be shown on the right handle.
 
 ### 4. Define journals to export
 
@@ -74,26 +77,25 @@ For removing an element from the export container, just do the inverse and drag 
 [![https://portal.fiskaltrust.fr/Queue/](images/fiscal-archive/04_2-journal-elements.png "https://portal.fiskaltrust.fr/Queue/" )](https://portal.fiskaltrust.fr/Queue/)
 Export fiscal archive - Journal elements to export
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> **Ticket journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-1o.svg" width="24px"> **Ticket journal**<br>For field description see [Content of the French data export](fiscal-archive.md#frdex) in the chapter _Export fiscal archive_.
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> **Bill journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-2o.svg" width="24px"> **Bill journal**<br>For field description see [Content of the French data export](fiscal-archive.md#frdex) in the chapter _Export fiscal archive_.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px"> **Invoice journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-3o.svg" width="24px"> **Invoice journal**<br>For field description see [Content of the French data export](fiscal-archive.md#frdex) in the chapter _Export fiscal archive_.
 
-<img src="../images/Numbers/circle-4o.svg" width="24px"> **Copy journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-4o.svg" width="24px"> **Copy journal**<br>For field description see [Content of the French data export](fiscal-archive.md#frdex) in the chapter _Export fiscal archive_.
 
-<img src="../images/Numbers/circle-5o.svg" width="24px"> **Payment Prove journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-5o.svg" width="24px"> **Payment Prove journal**<br>For field description see [Content of the French data export](fiscal-archive.md#frdex) in the chapter _Export fiscal archive_.
 
-<img src="../images/Numbers/circle-6o.svg" width="24px"> **Training journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-6o.svg" width="24px"> **Training journal**<br>For field description see [Content of the French data export](fiscal-archive.md#frdex) in the chapter _Export fiscal archive_.
 
-<img src="../images/Numbers/circle-7o.svg" width="24px"> **Grand total journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-7o.svg" width="24px"> **Grand total journal**<br>For field description see [Content of the French data export](fiscal-archive.md#frdex) in the chapter _Export fiscal archive_.
 
-<img src="../images/Numbers/circle-8o.svg" width="24px"> **Archive journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-8o.svg" width="24px"> **Archive journal**<br>For field description see [Content of the French data export](fiscal-archive.md#frdex) in the chapter _Export fiscal archive_.
 
-<img src="../images/Numbers/circle-9o.svg" width="24px"> **Log journal**<br>TODO field description or link to it
+<img src="../images/Numbers/circle-9o.svg" width="24px"> **Log journal**<br>For field description see [Content of the French data export](fiscal-archive.md#frdex) in the chapter _Export fiscal archive_.
 
-**Full export (XML)**<br>
-This type is a combination of the eight journals mentioned above. These eight journals are converted to a xml-format containing the same data. This xml-file can be opened as clear text file with every editor. However, the xml is formated in a way that it can be opened in _Microsoft Excel_ too.
+**Full export (XML)**<br>This type is a combination of the eight journals mentioned above. These eight journals are converted to a xml-format containing the same data. This xml-file can be opened as clear text file with every editor. However, the xml is formated in a way that it can be opened in _Microsoft Excel_ too.
 
 ### 5. Define export locations
 
@@ -115,7 +117,7 @@ At the bottom of the export module the button [Start export and close] has to be
 
 ### 7. Running export
 
-If the export has started and the status can be verified in the fiskaltrust.Portal.
+If the export has started, the status can be verified in the fiskaltrust.Portal.
 
 [![https://portal.fiskaltrust.fr/Queue/Export/](images/fiscal-archive/07-running-export.png "https://portal.fiskaltrust.fr/Queue/Export/")](https://portal.fiskaltrust.fr/Queue/Export/)
 Export fiscal archive - Verify a running export
@@ -139,7 +141,7 @@ The column _State_ shows information about the data. The first line shows how ma
 
 In the last column _Info_ the first and last exported receipt number is shown and in the last row which queue was effected.
 
-By clicking on the _chevron right_ the downloadable files are shown. Each export started in the fiskaltrust.Portal gets uploaded to the storage of the active account.
+By clicking on the _chevron right_ at the beginning of the line the downloadable files are shown. Each export started in the fiskaltrust.Portal gets uploaded to the storage of the active account.
 
 #### Information about the export
 
@@ -169,7 +171,7 @@ Export fiscal archive - content of the _output.json_ (main part)
 | Message               | string      |                                      | The Queue is chained correctly |
 Export fiscal archive - content of the _output.json_ (data object)
 
-#### xml export
+#### XML-export
 
 The full export in xml format contains all journals of a queue in a xml structure. This xml format is created as plain text file and readable with any editor, as shown in the following picture.
 

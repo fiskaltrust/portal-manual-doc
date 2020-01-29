@@ -19,34 +19,32 @@ Configuration container - Add
 
 <img src="../images/Numbers/circle-1o.svg" width="24px"> In this field, you can change the name of the configuration container. It should be unique so a CashBox can be identified in even a long list.
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> If you are working in a network mode, enter the IP address of the endpoint here. 
+<img src="../images/Numbers/circle-2o.svg" width="24px"> If you are working in a network mode, enter the IP address of the endpoint here.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px"> Click on [Save] to save the changes to the configuration container ad go back to the overview.
+<img src="../images/Numbers/circle-3o.svg" width="24px"> Click on \[Save\] to save the changes to the configuration container ad go back to the overview.
 
-<img src="../images/Numbers/circle-4o.svg" width="24px"> Clicking [Cancel] cancels the operation without saving the changes and show the overview.
+<img src="../images/Numbers/circle-4o.svg" width="24px"> Clicking \[Cancel\] cancels the operation without saving the changes and show the overview.
 
 #### Overview first CashBox<a name ="overview-firstcashbox"></a>
 
 [![https://portal-sandbox.fiskaltrust.fr/CashBox](images/CashBox/CashBox-Details.png "http://portal.fiskaltrust.fr/CashBox")](http://portal.fiskaltrust.fr/CashBox)
-Overview - First configuration container 
+Overview - First configuration container
 
 <img src="../images/Numbers/circle-1o.svg" width="24px"> After creating a CashBox, it is initially empty, it only has the _CashBoxID_ and the _AccessToken_ which are required to access the CashBox. It can be seen by opening the information section by clicking on the chevron on the beginning of the line.
 
 <img src="../images/Numbers/circle-2o.svg" width="24px"> This area shows all the assigned queues, helpers and SCUs for the configuration container. Since the CashBox has just been created and nothing is stored yet, the fields are empty.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px"> By clicking on ![dotnet Launcher](../images/Buttons/024.png "dotnet Launcher") you can download the _dotnet Launcher_. This must be used if there is an internet connection to the cash register.
+<img src="../images/Numbers/circle-3o.svg" width="24px"> By clicking on ![dotnet Launcher](../images/Buttons/024.png "dotnet Launcher") you can download the _dotnet Launcher_. This must be used if there is an internet connection to the POS-System.
 
 <img src="../images/Numbers/circle-4o.svg" width="24px"> The _dotnet useOffline Launcher_ should be used if no internet connection can be established. This can be downloaded by clicking on ![Download](../images/Buttons/025.png "Download").
 
 <img src="../images/Numbers/circle-5o.svg" width="24px"> For using the fiskaltrust.Service with a MacOS or Linux system the _mono useOffline Launcher_ is needed. It can be downloaded by clicking on ![mono Launcher](../images/Buttons/026.png "mono Launcher"). This is set to _useOffline_ by default.
 
-<img src="../images/Numbers/circle-6o.svg" width="24px"> If an _ArchiveAuditable_ has not yet been purchased, the purchase can be made by clicking on ![Dollarsign](../images/Buttons/020.png "Dollarsign"). If a package has already been purchased, the validity date is displayed here.
+<img src="../images/Numbers/circle-6o.svg" width="24px"> The CashBox can be edited with a click on ![Drag&Drop](../images/Buttons/027.png "Drag&Drop") by Drag & Drop.
 
-<img src="../images/Numbers/circle-7o.svg" width="24px"> The CashBox can be edited with a click on ![Drag&Drop](../images/Buttons/027.png "Drag&Drop") by Drag & Drop.
+<img src="../images/Numbers/circle-7o.svg" width="24px"> The CashBox can also be edited in a list view by clicking on ![List](../images/Buttons/028.png "List").
 
-<img src="../images/Numbers/circle-8o.svg" width="24px"> The CashBox can also be edited in a list view by clicking on ![List](../images/Buttons/028.png "List").
-
-<img src="../images/Numbers/circle-9o.svg" width="24px"> By clicking on ![Trash](../images/Buttons/029.png "Trash") an empty configuration container can be deleted.
+<img src="../images/Numbers/circle-8o.svg" width="24px"> By clicking on ![Trash](../images/Buttons/029.png "Trash") an empty configuration container can be deleted.
 
 #### Edit CashBox by Drag & Drop
 
@@ -57,13 +55,13 @@ Edit CashBox by Drag & Drop
 
 <img src="../images/Numbers/circle-2o.svg" width="24px"> The second widget shows all created Helpers, which can be used in a CashBox. For further information see chapter [_Helpers_](../handbook-general/configuration.md#helper).
 
-<img src="../images/Numbers/circle-3o.svg" width="24px"> The last widget contains all the SCUs created in this account and can be used in a CashBox, further information can be found in chapter [_Signature creation unit_](#SCU).<br>A SCU must not be directly associated to a CashBox. Because the configuration container has a connection to the outlet and the SCU is coupled to an outlet, a loose coupling exists between them. It is essential for legal compliance to use the same outlet number in the SCU-configuration and the CashBox-configuration.<br>This loose coupling enables the usage of a single SCU for more than one queue in the same outlet.
+<img src="../images/Numbers/circle-3o.svg" width="24px"> The last widget contains all the SCUs created in this account and can be used in a CashBox, further information can be found in chapter [_Signature creation unit_](#SCU).<br>A SCU must not be directly associated to a CashBox. Because the configuration container has a connection to the outlet and the SCU is coupled to an outlet, a loose coupling exists between them. It is essential for legal compliance to use the same outlet number in the SCU-configuration and the CashBox-configuration.<br>This loose coupling enables the usage of a single SCU for more than one queue in the **same** outlet.
 
 <img src="../images/Numbers/circle-4o.svg" width="24px"> The field _Outlet_ is mandatory and must contain the number of a valid outlet. For further information see chapter [_Outlets_](company.md#outlets).
 
 <img src="../images/Numbers/circle-5o.svg" width="24px"> This field contains the active CashBox. Using Drag & Drop, units from the three widgets on the right side can be integrated in this CashBox.
 
-Clicking on [Save] stores the changes to the configuration container.
+Clicking on \[Save\] stores the changes to the configuration container.
 
 #### Edit CashBox by List
 
@@ -71,31 +69,32 @@ Furthermore, the CashBox can be edited via a list.
 [![https://portal-sandbox.fiskaltrust.fr/CashBox](images/CashBox/Edit-List.png "http://portal.fiskaltrust.fr/CashBox")](http://portal.fiskaltrust.fr/CashBox)
 Edit CashBox by list
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> The list view is divided into three sections showing the available objects (_Queues_, _Helper_, _Signature creation Unit_).
+<img src="../images/Numbers/circle-1o.svg" width="24px"> The list view is divided into three sections showing the available objects (_Queues_, _Helper_, _Signature Creation Unit_).
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> The required objects can be added to the cashbox by ticking the checkbox at the beginning if the row.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> The required objects can be added to the cashbox by ticking the checkbox at the beginning of the row.
 
 <img src="../images/Numbers/circle-3o.svg" width="24px"> Click ![Gear](../images/Buttons/030.png "Gear") on the ending of a row to display the settings for each object.
 
 <img src="../images/Numbers/circle-4o.svg" width="24px"> Each Queue owns a certificate from a SCU for signing all the data send to it. With the button ![Certificate download](../images/Buttons/039.png "Certificate download") the certificate of a assigned SCU can be downloaded and verified.
 
-<img src="../images/Numbers/circle-5o.svg" width="24px"> For filtering all the tables/sections in this window at least 3 characters have to be entered. 
+<img src="../images/Numbers/circle-5o.svg" width="24px"> For filtering all the tables/sections in this window at least 3 characters have to be entered.
 
 #### Ready configured CashBox
 
 [![https://portal-sandbox.fiskaltrust.fr/CashBox](images/CashBox/Cashbox-Detail-Configured.png "http://portal.fiskaltrust.at/CashBox")](http://portal.fiskaltrust.fr/CashBox)
 Ready configured CashBox
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> By clicking on [+&nbsp;Add] you can create a new configuration container (CashBox).
+<img src="../images/Numbers/circle-1o.svg" width="24px"> By clicking on \[+&nbsp;Add\] you can create a new configuration container (CashBox).
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> In the section _Queues_ the deposited POS-System identification number (_CashBoxID_) as well as the automatically generated AES key (Base64 encryption) (_AccessToken_) can be found.<br> By clicking on ![Gear](../images/Buttons/030.png "Gear") the confiiguration of the queue can be edited.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> In the section _Queues_ the deposited POS-System identification number (_CashBoxID_) as well as the automatically generated AES-key (Base64 encryption) (_AccessToken_) can be found.<br> By clicking on ![Gear](../images/Buttons/030.png "Gear") the configuration of the queue can be edited.
 
 <img src="../images/Numbers/circle-3o.svg" width="24px"> In this section the connected helpers as well as the package name and version is shown. By clicking on ![Gear](../images/Buttons/030.png "Gear") each helper can be configured in its own window.
 
 <img src="../images/Numbers/circle-4o.svg" width="24px"> The connected signature creation units can be displayed here. But it is not necessary to connect a CashBox one-to-one to a SCU. Because a SCU can be used more than once for an outlet there is a loose connection between SCU and CashBox.
 
 #### Delete a CashBox
-For legal reasons it is currently not possible to delete a CashBox. However, there is the exception, that if the CashBox was not yet in use, it can still be deleted.
+
+For legal reasons it is currently not possible to delete a CashBox. However, there is one exception, that if the CashBox was not yet in use and is completly empty, it can still be deleted.
 
 Before deleting a CashBox it has to be ensured that all elements from the configuration container are removed. Removing the element from the CashBox does not delete them, they are only put back in the general section for further use.<br>If a CashBox is not empty it can not be deleted.<br>By deleting a CashBox only the wrapping configuration container gets removed from the system. No data, certificate, queue, archives or anything else is touched or deleted.
 [![https://portal-sandbox.fiskaltrust.fr/CashBox](images/CashBox/Delete.png "http://portal.fiskaltrust.fr/CashBox")](http://portal.fiskaltrust.fr/CashBox)
@@ -107,6 +106,7 @@ Delete CashBox
 Download Launcher
 
 <img src="../images/Numbers/circle-1o.svg" width="24px"> By clicking on one of these buttons, the launcher needed for commissioning is downloaded. This is a ZIP file that you download into the download folder. The zip-file can be founded in the local download-folder and extracted there for further use on a POS-System.
+Be aware, that after changement in the configuration the \[Rebuild\]-button should be click before a launcher is downloaded.
 
 For further information see chapter [Overview first CashBox](#overview-firstcashbox)
 
@@ -126,19 +126,19 @@ A click on the button _+&nbsp;Create new_<img src="../images/Numbers/circle-4o.s
 [![https://portal.fiskaltrust.fr/Queue/](images/Queue/Create.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
 Queue - Adding
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> This field, holds the name of the queue. It can be anything which helps to identify each queue.
+<img src="../images/Numbers/circle-1o.svg" width="24px"> This field, holds the name of the queue. It can be anything which helps to identify each single queue in the account.
 
 <img src="../images/Numbers/circle-2o.svg" width="24px"> The appropriate storage method depending on your operating system can be selected. This value cannot be changed after the creation of the queue.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px"> The package version can also be selected using a dropdown menu. For updating the package version a click on ![Refresh](../images/Buttons/008.png "Refresh") is mandatory.<br>**To configure the POS-System with a law compliant fiskaltrust.Service the correct package has to be selected. The certified version for the used POS-System, is written on the certificate. Your PosDealer or PosCreator knows which version is certified.**
+<img src="../images/Numbers/circle-3o.svg" width="24px"> The package version can also be selected using a dropdown menu. For updating the package version a click on ![Refresh](../images/Buttons/008.png "Refresh") is mandatory.<br>**To configure the POS-System with a law compliant fiskaltrust.Service the correct package has to be selected. The certified version for the used POS-System, is written on the certificate. Your PosDealer or PosCreator knows which version is certified and must be used.**
 
 <img src="../images/Numbers/circle-4o.svg" width="24px"> Sets a timeout in milliseconds for the connection attempt with the signature creation unit.
 
-<img src="../images/Numbers/circle-5o.svg" width="24px"> The country in which the queue is used can be selected in this dropdown list. This value can not be changed after creation of the queue.<br>**For a law compliant configuration _France (FR)_ has to be chosen.**
+<img src="../images/Numbers/circle-5o.svg" width="24px"> The country in which the queue is used can be selected in this dropdown list. This value can not be changed after creation of the queue.<br />**For a law compliant configuration _France (FR)_ has to be chosen.**
 
 <img src="../images/Numbers/circle-6o.svg" width="24px"> This identification value has to be unique in the account. This value can not be changed after creation of the queue.
 
-<img src="../images/Numbers/circle-7o.svg" width="24px"> The [_Save_]-button creates the queue and stores it.
+<img src="../images/Numbers/circle-7o.svg" width="24px"> The \[Save\]-button creates the queue and stores it.
 
 #### Queue configuration<a name="configure-a-queue"></a>
 
@@ -157,11 +157,11 @@ Queue configuration
 
 <img src="../images/Numbers/circle-6o.svg" width="24px"> The type of storage can only be defined upon queue creation and can not be changed later on.
 
-<img src="../images/Numbers/circle-7o.svg" width="24px"> The package version can also be selected using a dropdown menu. For updating the package version a click on ![Refresh](../images/Buttons/008.png "Refresh") is mandatory.<br>**To configure the POS-System with a law compliant fiskaltrust.Service the correct package has to be selected. The certified version for the used POS-System, is written on the certificate. Your PosDealer or PosCreator knows which version is certified.**
+<img src="../images/Numbers/circle-7o.svg" width="24px"> The package version can also be selected using a dropdown menu. For updating the package version a click on ![Refresh](../images/Buttons/008.png "Refresh") is mandatory.<br>**To configure the POS-System with a law compliant fiskaltrust.Service the correct package has to be selected. The certified version for the used POS-System, is written on the certificate. Your PosDealer or PosCreator knows which version is certified and must be used.**
 
 <img src="../images/Numbers/circle-8o.svg" width="24px"> The URL to access the queue can be defined in this field. By clicking on ![net pipe](../images/Buttons/012.png "net pipe") a URL is used, which is suitable for local use without internet connection, because no firewall settings are required. By clicking on ![http](../images/Buttons/013.png "http"), the system generates a URL with which the POS-System can access the queue. The URL can be renamed, to have it like this: [http://localhost.1200/Queuefiskaltrust]().<br>The ![add URL](../images/Buttons/042.png "add URL") button adds another line for a new URL and the ![remove URL](../images/Buttons/043.png "remove URL") button removes the URL from the configuration.
 
-<img src="../images/Numbers/circle-9o.svg" width="24px"> [Save] or [Save and close] saves the configuration of the queue (and closes the configuration module).
+<img src="../images/Numbers/circle-9o.svg" width="24px"> \[Save\] or \[Save and close\] saves the configuration of the queue (and closes the configuration module).
 
 #### Queue overview<a name="queue-overview"></a>
 
@@ -178,11 +178,16 @@ Queue overview
 
 <img src="../images/Numbers/circle-4o.svg" width="24px"> A queue contains two type of journals. Both of them are chained and secured against changes and contain already transmitted receipts.<br>By clicking on ![ReceiptJournal](../images/Buttons/017.png "ReceiptJournal") all transmitted receipts are displayed in a list, see chapter [_ReceiptJournal of a queue_](#receiptjournal-of-a-queue).<br>By clicking on ![ActionJournal](../images/Buttons/018.png "ActionJournal") all important actions and status changes of the queue are shown in a list, see chapter [_ActionJournal of a queue_](#actionjournal-of-a-queue).
 
-<img src="../images/Numbers/circle-5o.svg" width="24px"> To stop the transmission from the local POS-System to the queue the ![Disable upload](../images/Buttons/045.png "Disable upload") button can be clicked. Starting from this moment the queue does not save any receipt in the cloud. With ![Reset upload](../images/Buttons/046.png "Reset upload") the queue receives all the untransmitted receipts from the moment the button is clicked.
+<img src="../images/Numbers/circle-5o.svg" width="24px"> To stop the transmission from the local POS-System to the queue the ![Disable upload](../images/Buttons/045.png "Disable upload") button can be clicked. Starting from this moment the queue does not save any receipt in the cloud. With ![Reset upload](../images/Buttons/046.png "Reset upload") the queue receives all the untransmitted receipts from the moment the button is clicked. This can be take several days because the check for missing receipts is started by the first receipt saved in the local queue.
 
 <img src="../images/Numbers/circle-6o.svg" width="24px"> The queue export can be started by pressing the button ![Export](../images/Buttons/019.png "Export"). For further information see chapter [_Export a queue_](#export-a-queue).
 
-<img src="../images/Numbers/circle-8o.svg" width="24px"> The last column contains the commands to manage a queue.<br> By clicking on ![Used french signature creation unit](../images/Buttons/021.png "Used french signature creation unit") the connected SCUs can be displayed and managed. For further information see chapter [_SCUs used by a queue_](#scus-used-by-a-queue).<br>Here the configuration of the queue can be opened by clicking on ![Configure queue](../images/Buttons/009.png "Configure queue"), see [_Configure a queue_](#configure-a-queue).<br>Clicking on ![Edit](../images/Buttons/005.png "Edit") edits the description, package version and timeout of the queue, see [_Edit a queue_](#edit-a-queue).<br>Clicking on ![Trash](../images/Buttons/011.png "Trash") deletes the queue. However, the button for deleting the queue is currently inactive for legal reasons, so no queue can be deleted after creation. The possibility to delete a queue does not depend on the status or the content of a queue. Once created no deletion is possible. There will be an option to hide queues in the future.
+<img src="../images/Numbers/circle-8o.svg" width="24px"> The last column contains the commands to manage a queue.<br> By clicking on ![Used french signature creation unit](../images/Buttons/021.png "Used french signature creation unit") the connected SCUs can be displayed and managed. For further information see chapter [_SCUs used by a queue_](#scus-used-by-a-queue).<br>Here the configuration of the queue can be opened by clicking on ![Configure queue](../images/Buttons/009.png "Configure queue"), see [_Configure a queue_](#configure-a-queue).<br>Clicking on ![Edit](../images/Buttons/005.png "Edit") edits the description, package version and timeout of the queue, see [_Edit a queue_](#edit-a-queue).<br>Clicking on ![Trash](../images/Buttons/011.png "Trash") deletes the queue. However, the button for deleting the queue **is inactive for legal reasons**, so no queue can be deleted after creation. The possibility to delete a queue does not depend on the status or the content of a queue. Once created no deletion is possible. 
+
+[![https://portal.fiskaltrust.fr/Queue/](images/Queue/Queue-Filter.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
+Filter the list of queues
+
+With a large list of configured queues the overview can be hard. For this the view can be filtered by status of the queue by a click on the corresponding radio button.
 
 #### SCUs used by a queue<a name="scus-used-by-a-queue"></a>
 
@@ -206,13 +211,13 @@ Edit a queue
 
 <img src="../images/Numbers/circle-1o.svg" width="24px"> The name of the queue can be changed with this field.
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> Various package versions can be selected by using the drop-down menu. These can be updated by clicking on ![Refresh](../images/Buttons/008.png "Refresh"). To take this change in effect on the POS-Systems, this has to be restarted.<br>**To configure the POS-System with a law compliant fiskaltrust.Service the correct package has to be selected. The certified version for the used POS-System, is written on the certificate. Your PosDealer or PosCreator knows which version is certified.**
+<img src="../images/Numbers/circle-2o.svg" width="24px"> Various package versions can be selected by using the drop-down menu. These can be updated by clicking on ![Refresh](../images/Buttons/008.png "Refresh"). To take this change in effect on the POS-Systems, this has to be restarted.<br>**To configure the POS-System with a law compliant fiskaltrust.Service the correct package has to be selected. The certified version for the used POS-System, is written on the certificate. Your PosDealer or PosCreator knows which version is certified and must be used.**
 
 <img src="../images/Numbers/circle-3o.svg" width="24px"> Sets a timeout in milliseconds for the connection attempt with the signature creation unit.
 
 All other values shown on the page are read-only and cannot be changed. This value shows the current state of the queue and the saved counters of the different receipt types.
 
-At the bottom of the page the buttons [Save] or [Save and close] saves the configuration of the queue (and closes the configuration module).
+At the bottom of the page the buttons \[Save\] or \[Save and close\] saves the configuration of the queue (and closes the configuration module).
 
 #### ReceiptJournal of a Queue<a name="receiptjournal-of-a-queue"></a>
 
@@ -221,7 +226,7 @@ Queue - Overview ReceiptJournal
 
 This journal shows all receipt created by a POS-System connected to the fiskaltrust.Service. All _special receipt types_ like a closure receipt, an archive request or warnings are shown in the [ActionJournal](#actionjournal-of-a-queue).
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> This dropdown limits the shown rows of a journal to 50, 100, 500 or a full list. If the journal is long the last open _full list_ can take some time to be shown.
+<img src="../images/Numbers/circle-1o.svg" width="24px"> This dropdown limits the shown rows of a journal to 50, 100, 500 or a full list. If the journal is long, a _full list_ can take some time to be shown.
 
 <img src="../images/Numbers/circle-2o.svg" width="24px"> This dropdown list defines the type of receipt shown.
 
@@ -234,12 +239,14 @@ This journal shows all receipt created by a POS-System connected to the fiskaltr
 <img src="../images/Numbers/circle-6o.svg" width="24px"> The button ![Show Receipt](../images/Buttons/023.png "Show receipt") displays the respective receipt.
 
 #### Detailed receipt
+
 [![https://portal.fiskaltrust.fr/Queue/](images/Queue/ShowReceipt.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
 Queue - Detailed receipt
 
 After selecting a receipt, it is displayed as follows. This view makes it possible to verify the accuracy of the receipt content.
 
 #### ActionJournal of a Queue<a name="actionjournal-of-a-queue"></a>
+
 [![https://portal.fiskaltrust.fr/Queue/](images/Queue/ActionJournal.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
 Queue - Overview ActionJournal
 
@@ -373,7 +380,7 @@ The first two fields give the template a clear name and description. In the fiel
 In _ImageUrl_ an absolute URL to a kind of product image can be stored. For more description of this template an absolute URL can be entered in _LinkUrl_.<br>
 The dropdown list in _Mode_ defines the access rights for a template by choosing one of the elements.
 
-A template always start with 
+A template always start with
 
 ```
 { "ftCashBoxId": "|[cashbox_id]|",​
@@ -390,34 +397,40 @@ For example a connection string can be included `"connectionstring": "DefaultEnd
 or other queue parameter, like `"asscdtretry": 2,`
 
 Then beginning of the queue core starts with
+
 ```
-"init_ftQueue": [{ "ftQueueId": "|[queue0_id]|", 
-                   "ftCashBoxId": "|[cashbox_id]|", 
-                   "CountryCode": "FR", 
+"init_ftQueue": [{ "ftQueueId": "|[queue0_id]|",
+                   "ftCashBoxId": "|[cashbox_id]|",
+                   "CountryCode": "FR",
                    "Timeout": 15000 }],
 ```
 
-and the specific of the country 
+and the specific of the country
+
 ```
 "init_ftQueueFR": [ { "ftQueueFRId": "|[queue0_id]|",
 ```
 
-but also the queue name 
+but also the queue name
+
 ```
 "CashBoxIdentification": "ChaîneCloud|[count]|" } ],
 ```
 
 then the SCU that this queues connect to:
+
 ```
 "ftSignaturCreationUnitFRId": "|[scu0_id]|",
 ```
 
 and the SIRET used for this queue:
+
 ```
 "Siret": "|[siret]|",
 ```
 
 To initialize a SCU for a queue the following block can be used:
+
 ```
 "init_ftSignaturCreationUnitFR": [{
         "ftSignaturCreationUnitFRId": "|[scu0_id]|",
@@ -426,10 +439,13 @@ To initialize a SCU for a queue the following block can be used:
 ```
 
 As last parameter the endpoint for the ChaîneCloude product has to be defined:
+
 ```
 "Url": ["https://signaturcloud-azure-sandbox.fiskaltrust.fr/"]
 ```
+
 **Example of a standard template:**
+
 ```
 {
     "ftCashBoxId": "|[cashbox_id]|",

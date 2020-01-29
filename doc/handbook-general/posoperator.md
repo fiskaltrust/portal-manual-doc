@@ -36,5 +36,3 @@ You can send these companies an email inquiry by clicking on the button ![Number
 The assignment as PosDealer or consultant was requested by email.
 
 This request is immediately visible in the list of PosDealers or consultants and can be accepted by the respective company.
-
-Example of a request of a PosOperator

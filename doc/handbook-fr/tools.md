@@ -1,3 +1,3 @@
 ## Tools
 
-No French content at the moment
+No French content at the moment.

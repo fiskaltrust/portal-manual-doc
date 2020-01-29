@@ -21,33 +21,33 @@ There are two ways to add/assign PosOperators to a PosDealer:
 [![https://portal.fiskaltrust.fr/PosOperator/PosOperators](images/PosOperator/PosOperators.png "https://portal.fiskaltrust.fr/PosOperator/PosOperators" )](https://portal.fiskaltrust.fr/POSOperator)
 Invite PosOperators to a PosDealer account
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> The CSV file is to be imported and selected via [Choose File].
-<img src="../images/Numbers/circle-2o.svg" width="24px"> Then the import is carried out by clicking on [Import].
-<img src="../images/Numbers/circle-3o.svg" width="24px"> The necessary structure of the CSV file is described using an example. This example can be obtained via [Download demo CSV file].
+<img src="../images/Numbers/circle-1o.svg" width="24px"> The CSV file is to be imported and selected via \[Choose File\].
+<img src="../images/Numbers/circle-2o.svg" width="24px"> Then the import is carried out by clicking on \[Import\].
+<img src="../images/Numbers/circle-3o.svg" width="24px"> The necessary structure of the CSV file is described using an example. This example can be obtained via \[Download demo CSV file\].
 
-| Fields of the CSV file | Description | Mandatory |
-|------------------------|-------------|:---------:|
-| ContactFirstName | First name of the primary contact | yes |
-| ContactLastName | Last name of primary contact | yes |
-| ContactTitle | (Academic) Title of primary contact (before name) | no |
-| ContactSuffix | Name suffix of the primary contact (after the name) | no |
-| ContactEmail | Email address of the primary contact<br>**IMPORTANT!**<br>This email address will be the user's login to the newly created company. | yes |
-| ContactMobilePhone | Mobile phone number of the primary contact | no |
-| AccountName | Company name, this should be written exactly as it is in the commercial register | yes |
-| AccountWeb | URL of the company's website | no |
-| AccountEmail |General email address of the company<br>**IMPORTANT!**<br>All information about financial messages and all invoices will be sent to this email address! | no |
-| AccountPhone | Company phone number | no |
-| AccountAddressLine1 | Address, first line of the company | no |
-| AccountAddressLine2 | Address, second line of the company | no |
-| AccountPostalCode | Postcode of the company | yes |
-| AccountCity | Address, first line of the company | yes |
-| AccountCountry | Address, first line of the company | yes |
-| AccountIdVat | UID number of the company.<br>**IMPORTANT!**<br>This is one of the identification criterias for legalisation of the service. | yes |
-| AccountIdFibu| The _SIREN_ of the company<br>**IMPORTANT!**<br>This is one of the identification criterias for legalisation of the service. | yes |
-| AccountIdGln | GLN of the company. | no |
-| AccountIdTax | Tax office tax number of the company. | yes |
+| Fields of the CSV file | Description                                                                                                                         | Mandatory |
+|------------------------|-------------------------------------------------------------------------------------------------------------------------------------|:---------:|
+| ContactFirstName       | First name of the primary contact                                                                                                   | yes       |
+| ContactLastName        | Last name of primary contact                                                                                                        | yes       |
+| ContactTitle           | (Academic) Title of primary contact (before name)                                                                                   | no        |
+| ContactSuffix          | Name suffix of the primary contact (after the name)                                                                                 | no        |
+| ContactEmail           | Email address of the primary contact<br>**IMPORTANT!**<br>This email address will be the user's login to the newly created company. | yes       |
+| ContactMobilePhone     | Mobile phone number of the primary contact                                                                                          | no        |
+| AccountName            | Company name, this should be written exactly as it is in the commercial register                                                    | yes       |
+| AccountWeb             | URL of the company's website                                                                                                        | no        |
+| AccountEmail           | General email address of the company<br>**IMPORTANT!**<br>All information and all invoices will be sent to this email address!      | no        |
+| AccountPhone           | Company phone number                                                                                                                | no        |
+| AccountAddressLine1    | Address, first line of the company                                                                                                  | no        |
+| AccountAddressLine2    | Address, second line of the company                                                                                                 | no        |
+| AccountPostalCode      | Postcode of the company                                                                                                             | no        |
+| AccountCity            | Name of city of the company's address                                                                                               | no        |
+| AccountCountry         | Zip-Code of the city                                                                                                                | no        |
+| AccountIdVat           | UID number of the company.<br>**IMPORTANT!**<br>This is one of the identification criterias for legalisation of the service.        | no        |
+| AccountIdFibu          | The _SIREN_ of the company<br>**IMPORTANT!**<br>This is one of the identification criterias for legalisation of the service.        | no        |
+| AccountIdGln           | GLN of the company.                                                                                                                 | no        |
+| AccountIdTax           | Tax office tax number of the company.                                                                                               | no        |
 
-Not all of the fields _AccountIdVat_, _AccountIdTax_ and _AccountIdFibu_ are mandatory. Only one of the three fields have to be completed. It is recommended to use the field _AccountIdFibu_.
+Not all of the fields _AccountIdVat_, _AccountIdTax_ and _AccountIdFibu_ are mandatory. Only one of the three fields should be completed. It is recommended to use the field _AccountIdFibu_.
 
 A pdf-file can be first choosen<img src="../images/Numbers/circle-4o.svg" width="24px"> and then imported<img src="../images/Numbers/circle-5o.svg" width="24px"> as a PDF document, which is sent to the PosOperators as an attachment in the email invitations. This PDF document can be individually adapted to the rollout concept.
 
@@ -55,7 +55,8 @@ Before sending the invitation to all PosOperators listed in the csv file a text 
 
 By accepting the invitation the PosOperator gets assigned to the PosDealer's account and thus get some access rights on the PosOperators account. This surrogating of rights can be defined in the claims list<img src="../images/Numbers/circle-7o.svg" width="24px">.
 
-##### Error message importing a csv-file for invitations
+#### Error message importing a csv-file for invitations
+
 ![Import error on PosOperator invitations](images/PosOperator/Import.png "https://portal.fiskaltrust.at/PosOperator/CreatePosOperator/")
 If not all of the mandatory fields of the csv file are completed an error message with the wrong or missing data is shown.
 
@@ -70,7 +71,7 @@ The following fields are mandatory fields and must therefore be filled in:
 
 - Contact First name
 - Contact Surname
-- Contact Email address
+- Contact E-mail address
 - Company's name
 - Zip code
 - City
@@ -79,15 +80,17 @@ The following fields are mandatory fields and must therefore be filled in:
 This is to guarantee that the PosOperator can be found correctly in the ft.Portal via his email address and can be assigned to the PosDealer.
 
 #### Managing the invitations
+
 [![https://portal.fiskaltrust.fr/PosOperator/PosOperators/](images/PosOperator/PosOperators-Overview.png "https://portal.fiskaltrust.fr/PosOperator/PosOperators/")](https://portal.fiskaltrust.fr/PosOperator/PosOperators/)
-Assigning, editing and deleting a PosOperator 
+Assigning, editing and deleting a PosOperator
 
 <img src="../images/Numbers/circle-1o.svg" width="24px"> Status of the invitation:
-- ![Notsent](../images/Buttons/002.png "Notsent") Email invitation has not been sent yet.
+
+- ![Notsent](../images/Buttons/002.png "Notsent") E-mail invitation has not been sent yet.
 - ![Error](../images/Buttons/002.png "Error") The data of the PosOperator is not correct and can not be assigned to the PosDealers account. It must be corrected with ![Edit](../images/Buttons/005.png "Edit").
 - ![Checkmark](../images/Buttons/003.png "Checkmark") Email invitation was sent by clicking on ![Email](../images/Buttons/004.png "Email").
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> By clicking on [Assign all cash register users] the email invitation can be sent to **all**  PosOperators who have not yet been invited.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> By clicking on \[Assign all cash register users\] the email invitation can be sent to **all**  PosOperators who have not yet been invited.
 
 <img src="../images/Numbers/circle-3o.svg" width="24px"> By clicking on [+&nbsp;Add] a [manual invitation](#add-posoperator) can be created.
 
@@ -115,11 +118,13 @@ Protocol of PosOperator invitations
 <img src="../images/Numbers/circle-4o.svg" width="24px">. By clicking on this button the window is closed and the _Invitation_ module is shown.
 <img src="../images/Numbers/circle-5o.svg" width="24px"> Entering a text filters the overview. By deleting all entered data in the search field the whole overview data is shown.
 <img src="../images/Numbers/circle-6o.svg" width="24px"> Status of the invitation:
+
 - ![Not sent](../images/Buttons/002.png "Not sent") Email invitation has not been sent yet.
 - ![Error](../images/Buttons/002.png "Error") The data of the PosOperator is not correct and can not be assigned to the PosDealers account.
 - ![Checkmark](../images/Buttons/003.png "Checkmark") Email invitation was sent.
 
 <img src="../images/Numbers/circle-7o.svg" width="24px"> Available commands for this PosOperator:
+
 - ![Details](../images/Buttons/007.png "Details") Detailed information about this contact is shown.
 ![Details of an invitation](images/PosOperator/DetailsInvitation.png)
 - ![Resend](../images/Buttons/040.png "Resend") Sends the invitation to this contact again.
