@@ -6,6 +6,7 @@ $excludedUris = @(
     "https://www.fiskaltrust.",
     "https://fiskaltrust.fr",
     "https://portal.fiskaltrust.",
+    "https://www.bmf.gv.at",
     "localhost"
 );
 
