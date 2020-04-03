@@ -19,8 +19,11 @@ The registration of the user and the company is explained in chapter [Registrati
 The landing page is the welcome page of the fiskaltrust.Portal and can be accessed directly via the URL: https://portal.fiskaltrust.fr
 
 ![Landing page of the fiskaltrust.Portal](images/www.fiskaltrust.fr/portal-landing-page.png)
+Landing-Page of the ft.portal | [https://portal.fiskaltrust.fr](https://portal.fiskaltrust.fr)
+
+<img src="../images/Numbers/circle-1o.svg" width="24px"> The login or registration of a user/company on the ft.Portal is initiated by clicking on ![Portal](../images/Buttons/035.png "Portal").
+
 ![Landing page (Partner) of the fiskaltrust.Portal](images//www.fiskaltrust.fr/portal-landing-page-partner.png)
 Landing-Page of the ft.portal | [https://portal.fiskaltrust.fr](https://portal.fiskaltrust.fr)
-<img src="../images/Numbers/circle-1o.svg" width="24px"> The login or registration of a user/company on the ft.Portal is initiated by clicking on ![Portal](../images/Buttons/035.png "Portal").
 
 <img src="../images/Numbers/circle-2o.svg" width="24px"> As a PosCreator, PosDealer or consultant, you can voluntarily register in the list of fiskaltrust.Partners via the ft.Portal. These companies will be added to the list found at https://fiskaltrust.fr/partenaires/ with their contact details.
