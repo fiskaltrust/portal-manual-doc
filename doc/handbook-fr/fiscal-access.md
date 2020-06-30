@@ -14,7 +14,7 @@ Export fiscal archive - Login to the fiskaltrust.Portal
 
 ### 2. Identify queue for creating the fiscal archive
 
-As the second step, the queue for the POS-System and/or outlet has to be identified for the fiscal control. An outlet usually has one queue which holds all the receipts issued. To enhance performance or avoid working issues there can be more than one queue per outlet. In this case, this and the following steps have to be repeated to get for each queue to access the fiscal information.
+As the second step, the queue for the POS-System and/or outlet must be identified for the fiscal control. An outlet usually has one queue which holds all the receipts issued. To enhance performance or avoid working issues there can be more than one queue per outlet. In this case, this and the following steps have to be repeated to get for each queue to access the fiscal information.
 
 [![https://portal.fiskaltrust.fr/Queue/](images/fiscal-archive/02-identify-queue.png "https://portal.fiskaltrust.fr/Queue/" )](https://portal.fiskaltrust.fr/Queue/)
 Export fiscal archive - Identify the queue to be exported in the fiskaltrust.Portal
@@ -31,7 +31,7 @@ Export fiscal archive - Identify the queue to be exported in the fiskaltrust.Por
 
 ### 3. Define the limits of the receipts to export
 
-The first step to create a fiscal archive is the definition of receipts to be included in the export. For defining these limits, there are several possibilities offered by the fiskaltrust.Portal. Each of the methods result in the same archive. They are present to offer the best ways to limit the export. 
+The first step to create a fiscal archive is the definition of which receipts to include. For defining these limits several possibilities are offered by the fiskaltrust.Portal. Each of the methods result in the same export. They are present to offer the best ways to define the limits of the export.
 
 [![https://portal.fiskaltrust.fr/Queue/](images/fiscal-archive/03-define-queue-limits.png "https://portal.fiskaltrust.fr/Queue/" )](https://portal.fiskaltrust.fr/Queue/)
 Export fiscal archive - Define the receipts to be included in the fiscal archive
