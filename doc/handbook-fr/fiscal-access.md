@@ -173,6 +173,7 @@ Export fiscal archive - Example of _journal.json_
 | Level      | integer     |                                      | `0`                                      |
 | DataType   | string      |                                      | `AzureStorageDownloaderOutput`           |
 | Data       | json object |                                      |                                          |  
+
 Export fiscal archive - content of the _journal.json_ (main part)
 
 | field name            | type        | meaning                              | example                        |
@@ -185,6 +186,7 @@ Export fiscal archive - content of the _journal.json_ (main part)
 | Sources               | integer     | number of sources in a chain         | `1`                            |
 | Paths                 | integer     | number of paths in a chain           | `1`                            |
 | Message               | string      |                                      | The Queue is chained correctly |  
+
 Export fiscal archive - content of the _journal.json_ (data object)
 
 #### Verification of integrity of data exported and how it works
@@ -204,7 +206,7 @@ Export fiscal archive - Example of _Chainchecker_
 
 #### XML export
 
-The full export in XML format contains all the journals of a queue in an XML structure and are separated by data structure (see table below called "*Data structures included in the XML and CSV files*"). Once the export has been run, the completed export can be found in the Portal by clicking on the chevron beside the ![Upload location](images/Buttons/053.png "Upload location") and selecting the XML file that appears.
+The full export in XML format contains all the journals of a queue in an XML structure and are separated by data structure (see table below called "*Data structures included in the XML and CSV files*"). Once the export has been run, the completed export can be found in the Portal by clicking on the chevron beside the ![Upload location](images/fiscal-archive/053.png "Upload location") and selecting the XML file that appears.
 
 [![https://portal.fiskaltrust.fr/Queue/Export/](images/fiscal-archive/xml-export-in-portal.png "https://portal.fiskaltrust.fr/Queue/Export/")](https://portal.fiskaltrust.fr/Queue/Export/)  
 Export fiscal archive - xml export in portal
