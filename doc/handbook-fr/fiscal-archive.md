@@ -25,7 +25,7 @@ Export fiscal archive - Identify the queue to be exported in the fiskaltrust.Por
 
 <img src="../images/Numbers/circle-3o.svg" width="24px"> Each queue has its own description shown in this list. Normally the description should be clear enough to identify the queue.
 
-<img src="../images/Numbers/circle-4o.svg" width="24px"> Each queue is assigned to a _CashBox_ (a configuration container) and the ID of the CashBox can be found in the column _Localisation_. The _name/description_ can be found in the details of a queue. To access this information click on the chevron right just in front of the queue description.
+<img src="../images/Numbers/circle-4o.svg" width="24px"> Each queue is assigned to a _CashBox_ (a configuration container) and the ID of the CashBox can be found in the column _Localisation_. The _name/description_ can be found in the details of a queue. To access this information click on the chevron just in front of the queue description.
 
 <img src="../images/Numbers/circle-5o.svg" width="24px"> To start the configuration of the queue's export click on the export button ![Export queue](../images/Buttons/019.png "Export queue").
 
@@ -171,7 +171,7 @@ Export fiscal archive - Example of _journal.json_
 | Moment     | date / time | Moment of finished export            | `2019-08-19T23:18:44.245682Z`            |
 | Level      | integer     |                                      | `0`                                      |
 | DataType   | string      |                                      | `AzureStorageDownloaderOutput`           |
-| Data       | json object |                                      |                                          |
+| Data       | json object |                                      |                                          |  
 Export fiscal archive - content of the _journal.json_ (main part)
 
 | field name            | type        | meaning                              | example                        |
@@ -183,10 +183,10 @@ Export fiscal archive - content of the _journal.json_ (main part)
 | Leafs / Leaves                 | integer     | number of leafs in a chain           | `1`                            |
 | Sources               | integer     | number of sources in a chain         | `1`                            |
 | Paths                 | integer     | number of paths in a chain           | `1`                            |
-| Message               | string      |                                      | The Queue is chained correctly |
+| Message               | string      |                                      | The Queue is chained correctly |  
 Export fiscal archive - content of the _journal.json_ (data object)
 
-#### #### Verification of integrity of data exported and how it works
+#### Verification of integrity of data exported and how it works
 
 In order to secure the cash register data, the fiskaltrust.SecurityMechanism provides the following general functions:  
 
@@ -198,7 +198,7 @@ In order to create a chain, the signature of the previous receipt produced by th
 
 The file _journal.json_ contains the information about the processed export and the verified data. The fiscal controller can check the integrity of the data by verifying there has been no break in the chaining by downloading and examining the _journal.json_ file. After opening the file, the controller can look for the _"TaskName": "chainchecker"_, section. The task _“chainchecker”_ is run while the export is being prepared. If there are no breaks in the chain, then the message _“The Queue is chained correctly”_ appears in the data set. The example below shows that the fiskaltrust.SecurityMechanism, has not detected any breaks or inconsistencies within the data set.
 
-[![https://portal.fiskaltrust.fr/Queue/Export/](images/fiscal-archive/09_4-files-output_json.png "https://portal.fiskaltrust.fr/Queue/Export/")](https://portal.fiskaltrust.fr/Queue/Export/)
+[![https://portal.fiskaltrust.fr/Queue/Export/](images/fiscal-archive/09_4-files-output_json.png "https://portal.fiskaltrust.fr/Queue/Export/")](https://portal.fiskaltrust.fr/Queue/Export/)  
 Export fiscal archive - Example of _Chainchecker_
 
 #### XML export
