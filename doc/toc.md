@@ -1,4 +1,4 @@
-﻿# [Disclaimer](handbook-general/disclaimer.md)
+# [Disclaimer](handbook-general/disclaimer.md)
 
 # fiskaltrust.Portal
 ## User and Company
