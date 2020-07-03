@@ -52,6 +52,7 @@ $files = Get-ChildItem -Path *.md -Recurse
 $global:errors = @()
 
 foreach ($file in $files) {   
+    "Checking file $file"
     CheckFile($file);
 }
 
