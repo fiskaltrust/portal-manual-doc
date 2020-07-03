@@ -1,41 +1,46 @@
 ## User and company<a name="user-and-company"></a>
 
 ### Registration and Login<a name="registration-and-login"></a>
-The Login or registration of a user takes place after clicking on [Portal] or directly going to the URL https://portal.fiskaltrust.fr/Account/Login. These two actions are described in this chapter.
+
+The Login or registration of a user takes place after clicking on \[Portal\] or directly going to the URL https://portal.fiskaltrust.fr/Account/Login. These two actions are described in this chapter.
 
 [![Login and/or register](images/Account/Login/portal-login.png "https://portal.fiskaltrust.fr/Account/login")](https://portal.fiskaltrust.fr/Account/login)
 Login, link for registration with ft.Portal and password reset | [https://portal.fiskaltrust.fr/Account/login](https://portal.fiskaltrust.fr/Account/login)
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> If you are not registered as an user on the ft.Portal you can click [Register] without filling in the access data and get to the registration form.
-<img src="../images/Numbers/circle-2o.svg" width="24px"> If you are already registered on the Portal and therefore have an email address and a password, you can login by filling the access data and clicking on [Login]. All portal functions released for the logged in user and the assigned rights are then available. For further information see Chapter _[Dashboard](dashboard.md)_.
+<img src="../images/Numbers/circle-1o.svg" width="24px"> If you are not registered as an user on the ft.Portal you can click \[Register\] without filling in the access data and get to the registration form.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> If you are already registered on the Portal and therefore have an e-mail address and a password, you can login by filling the access data and clicking on \[Login\]. All portal functions released for the logged in user and the assigned rights are then available. For further information see Chapter _[Dashboard](dashboard.md)_.
 <img src="../images/Numbers/circle-3o.svg" width="24px"> If you have forgotten your password to login, you can click on _If you have forgotten your password please click here_. This will take you to the page where you can request a new password. For further information see _[Reset password](#reset-password)_.
 
 #### Registration<a name="registration"></a>
+
 The registration process consists of four steps, which are described as following. With this process it is the first registration of an user, as well as the associated company to that user. This procedure is independent of the users future role, regardless of it is a PosCreator, PosDealer, Consultant or PosOperator, at the ft.Portal. 
+
 #### Commercial number
+
 ![Register commercial number](images/Account/Register/portal-register-commercial-no.png)
 Entering a commercial number
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> First of all you can enter one of four different commercial numbers on a voluntary base. Choose one of the radio-buttons to fix whcih type of the number you wish to use. Then enter the number in the textbox. The best option is to enter the SIREN for your company. In this case, in the following steps all  data found will be prefilled from the system.
+<img src="../images/Numbers/circle-1o.svg" width="24px"> First of all you can enter one of four different commercial numbers on a voluntary base. Choose one of the radio-buttons to fix whcih type of the number you wish to use. Then enter the number in the textbox. The best option is to enter the SIREN for your company. In this case, in the following steps all data found will be prefilled from the system.
 <img src="../images/Numbers/circle-2o.svg" width="24px"> The checkbox _I'm not a robot_ has to be ticked. This proves that the action being performed is not an automated process (meaning web robot) which is accessing this website. If captcha service is not sure of a personal presence, the following image shows up.
 
 ![Register commercial number](images/Account/Register/portal-register-captcha.png)
 Example: Captcha prompt: "Select all images with cars".
 
-Select all images corresponding to the object shown in the upper right corner and click on [VERIFY]. If necessary, you can click on the headset-icon on the left bottom to request audio help. For more information on the captcha service see https://support.google.com/recaptcha.
+Select all images corresponding to the object shown in the upper right corner and click on \[VERIFY\]. If necessary, you can click on the headset-icon on the left bottom to request audio help. For more information on the captcha service see https://support.google.com/recaptcha.
 
 <img src="../images/Numbers/circle-3o.svg" width="24px"> Then tick the checkbox to accept the Terms and Conditions and the privacy policy of fiskaltrust. Both can be accessed with a click on the hyperlinks following the checkbox.
 
-<img src="../images/Numbers/circle-4o.svg" width="24px"> By clicking on [Next] you can proceed to the second step called _Company data_.
+<img src="../images/Numbers/circle-4o.svg" width="24px"> By clicking on \[Next\] you can proceed to the second step called _Company data_.
 
 #### Company data
-The second step requires some company data. All the fields marked with a red star must be filled out with the correct data.
+
+The second step requires some company data. All the fields marked with a red star are mandatory and must be filled out with the correct data.
 ![Register company data](images/Account/Register/portal-register-company-data.png)
 Complete the company's data
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> The correct company has to be entered. The name will be verified later on against any entered commercial number. This name has to be the same as the one used in the commercial registers. For example the name from the K-bis should be used here. The name of the company may not already be in use for registration.
+<img src="../images/Numbers/circle-1o.svg" width="24px"> The correct company has to be entered. The name will be verified later on against any entered commercial number. This name has to be the same as the one used in the commercial registers. for example the name from the K-bis should be used here. The name of the company may not already be in use for registration.
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> A valid email-address must be entered in this field. The email-address for company data may not be used already.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> A valid email-address must be entered in this field. The email-address for company data may not be used already for another company.
 
 <img src="../images/Numbers/circle-3o.svg" width="24px"> The address of the company's headquarter must be entered.
 
@@ -43,7 +48,7 @@ Complete the company's data
 
 <img src="../images/Numbers/circle-5o.svg" width="24px"> You can already enter some or all commercial numbers for the company. This will facilitate the further registration process and usage of the fiskaltrust.Portal.
 
-<img src="../images/Numbers/circle-6o.svg" width="24px"> By clicking on [Next] you proceed to the 3rd step _User data_ of the registration process.
+<img src="../images/Numbers/circle-6o.svg" width="24px"> By clicking on \[Next\] you proceed to the 3rd step _User data_ of the registration process.
 
 ##### Error message after entered company data
 If the data entered in _Company name_<img src="../images/Numbers/circle-1o.svg" width="24px"> and/or _email-address_<img src="../images/Numbers/circle-2o.svg" width="24px"> was already used for registration an informational page will be displayed.
@@ -54,6 +59,7 @@ Company is already registered at the fiskaltrust.Portal
 This page contains the information of the registered company and how to inform the primary contact in order to connect to this company. Click on the link of the shown primary contact to open your email application.
 
 #### User data
+
 The 3rd step of the registration process queries all the personal data of the primary user. All the fields marked with a red star must be filled out with the correct data. The primary user is the key contact used in the fiskaltrust.Portal.
 This contact is the the designated administrator of the newly registered company. With this account other employees of the company can be invited. 
 ![Register user data](images/Account/Register/portal-register-user-data.png)
@@ -65,9 +71,10 @@ Completing the user data for the primary contact
 
 <img src="../images/Numbers/circle-3o.svg" width="24px"> Further on enter the personal data fo the primary contact. Here the field for first and last name are mandatory.
 
-<img src="../images/Numbers/circle-4o.svg" width="24px"> Click on [Next] to proceed to the last step of the registration process.
+<img src="../images/Numbers/circle-4o.svg" width="24px"> Click on \[Next\] to proceed to the last step of the registration process.
 
 ##### Error message after entered cousermpany data
+
 If the email address entered in _email address_<img src="../images/Numbers/circle-1o.svg" width="24px"> was already used for registration, the following information will be displayed.
 
 ![Error during register user data](images/Account/Register/portal-register-user-data-found.png)
@@ -76,12 +83,14 @@ Already registered email address
 By clicking on the hyperlink in the text, the password of the user with the entered email address can be reset.
 
 #### Last step
+
 With a successful registration the information at the last step is shown. The fiskaltrust.Portal sends an email with all the necessary information to your primary contact's email.
 
 ![Successsful registration](images/Account/Register/portal-register-last-step.png)
 Completing the registration process successful
 
 ### Confirm registration
+
 When the email is received in the primary contact's inbox, open it and click on the confirmation link. If you don't find the email in your inbox, look at the spam folder of your email application. Depending on whether you are registering on the _sandbox_ or on the _portal_ you'll receive this email from the sender _sandbox@fiskaltrut.fr_ or _portal@fiskaltrust.fr_
 
 ![Confirmation email](images/Account/Register/portal-register-email.png)
@@ -100,7 +109,8 @@ Activating the user account
 
 Now your account is active and the link on the words _this link_ can be used, to proceed with the [login](#login) at the fiskaltrust.Portal.
 
-###<a name="login"></a> Login
+### Login<a name="login"></a>
+
 If no active enterprise and/or user is know a new registration has to be done. This can be started by clicking on the button [Register]<img src="../images/Numbers/circle-1o.svg" width="24px">. For registration look at chapter [Registration](#registration).
 
 If a user exists but the password is forgotten it can be reset with a click on the link _If you have forgotten your password please click here_<img src="../images/Numbers/circle-3o.svg" width="24px">.
@@ -111,6 +121,7 @@ For the login on the fiskalturst.Portal the credentials (_Email_ and _Password_)
 Login to the fiskaltrust.Portal
 
 ### Logout<a name="logout"></a>
+
 To logout from the fiskaltrust.Portal two similar ways are proposed.
 
 ![Portal logout](images/Home/Dashboard/dashboard-logout.png)
@@ -121,6 +132,7 @@ Login to the fiskaltrust.Portal
 Another way to logout is to open the submenu by clicking on the enterprise name<img src="../images/Numbers/circle-2o.svg" width="24px"> on the leftside menu. In this menu the last command<img src="../images/Numbers/circle-3o.svg" width="24px"> starts the logout procedure.
 
 ### Reset password<a name="reset-password"></a>
+
 If the password is lost or forgotten, this function can be used to reset the password. On the login screen of the ft.Portal a hyperlink<img src="../images/Numbers/circle-1o.svg" width="24px"> for requesting a new password can be found.
 
 ![Link to reset password](images/Account/ForgotPassword/ForgotPassword-login.png)

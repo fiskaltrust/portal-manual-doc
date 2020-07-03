@@ -6,12 +6,12 @@ Each PosOperator can log in to the ft.Portal like any other user and any company
 
 The assignment of the PosOperator to a PosDealer is shown below.
 
-![No assigned PosOperators](images/POSOperator/PosOperator-Empty.png)
+![No assigned PosOperators](images/PosOperator/PosOperator-Empty.png)
 Example - For the time being, no PosOperators are assigned to the company (PosDealer).
 
 In the next example, a PosOperator is assigned to the PosDealer.
 
-![List of assigend PosOperators](images/POSOperator/PosOperator-List.png)
+![List of assigend PosOperators](images/PosOperator/PosOperator-List.png)
 PosOperators - overview
 
 ![Number 1](../images/Numbers/1.png) Overview in status - Waiting for approval by PosOperator
@@ -36,5 +36,3 @@ You can send these companies an email inquiry by clicking on the button ![Number
 The assignment as PosDealer or consultant was requested by email.
 
 This request is immediately visible in the list of PosDealers or consultants and can be accepted by the respective company.
-
-Example of a request of a PosOperator

@@ -1,16 +1,17 @@
 ## Access for fiscal control
 
 ### 1. Login
-In order to access the fiscal information, the controller will need the PosOperator to login to the portal at https://portal.fiskaltrust.fr with his proper credentials.
+
+In order to access the fiscal information, the auditor will need the PosOperator to login to the portal at https://portal.fiskaltrust.fr with his proper credentials.
 
 [![https://portal.fiskaltrust.fr/](images/fiscal-archive/01-login.png "https://portal.fiskaltrust.fr/" )](https://portal.fiskaltrust.fr/)  
 Export fiscal archive - Login to the fiskaltrust.Portal
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> Enter the email-address of the account to get fiscal archive.
+<img src="../images/Numbers/circle-1o.svg" width="24px"> Enter the e-mail address of the account to get fiscal archives.
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> Enter the password according to the email-address used as user.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> Enter the password according to the e-mail address used as user.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px"> Click on button [Login] to gain access to the fiskaltrust.Portal.
+<img src="../images/Numbers/circle-3o.svg" width="24px"> Click on button \[Login\] to gain access to the fiskaltrust.Portal.
 
 ### 2. Identify queue for creating the fiscal archive
 
@@ -44,6 +45,7 @@ Here the fiskaltrust receipt number of the queue itself is to be used. **Do not 
 <img src="../images/Numbers/circle-2o.svg" width="24px"> Enter the number of the last receipt (which will be included) to export. If this number is larger than the maximum of the receipts stored in the queue, the whole queue starting with the number entered by _from:_ is exported.
 
 #### Select by date and time
+
 Here the time or the date of the fiskaltrust.Service is used. For this the date and/or time cannot be tampered with by the POS-System.
 
 <img src="../images/Numbers/circle-3o.svg" width="24px"> Enter the date of the first day which should be included in the fiscal archive. By changing the date, the time of this day is set to _00:00_ so the first receipt of the day is included.<br>By clicking on ![Select date](../images/Buttons/049.png "Select date") the date can be selected from a graphical calendar.
@@ -131,7 +133,7 @@ At the bottom of the export module the button [Start export] has to be clicked t
 
 ### 7. Running export
 
-If the export has started and the status can be verified in the fiskaltrust.Portal.
+If the export has started, the status can be verified in the fiskaltrust.Portal.
 
 [![https://portal.fiskaltrust.fr/Queue/Export/](images/fiscal-archive/07-running-export.png "https://portal.fiskaltrust.fr/Queue/Export/")](https://portal.fiskaltrust.fr/Queue/Export/)  
 Export fiscal archive - Verify a running export

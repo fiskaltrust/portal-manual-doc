@@ -8,23 +8,26 @@ Overview of configured and available configuration containers
 The creation and management of the components is discussed in the following chapters:
 
 **in general**
+
 - [Signature creation device](#SCU)
 - [Helper](#helper)
 - [Queue](#queue)
 - [CashBox](#cashbox)
 
 **for Austria**
+
 - [Signature creation device](../handbook-at/configuration.md#SCU)
 - [CashBox](../handbook-at/configuration.md#cashbox)
 
 **in France**
+
 - [Signature creation device](../handbook-fr/configuration.md#SCU)
-- [Queue](#queue)
-- [CashBox](#cashbox)
+- [Queue](../handbook-fr/configuration.md#queue)
+- [CashBox](../handbook-fr/configuration.md#cashbox)
 
 ### CashBox
 
-The CashBox is a configuration container and is restricted by national laws. Refer to the chapter "Configuration" in the Appendix for each country.
+The CashBox is a configuration container and is restricted by national laws. Refer to the chapter "_Configuration_" in the Appendix for each country.
 
 ### Queue
 
@@ -32,7 +35,7 @@ The functions are described in the currently valid interface description: [https
 
 ### Helper
 
-Helpers are modules which are extending the [CashBox](#cashbox) with further functionality.
+Helpers are modules which are extending the [CashBox](#cashbox) with further functionality. The type and number of helpers can vary depending of national laws and/or needed functionallity of POS-Systems.
 
 #### Installation of the helpers
 
@@ -100,6 +103,7 @@ Helper - Delete
 For legal reasons it is currently not possible to delete the helper.
 
 ### Signature Creation Unit<a name="SCU"></a>
+
 Refer to the chapters in the appendices for the national implementations of a signature creation unit.
 
 ### Update

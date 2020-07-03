@@ -22,3 +22,5 @@ The certifciate issued by a certification organization can be choosen<img src=".
 
 [![https://portal.fiskaltrust.fr/POSSystemCertification/ManageCertificates/](images/POSSystemCertification/ManageCertificates-imported.png "https://portal.fiskaltrust.fr/POSSystemCertification/ManageCertificates/" )](https://portal.fiskaltrust.fr/POSSystemCertification/ManageCertificates/)
 POSSystems - Imported certificate
+
+The uploaded certificates or self-testation letter can be downloaded by the PosOperator on his menu _PosOperator_ and there with the submenu _Overview_.

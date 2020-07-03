@@ -1,7 +1,7 @@
 ## Export fiscal archive
 
-### 1. Login
-In order to export the fiscal archive, the PosOperator has to login to the portal at https://portal.fiskaltrust.fr with his proper credentials.
+### Login
+For exporting the fiscal archive the PosOperator has to login to the portal at https://portal.fiskaltrust.fr with his proper credentials.
 
 [![https://portal.fiskaltrust.fr/](images/fiscal-archive/01-login.png "https://portal.fiskaltrust.fr/" )](https://portal.fiskaltrust.fr/)
 Export fiscal archive - Login to the fiskaltrust.Portal
@@ -10,9 +10,9 @@ Export fiscal archive - Login to the fiskaltrust.Portal
 
 <img src="../images/Numbers/circle-2o.svg" width="24px"> Enter the password according to the email-address used as user.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px"> Click on button [Login] to gain access to the fiskaltrust.Portal.
+<img src="../images/Numbers/circle-3o.svg" width="24px"> Click on button \[Login\] to gain access to the fiskaltrust.Portal.
 
-### 2. Identify queue for creating the fiscal archive
+### Identify queue for creating the fiscal archive
 
 As the second step, the queue for the POS-System and/or outlet must be identified for creating a fiscal archive. An outlet usually has one queue which holds all the receipts issued. In order to augment performance or decrease working issues there can be more than one queue per outlet. In this case, this step and the following steps must be repeated to create a fiscal archive for each queue.
 
@@ -29,7 +29,7 @@ Export fiscal archive - Identify the queue to be exported in the fiskaltrust.Por
 
 <img src="../images/Numbers/circle-5o.svg" width="24px"> To start the configuration of the queue's export click on the export button ![Export queue](../images/Buttons/019.png "Export queue").
 
-### 3. Define the limits of the recepits to epxort
+### Define the limits of the receipts to export
 
 The first step to create a fiscal archive is the definition of which receipts are to be included in the export. For defining these limits, there are several possibilities offered by the fiskaltrust.Portal. Each of the methods result in the same export. They are present to offer the best ways to define the limits of the export. 
 
@@ -37,6 +37,7 @@ The first step to create a fiscal archive is the definition of which receipts ar
 Export fiscal archive - Define the receipts to be included in the fiscal archive
 
 #### Select by receipt number
+
 Here the fiskaltrust receipt number of the queue itself is to be used. **Do not use the local receipt number created by the Pos-System**. By changing value in the first line, the slider limits are adjusted automatically.
 
 <img src="../images/Numbers/circle-1o.svg" width="24px"> Enter the number of the first receipt (this receipt is included) to export. If this number is larger than the maximum of the receipts stored in the queue nothing is exported.
@@ -99,7 +100,9 @@ List of journal included in the FR-DEX export:
 
 * Log journal<br>This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("L" group export) [_Content of the FR-DEX_](#frdep)
 
-### 5. Define export locations
+**Full export (XML)**<br>This type is a combination of the eight journals mentioned above. These eight journals are converted to a xml-format containing the same data. This xml-file can be opened as clear text file with every editor. On the other hand the xml is formatted in that way, to be ready to open in _Microsoft Excel_ too.
+
+### Define export locations
 
 Next, the *Export target* must be selected. The export can be saved in additional locations. These elements can be selected on the right side of the screen. Multiple locations can be selected for each export. if no external storage location is selected, the default storage for the export is the clients storage from fiskaltrust and no additional location has to be used.
 
@@ -119,7 +122,7 @@ If neither option above is selected, the export can be downloaded from the fiska
 
 For each location element in the export container credentials have to be entered. Each storage location window is expanded after selecting the checkbox for the desired location. Depending on the type of location the necessary credentials differ. No credentials are saved on the fiskaltrust.Portal and are only used once to access the storage for saving the export.
 
-### 6. Start the export
+### Start the export
 
 After selecting the necessary export format and storage location(s) the export must be started.
 
@@ -128,7 +131,7 @@ Export fiscal archive - Start the export
 
 At the bottom of the export module the button [Start export] must be clicked to start running the export in the background.
 
-### 7. Running export
+### Running export
 
 If the export has started and the status can be verified in the fiskaltrust.Portal.
 
@@ -139,7 +142,7 @@ The most recently started export is shown on top of a list which can be called i
 
 In the first column the start date and time is shown. In the column _Status_ <img src="../images/Numbers/circle-3o.svg" width="24px"> the symbol ![Running export](images/fiscal-archive/008.png "Running export") is shown until the end of the export.
 
-### 8. Finished export
+### Finished export
 
 For a finished export the information shown in the above window changes.
 
@@ -400,3 +403,4 @@ The additional files are containing the detailed data of any receipt and are ref
 | 0x4652000000000001 | 5067112530745229313 | ActionJournal in internal format; contains all *zero-receipts*                                                     |
 | 0x4652000000000002 | 5067112530745229314 | ReceiptJournal in internal format; contains all *receipts* that are not *zero-receipts*                            |
 | 0x4652000000000003 | 5067112530745229315 | QueueitemJournal in internal format; contains all detailed information                                             |
+
