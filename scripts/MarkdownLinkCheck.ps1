@@ -55,6 +55,8 @@ foreach ($file in $files) {
     CheckFile($file);
 }
 
+$errors
+
 if ($errors.Count -ge 1) {
     throw $errors;
 }
