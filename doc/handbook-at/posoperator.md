@@ -143,7 +143,7 @@ Further information can be found on the supplement or can also be found here:
 
 https://www.fiskaltrust.at
 
-[https://www.bmf.gv.at/steuern/selbststaendige-unternehmer/Sicherheitseinrichtung_in_Registrierkassen.html](https://www.bmf.gv.at/steuern/selbststaendige-unternehmer/Sicherheitseinrichtung_in_Registrierkassen.html "https://www.bmf.gv.at/steuern/selbststaendige-unternehmer/Sicherheitseinrichtung_in_Registrierkassen.html")
+[https://www.bmf.gv.at/steuern/selbststaendige-unternehmer/Sicherheitseinrichtung_in_Registrierkassen.html](https://www.bmf.gv.at/steuern/selbststaendige-unternehmer/Sicherheitseinrichtung_in_Registrierkassen.html "https://www.bmf.gv.at/steuern/selbststaendige-unternehmer/Sicherheitseinrichtung_in_Registrierkassen.html") <!-- markdown-link-check-disable-line -->
 
 If you have any questions please do not hesitate to contact us
 
