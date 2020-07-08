@@ -91,7 +91,7 @@ Helper - Configuration
 
 ![Number 3](../images/Numbers/3.png) Here you can create a URL for your Helper. By clicking on ![net pipe](../images/Buttons/012.png "net pipe") you get a URL, which is suitable for local use without internet connection, because no firewall settings are required.
 
-![Number 4](../images/Numbers/4.png) By clicking on the ![http](../images/Buttons/013.png "http") button, the system generates a URL for you with which the POS system can access the helper. You can rename the URL yourself. This can look like this: http://localhost.1200/Helperfiskaltrust
+![Number 4](../images/Numbers/4.png) By clicking on the ![http](../images/Buttons/013.png "http") button, the system generates a URL for you with which the POS system can access the helper. You can rename the URL yourself. This can look like this: http://localhost:1200/Helperfiskaltrust
 
 Click on \[Save\] to save the Helper configuration.
 

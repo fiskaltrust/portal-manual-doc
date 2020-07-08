@@ -3,8 +3,9 @@ trigger:
 - release/*
 - refs/tags/*
 
-pool: Build
-
+pool:
+  vmImage: windows-latest
+  
 steps:
 - powershell: |
     $majorMinor,$prerelease = Get-Content "major.minor"
@@ -30,16 +31,22 @@ steps:
 - task: NodeTool@0
   inputs:
     checkLatest: true
+    versionSpec: '12.x' 
   displayName: 'Install Node.js'
 
 - script: 'npm install -g markdown-link-check'
   displayName: 'Install markdown-link-check'
    
-- task: PowerShell@1
+- powershell: |
+    Get-ChildItem -Path ".\doc\" -Filter "*.md" -Recurse | ForEach-Object {
+      $path = Resolve-Path -Path $_.FullName -Relative
+      if(!($path -match "\\\.[^\.\\]+")) {
+        markdown-link-check -c .\markdown-link-check.config.json -q $path
+      }
+    }
+  failOnStderr: true
+  errorActionPreference: continue
   displayName: 'Check links'
-  inputs:
-    scriptName: 'scripts/MarkdownLinkCheck.ps1'
-    workingFolder: doc
 
 - task: NuGetToolInstaller@0
   displayName: 'Use NuGet'
@@ -47,8 +54,8 @@ steps:
 - powershell: |
     # The current latest version 0.12.5 contains a bug that prevents the creation of TOCs
     # Specific version can be removed as soon as 0.12.6 is released
-    choco install wkhtmltopdf --version 0.12.4.20170325 --allow-downgrade -y
-    choco install docfx --version 2.41 -y
+    choco install wkhtmltopdf -y
+    choco install docfx -y
     nuget install DocFx.Plugins.PlantUml -ExcludeVersion -OutputDirectory .
   displayName: 'Install prerequisites'
 
