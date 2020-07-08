@@ -26,4 +26,4 @@ Landing-Page of the ft.portal | [https://portal.fiskaltrust.fr](https://portal.f
 ![Landing page (Partner) of the fiskaltrust.Portal](images//www.fiskaltrust.fr/portal-landing-page-partner.png)
 Landing-Page of the ft.portal | [https://portal.fiskaltrust.fr](https://portal.fiskaltrust.fr)
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> As a PosCreator, PosDealer or consultant, you can voluntarily register in the list of fiskaltrust.Partners via the ft.Portal. These companies will be added to the list found at https://fiskaltrust.fr/partenaires/ with their contact details.
+<img src="../images/Numbers/circle-2o.svg" width="24px"> As a PosCreator, PosDealer or consultant, you can voluntarily register in the list of fiskaltrust.Partners via the ft.Portal. These companies will be added to the list found at https://portal.fiskaltrust.fr/public/FilterPartners with their contact details.
