@@ -2,15 +2,16 @@
 
 The ft.Shop can be reached directly at 
 - Austria: [https://portal.fiskaltrust.at/shop/](https://portal.fiskaltrust.at/shop/)
+- Germany: [https://portal.fiskaltrust.de/shop/](https://portal.fiskaltrust.de/shop/)
 - France: [https://portal.fiskaltrust.fr/shop/](https://portal.fiskaltrust.fr/shop/)
 
 ### Methods to purchase fiskaltrust.Products
 
 You can order ft.products either through your PosDealer (as "Entitlements") or directly through the ft.shop. Please clarify the appropriate method with your PosDealer. You can also place bulk orders with our support team. You can contact us for
 
-- Austria at [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
-- France at [contact@fiskaltrust.fr](mailto:contact@fiskaltrust.fr).
-- Germany at [info@fiskaltrust.de](mailto:info@fiskaltrust.de).
+- Austria at [sales@fiskaltrust.at](mailto:sales@fiskaltrust.at).
+- France at [vents@fiskaltrust.fr](mailto:vents@fiskaltrust.fr).
+- Germany at [sales@fiskaltrust.de](mailto:sales@fiskaltrust.de).
 
 ### Description of ft.Products
 
