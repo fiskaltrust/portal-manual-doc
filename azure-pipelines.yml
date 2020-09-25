@@ -4,7 +4,7 @@ trigger:
 - refs/tags/*
 
 pool:
-  vmImage: windows-latest
+  vmImage: ft-a240-build-agents-windows
   
 steps:
 - powershell: |
