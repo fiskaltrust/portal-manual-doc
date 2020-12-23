@@ -148,7 +148,7 @@ Payment in the webshop | Credit card (Mastercard, Visa) or <br />Paypal account 
 | **1 Registration** <br />![Screenshot-AT 86](images/portal-sandbox.fiskaltrust.at/Process/001.png)|
   | To register the contact and the company, please go to [https://portal.fiskaltrust.at](https://portal.fiskaltrust.at)<br />(Test environment under [https://portal-sandbox.fiskaltrust.at](https://portal-sandbox.fiskaltrust.at)) top left on \[Portal\] and follow the instructions<br />(see chapter "[Registration and Login](registration-login.md)")<br />The re-registration of a company and a user on the fiskaltrust.Portal must be performed jointly in order to connect the user as the primary contact with the company. This connection can currently only be established later by the fiskaltrust.support. |
 |------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **2 TIP** <br> ![Screenshot-AT 87](images/portal-sandbox.fiskaltrust.at/Process/002.png) |
+| **2 TIP** <br /> ![Screenshot-AT 87](images/portal-sandbox.fiskaltrust.at/Process/002.png) |
   | The data of the company - especially the name, UID number and postal code - should be recorded and not skipped. In the event that the company is not created, the company can be created by another new contact. A new company can only be created for an existing contact via the fiskaltrust.Hotline.<br />Only if the contact is created NEW and the company already exists in the fiskaltrust.Portal, the entry of company data can be skipped.|
 | **3 TIP** |
   |If you (also) log into the production system under this link: [https://portal.fiskaltrust.at](https://portal.fiskaltrust.at), the access data will be transferred from the production system to the sandbox in irregular intervalls. This allows you to register in the sandbox even after the next update.|
@@ -166,7 +166,7 @@ Payment in the webshop | Credit card (Mastercard, Visa) or <br />Paypal account 
 | **9 Automated UID confirmation** |
   |Optional: You can also check its validity here to the right of the UID number. This checks whether the EU VAT information system recognizes the VAT number as belonging to the company name.|
 | ![Screenshot-AT 90](images/portal-sandbox.fiskaltrust.at/Process/005.png) |
-  |If an order key has not been positively checked, it cannot be used to personalize a signature creation device (SmartCard). <br /> Only after a positive check of the order key can this order key be used to personalize a signature creation device (SmartCard).<br /> (see "Checking the company order keys") <br> If the check fails, you can move the mouse over the "DataCheck" field to see the response.|
+  |If an order key has not been positively checked, it cannot be used to personalize a signature creation device (SmartCard). <br /> Only after a positive check of the order key can this order key be used to personalize a signature creation device (SmartCard).<br /> (see "Checking the company order keys") <br /> If the check fails, you can move the mouse over the "DataCheck" field to see the response.|
 
 ### Invitation of a **PosOperator** by the **PosDealer**
 

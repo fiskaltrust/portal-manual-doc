@@ -7,11 +7,11 @@ In order to access the fiscal information, the auditor will need the PosOperator
 [![https://portal.fiskaltrust.fr/](images/fiscal-archive/01-login.png "https://portal.fiskaltrust.fr/" )](https://portal.fiskaltrust.fr/)  
 Export fiscal archive - Login to the fiskaltrust.Portal
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> Enter the e-mail address of the account to get fiscal archives.
+<img src="../images/Numbers/circle-1o.svg" width="24px" /> Enter the e-mail address of the account to get fiscal archives.
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> Enter the password according to the e-mail address used as user.
+<img src="../images/Numbers/circle-2o.svg" width="24px" /> Enter the password according to the e-mail address used as user.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px"> Click on button \[Login\] to gain access to the fiskaltrust.Portal.
+<img src="../images/Numbers/circle-3o.svg" width="24px" /> Click on button \[Login\] to gain access to the fiskaltrust.Portal.
 
 ### 2. Identify queue for creating the fiscal archive
 
@@ -20,15 +20,15 @@ As the second step, the queue for the POS-System and/or outlet must be identifie
 [![https://portal.fiskaltrust.fr/Queue/](images/fiscal-archive/02-identify-queue.png "https://portal.fiskaltrust.fr/Queue/" )](https://portal.fiskaltrust.fr/Queue/)
 Export fiscal archive - Identify the queue to be exported in the fiskaltrust.Portal
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> On the left side of the portal the menu can be found. Click on the word _Configuration_ to open this menu.
+<img src="../images/Numbers/circle-1o.svg" width="24px" /> On the left side of the portal the menu can be found. Click on the word _Configuration_ to open this menu.
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> Click on _Queue_ to show the whole list of queues created for the company.
+<img src="../images/Numbers/circle-2o.svg" width="24px" /> Click on _Queue_ to show the whole list of queues created for the company.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px"> Each queue has its own description shown in this list. Normally the description should be clear enough to identify the queue.
+<img src="../images/Numbers/circle-3o.svg" width="24px" /> Each queue has its own description shown in this list. Normally the description should be clear enough to identify the queue.
 
-<img src="../images/Numbers/circle-4o.svg" width="24px"> Each queue is assigned to a _CashBox_ (a configuration container) and the ID of the CashBox can be found in the column _Localisation_. The _name/description_ can be found in the details of a queue. To access this information click on the chevron just in front of the queue description.
+<img src="../images/Numbers/circle-4o.svg" width="24px" /> Each queue is assigned to a _CashBox_ (a configuration container) and the ID of the CashBox can be found in the column _Localisation_. The _name/description_ can be found in the details of a queue. To access this information click on the chevron just in front of the queue description.
 
-<img src="../images/Numbers/circle-5o.svg" width="24px"> To start the configuration of the queue's export click on the export button ![Export queue](../images/Buttons/019.png "Export queue").
+<img src="../images/Numbers/circle-5o.svg" width="24px" /> To start the configuration of the queue's export click on the export button ![Export queue](../images/Buttons/019.png "Export queue").
 
 ### 3. Define the limits of the receipts to export
 
@@ -40,27 +40,27 @@ Export fiscal archive - Define the receipts to be included in the fiscal archive
 #### Select by receipt number
 Here the fiskaltrust receipt number of the queue itself is to be used. **Do not use the local receipt number created by the Pos-System**. By changing value in the first line, the slider limits are adjusted automatically.
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> Enter the number of the first receipt (which will be included) to export. If this number is larger than the maximum of the receipts stored in the queue nothing is exported.
+<img src="../images/Numbers/circle-1o.svg" width="24px" /> Enter the number of the first receipt (which will be included) to export. If this number is larger than the maximum of the receipts stored in the queue nothing is exported.
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> Enter the number of the last receipt (which will be included) to export. If this number is larger than the maximum of the receipts stored in the queue, the whole queue starting with the number entered by _from:_ is exported.
+<img src="../images/Numbers/circle-2o.svg" width="24px" /> Enter the number of the last receipt (which will be included) to export. If this number is larger than the maximum of the receipts stored in the queue, the whole queue starting with the number entered by _from:_ is exported.
 
 #### Select by date and time
 
 Here the time or the date of the fiskaltrust.Service is used. For this the date and/or time cannot be tampered with by the POS-System.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px"> Enter the date of the first day which should be included in the fiscal archive. By changing the date, the time of this day is set to _00:00_ so the first receipt of the day is included.<br>By clicking on ![Select date](../images/Buttons/049.png "Select date") the date can be selected from a graphical calendar.
+<img src="../images/Numbers/circle-3o.svg" width="24px" /> Enter the date of the first day which should be included in the fiscal archive. By changing the date, the time of this day is set to _00:00_ so the first receipt of the day is included.<br />By clicking on ![Select date](../images/Buttons/049.png "Select date") the date can be selected from a graphical calendar.
 
-<img src="../images/Numbers/circle-4o.svg" width="24px"> To adjust the time of first receipt in the fiscal archive, a time can be entered here. This can be used for example to export by the start of a shift.<br>By clicking on ![Select time](../images/Buttons/050.png "Select time") the time can be selected from a graphical clock.
+<img src="../images/Numbers/circle-4o.svg" width="24px" /> To adjust the time of first receipt in the fiscal archive, a time can be entered here. This can be used for example to export by the start of a shift.<br />By clicking on ![Select time](../images/Buttons/050.png "Select time") the time can be selected from a graphical clock.
 
-<img src="../images/Numbers/circle-5o.svg" width="24px"> Enter the date of the last day which should be included in the fiscal archive. By changing the date the time of this day is set to _23:59_ so the last receipt of the day is included.<br>By clicking on ![Select date](../images/Buttons/049.png "Select date") the date can be selected from a graphical calendar.
+<img src="../images/Numbers/circle-5o.svg" width="24px" /> Enter the date of the last day which should be included in the fiscal archive. By changing the date the time of this day is set to _23:59_ so the last receipt of the day is included.<br />By clicking on ![Select date](../images/Buttons/049.png "Select date") the date can be selected from a graphical calendar.
 
-<img src="../images/Numbers/circle-6o.svg" width="24px"> To adjust the time of last receipt in the fiscal archive a time can be entered here. This can be used for example to export to the end of a shift.<br>By clicking on ![Select time](../images/Buttons/050.png "Select time") the time can be selected from a graphical clock.
+<img src="../images/Numbers/circle-6o.svg" width="24px" /> To adjust the time of last receipt in the fiscal archive a time can be entered here. This can be used for example to export to the end of a shift.<br />By clicking on ![Select time](../images/Buttons/050.png "Select time") the time can be selected from a graphical clock.
 
 #### Select with the slider
 
-<img src="../images/Numbers/circle-7o.svg" width="24px"> By dragging the left handle of the slider the starting point of the export can be fixed. When the dragging is finished and the mouse button is released, the date and time of the last receipt to be exported will be shown in the *from* date and time fields.
+<img src="../images/Numbers/circle-7o.svg" width="24px" /> By dragging the left handle of the slider the starting point of the export can be fixed. When the dragging is finished and the mouse button is released, the date and time of the last receipt to be exported will be shown in the *from* date and time fields.
 
-<img src="../images/Numbers/circle-8o.svg" width="24px"> By dragging the right handle of the slider the end point of the export can be fixed. When the dragging is finished and the mouse button is released the date and time of the last receipt to be exported will be shown in the *to* date and time fields.
+<img src="../images/Numbers/circle-8o.svg" width="24px" /> By dragging the right handle of the slider the end point of the export can be fixed. When the dragging is finished and the mouse button is released the date and time of the last receipt to be exported will be shown in the *to* date and time fields.
 
 ### 4. Define export type
 
@@ -71,35 +71,35 @@ Export fiscal archive - Export types
 
 There are three types of exports that can be selected under the heading *Export type* in order to start the export of the concerned data:
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> XML Export:  
+<img src="../images/Numbers/circle-1o.svg" width="24px" /> XML Export:  
 A full export of the data that was sent from the Queue. The data will be aggregated in an XML file that can be opened with Microsoft Excel, for example.
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> CSV Export:  
+<img src="../images/Numbers/circle-2o.svg" width="24px" /> CSV Export:  
 A full export of the data that was sent from the Queue. The data will be aggregated into CSV files that can be opened with Microsoft Excel, for example.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px"> FR-DEX Export:  
+<img src="../images/Numbers/circle-3o.svg" width="24px" /> FR-DEX Export:  
 A full export of the data that was sent from the Queue. The data will be aggregated in CSV files, by chain type and can be opened with Microsoft Excel, for example. This export is the fiscal archive that fiskaltrust offers and is not free of charge. This option is only available to clients who have opted to have the fiscal archive option.
 
 In order to select the type of file locate the *Export format* column on the left side of the screen and click on the radio button beside the desired format of the export. Only one format may be selected, per export.
 
 List of journal included in the FR-DEX export:  
-* Ticket journal<br>This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter("T" group export) [_Content of the FR-DEX_](#frdep)
+* Ticket journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter("T" group export) [_Content of the FR-DEX_](#frdep)
 
-* Bill journal<br>This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("B" group export) [_Content of the FR-DEX_](#frdep)
+* Bill journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("B" group export) [_Content of the FR-DEX_](#frdep)
 
-* Invoice journal<br>This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("I" group export) [_Content of the FR-DEX_](#frdep)
+* Invoice journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("I" group export) [_Content of the FR-DEX_](#frdep)
 
-* Copy journal<br>This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("C" group export) [_Content of the FR-DEX_](#frdep)
+* Copy journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("C" group export) [_Content of the FR-DEX_](#frdep)
 
-* Payment Prove journal<br>This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("P" group export) [_Content of the FR-DEX_](#frdep)
+* Payment Prove journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("P" group export) [_Content of the FR-DEX_](#frdep)
 
-* Training journal<br>This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("X" group export) [_Content of the FR-DEX_](#frdep)
+* Training journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("X" group export) [_Content of the FR-DEX_](#frdep)
 
-* Grand total journal<br>This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("G" group export) [_Content of the FR-DEX_](#frdep)
+* Grand total journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("G" group export) [_Content of the FR-DEX_](#frdep)
 
-* Archive journal<br>This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("A" group export) [_Content of the FR-DEX_](#frdep)
+* Archive journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("A" group export) [_Content of the FR-DEX_](#frdep)
 
-* Log journal<br>This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("L" group export) [_Content of the FR-DEX_](#frdep)
+* Log journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("L" group export) [_Content of the FR-DEX_](#frdep)
 
 ### 5. Define export locations
 
@@ -110,13 +110,13 @@ Export fiscal archive - Export locations
 
 There are three options for the export location:
 
-<img src="../images/Numbers/circle-1o.svg" width="24px"> Azure Storage:  
+<img src="../images/Numbers/circle-1o.svg" width="24px" /> Azure Storage:  
 Uploads the output data (e.g. zip files) to a configurable Azure Blob Storage.
 
-<img src="../images/Numbers/circle-2o.svg" width="24px"> FTP Server:  
+<img src="../images/Numbers/circle-2o.svg" width="24px" /> FTP Server:  
 Uploads the output data (e.g. zip files) to a configurable FTP server.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px"> Default (if no selection is made):  
+<img src="../images/Numbers/circle-3o.svg" width="24px" /> Default (if no selection is made):  
 If neither option above is selected, the export can be downloaded from the fiskaltrust servers via the fiskaltrust.Portal once the export is complete.
 
 For each location element in the export container credentials have to be entered. Each storage location window is expanded after selecting the checkbox for the desired location. Depending on the type of location the necessary credentials differ. No credentials are saved on the fiskaltrust.Portal and are only used once to access the storage for saving the export.
@@ -138,9 +138,9 @@ If the export has started, the status can be verified in the fiskaltrust.Portal.
 [![https://portal.fiskaltrust.fr/Queue/Export/](images/fiscal-archive/07-running-export.png "https://portal.fiskaltrust.fr/Queue/Export/")](https://portal.fiskaltrust.fr/Queue/Export/)  
 Export fiscal archive - Verify a running export
 
-The most recently started export is shown on top of a list which can be called in the menu _Tools_<img src="../images/Numbers/circle-1o.svg" width="24px"> with the command _Export_<img src="../images/Numbers/circle-2o.svg" width="24px">.
+The most recently started export is shown on top of a list which can be called in the menu _Tools_<img src="../images/Numbers/circle-1o.svg" width="24px" /> with the command _Export_<img src="../images/Numbers/circle-2o.svg" width="24px" />.
 
-In the first column the start date and time is shown. In the column _Status_<img src="../images/Numbers/circle-3o.svg" width="24px"> the symbol ![Running export](../images/Buttons/008.png "Running export") is shown until the end of the export.
+In the first column the start date and time is shown. In the column _Status_<img src="../images/Numbers/circle-3o.svg" width="24px" /> the symbol ![Running export](../images/Buttons/008.png "Running export") is shown until the end of the export.
 
 ### 8. Finished export
 
