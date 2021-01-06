@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/france/access-for-fiscal-control
+title: Access for fiscal control
+---
+
 ## Access for fiscal control
 
 ### 1. Login

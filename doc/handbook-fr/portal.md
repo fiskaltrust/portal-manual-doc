@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/france/portal
+title: fiskaltrust.Portal
+---
+
 ## fiskaltrust.Portal
 **[https://portal.fiskaltrust.fr](https://portal.fiskaltrust.fr)**
 

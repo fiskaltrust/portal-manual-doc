@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/france/fical-archive
+title: Export fiscal archive
+---
+
 ## Export fiscal archive
 
 ### Login

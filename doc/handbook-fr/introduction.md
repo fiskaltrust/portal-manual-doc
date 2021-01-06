@@ -1,18 +1,19 @@
-# Appendix FR
+---
+slug: /portal-manual/france
+title: Introduction
+---
 
-## Disclaimer
+# Introduction (France)
 
-This part of the manual is protected by copyright and my not be reproduced or distributed in whole or in part without the prior written consent of fiskaltrust SAS.
+## General and important information<a name="general-and-important-information"></a>
 
-### General and important information<a name="general-and-important-information"></a>
-
-The manual describes the market specific functions of the fiskaltrust.Portal for France. Also note that there exists [a manual for the general functions](../handbook-general/disclaimer.md), which describes all the non-market fixed commands.
+The manual describes the market specific functions of the fiskaltrust.Portal for France. Also note that there exists [a manual for the general functions](../introduction.md), which describes all the non-market fixed commands.
 
 The individual pages described are sometimes called up with a delay of up to 60 seconds. This is due to the fact that some very complex processes, such as a database search or querying external services, are carried out in the background.
 
 We are pleased to receive any information for the improvement of our services.
 
-### Contact<a name="contact"></a>
+## Contact<a name="contact"></a>
 
 Please find here all possibilities to contact fiskaltrust SAS.
 
@@ -27,7 +28,7 @@ France
 **E-Mail**
 contact@fiskaltrust.fr
 
-#### Support information of fiskaltrust SAS<a name="support-information"></a>
+### Support information of fiskaltrust SAS<a name="support-information"></a>
 
 Please note the following information when using our support. This enables us to process your inquiry as quickly and completely as possible.
 
@@ -55,7 +56,7 @@ To purchase the fiskaltrust.Products:
   * Payments are possible with SlimPay, SEPA payment
   * Credit card or bank transfers can be used with SlimPay
 
-#### Accessibility of the support hotline<a name="support-accessibility"></a>
+### Accessibility of the support hotline<a name="support-accessibility"></a>
 
 We offer a first-level support in French language. For deeper ongoing technical questions English or German support is established.
 

@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/austria/portal
+title: fiskaltrust.Portal
+---
+
 ## fiskaltrust.Portal
 
 **[https://portal.fiskaltrust.at](https://portal.fiskaltrust.at)**

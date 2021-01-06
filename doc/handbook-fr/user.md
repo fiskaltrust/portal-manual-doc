@@ -1,3 +1,9 @@
+---
+slug: /portal-manual/france/user
+title: User
+---
+
+
 ### User<a name="user"></a>
 
 All the user data including password and user name can be managed by opening the menu by clicking on the _name of the user_<img src="../images/Numbers/circle-1o.svg" width="24px" /> in the left sidebar.

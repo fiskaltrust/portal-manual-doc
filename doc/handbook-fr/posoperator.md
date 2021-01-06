@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/france/posoperator
+title: PosOperator
+---
+
 ## PosOperator
 
 ### Invitation of PosOperators by PosDealers

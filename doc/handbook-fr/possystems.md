@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/france/possystems
+title: PosSystems
+---
+
 ## PosSystems
 
 How to manage a PosSystem in general see chapter [_Manage POS-System_](../handbook-general/possystems.md#manage-pos-system).

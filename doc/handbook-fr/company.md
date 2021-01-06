@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/france/users-and-company/company
+title: Company
+---
+
 ### Company<a name="company"></a>
 
 A click on the company's name in the left sidebar opens the menu with the commands to manage all of the company related data.

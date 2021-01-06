@@ -1,7 +1,11 @@
-# Appendix AT
-## Disclaimer
+---
+slug: /portal-manual/austria
+title: Introduction
+---
 
-### General and important information
+# Introduction (Austria)
+
+## General and important information
 
 The manual describes the most important functions of the fiskaltrust.portal. Also note the abbreviations in the "List of abbreviations"
 
@@ -11,9 +15,9 @@ As many details on the fulfillment of the cash register obligation in 2016 were 
 
 We are pleased about any information for the improvement of our services.
 
-### Contact
+## Contact
 
-#### Support information of fiskaltrust consulting gmbh
+### Support information of fiskaltrust consulting gmbh
 
 Please note the following information when using our support. This enables us to process your enquiry as quickly and completely as possible!
 
@@ -34,7 +38,7 @@ The support services include:
 - Qualified fault processing in our own area of responsibility
 - Forwarding of more complex problems to downstream support units
 
-Each PDealer or PosCreator is responsible for his own customers.
+Each PosDealer or PosCreator is responsible for his own customers.
 
 The PosCreator or PosDealer is responsible for the installation and commissioning of the fiskaltrust security device. fiskaltrust does not know the individual configuration of the respective cash register and only provides the optimum product.
 
@@ -48,7 +52,7 @@ To purchase the fiskaltrust products:
 - Payment is always made by PayPal or SEPA payment.
 - With PayPal you can use a credit card or a bank account.
 
-#### Accessibility of the support hotline
+### Accessibility of the support hotline
 
 We ask for your understanding that the response time can take several days due to the extremely large number of inquiries - depending on the complexity.
 

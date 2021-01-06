@@ -1,4 +1,4 @@
-# [Disclaimer](handbook-general/disclaimer.md)
+# [Introduction](introduction.md)
 
 # fiskaltrust.Portal
 ## User and Company
@@ -11,7 +11,7 @@
 ## [Knowledge Base](handbook-general/knowledgebase.md)
 
 # Appendix AT
-## [Disclaimer](handbook-at/disclaimer.md)
+## [Introduction](handbook-at/introduction.md)
 ## [fiskaltrust.Portal](handbook-at/portal.md)
 ## User and company
 ### [Registration and login](handbook-at/registration-login.md)
@@ -24,7 +24,7 @@
 ## [Fiskalization](handbook-at/fiskalization.md)
 
 # Appendix FR
-## [Disclaimer](handbook-fr/disclaimer.md)
+## [Introduction](handbook-fr/introduction.md)
 ## [fiskaltrust.Portal](handbook-fr/portal.md)
 ## User and company
 ### [Registration and login](handbook-fr/registration-login.md)

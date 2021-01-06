@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/france/users-and-company/dashboard
+title: Dashboard
+---
+
 ### Dashboard
 
 After a user has logged in the dashboard, an overview page, is called up. Via the menu bar on the left side, the functions that have been released for the respective user can be accessed.

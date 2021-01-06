@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/general/posoperator
+title: PosOperator
+---
+
 ## PosOperator
 
 ### Overview of assigned PosOperators

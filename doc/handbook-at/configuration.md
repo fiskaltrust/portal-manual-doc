@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/austria/configuration
+title: Configuration
+---
+
 ## Configuration
 
 For further information for PosCreators or PosDealers Rollout see chapter [Rollout for PosCreators and PosDealers - Important process steps](fiskalization.md#rollout-for-poscreators-and-posdealers-important-process-steps).

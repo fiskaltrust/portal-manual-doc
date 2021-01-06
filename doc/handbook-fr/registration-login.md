@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/france/users-and-company/registration-login
+title: Registration and Login
+---
+
 ## User and company<a name="user-and-company"></a>
 
 ### Registration and Login<a name="registration-and-login"></a>
