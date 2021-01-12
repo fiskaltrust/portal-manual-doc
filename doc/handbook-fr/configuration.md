@@ -506,7 +506,7 @@ Various requirements are necessary to call up the API.
 
 1. You need the `AccountID` and the `AccessToken`, which you can find in your company account (https://portal-sandbox.fiskaltrust.fr/AccountProfile) at the bottom of the page.
 2. You need the _SIRET_, _Company Name_ and _Outlet_-Number.
-3. The template as JSON strong.
+3. The template as JSON string.
 
 The request has to be send with the method `POST` with set to `application/json`. The header has to contain the variables `accountid` and `accesstoken` for which the template should be executed.
 
