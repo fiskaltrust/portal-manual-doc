@@ -11,7 +11,7 @@
     { "pattern": "^https?://portal\\.fiskaltrust\\.[a-z]+(/[^ ]*)?$" },
     { "pattern": "^https?://www\\.bmf\\.gv\\.at/?$" },
     { "pattern": "^https?://gls-group\\.eu/?$" },
-    { "pattern": "^(https?://)?localhost(:[0-9]+)?(/[^ ]*)?$" }
+    { "pattern": "^(https?://)?localhost(:[0-9]+)?(/[^ ]*)?$" },
     { "pattern": "^(http?://)?localhost(:[0-9]+)?(/[^ ]*)?$" }
   ]
 }
