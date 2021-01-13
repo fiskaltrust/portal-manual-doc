@@ -564,7 +564,7 @@ With all `PackageConfiguration`-object the follwoing variables can be used. Depe
 
 #### PackageConfiguration - Helper
 
-There are no more variables then the standard definition.
+There are no more variables then the ones in the standard definition.
 
 ##### Example
 
