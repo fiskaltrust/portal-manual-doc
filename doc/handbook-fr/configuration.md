@@ -439,6 +439,7 @@ To initialize a SCU for a queue the following block can be used:
         "CountryCode": "FR",
         "OutletNumber": "|[outlet_number]|"
     }
+]
 ```
 
 As last parameter the endpoint for the ChaîneCloud product has to be defined:
