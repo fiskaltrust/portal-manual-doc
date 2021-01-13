@@ -3,6 +3,7 @@
     { "pattern": "^https?://signaturcloud\\.fiskaltrust\\.at/?$" },
     { "pattern": "^https?://signaturcloud\\.fiskaltrust\\.fr/?$" },
     { "pattern": "^https?://helipad\\.fiskaltrust\\.cloud/?$" },
+    { "pattern": "^https?://helipad-sandbox\\.fiskaltrust\\.cloud/?$" },
     { "pattern": "^https?://packages\\.fiskaltrust\\.cloud/?$" },
     { "pattern": "^https?://signaturcloud\\.fiskaltrust\\.at/?$" },
     { "pattern": "^https?://signaturcloud\\.fiskaltrust\\.fr/?$" },
@@ -11,6 +12,7 @@
     { "pattern": "^https?://portal\\.fiskaltrust\\.[a-z]+(/[^ ]*)?$" },
     { "pattern": "^https?://www\\.bmf\\.gv\\.at/?$" },
     { "pattern": "^https?://gls-group\\.eu/?$" },
-    { "pattern": "^(https?://)?localhost(:[0-9]+)?(/[^ ]*)?$" }
+    { "pattern": "^(https?://)?localhost(:[0-9]+)?(/[^ ]*)?$" },
+    { "pattern": "^(http?://)?localhost(:[0-9]+)?(/[^ ]*)?$" }
   ]
 }
