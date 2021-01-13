@@ -38,7 +38,7 @@ Overview - First configuration container
 
 <img src="../images/Numbers/circle-4o.svg" width="24px" /> The _dotnet useOffline Launcher_ should be used if no internet connection can be established. This can be downloaded by clicking on ![Download](../images/Buttons/025.png "Download").
 
-<img src="../images/Numbers/circle-5o.svg" width="24px" /> For using the fiskaltrust.Service with a MacOS or Linux system the _mono useOffline Launcher_ is needed. It can be downloaded by clicking on ![mono Launcher](../images/Buttons/026.png "mono Launcher"). This is set to _useOffline_ by default.
+<img src="../images/Numbers/circle-5o.svg" width="24px" /> For using the fiskaltrust.Middleware with a MacOS or Linux system the _mono useOffline Launcher_ is needed. It can be downloaded by clicking on ![mono Launcher](../images/Buttons/026.png "mono Launcher"). This is set to _useOffline_ by default.
 
 <img src="../images/Numbers/circle-6o.svg" width="24px" /> The CashBox can be edited with a click on ![Drag&Drop](../images/Buttons/027.png "Drag&Drop") by Drag & Drop.
 
@@ -84,7 +84,7 @@ Edit CashBox by list
 [![https://portal-sandbox.fiskaltrust.fr/CashBox](images/CashBox/Cashbox-Detail-Configured.png "http://portal.fiskaltrust.at/CashBox")](http://portal.fiskaltrust.fr/CashBox)
 Ready configured CashBox
 
-<img src="../images/Numbers/circle-1o.svg" width="24px" /> By clicking on \[+&nbsp;Add\] you can create a new configuration container (CashBox).
+<img src="../images/Numbers/circle-1o.svg" width="24px" /> By clicking on \[+ Add\] you can create a new configuration container (CashBox).
 
 <img src="../images/Numbers/circle-2o.svg" width="24px" /> In the section _Queues_ the deposited POS-System identification number (_CashBoxID_) as well as the automatically generated AES-key (Base64 encryption) (_AccessToken_) can be found.<br /> By clicking on ![Gear](../images/Buttons/030.png "Gear") the configuration of the queue can be edited.
 
@@ -130,7 +130,7 @@ Queue - Adding
 
 <img src="../images/Numbers/circle-2o.svg" width="24px" /> The appropriate storage method depending on your operating system can be selected. This value cannot be changed after the creation of the queue.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px" /> The package version can also be selected using a dropdown menu. For updating the package version a click on ![Refresh](../images/Buttons/008.png "Refresh") is mandatory.<br />**To configure the POS-System with a law compliant fiskaltrust.Service the correct package has to be selected. The certified version for the used POS-System, is written on the certificate. Your PosDealer or PosCreator knows which version is certified and must be used.**
+<img src="../images/Numbers/circle-3o.svg" width="24px" /> The package version can also be selected using a dropdown menu. For updating the package version a click on ![Refresh](../images/Buttons/008.png "Refresh") is mandatory.<br />**To configure the POS-System with a law compliant fiskaltrust.Middleware the correct package has to be selected. The certified version for the used POS-System, is written on the certificate. Your PosDealer or PosCreator knows which version is certified and must be used.**
 
 <img src="../images/Numbers/circle-4o.svg" width="24px" /> Sets a timeout in milliseconds for the connection attempt with the signature creation unit.
 
@@ -157,9 +157,9 @@ Queue configuration
 
 <img src="../images/Numbers/circle-6o.svg" width="24px" /> The type of storage can only be defined upon queue creation and can not be changed later on.
 
-<img src="../images/Numbers/circle-7o.svg" width="24px" /> The package version can also be selected using a dropdown menu. For updating the package version a click on ![Refresh](../images/Buttons/008.png "Refresh") is mandatory.<br />**To configure the POS-System with a law compliant fiskaltrust.Service the correct package has to be selected. The certified version for the used POS-System, is written on the certificate. Your PosDealer or PosCreator knows which version is certified and must be used.**
+<img src="../images/Numbers/circle-7o.svg" width="24px" /> The package version can also be selected using a dropdown menu. For updating the package version a click on ![Refresh](../images/Buttons/008.png "Refresh") is mandatory.<br />**To configure the POS-System with a law compliant fiskaltrust.Middleware the correct package has to be selected. The certified version for the used POS-System, is written on the certificate. Your PosDealer or PosCreator knows which version is certified and must be used.**
 
-<img src="../images/Numbers/circle-8o.svg" width="24px" /> The URL to access the queue can be defined in this field. By clicking on ![net pipe](../images/Buttons/012.png "net pipe") a URL is used, which is suitable for local use without internet connection, because no firewall settings are required. By clicking on ![http](../images/Buttons/013.png "http"), the system generates a URL with which the POS-System can access the queue. The URL can be renamed, to have it like this: [http://localhost.1200/Queuefiskaltrust]().<br />The ![add URL](../images/Buttons/042.png "add URL") button adds another line for a new URL and the ![remove URL](../images/Buttons/043.png "remove URL") button removes the URL from the configuration.
+<img src="../images/Numbers/circle-8o.svg" width="24px" /> The URL to access the queue can be defined in this field. By clicking on ![net pipe](../images/Buttons/012.png "net pipe") a URL is used, which is suitable for local use without internet connection, because no firewall settings are required. By clicking on ![http](../images/Buttons/013.png "http"), the system generates a URL with which the POS-System can access the queue. The URL can be renamed, to have it like this: [http://localhost:1200/Queuefiskaltrust]().<br />The ![add URL](../images/Buttons/042.png "add URL") button adds another line for a new URL and the ![remove URL](../images/Buttons/043.png "remove URL") button removes the URL from the configuration.
 
 <img src="../images/Numbers/circle-9o.svg" width="24px" /> \[Save\] or \[Save and close\] saves the configuration of the queue (and closes the configuration module).
 
@@ -211,7 +211,7 @@ Edit a queue
 
 <img src="../images/Numbers/circle-1o.svg" width="24px" /> The name of the queue can be changed with this field.
 
-<img src="../images/Numbers/circle-2o.svg" width="24px" /> Various package versions can be selected by using the drop-down menu. These can be updated by clicking on ![Refresh](../images/Buttons/008.png "Refresh"). To take this change in effect on the POS-Systems, this has to be restarted.<br />**To configure the POS-System with a law compliant fiskaltrust.Service the correct package has to be selected. The certified version for the used POS-System, is written on the certificate. Your PosDealer or PosCreator knows which version is certified and must be used.**
+<img src="../images/Numbers/circle-2o.svg" width="24px" /> Various package versions can be selected by using the drop-down menu. These can be updated by clicking on ![Refresh](../images/Buttons/008.png "Refresh"). To take this change in effect on the POS-Systems, this has to be restarted.<br />**To configure the POS-System with a law compliant fiskaltrust.Middleware the correct package has to be selected. The certified version for the used POS-System, is written on the certificate. Your PosDealer or PosCreator knows which version is certified and must be used.**
 
 <img src="../images/Numbers/circle-3o.svg" width="24px" /> Sets a timeout in milliseconds for the connection attempt with the signature creation unit.
 
@@ -224,7 +224,7 @@ At the bottom of the page the buttons \[Save\] or \[Save and close\] saves the c
 [![https://portal.fiskaltrust.fr/Queue/](images/Queue/ReceiptJournal.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
 Queue - Overview ReceiptJournal
 
-This journal shows all receipt created by a POS-System connected to the fiskaltrust.Service. All _special receipt types_ like a closure receipt, an archive request or warnings are shown in the [ActionJournal](#actionjournal-of-a-queue).
+This journal shows all receipt created by a POS-System connected to the fiskaltrust.Middleware. All _special receipt types_ like a closure receipt, an archive request or warnings are shown in the [ActionJournal](#actionjournal-of-a-queue).
 
 <img src="../images/Numbers/circle-1o.svg" width="24px" /> This dropdown limits the shown rows of a journal to 50, 100, 500 or a full list. If the journal is long, a _full list_ can take some time to be shown.
 
@@ -314,7 +314,7 @@ All entered credentials are not saved from the fiskaltrust.Portal. They are only
 
 ### Signature creation unit (SCU)<a name="SCU"></a>
 
-The SCU is the part of the fiskaltrust.Service for securing all the receipts sent to it. In France the SCU is the holder of the certificate to guarantee the unalterability, securtiy, conservation and archiving of the transmitted data.
+The SCU is the part of the fiskaltrust.Middleware for securing all the receipts sent to it. In France the SCU is the holder of the certificate to guarantee the unalterability, securtiy, conservation and archiving of the transmitted data.
 
 #### Overview of signature creation units
 
@@ -348,7 +348,7 @@ To connect a SCU to a CashBox or more specifically to a queue see [Outlets](comp
 
 #### Delete a signature creation unit
 
-The button for deleting a signature creation unit is, for legal reasons, inactive. No created SCU can be deleted from the fiskaltrust.Service. In the future there will be a filter to hide unused or inactive SCUs.
+The button for deleting a signature creation unit is, for legal reasons, inactive. No created SCU can be deleted from the fiskaltrust.Middleware. In the future there will be a filter to hide unused or inactive SCUs.
 
 ### Template
 
@@ -434,17 +434,21 @@ To initialize a SCU for a queue the following block can be used:
 ```
 "init_ftSignaturCreationUnitFR": [{
         "ftSignaturCreationUnitFRId": "|[scu0_id]|",
-        "Siret": "|[siret]|"
+        "Siret": "|[siret]|",
+        "CompanyName": "|[company_name]|",
+        "CountryCode": "FR",
+        "OutletNumber": "|[outlet_number]|"
     }
+]
 ```
 
-As last parameter the endpoint for the ChaîneCloude product has to be defined:
+As last parameter the endpoint for the ChaîneCloud product has to be defined:
 
 ```
 "Url": ["https://signaturcloud-azure-sandbox.fiskaltrust.fr/"]
 ```
 
-**Example of a standard template:**
+##### Example of a standard template
 
 ```
 {
@@ -478,4 +482,330 @@ As last parameter the endpoint for the ChaîneCloude product has to be defined:
             "Url": ["https://signaturcloud-azure-sandbox.fiskaltrust.fr/"]
         }
     ]
-}```
+}
+```
+
+##### Systemvariables
+
+| Variable         | Data type | Value                | Example                              |
+|------------------|-----------|----------------------|--------------------------------------|
+| `cashbox_id`     | `GUID`    | Random GUID          | c2d68cbb-8963-4dda-84f2-9b28c9049b7b |
+| `scu{0-9}_id`    | `GUID`    | Random GUID          | 2dc8896a-20ff-4a90-8020-008a9fc2d080 |
+| `helper{0-9}_id` | `GUID`    | Random GUID          | 72e0ef61-4d28-4bf1-acd3-e17e6ced5635 |
+| `queue{0-9}_id`  | `GUID`    | Random GUID          | ebb8ab15-88ff-49b9-a8ff-c4fca02701cb |
+| `count`          | `int`     | Existing elements +1 | 5                                    |
+
+### Automating CashBox creation
+
+The template system of fiskaltrust can be used for creating a large number of CashBoxes. There is one restriction: **It cannot be used for creating CashBoxes with ChaîneCloud!**
+
+For this purpose, fiskaltrust provides an HTTP API which can be used in the sandbox (https://helipad-sandbox.fiskaltrust.cloud/api/configuration) but also in the live environment (https://helipad.fiskaltrust.cloud/api/configuration).
+
+#### API-Call
+
+Various requirements are necessary to call up the API.
+
+1. You need the `AccountID` and the `AccessToken`, which you can find in your company account (https://portal-sandbox.fiskaltrust.fr/AccountProfile) at the bottom of the page.
+2. You need the _SIRET_, _Company Name_ and _Outlet_-Number.
+3. The template as JSON string.
+
+The request has to be send with the method `POST` with set to `application/json`. The header has to contain the variables `accountid` and `accesstoken` for which the template should be executed.
+
+#### General information
+
+Variables are identified by specifying them within `|[` and `]|`. It is possible to specify system variables whose values are generated by the fiskaltrust.System during generation as well as to specify your own variables whose values can be transferred later via an API call to generate the CashBox.
+
+In first line of the following example, the system variable: `|[cashbox_id]|` is specified as the value for `ftCashBoxId`. This is the CashboxID, a value that is automatically generated by the system and used at this point to identify later the CashBox.
+
+In the fifth line, on the other hand, a separate variable is used (`|[siret]|`) whose concrete value can be passed later during the API call.
+
+#### Data structure
+
+| Name | Data type | Mandatory<br />Default | Description |
+|------|-----------|------------------------|-------------|
+| `ftCashBoxId` | `GUID` (string)<br />GUID | yes | Identifies the CashBox in the fiskaltrust.System and must therefore be unique. Will later become part of the authentication of the CashBox. The system variable `|[cashbox_id]|` should be used here to automatically generate a GUID. |
+| `ftSignaturCreationDevices` | `PackageConfiguration[]` | no  | Array, contains the configurations of the SCUs to be used. |
+| `helpers`| `PackageConfiguration[]` | no  | Array, contains the configurations of the Helpers to be used. |
+| `ftQueues`| `PackageConfiguration[]` | yes | Array, contains the configurations of the Queues to be used. |
+| `TimeStamp`| `DateTime.UtcNow.Ticks` | no  | Time of creation of the template. |
+
+##### Example
+```
+{
+    "ftCashBoxId": "|[cashbox_id]|",
+    "ftSignaturCreationDevices": [{}],
+    "helpers": [{}],
+    "ftQueues": [{}]
+}
+```
+
+#### Standard variables for PackageConfiguration
+
+With all `PackageConfiguration`-object the follwoing variables can be used. Depending on each object the possible values can differ.
+
+| Name | Data type | Mandatory<br />Default | Description |
+|------|-----------|------------------------|-------------|
+| `Id` | `GUID` (string)<br />GUID | yes | Identifies the instance of the element that is configured here (SCU, Queue or Helper). A maximum of the instances can be used (`queue{0-9}_id`, `scu{0-9}_id` or `helper{0-9}_id`. |
+| `Package` | `string` | yes | Name of the package to be used to create the element. E. g. _fiskaltrust.service.sqlite_ for a Queue that is installed locally. Currently supported packages can be found below. |
+| `Description` |  `string` | no  | Descriptive name of the element.<br>Can only be changed be using it as a parameter in the query string. |
+| `Version` | `string`<br />latest version | yes | Version of the package to be used to create the element. If no version is specified, the latest version is used. For France only defined versions are allowed for using with the Queue: **1.2.20342.36753** |
+| `Configuration` | `Object` (string) | no  | Configuration parameters for the element. |
+| `URL` | `string[]`<br>automatic | no | Array, communication endpoints of the element. E.g. REST endpoint for communication with the queue.<br /> The default value is `http://localhost:1200/` and the GUID of the package. |
+
+##### Available packages and version
+
+| Type   | Package name                    | Description      | Version in FR |
+|--------|---------------------------------|------------------|---------------|
+| Queue  | fiskaltrust.service.sqlite      | An SQLite database is used as the local persistence layer. | 1.2.20342.36573 |
+| Queue  | fiskaltrust.service.sqlite.mono | An SQLite database for mono is used as the local persistence layer. | 1.2.20342.36573 |
+| Queue  | fiskaltrust.service.ef          | Entity framework is used as the local persistence layer. | 1.2.20342.36573 |
+| Queue  | fiskaltrust.service.azure       | An Azure instance is used as the local persistence layer. | n/a |
+| Queue  | fiskaltrust.service.adonet      | adoNet is used as the local persistence layer. | 1.2.20342.36573 |
+| Helper | fiskaltrust.service.helper.rest | Adds a new endpoint for the communication protocol _REST_. | 1.2.19134.14077 |
+
+#### PackageConfiguration - Helper
+
+There are no more variables then the ones in the standard definition.
+
+##### Example
+
+```
+"helpers": [
+    {
+        "Id": "|[helper0_id]|",
+        "Package": "fiskaltrust.service.helper.rest",
+        "Version": "1.2.19134.14077",
+        "Url": ["http://localhost:1200/|[helper0_id]|"]
+    }
+],
+```
+
+#### PackageConfiguration - ftSignaturCreationDevices
+
+| Name          | Data type | Mandatory<br />Default | Description |
+|---------------|-----------|------------------------|-------------|
+| `Siret`       | `string`  | yes | The commercial register number consisting of 14 digits. Has to be transfered with the query string or can be hardcoded.<br />The number must be the exact same as used in the corresponding outlet in the fiskaltrust.Portal. |
+| `CompanyName` | `string`  | yes | The name of the company of this CashBox. Has to be set with a query parameter or can be hardcoded in the template.<br />Must be exact the same then the one used for registration of the company in the fiskaltrust.Portal. |
+| `CountryCode` | `string`  | yes | 2 letter code for the country. Has to be `FR`. |
+
+##### Example
+
+```
+"ftSignaturCreationDevices": [
+    {
+        "Id": "|[scu0_id]|",
+        "Siret": "|[siret]|",
+        "CompanyName": "|[company_name]|",
+        "CountryCode": "FR"
+    }
+]
+```
+
+#### Configuration - ftQueues
+
+| Name | Data type | Mandatory<br />Default | Description |
+|------|-----------|------------------------|-------------|
+| `init_ftQueue` | `Configuration` | yes | Initialisation parameters for the queue (general part of the queue configuration). |
+| `init_ftQueueFR` | `Configuration` | yes | Initialisation parameters for the queue (national part of the queue configuration). |
+| `init_ftSignaturCreationUnitFR` | `Configuration` | no  | Initialisation parameter for linking the queue with an SCU. |
+| `connectionstring` | `string` | no  | Connection string to the persistence layer. See below for an example. With SQLite, this field can be omitted if no own database is available. In this case, an SQLite database is automatically created by installing the _Lauchner_. |
+
+##### Examples for connection string
+
+* Entity Framework: `Data Source=.\\!sql-instanz!;Initial Catalog=!fiskaltrust!;User ID=!user!;Password=!password!;MultipleActiveResultSets=True`
+* mySQL: `Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;`
+* SQLite: `Data Source=c:\mydb.db;Version=3;Password=myPassword;`
+
+##### Example
+
+```
+   "ftQueues": [
+       {
+            "Id": "|[queue0_id]|",
+            "Package": "fiskaltrust.service.sqlite",
+            "Version": "1.2.20342.36753",
+            "Configuration": {
+                "init_ftQueue": [{ }],
+                "init_ftQueueFR": [{ }],
+                "init_ftSignaturCreationUnitFR": [{ }]
+            }
+        }
+    ]
+```
+
+#### Configuration - init_ftQueue
+
+| Name | Data type | Mandatory<br />Default | Description |
+|------|-----------|------------------------|-------------|
+| `ftQueueId` | `GUID` (string) | yes<br />GUID | Identification of the queue. The system variable `|[queue{0-9}_id]|` can be used to create a GUID. |
+| `ftCashBoxId` | `GUID` (string) | yes | Identification of the CashBox. The system variable `|[cashbox_id]|` can be used here. |
+| `CountryCode` | `string` | yes | The two letter code for the country. The only allowed value is `FR`. |
+| `Timeout` | `int` | no<br />`15000` | Timeout in milliseconds. |
+
+##### Example
+
+```
+"ftQueues": [
+    {
+        "Configuration": {
+            "init_ftQueue": [{
+                    "ftQueueId": "|[queue0_id]|",
+                    "ftCashBoxId": "|[cashbox_id]|",
+                    "CountryCode": "FR",
+                    "Timeout": 15000
+                }
+            ]
+        }
+    }
+]
+```
+
+#### Configuration - init_ftQueueFR
+
+| Name | Data type | Mandatory<br />Default | Description |
+|------|-----------|------------------------|-------------|
+| `ftQueueFRID` | `GUID` (string) | yes | Identification of the queue. The system variable `|[queue{0-9}_id]|`  can be used. (The same value as for `ftQueueId` in `init_ftQueue` must be used here). |
+| `CashBoxIdentification` | `string` (printable)<br>`ftyyyyMMddhhmmss` | yes | Cash register serial number. Must be a printable string with max. 20 characters. This value must be unique in the PosOperator's account. |
+| `ftSignaturCreationUnitFRId` | `GUID` (string) | yes | The ID of the SCU to which this Queue should connect. The system variable `|[scu{0-9}_id]|` can be used here. When `ftSignaturCreationDevices` is used, the same value as in `Id` must be used.
+| `Siret` | `string` | yes | The commercial register number consisting of 14 digits. Has to be transfered with the query string or can be hardcoded. |
+
+##### Example
+
+```
+"ftQueues": [
+    {
+        "Configuration": {
+            "init_ftQueueFR": [
+                {
+                    "ftQueueFRId": "|[queue0_id]|",
+                    "CashBoxIdentification": "CashBox_|[count]|",
+                    "ftSignaturCreationUnitFRId": "|[scu0_id]|",
+                    "Siret": "|[siret]|"
+                }
+            ]            
+        }
+    }
+]
+```
+
+#### Configuration - init_ftSignaturCreationUnitFR
+
+If the object `ftSignaturCreationDevices` is used in the template the same values from the object must be used in this object.
+
+| Name | Data type | Mandatory<br />Default | Description |
+|------|-----------|------------------------|-------------|
+| `ftSignaturCreationUnitFRId` | `GUID` (string) | yes | Identification of the SCU to which this queue should connect. The system variable |[scu{0-9}_id]| can be used. |
+| `Siret`       | `string`  | yes | The commercial register number consisting of 14 digits. Has to be transfered with the query string or can be hardcoded.<br />The number must be the exact same as used in the corresponding outlet in the fiskaltrust.Portal. |
+| `CompanyName` | `string`  | yes | The name of the company of this CashBox. Has to be set with a query parameter or can be hardcoded in the template.<br />Must be exact the same then the one used for registration of the company in the fiskaltrust.Portal. |
+| `OutletNumber` | `int` | yes | The number of the outlet for which the SCU is used. The outlet has to exist in the fiskaltrust.Portal and the SIRET has to be checked in the outlet.<br />For dynamic usage the outlet-number should be transferred in the query string. |
+| `CountryCode` | `string`  | yes | 2 letter code for the country. Has to be `FR`. |
+
+##### Example
+
+```
+"ftQueues": [
+    {
+        "init_ftSignaturCreationUnitFR": [
+            {
+                "ftSignaturCreationUnitFRId": "|[scu0_id]|",
+                "Siret": "|[siret]|",
+                "CompanyName": "|[company_name]|",
+                "OutletNumber": "|[outlet_number]|",
+                "CountryCode": "FR"
+            }
+        ]
+    }
+]
+```
+
+#### Send the template to the API
+
+##### Template
+
+```
+{
+    "ftCashBoxId": "|[cashbox_id]|",
+    "ftSignaturCreationDevices": [{
+            "Id": "|[scu0_id]|",
+            "Siret": "|[siret]|",
+            "CompanyName": "|[company_name]|",
+            "CountryCode": "FR"
+        }
+    ],
+    "helpers": [{
+            "Id": "|[helper0_id]|",
+            "Package": "fiskaltrust.service.helper.rest",
+            "Version": "1.2.19134.14077",
+            "Url": ["http://localhost:1200/|[helper0_id]|"]
+        }
+    ],
+    "ftQueues": [{
+            "Id": "|[queue0_id]|",
+            "Package": "fiskaltrust.service.sqlite",
+            "Version": "1.2.20342.36753",
+            "Configuration": {
+                "init_ftQueue": [{
+                        "ftQueueId": "|[queue0_id]|",
+                        "ftCashBoxId": "|[cashbox_id]|",
+                        "CountryCode": "FR",
+                        "Timeout": 15000
+                    }
+                ],
+                "init_ftQueueFR": [{
+                        "ftQueueFRId": "|[queue0_id]|",
+                        "CashBoxIdentification": "API-CB-|[outlet_number]|",
+                        "ftSignaturCreationUnitFRId": "|[scu0_id]|",
+                        "Siret": "|[siret]|"
+                    }
+                ],
+                "init_ftSignaturCreationUnitFR": [{
+                        "ftSignaturCreationUnitFRId": "|[scu0_id]|",
+                        "Siret": "|[siret]|",
+                        "CompanyName": "|[company_name]|",
+                        "CountryCode": "FR",
+                        "OutletNumber": "|[outlet_number]|"
+                    }
+                ]
+            },
+            "Url": ["http://localhost:1200/ftAPI"]
+        }
+    ]
+}
+```
+
+##### JSON string
+
+```
+"{\"ftCashBoxId\":\"|[cashbox_id]|\",\"ftSignaturCreationDevices\":[{\"Id\":\"|[scu0_id]|\",\"Siret\":\"|[siret]|\",\"CompanyName\":\"|[company_name]|\",\"CountryCode\":\"FR\"}],\"helpers\":[{\"Id\":\"|[helper0_id]|\",\"Package\":\"fiskaltrust.service.helper.rest\",\"Version\":\"1.2.19134.14077\",\"Url\":[\"http:\/\/localhost:1200\/|[helper0_id]|\"]}],\"ftQueues\":[{\"Id\":\"|[queue0_id]|\",\"Package\":\"fiskaltrust.service.sqlite\",\"Version\":\"1.2.20342.36753\",\"Configuration\":{\"init_ftQueue\":[{\"ftQueueId\":\"|[queue0_id]|\",\"ftCashBoxId\":\"|[cashbox_id]|\",\"CountryCode\":\"FR\",\"Timeout\":15000}],\"init_ftQueueFR\":[{\"ftQueueFRId\":\"|[queue0_id]|\",\"CashBoxIdentification\":\"API-CB-|[outlet_number]|\",\"ftSignaturCreationUnitFRId\":\"|[scu0_id]|\",\"Siret\":\"|[siret]|\"}],\"init_ftSignaturCreationUnitFR\":[{\"ftSignaturCreationUnitFRId\":\"|[scu0_id]|\",\"Siret\":\"|[siret]|\",\"CompanyName\":\"|[company_name]|\",\"CountryCode\":\"FR\",\"OutletNumber\":\"|[outlet_number]|\"}]},\"Url\":[\"http:\/\/localhost:1200\/ftAPI\"]}]}"
+```
+
+##### Query string
+
+In the query string the description for several packages are included. This is the only way to overwrite the default values.
+
+```
+https://helipad-sandbox.fiskaltrust.cloud/api/configuration?outlet_number=26&siret=12345678912345&cashbox_description=CB_Local%20Outlet%20N%C2%B0%2026_18&queue0_description=QU_Local%20Outlet%20N%C2%B0%2026_18&scu0_description=SCU_Local%20Outlet%20N%C2%B0%2026_18&company_name=fiskaltrust%20SAS&helper0_description=REST_Local%20Outlet%20N%C2%B0%2026_18
+```
+
+#### Response of the API call
+
+The API sends a response with all the initial values back to the sender. This JSON contains three objects: `cashBoxId`, `accessToken` and `configuration`. With this you can do an automatic rollout.
+
+Download at first the _Online Launcher_ form the fiskaltrust.Portal. This is a general zip-File with all the necessary files to run the fiskaltrust.Middleware on a local system.
+
+It is important to ensure that the fiskaltrust.Middleware is initialized correctly, i.e. with the corresponding CashBox. The launcher provides a configuration file (`fiskaltrust.exe.config`) for this purpose. You can adapt this accordingly before rolling out the launcher to the operator's CashBox.
+
+Please enter the values for `cashboxid` and `accesstoken` in the `appSetting` area you received as answer from the API-call.
+
+```
+<configuration>
+  <appSettings>
+    <add key="cashboxid" value="your-cashbox-id" />
+    <add key="accesstoken" value="your-access-token" />
+  </appsettings>
+</configuration>
+```
+
+Now you can deliver the launcher with the customized configuration file to the operator's POS system and start it with `fiskaltrust.exe` or install it with `install-service.cmd`. The launcher will automatically download the configuration container for the `cashboxid` specified in `fiskaltrust.exe.config` from the fiskaltrust.Server and configure and start the fiskaltrust.Middleware accordingly.
+
+Alternatively to adjusting the configuration in the `fiskaltrust.exe.config` file, you can pass the `cashboxid` and the `accesstoken` as parameters when starting the launcher (`fiskaltrust.exe`). This specification overwrites the existing configuration. The description of the possible start parameters can be found in the [middleware documentation](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/general/installation/installation.html).
