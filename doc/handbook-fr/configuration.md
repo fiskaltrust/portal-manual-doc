@@ -387,7 +387,7 @@ A template always start with
      "ftQueues": [​{​"Id": "|[queue0_id]|",
 ```
 
-Then add queue type: `"Package": "fiskaltrust.Middleware.azure",`
+Then add queue type: `"Package": "fiskaltrust.service.azure",`
 The type of packages can be found in the dropdown list of [creating a new queue](#add-a-queue).
 
 Then introduce queue parameters, anew block has to be started: `"Configuration": {`
@@ -454,7 +454,7 @@ As last parameter the endpoint for the ChaîneCloud product has to be defined:
     "ftCashBoxId": "|[cashbox_id]|",
     "ftQueues": [{
             "Id": "|[queue0_id]|",
-            "Package": "fiskaltrust.Middleware.azure",
+            "Package": "fiskaltrust.service.azure",
             "Configuration": {
                 "connectionstring": "|[signaturcloud-storage-connectionstring]|",
                 "init_ftQueue": [{
