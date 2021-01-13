@@ -209,7 +209,7 @@ Screenshot-AT 70: Queue configuration
 
 ![Number 2](../images/Numbers/2.png) Here you can create a URL for your queue. By clicking on ![net pipe](../images/Buttons/012.png "net pipe") you get a URL, which is suitable for local use without internet connection, because no firewall settings are required.
 
-![Number 3](../images/Numbers/3.png) By clicking on ![http](../images/Buttons/013.png), the system generates a URL for you with which the POS system can access the queue. You can rename the URL yourself. This can look like this: http://localhost.1200/Queuefiskaltrust
+![Number 3](../images/Numbers/3.png) By clicking on ![http](../images/Buttons/013.png), the system generates a URL for you with which the POS system can access the queue. You can rename the URL yourself. This can look like this: http://localhost:1200/Queuefiskaltrust
 
 ![Number 4](../images/Numbers/4.png) Click on \[Save\] to save the configuration of the queue.
 
@@ -307,7 +307,7 @@ Screenshot-AT 77: Signature Creation Device - Configuration
 
 ![Number 3](../images/Numbers/3.png) Here you can create a URL for your signature creation device. By clicking on ![net pipe](../images/Buttons/012.png "net pipe") you get a URL, which is suitable for local use without internet connection, because no firewall settings are required.
 
-![Number 4](../images/Numbers/4.png) By clicking on the ![http](../images/Buttons/013.png "http"), the system generates a URL for you with which the POS system can access the SCU. You can rename the URL yourself. This can look like this: http://localhost.1200/SCUfiskaltrust
+![Number 4](../images/Numbers/4.png) By clicking on the ![http](../images/Buttons/013.png "http"), the system generates a URL for you with which the POS system can access the SCU. You can rename the URL yourself. This can look like this: http://localhost:1200/SCUfiskaltrust
 
 ![Number 5](../images/Numbers/5.png) Click on \[Save\] to save the configuration of the SCU.
 
