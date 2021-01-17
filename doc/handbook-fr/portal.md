@@ -17,7 +17,7 @@ All PosOperators, PosDealers, Consultants and PosCreators can easily manage the 
 ![Homepage of fiskaltrust](images/www.fiskaltrust.fr/portal-homepage.png)
 Homepage | [https://www.fiskaltrust.fr](https://www.fiskaltrust.fr) with link to fiskaltrust.Portal
 
-<img src="../images/Numbers/circle-1o.svg" width="24px" /> By clicking on the hyperlink _PORTAIL_ on the homepage, the fiskaltrust.Portal can be accessed.
+![Number 1](../images/Numbers/circle-1o.png) By clicking on the hyperlink _PORTAIL_ on the homepage, the fiskaltrust.Portal can be accessed.
 The registration of the user and the company is explained in chapter [Registration](registration-login.md#registration).
 
 ### Landing page<a name="landing-page"></a>
@@ -26,9 +26,9 @@ The landing page is the welcome page of the fiskaltrust.Portal and can be access
 ![Landing page of the fiskaltrust.Portal](images/www.fiskaltrust.fr/portal-landing-page.png)
 Landing-Page of the ft.portal | [https://portal.fiskaltrust.fr](https://portal.fiskaltrust.fr)
 
-<img src="../images/Numbers/circle-1o.svg" width="24px" /> The login or registration of a user/company on the ft.Portal is initiated by clicking on ![Portal](../images/Buttons/035.png "Portal").
+![Number 1](../images/Numbers/circle-1o.png) The login or registration of a user/company on the ft.Portal is initiated by clicking on ![Portal](../images/Buttons/035.png "Portal").
 
 ![Landing page (Partner) of the fiskaltrust.Portal](images//www.fiskaltrust.fr/portal-landing-page-partner.png)
 Landing-Page of the ft.portal | [https://portal.fiskaltrust.fr](https://portal.fiskaltrust.fr)
 
-<img src="../images/Numbers/circle-2o.svg" width="24px" /> As a PosCreator, PosDealer or consultant, you can voluntarily register in the list of fiskaltrust.Partners via the ft.Portal. These companies will be added to the list found at https://portal.fiskaltrust.fr/public/FilterPartners with their contact details.
+![Number 2](../images/Numbers/circle-2o.png) As a PosCreator, PosDealer or consultant, you can voluntarily register in the list of fiskaltrust.Partners via the ft.Portal. These companies will be added to the list found at https://portal.fiskaltrust.fr/public/FilterPartners with their contact details.

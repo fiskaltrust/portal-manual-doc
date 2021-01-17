@@ -12,9 +12,9 @@ The Login or registration of a user takes place after clicking on \[Portal\] or 
 [![Login and/or register](images/Account/Login/portal-login.png "https://portal.fiskaltrust.fr/Account/login")](https://portal.fiskaltrust.fr/Account/login)
 Login, link for registration with ft.Portal and password reset | [https://portal.fiskaltrust.fr/Account/login](https://portal.fiskaltrust.fr/Account/login)
 
-<img src="../images/Numbers/circle-1o.svg" width="24px" /> If you are not registered as an user on the ft.Portal you can click \[Register\] without filling in the access data and get to the registration form.
-<img src="../images/Numbers/circle-2o.svg" width="24px" /> If you are already registered on the Portal and therefore have an e-mail address and a password, you can login by filling the access data and clicking on \[Login\]. All portal functions released for the logged in user and the assigned rights are then available. For further information see Chapter _[Dashboard](dashboard.md)_.
-<img src="../images/Numbers/circle-3o.svg" width="24px" /> If you have forgotten your password to login, you can click on _If you have forgotten your password please click here_. This will take you to the page where you can request a new password. For further information see _[Reset password](#reset-password)_.
+![Number 1](../images/Numbers/circle-1o.png) If you are not registered as an user on the ft.Portal you can click \[Register\] without filling in the access data and get to the registration form.
+![Number 2](../images/Numbers/circle-2o.png) If you are already registered on the Portal and therefore have an e-mail address and a password, you can login by filling the access data and clicking on \[Login\]. All portal functions released for the logged in user and the assigned rights are then available. For further information see Chapter _[Dashboard](dashboard.md)_.
+![Number 3](../images/Numbers/circle-3o.png) If you have forgotten your password to login, you can click on _If you have forgotten your password please click here_. This will take you to the page where you can request a new password. For further information see _[Reset password](#reset-password)_.
 
 #### Registration<a name="registration"></a>
 
@@ -25,17 +25,17 @@ The registration process consists of four steps, which are described as followin
 ![Register commercial number](images/Account/Register/portal-register-commercial-no.png)
 Entering a commercial number
 
-<img src="../images/Numbers/circle-1o.svg" width="24px" /> First of all you can enter one of four different commercial numbers on a voluntary base. Choose one of the radio-buttons to fix whcih type of the number you wish to use. Then enter the number in the textbox. The best option is to enter the SIREN for your company. In this case, in the following steps all data found will be prefilled from the system.
-<img src="../images/Numbers/circle-2o.svg" width="24px" /> The checkbox _I'm not a robot_ has to be ticked. This proves that the action being performed is not an automated process (meaning web robot) which is accessing this website. If captcha service is not sure of a personal presence, the following image shows up.
+![Number 1](../images/Numbers/circle-1o.png) First of all you can enter one of four different commercial numbers on a voluntary base. Choose one of the radio-buttons to fix whcih type of the number you wish to use. Then enter the number in the textbox. The best option is to enter the SIREN for your company. In this case, in the following steps all data found will be prefilled from the system.
+![Number 2](../images/Numbers/circle-2o.png) The checkbox _I'm not a robot_ has to be ticked. This proves that the action being performed is not an automated process (meaning web robot) which is accessing this website. If captcha service is not sure of a personal presence, the following image shows up.
 
 ![Register commercial number](images/Account/Register/portal-register-captcha.png)
 Example: Captcha prompt: "Select all images with cars".
 
 Select all images corresponding to the object shown in the upper right corner and click on \[VERIFY\]. If necessary, you can click on the headset-icon on the left bottom to request audio help. For more information on the captcha service see https://support.google.com/recaptcha.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px" /> Then tick the checkbox to accept the Terms and Conditions and the privacy policy of fiskaltrust. Both can be accessed with a click on the hyperlinks following the checkbox.
+![Number 3](../images/Numbers/circle-3o.png) Then tick the checkbox to accept the Terms and Conditions and the privacy policy of fiskaltrust. Both can be accessed with a click on the hyperlinks following the checkbox.
 
-<img src="../images/Numbers/circle-4o.svg" width="24px" /> By clicking on \[Next\] you can proceed to the second step called _Company data_.
+![Number 4](../images/Numbers/circle-4o.png) By clicking on \[Next\] you can proceed to the second step called _Company data_.
 
 #### Company data
 
@@ -43,20 +43,20 @@ The second step requires some company data. All the fields marked with a red sta
 ![Register company data](images/Account/Register/portal-register-company-data.png)
 Complete the company's data
 
-<img src="../images/Numbers/circle-1o.svg" width="24px" /> The correct company has to be entered. The name will be verified later on against any entered commercial number. This name has to be the same as the one used in the commercial registers. for example the name from the K-bis should be used here. The name of the company may not already be in use for registration.
+![Number 1](../images/Numbers/circle-1o.png) The correct company has to be entered. The name will be verified later on against any entered commercial number. This name has to be the same as the one used in the commercial registers. for example the name from the K-bis should be used here. The name of the company may not already be in use for registration.
 
-<img src="../images/Numbers/circle-2o.svg" width="24px" /> A valid email-address must be entered in this field. The email-address for company data may not be used already for another company.
+![Number 2](../images/Numbers/circle-2o.png) A valid email-address must be entered in this field. The email-address for company data may not be used already for another company.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px" /> The address of the company's headquarter must be entered.
+![Number 3](../images/Numbers/circle-3o.png) The address of the company's headquarter must be entered.
 
-<img src="../images/Numbers/circle-4o.svg" width="24px" /> The zip-code and the name of the city where the headquarter resides must be entered.
+![Number 4](../images/Numbers/circle-4o.png) The zip-code and the name of the city where the headquarter resides must be entered.
 
-<img src="../images/Numbers/circle-5o.svg" width="24px" /> You can already enter some or all commercial numbers for the company. This will facilitate the further registration process and usage of the fiskaltrust.Portal.
+![Number 5](../images/Numbers/circle-5o.png) You can already enter some or all commercial numbers for the company. This will facilitate the further registration process and usage of the fiskaltrust.Portal.
 
-<img src="../images/Numbers/circle-6o.svg" width="24px" /> By clicking on \[Next\] you proceed to the 3rd step _User data_ of the registration process.
+![Number 6](../images/Numbers/circle-6o.png) By clicking on \[Next\] you proceed to the 3rd step _User data_ of the registration process.
 
 ##### Error message after entered company data
-If the data entered in _Company name_<img src="../images/Numbers/circle-1o.svg" width="24px" /> and/or _email-address_<img src="../images/Numbers/circle-2o.svg" width="24px" /> was already used for registration an informational page will be displayed.
+If the data entered in _Company name_![Number 1](../images/Numbers/circle-1o.png) and/or _email-address_![Number 2](../images/Numbers/circle-2o.png) was already used for registration an informational page will be displayed.
 
 ![Error during register company data](images/Account/Register/portal-register-last-step-company-found.png)
 Company is already registered at the fiskaltrust.Portal
@@ -70,17 +70,17 @@ This contact is the the designated administrator of the newly registered company
 ![Register user data](images/Account/Register/portal-register-user-data.png)
 Completing the user data for the primary contact
 
-<img src="../images/Numbers/circle-1o.svg" width="24px" /> A valid email address must be entered and it cannot have been used already for another registration. This will be the primary contact and all messages from the ft.Portal will be sent to this address.
+![Number 1](../images/Numbers/circle-1o.png) A valid email address must be entered and it cannot have been used already for another registration. This will be the primary contact and all messages from the ft.Portal will be sent to this address.
 
-<img src="../images/Numbers/circle-2o.svg" width="24px" /> Enter a password to be used for [login](#login) on the ft.Portal. Confirm the password by entering it twice. Be aware of the rules for passwords written on the top of this step.
+![Number 2](../images/Numbers/circle-2o.png) Enter a password to be used for [login](#login) on the ft.Portal. Confirm the password by entering it twice. Be aware of the rules for passwords written on the top of this step.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px" /> Further on enter the personal data fo the primary contact. Here the field for first and last name are mandatory.
+![Number 3](../images/Numbers/circle-3o.png) Further on enter the personal data fo the primary contact. Here the field for first and last name are mandatory.
 
-<img src="../images/Numbers/circle-4o.svg" width="24px" /> Click on \[Next\] to proceed to the last step of the registration process.
+![Number 4](../images/Numbers/circle-4o.png) Click on \[Next\] to proceed to the last step of the registration process.
 
 ##### Error message after entered cousermpany data
 
-If the email address entered in _email address_<img src="../images/Numbers/circle-1o.svg" width="24px" /> was already used for registration, the following information will be displayed.
+If the email address entered in _email address_![Number 1](../images/Numbers/circle-1o.png) was already used for registration, the following information will be displayed.
 
 ![Error during register user data](images/Account/Register/portal-register-user-data-found.png)
 Already registered email address
@@ -101,7 +101,7 @@ When the email is received in the primary contact's inbox, open it and click on 
 ![Confirmation email](images/Account/Register/portal-register-email.png)
 Confirmation email for registering the user
 
-To fulfill the registration process and activate the account the link _ce lien_<img src="../images/Numbers/circle-1o.svg" width="24px" /> has to be clicked. This link will be opened in a new browser window and confirms the activation of your account.
+To fulfill the registration process and activate the account the link _ce lien_![Number 1](../images/Numbers/circle-1o.png) has to be clicked. This link will be opened in a new browser window and confirms the activation of your account.
 
 **The activation link is only valid for 24 hours!**
 ![Activation link expires](images/Account/Register/portal-register-confirmed-expired.png)
@@ -116,11 +116,11 @@ Now your account is active and the link on the words _this link_ can be used, to
 
 ### Login<a name="login"></a>
 
-If no active enterprise and/or user is know a new registration has to be done. This can be started by clicking on the button [Register]<img src="../images/Numbers/circle-1o.svg" width="24px" />. For registration look at chapter [Registration](#registration).
+If no active enterprise and/or user is know a new registration has to be done. This can be started by clicking on the button [Register]![Number 1](../images/Numbers/circle-1o.png). For registration look at chapter [Registration](#registration).
 
-If a user exists but the password is forgotten it can be reset with a click on the link _If you have forgotten your password please click here_<img src="../images/Numbers/circle-3o.svg" width="24px" />.
+If a user exists but the password is forgotten it can be reset with a click on the link _If you have forgotten your password please click here_![Number 3](../images/Numbers/circle-3o.png).
 
-For the login on the fiskalturst.Portal the credentials (_Email_ and _Password_) must be entered<img src="../images/Numbers/circle-2o.svg" width="24px" /> and confirmed with a click on the button [Login].
+For the login on the fiskalturst.Portal the credentials (_Email_ and _Password_) must be entered![Number 2](../images/Numbers/circle-2o.png) and confirmed with a click on the button [Login].
 
 ![Portal login](images/Account/Login/portal-login.png)
 Login to the fiskaltrust.Portal
@@ -132,18 +132,18 @@ To logout from the fiskaltrust.Portal two similar ways are proposed.
 ![Portal logout](images/Home/Dashboard/dashboard-logout.png)
 Login to the fiskaltrust.Portal
 
-<img src="../images/Numbers/circle-1o.svg" width="24px" /> By clicking on the name on the right top corner, the user is logged out from the portal.
+![Number 1](../images/Numbers/circle-1o.png) By clicking on the name on the right top corner, the user is logged out from the portal.
 
-Another way to logout is to open the submenu by clicking on the enterprise name<img src="../images/Numbers/circle-2o.svg" width="24px" /> on the leftside menu. In this menu the last command<img src="../images/Numbers/circle-3o.svg" width="24px" /> starts the logout procedure.
+Another way to logout is to open the submenu by clicking on the enterprise name![Number 2](../images/Numbers/circle-2o.png) on the leftside menu. In this menu the last command![Number 3](../images/Numbers/circle-3o.png) starts the logout procedure.
 
 ### Reset password<a name="reset-password"></a>
 
-If the password is lost or forgotten, this function can be used to reset the password. On the login screen of the ft.Portal a hyperlink<img src="../images/Numbers/circle-1o.svg" width="24px" /> for requesting a new password can be found.
+If the password is lost or forgotten, this function can be used to reset the password. On the login screen of the ft.Portal a hyperlink![Number 1](../images/Numbers/circle-1o.png) for requesting a new password can be found.
 
 ![Link to reset password](images/Account/ForgotPassword/ForgotPassword-login.png)
 Link to reset the password
 
-In the next step the checkbox for _I'm not a robot_<img src="../images/Numbers/circle-1o.svg" width="24px" />. Then the username<img src="../images/Numbers/circle-2o.svg" width="24px" /> (email address) has to be entered. With a click on [SEND LINK]<img src="../images/Numbers/circle-3o.svg" width="24px" /> the Link to reset the password is sent to this email address.
+In the next step the checkbox for _I'm not a robot_![Number 1](../images/Numbers/circle-1o.png). Then the username![Number 2](../images/Numbers/circle-2o.png) (email address) has to be entered. With a click on [SEND LINK]![Number 3](../images/Numbers/circle-3o.png) the Link to reset the password is sent to this email address.
 ![Reset password](images/Account/ForgotPassword/ForgotPassword.png)
 Enter email address for the reset link
 
@@ -155,10 +155,10 @@ After a few minutes the email with the link should be delivered to the inbox. Cl
 ![Reset password email with link](images/Account/ForgotPassword/ForgotPassword-email.png)
 Email with the link to reset the password
 
-In the shown browser window, the email address from the sent email has to be entered<img src="../images/Numbers/circle-1o.svg" width="24px" />. Subsequently the new password can be entered<img src="../images/Numbers/circle-2o.svg" width="24px" /> and must be confirmed by entering it a second time. After clicking [RESET]<img src="../images/Numbers/circle-3o.svg" width="24px" /> the new password will be saved and a confirmation page is shown.
+In the shown browser window, the email address from the sent email has to be entered![Number 1](../images/Numbers/circle-1o.png). Subsequently the new password can be entered![Number 2](../images/Numbers/circle-2o.png) and must be confirmed by entering it a second time. After clicking [RESET]![Number 3](../images/Numbers/circle-3o.png) the new password will be saved and a confirmation page is shown.
 ![Reseting the password](images/Account/ForgotPassword/ForgotPassword-new-password.png)
 Resetting the password
 
-The confirmation proves that the new password for the user is saved. By clicking on [Portal]<img src="../images/Numbers/circle-1o.svg" width="24px" /> the [login](#login) can be done with the new password.
+The confirmation proves that the new password for the user is saved. By clicking on [Portal]![Number 1](../images/Numbers/circle-1o.png) the [login](#login) can be done with the new password.
 ![Reseted password](images/Account/ForgotPassword/ForgotPassword-reseted.png)
 Reset password
