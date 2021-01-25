@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/general/possystems
+title: PosSystems
+---
+
 ## PosSystems
 
 ### Manage POS-System<a name="manage-pos-system"></a>

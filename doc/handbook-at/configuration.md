@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/austria/configuration
+title: Configuration
+---
+
 ## Configuration
 
 For further information for PosCreators or PosDealers Rollout see chapter [Rollout for PosCreators and PosDealers - Important process steps](fiskalization.md#rollout-for-poscreators-and-posdealers-important-process-steps).
@@ -90,9 +95,7 @@ Screenshot-AT 61: Ready configured CashBox
 ![Number 3](../images/Numbers/3.png) In the section Queues you will find the deposited cash register identification number as well as the automatically generated AES key (Base64 encryption)
 
 **Only for Austria:**
-This key  is required to register the cash register with FinanzOnline. By clicking on ![Gear](../images/Buttons/030.png "Gear") you can configure your queue(s) and set which signature creation devices the queue can access. See Chapter [AT FinanzOnline Messages](messages.md#atfon-messages).
-
-For further information see chapter "[Messages](messages.md) ".
+This key  is required to register the cash register with FinanzOnline. By clicking on ![Gear](../images/Buttons/030.png "Gear") you can configure your queue(s) and set which signature creation devices the queue can access.
 
 By clicking on ![Gear](../images/Buttons/030.png "Gear") you can edit them again.
 
@@ -165,7 +168,7 @@ German fiskalization does not (yet) include a signature creation device. This fu
 [![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/004.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
 Screenshot-AT 68: Queue overview
 
-![Number 1](../images/Numbers/1.png) Click on ![Receipt](../images/Buttons/014.png "Receipt") to go to the receipt check. For further explanations see chapter [Receipt validation](messages.md#receipt-validation)
+![Number 1](../images/Numbers/1.png) Click on ![Receipt](../images/Buttons/014.png "Receipt") to go to the receipt check. 
 
 ![Number 2](../images/Numbers/2.png) Here the current status of the PosSystem is displayed, by clicking on ![Questionmark](../images/Buttons/015.png "Questionmark") a message about the status can be sent.
 

@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/france/posoperator
+title: PosOperator
+---
+
 ## PosOperator
 
 ### Invitation of PosOperators by PosDealers
@@ -9,9 +14,9 @@ However, the role of a PosDealer can also be activated by these companies and th
 [![https://portal.fiskaltrust.fr/PosOperator/](images/PosOperator/PosOperator.png "https://portal.fiskaltrust.fr/PosOperator" )](https://portal.fiskaltrust.fr/POSOperator)
 PosOperator - Overview
 
-By opening the PosOperator menu<img src="../images/Numbers/circle-1o.svg" width="24px" /> an _Overview_<img src="../images/Numbers/circle-2o.svg" width="24px" /> with the assigned PosOperators is shown.
+By opening the PosOperator menu![Number 1](../images/Numbers/circle-1o.png) an _Overview_![Number 2](../images/Numbers/circle-2o.png) with the assigned PosOperators is shown.
 
-The assignments of the PosOperators can be found under the menu item _Invitation_<img src="../images/Numbers/circle-3o.svg" width="24px" />.
+The assignments of the PosOperators can be found under the menu item _Invitation_![Number 3](../images/Numbers/circle-3o.png).
 
 There are two ways to add/assign PosOperators to a PosDealer:
 
@@ -21,9 +26,9 @@ There are two ways to add/assign PosOperators to a PosDealer:
 [![https://portal.fiskaltrust.fr/PosOperator/PosOperators](images/PosOperator/PosOperators.png "https://portal.fiskaltrust.fr/PosOperator/PosOperators" )](https://portal.fiskaltrust.fr/POSOperator)
 Invite PosOperators to a PosDealer account
 
-<img src="../images/Numbers/circle-1o.svg" width="24px" /> The CSV file is to be imported and selected via \[Choose File\].
-<img src="../images/Numbers/circle-2o.svg" width="24px" /> Then the import is carried out by clicking on \[Import\].
-<img src="../images/Numbers/circle-3o.svg" width="24px" /> The necessary structure of the CSV file is described using an example. This example can be obtained via \[Download demo CSV file\].
+![Number 1](../images/Numbers/circle-1o.png) The CSV file is to be imported and selected via \[Choose File\].
+![Number 2](../images/Numbers/circle-2o.png) Then the import is carried out by clicking on \[Import\].
+![Number 3](../images/Numbers/circle-3o.png) The necessary structure of the CSV file is described using an example. This example can be obtained via \[Download demo CSV file\].
 
 | Fields of the CSV file | Description                                                                                                                         | Mandatory |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|:---------:|
@@ -49,11 +54,11 @@ Invite PosOperators to a PosDealer account
 
 Not all of the fields _AccountIdVat_, _AccountIdTax_ and _AccountIdFibu_ are mandatory. Only one of the three fields should be completed. It is recommended to use the field _AccountIdFibu_.
 
-A pdf-file can be first choosen<img src="../images/Numbers/circle-4o.svg" width="24px" /> and then imported<img src="../images/Numbers/circle-5o.svg" width="24px" /> as a PDF document, which is sent to the PosOperators as an attachment in the email invitations. This PDF document can be individually adapted to the rollout concept.
+A pdf-file can be first choosen![Number 4](../images/Numbers/circle-4o.png) and then imported![Number 5](../images/Numbers/circle-5o.png) as a PDF document, which is sent to the PosOperators as an attachment in the email invitations. This PDF document can be individually adapted to the rollout concept.
 
-Before sending the invitation to all PosOperators listed in the csv file a text message<img src="../images/Numbers/circle-6o.svg" width="24px" /> can be added to this invitation email.
+Before sending the invitation to all PosOperators listed in the csv file a text message![Number 6](../images/Numbers/circle-6o.png) can be added to this invitation email.
 
-By accepting the invitation the PosOperator gets assigned to the PosDealer's account and thus get some access rights on the PosOperators account. This surrogating of rights can be defined in the claims list<img src="../images/Numbers/circle-7o.svg" width="24px" />.
+By accepting the invitation the PosOperator gets assigned to the PosDealer's account and thus get some access rights on the PosOperators account. This surrogating of rights can be defined in the claims list![Number 7](../images/Numbers/circle-7o.png).
 
 #### Error message importing a csv-file for invitations
 
@@ -84,46 +89,46 @@ This is to guarantee that the PosOperator can be found correctly in the ft.Porta
 [![https://portal.fiskaltrust.fr/PosOperator/PosOperators/](images/PosOperator/PosOperators-Overview.png "https://portal.fiskaltrust.fr/PosOperator/PosOperators/")](https://portal.fiskaltrust.fr/PosOperator/PosOperators/)
 Assigning, editing and deleting a PosOperator
 
-<img src="../images/Numbers/circle-1o.svg" width="24px" /> Status of the invitation:
+![Number 1](../images/Numbers/circle-1o.png) Status of the invitation:
 
 - ![Notsent](../images/Buttons/002.png "Notsent") E-mail invitation has not been sent yet.
 - ![Error](../images/Buttons/002.png "Error") The data of the PosOperator is not correct and can not be assigned to the PosDealers account. It must be corrected with ![Edit](../images/Buttons/005.png "Edit").
 - ![Checkmark](../images/Buttons/003.png "Checkmark") Email invitation was sent by clicking on ![Email](../images/Buttons/004.png "Email").
 
-<img src="../images/Numbers/circle-2o.svg" width="24px" /> By clicking on \[Assign all cash register users\] the email invitation can be sent to **all**  PosOperators who have not yet been invited.
+![Number 2](../images/Numbers/circle-2o.png) By clicking on \[Assign all cash register users\] the email invitation can be sent to **all**  PosOperators who have not yet been invited.
 
-<img src="../images/Numbers/circle-3o.svg" width="24px" /> By clicking on [+&nbsp;Add] a [manual invitation](#add-posoperator) can be created.
+![Number 3](../images/Numbers/circle-3o.png) By clicking on [+&nbsp;Add] a [manual invitation](#add-posoperator) can be created.
 
-<img src="../images/Numbers/circle-4o.svg" width="24px" /> A click on [Protocol](#protocol) shows the history of invitations of this account.
+![Number 4](../images/Numbers/circle-4o.png) A click on [Protocol](#protocol) shows the history of invitations of this account.
 
-<img src="../images/Numbers/circle-5o.svg" width="24px" /> By clicking on ![Email](../images/Buttons/004.png "Email") the email invitation can be sent to a single PosOperator. The email invitation can be sent as an attachment with an individually designed PDF document.
+![Number 5](../images/Numbers/circle-5o.png) By clicking on ![Email](../images/Buttons/004.png "Email") the email invitation can be sent to a single PosOperator. The email invitation can be sent as an attachment with an individually designed PDF document.
 ![example of an invitation email](images/PosOperator/PosOperator-Invitation-Email.png)
 Example email invitation of a PosOperator.
 
-<img src="../images/Numbers/circle-6o.svg" width="24px" /> The individual PosOperator can be edited again by clicking on ![Edit](../images/Buttons/005.png "Edit").
+![Number 6](../images/Numbers/circle-6o.png) The individual PosOperator can be edited again by clicking on ![Edit](../images/Buttons/005.png "Edit").
 
-<img src="../images/Numbers/circle-7o.svg" width="24px" /> The individual PosOperator can be removed by clicking ![Remove](../images/Buttons/006.png "Remove")
+![Number 7](../images/Numbers/circle-7o.png) The individual PosOperator can be removed by clicking ![Remove](../images/Buttons/006.png "Remove")
 
-<img src="../images/Numbers/circle-8o.svg" width="24px" /> The resend-button ![Resend](../images/Buttons/016.png "Resend") sends the invitation again to the PosOperator's email address.
+![Number 8](../images/Numbers/circle-8o.png) The resend-button ![Resend](../images/Buttons/016.png "Resend") sends the invitation again to the PosOperator's email address.
 
-<img src="../images/Numbers/circle-9o.svg" width="24px" /> By entering text in the search field the list of PosOperators gets filtered and only the PosOperators matching the entered text are shown.
+![Number 9](../images/Numbers/circle-9o.png) By entering text in the search field the list of PosOperators gets filtered and only the PosOperators matching the entered text are shown.
 
 #### Protocol of invitations<a name="protocol"></a>
 [![https://portal.fiskaltrust.fr/PosOperator/](images/PosOperator/PosOperatorsHistory.png "https://portal.fiskaltrust.fr/PosOperator/")](https://portal.fiskaltrust.fr/PosOperator/)
 Protocol of PosOperator invitations
 
-<img src="../images/Numbers/circle-1o.svg" width="24px" /> The start date of the log overview can be restricted using this field.
-<img src="../images/Numbers/circle-2o.svg" width="24px" /> The last date of the log overview can be restricted using this field.
-<img src="../images/Numbers/circle-3o.svg" width="24px" /> By clicking on [Invoke&nbsp;protocol] the overview is filtered by the entered dates. If the two fields are empty the whole protocol without any filter is shown
-<img src="../images/Numbers/circle-4o.svg" width="24px" />. By clicking on this button the window is closed and the _Invitation_ module is shown.
-<img src="../images/Numbers/circle-5o.svg" width="24px" /> Entering a text filters the overview. By deleting all entered data in the search field the whole overview data is shown.
-<img src="../images/Numbers/circle-6o.svg" width="24px" /> Status of the invitation:
+![Number 1](../images/Numbers/circle-1o.png) The start date of the log overview can be restricted using this field.
+![Number 2](../images/Numbers/circle-2o.png) The last date of the log overview can be restricted using this field.
+![Number 3](../images/Numbers/circle-3o.png) By clicking on [Invoke&nbsp;protocol] the overview is filtered by the entered dates. If the two fields are empty the whole protocol without any filter is shown
+![Number 4](../images/Numbers/circle-4o.png). By clicking on this button the window is closed and the _Invitation_ module is shown.
+![Number 5](../images/Numbers/circle-5o.png) Entering a text filters the overview. By deleting all entered data in the search field the whole overview data is shown.
+![Number 6](../images/Numbers/circle-6o.png) Status of the invitation:
 
 - ![Not sent](../images/Buttons/002.png "Not sent") Email invitation has not been sent yet.
 - ![Error](../images/Buttons/002.png "Error") The data of the PosOperator is not correct and can not be assigned to the PosDealers account.
 - ![Checkmark](../images/Buttons/003.png "Checkmark") Email invitation was sent.
 
-<img src="../images/Numbers/circle-7o.svg" width="24px" /> Available commands for this PosOperator:
+![Number 7](../images/Numbers/circle-7o.png) Available commands for this PosOperator:
 
 - ![Details](../images/Buttons/007.png "Details") Detailed information about this contact is shown.
 ![Details of an invitation](images/PosOperator/DetailsInvitation.png)

@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/general/tools
+title: Tools
+---
+
 ## Tools
 
 ### Download

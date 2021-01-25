@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/austria/users-and-company/company
+title: Company
+---
+
 ### Company
 
 ####<a name="overview-of-roles-and-conctractual-relationships"></a> Overview of roles and contractual relationships

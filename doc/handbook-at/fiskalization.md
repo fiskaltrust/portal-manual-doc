@@ -1,4 +1,9 @@
-## Fiskalization
+---
+slug: /portal-manual/austria/fiscalization
+title: Fiscalization
+---
+
+## Fiscalization
 
 ### ft.Personalization-Tool<a name="personalization-tool"></a>
 

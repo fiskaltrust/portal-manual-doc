@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/general/configuration
+title: Configuration
+---
+
 ## Configuration
 
 For using a template or a package see chapter [Buying a package in the shop or using a template](shop.md#buy-package-in-shop-or-use-a-template).

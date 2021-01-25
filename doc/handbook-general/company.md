@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/general/users-and-company/company
+title: Company
+---
+
 # fiskaltrust.Portal
 ## User and Company
 ### Company

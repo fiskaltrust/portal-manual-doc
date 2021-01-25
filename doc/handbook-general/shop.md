@@ -1,3 +1,8 @@
+---
+slug: /portal-manual/general/shop
+title: Shop
+---
+
 ## Shop
 
 The ft.Shop can be reached directly at 
