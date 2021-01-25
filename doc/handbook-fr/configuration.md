@@ -552,10 +552,10 @@ With all `PackageConfiguration`-object the follwoing variables can be used. Depe
 |------|-----------|------------------------|-------------|
 | `Id` | `GUID` (string)<br />GUID | yes | Identifies the instance of the element that is configured here (SCU, Queue or Helper). A maximum of the instances can be used (`queue{0-9}_id`, `scu{0-9}_id` or `helper{0-9}_id`. |
 | `Package` | `string` | yes | Name of the package to be used to create the element. E. g. _fiskaltrust.service.sqlite_ for a Queue that is installed locally. Currently supported packages can be found below. |
-| `Description` |  `string` | no  | Descriptive name of the element.<br>Can only be changed be using it as a parameter in the query string. |
+| `Description` |  `string` | no  | Descriptive name of the element.<br />Can only be changed be using it as a parameter in the query string. |
 | `Version` | `string`<br />latest version | yes | Version of the package to be used to create the element. If no version is specified, the latest version is used. For France only defined versions are allowed for using with the Queue: **1.2.20342.36753** |
 | `Configuration` | `Object` (string) | no  | Configuration parameters for the element. |
-| `URL` | `string[]`<br>automatic | no | Array, communication endpoints of the element. E.g. REST endpoint for communication with the queue.<br /> The default value is `http://localhost:1200/` and the GUID of the package. |
+| `URL` | `string[]`<br />automatic | no | Array, communication endpoints of the element. E.g. REST endpoint for communication with the queue.<br /> The default value is `http://localhost:1200/` and the GUID of the package. |
 
 ##### Available packages and version
 
@@ -670,7 +670,7 @@ There are no more variables then the ones in the standard definition.
 | Name | Data type | Mandatory<br />Default | Description |
 |------|-----------|------------------------|-------------|
 | `ftQueueFRID` | `GUID` (string) | yes | Identification of the queue. The system variable `|[queue{0-9}_id]|`  can be used. (The same value as for `ftQueueId` in `init_ftQueue` must be used here). |
-| `CashBoxIdentification` | `string` (printable)<br>`ftyyyyMMddhhmmss` | yes | Cash register serial number. Must be a printable string with max. 20 characters. This value must be unique in the PosOperator's account. |
+| `CashBoxIdentification` | `string` (printable)<br />`ftyyyyMMddhhmmss` | yes | Cash register serial number. Must be a printable string with max. 20 characters. This value must be unique in the PosOperator's account. |
 | `ftSignaturCreationUnitFRId` | `GUID` (string) | yes | The ID of the SCU to which this Queue should connect. The system variable `|[scu{0-9}_id]|` can be used here. When `ftSignaturCreationDevices` is used, the same value as in `Id` must be used.
 | `Siret` | `string` | yes | The commercial register number consisting of 14 digits. Has to be transfered with the query string or can be hardcoded. |
 
