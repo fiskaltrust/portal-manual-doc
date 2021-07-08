@@ -553,7 +553,7 @@ With all `PackageConfiguration`-object the follwoing variables can be used. Depe
 | `Id` | `GUID` (string)<br />GUID | yes | Identifies the instance of the element that is configured here (SCU, Queue or Helper). A maximum of the instances can be used (`queue{0-9}_id`, `scu{0-9}_id` or `helper{0-9}_id`. |
 | `Package` | `string` | yes | Name of the package to be used to create the element. E. g. _fiskaltrust.service.sqlite_ for a Queue that is installed locally. Currently supported packages can be found below. |
 | `Description` |  `string` | no  | Descriptive name of the element.<br />Can only be changed be using it as a parameter in the query string. |
-| `Version` | `string`<br />latest version | yes | Version of the package to be used to create the element. If no version is specified, the latest version is used. For France only defined versions are allowed for using with the Queue: **1.2.20342.36753** |
+| `Version` | `string`<br />latest version | yes | Version of the package to be used to create the element. If no version is specified, the latest version is used. For France only defined versions are allowed for using with the Queue: **1.2.21138.42021** |
 | `Configuration` | `Object` (string) | no  | Configuration parameters for the element. |
 | `URL` | `string[]`<br />automatic | no | Array, communication endpoints of the element. E.g. REST endpoint for communication with the queue.<br /> The default value is `http://localhost:1200/` and the GUID of the package. |
 
@@ -561,12 +561,12 @@ With all `PackageConfiguration`-object the follwoing variables can be used. Depe
 
 | Type   | Package name                    | Description      | Version in FR |
 |--------|---------------------------------|------------------|---------------|
-| Queue  | fiskaltrust.service.sqlite      | An SQLite database is used as the local persistence layer. | 1.2.20342.36573 |
-| Queue  | fiskaltrust.service.sqlite.mono | An SQLite database for mono is used as the local persistence layer. | 1.2.20342.36573 |
-| Queue  | fiskaltrust.service.ef          | Entity framework is used as the local persistence layer. | 1.2.20342.36573 |
-| Queue  | fiskaltrust.service.azure       | An Azure instance is used as the local persistence layer. | n/a |
-| Queue  | fiskaltrust.service.adonet      | adoNet is used as the local persistence layer. | 1.2.20342.36573 |
-| Helper | fiskaltrust.service.helper.rest | Adds a new endpoint for the communication protocol _REST_. | 1.2.19134.14077 |
+| Queue  | fiskaltrust.service.sqlite      | An SQLite database is used as the local persistence layer.          | 1.2.21138.42021 |
+| Queue  | fiskaltrust.service.sqlite.mono | An SQLite database for mono is used as the local persistence layer. | 1.2.21103.40594 |
+| Queue  | fiskaltrust.service.ef          | Entity framework is used as the local persistence layer.            | 1.2.21138.42021 |
+| Queue  | fiskaltrust.service.azure       | An Azure instance is used as the local persistence layer.           | n/a             |
+| Queue  | fiskaltrust.service.adonet      | adoNet is used as the local persistence layer.                      | 1.2.21138.42021 |
+| Helper | fiskaltrust.service.helper.rest | Adds a new endpoint for the communication protocol _REST_.          | 1.2.19089.12258 |
 
 #### PackageConfiguration - Helper
 
@@ -579,7 +579,7 @@ There are no more variables then the ones in the standard definition.
     {
         "Id": "|[helper0_id]|",
         "Package": "fiskaltrust.service.helper.rest",
-        "Version": "1.2.19134.14077",
+        "Version": "1.2.19089.12258",
         "Url": ["http://localhost:1200/|[helper0_id]|"]
     }
 ],
@@ -628,7 +628,7 @@ There are no more variables then the ones in the standard definition.
        {
             "Id": "|[queue0_id]|",
             "Package": "fiskaltrust.service.sqlite",
-            "Version": "1.2.20342.36753",
+            "Version": "1.2.21138.42021",
             "Configuration": {
                 "init_ftQueue": [{ }],
                 "init_ftQueueFR": [{ }],
@@ -740,14 +740,14 @@ If the object `ftSignaturCreationDevices` is used in the template the same value
     "helpers": [{
             "Id": "|[helper0_id]|",
             "Package": "fiskaltrust.service.helper.rest",
-            "Version": "1.2.19134.14077",
+            "Version": "1.2.19089.12258",
             "Url": ["http://localhost:1200/|[helper0_id]|"]
         }
     ],
     "ftQueues": [{
             "Id": "|[queue0_id]|",
             "Package": "fiskaltrust.service.sqlite",
-            "Version": "1.2.20342.36753",
+            "Version": "1.2.21138.42021",
             "Configuration": {
                 "init_ftQueue": [{
                         "ftQueueId": "|[queue0_id]|",
@@ -781,7 +781,7 @@ If the object `ftSignaturCreationDevices` is used in the template the same value
 ##### JSON string
 
 ```
-"{\"ftCashBoxId\":\"|[cashbox_id]|\",\"ftSignaturCreationDevices\":[{\"Id\":\"|[scu0_id]|\",\"Siret\":\"|[siret]|\",\"CompanyName\":\"|[company_name]|\",\"CountryCode\":\"FR\"}],\"helpers\":[{\"Id\":\"|[helper0_id]|\",\"Package\":\"fiskaltrust.service.helper.rest\",\"Version\":\"1.2.19134.14077\",\"Url\":[\"http:\/\/localhost:1200\/|[helper0_id]|\"]}],\"ftQueues\":[{\"Id\":\"|[queue0_id]|\",\"Package\":\"fiskaltrust.service.sqlite\",\"Version\":\"1.2.20342.36753\",\"Configuration\":{\"init_ftQueue\":[{\"ftQueueId\":\"|[queue0_id]|\",\"ftCashBoxId\":\"|[cashbox_id]|\",\"CountryCode\":\"FR\",\"Timeout\":15000}],\"init_ftQueueFR\":[{\"ftQueueFRId\":\"|[queue0_id]|\",\"CashBoxIdentification\":\"API-CB-|[outlet_number]|\",\"ftSignaturCreationUnitFRId\":\"|[scu0_id]|\",\"Siret\":\"|[siret]|\"}],\"init_ftSignaturCreationUnitFR\":[{\"ftSignaturCreationUnitFRId\":\"|[scu0_id]|\",\"Siret\":\"|[siret]|\",\"CompanyName\":\"|[company_name]|\",\"CountryCode\":\"FR\",\"OutletNumber\":\"|[outlet_number]|\"}]},\"Url\":[\"http:\/\/localhost:1200\/ftAPI\"]}]}"
+"{\"ftCashBoxId\":\"|[cashbox_id]|\",\"ftSignaturCreationDevices\":[{\"Id\":\"|[scu0_id]|\",\"Siret\":\"|[siret]|\",\"CompanyName\":\"|[company_name]|\",\"CountryCode\":\"FR\"}],\"helpers\":[{\"Id\":\"|[helper0_id]|\",\"Package\":\"fiskaltrust.service.helper.rest\",\"Version\":\"1.2.19089.12258\",\"Url\":[\"http:\/\/localhost:1200\/|[helper0_id]|\"]}],\"ftQueues\":[{\"Id\":\"|[queue0_id]|\",\"Package\":\"fiskaltrust.service.sqlite\",\"Version\":\"1.2.21138.42021\",\"Configuration\":{\"init_ftQueue\":[{\"ftQueueId\":\"|[queue0_id]|\",\"ftCashBoxId\":\"|[cashbox_id]|\",\"CountryCode\":\"FR\",\"Timeout\":15000}],\"init_ftQueueFR\":[{\"ftQueueFRId\":\"|[queue0_id]|\",\"CashBoxIdentification\":\"API-CB-|[outlet_number]|\",\"ftSignaturCreationUnitFRId\":\"|[scu0_id]|\",\"Siret\":\"|[siret]|\"}],\"init_ftSignaturCreationUnitFR\":[{\"ftSignaturCreationUnitFRId\":\"|[scu0_id]|\",\"Siret\":\"|[siret]|\",\"CompanyName\":\"|[company_name]|\",\"CountryCode\":\"FR\",\"OutletNumber\":\"|[outlet_number]|\"}]},\"Url\":[\"http:\/\/localhost:1200\/ftAPI\"]}]}"
 ```
 
 ##### Query string
