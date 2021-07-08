@@ -61,14 +61,8 @@
     ],
     "template": [
       "pdf.default",
-      "templates/fiskaltrust.pdf",
-      "./DocFx.Plugins.PlantUml/template"
+      "templates/fiskaltrust.pdf"
     ],
-    "markdownEngineProperties": {
-      "plantUml.outputFormat":"Svg",
-      "plantUml.remoteUrl":"http://www.plantuml.com/plantuml/",
-      "plantUml.renderingMode":"remote"
-    },
     "dest": "_site_pdf"
   }
 }
