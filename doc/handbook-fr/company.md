@@ -14,6 +14,16 @@ Company overview, roles and API-Access
 
 After opening the menu with a click on the _company name_![Number 1](../images/Numbers/circle-1o.png) the roles of the company can be changed with the command _Overview_![Number 2](../images/Numbers/circle-2o.png). Furthermore, the keys for the API-Access can be retrieved or reset.
 
+##### Credentials
+
+![Number 7](../images/Numbers/circle-7o.png) The _CashBoxId_and the _AccessToken_ are necessary to gain access to a CashBox and transfer the receipts into the queue.
+
+![Number 8](../images/Numbers/circle-8o.png) The \[Reset\] button creates a new AccessToken in case the old one got compromised.
+
+![Number 9](../images/Numbers/circle-9o.png) \[Reset\] the database connection string to the standard value.
+
+![Number 10](../images/Numbers/circle-10o.png) \[Reset\] the storage to the standard value.
+
 ##### Roles
 
 In this section all active roles of the company are listed.
@@ -26,6 +36,8 @@ This section enables or disables the following roles
 * PosDealer ![Number 4](../images/Numbers/circle-4o.png)
 * PosCreator ![Number 5](../images/Numbers/circle-5o.png)
 * Consultant ![Number 6](../images/Numbers/circle-6o.png)
+
+![Number 11](../images/Numbers/circle-11o.png) The switch for _Partner_ activates the account to be shown in the public partner list on the website [fiskaltrust.fr](https://fiskaltrust.fr/partenaires).
 
 By clicking on one of the assigned switches, the role can be activated. With this action, a contract has to be signed.
 
@@ -146,14 +158,14 @@ Select sales areas for partners
 
 #### Outlets<a name="outlets"></a>
 
-Before starting with the [configuration](configuration.md) of the fiskaltrust.SecurityMechanism, at least one outlet must be completly configured.
+Before starting with the [configuration](configuration.md) of the fiskaltrust.SecurityMechanism, at least the primary outlet must be completely configured.
 
 ![List of outlets](images/AccountOutlet/AccountOutlet.png)
 List of outlets
 
 For this the outlet management![Number 2](../images/Numbers/circle-2o.png) in the company menu![Number 1](../images/Numbers/circle-1o.png) has to be opened.
 
-Right after the registration as new PosOperator there is one outlet, the default outlet or headquater, listed. By clicking the \[Edit\]-Button![Number 3](../images/Numbers/circle-3o.png) on the outer right of the line this outlet must be updated.
+Right after the registration as new PosOperator there is one outlet, the so called _Primary Outlet_ or headquarter, listed. By clicking the \[Edit Primary Outlet\]-Button![Number 3](../images/Numbers/circle-3o.png) on the outer right of the line this outlet must be updated. Additionally added can be edited with \[Edit\]-Button![Number 4](../images/Numbers/circle-4o.png)
 
 ![Edit an outlet](images/AccountOutlet/Edit.png)
 Edit an outlet
@@ -162,7 +174,7 @@ In the outlet management, all mandatory fields are marked with an asterisk. Furt
 
 The _Name_![Number 1](../images/Numbers/circle-1o.png) identifies the outlet in all lists used in the fiskaltrust.Portal. This field is only for internal use and helps you to identify the outlet. The _Outlet number_![Number 2](../images/Numbers/circle-2o.png) is an internal number for the fiskaltrust.Portal. But the number has to be an integer and unique for each outlet in the active account. With this identifier the [_CashBox_](configuration.md#Cashbox) can be connected to the outlet.
 
-The field _Location ID_![Number 3](../images/Numbers/circle-3o.png) in France, contains the SIRET of the outlet. To use this field correctly the SIREN of the company has to be saved upfront in the [_Master Data_](#company-master-data). The first 9 digits of the SIRET are exactly the SIREN, the following four digits are a given number from the French authorities and the last digit is a checksum. All 14 digits must be entered here and afterwards a _Data Check_![Number 5](../images/Numbers/circle-5o.png)has to be done. This check acts exactly like the [_SIREN Data Check_](#siren-data-check-passed) in the _Master Data_. Therefore, be able to use the outlet for a CashBox this data check has to be returned positive.
+The field _SIRET_![Number 3](../images/Numbers/circle-3o.png) in France, contains the SIRET of the outlet. To use this field correctly the SIREN of the company has to be saved upfront in the [_Master Data_](#company-master-data). The first 9 digits of the SIRET are exactly the SIREN, the following four digits are a given number from the French authorities and the last digit is a checksum. All 14 digits must be entered here and afterwards a _Data Check_![Number 5](../images/Numbers/circle-5o.png)has to be done. This check acts exactly like the [_SIREN Data Check_](#siren-data-check-passed) in the _Master Data_. Therefore, be able to use the outlet for a CashBox this data check has to be returned positive.
 
 The fields shown at ![Number 4](../images/Numbers/circle-4o.png) _Address_, _Postal code_ and _City_ are not mandatory by the ft.Portal but should be completed. For a control by the financial authorities this can be proof of correct data management. Further on this field can be used from the fiskaltrust.Service to print the outlet's address on any receipt.
 
