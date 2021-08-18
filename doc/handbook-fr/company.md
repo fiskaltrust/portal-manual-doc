@@ -16,7 +16,7 @@ After opening the menu with a click on the <kbd>company name</kbd>![Number 1](..
 
 ##### Credentials
 
-![Number 7](../images/Numbers/circle-7o.png) The _CashBoxId_ and the _AccessToken_ are necessary to gain access to a CashBox and transfer the receipts into the queue.
+![Number 7](../images/Numbers/circle-7o.png) The `CashBoxId` and the `AccessToken` are necessary to gain access to a CashBox and transfer the receipts into the queue.
 
 ![Number 8](../images/Numbers/circle-8o.png) The <kbd>[Reset]</kbd> button creates a new AccessToken in case the old one got compromised.
 
@@ -44,7 +44,7 @@ By clicking on one of the assigned switches, the role can be activated. With thi
 ![Enabling role](images/AccountProfile/EnableRole.png)
 Enabling role
 
-Enter the first and last name in the field _Signatory_![Number 1](../images/Numbers/circle-1o.png). By activating the checkbox![Number 2](../images/Numbers/circle-2o.png) the _Terms and Conditions_ and the _Privacy Policy_ of fiskaltrust must be accepted. To read them entirely the link on the words can be clicked.
+Enter the first and last name in the field `Signatory`![Number 1](../images/Numbers/circle-1o.png). By activating the checkbox![Number 2](../images/Numbers/circle-2o.png) the _Terms and Conditions_ and the _Privacy Policy_ of fiskaltrust must be accepted. To read them entirely the link on the words can be clicked.
 
 A click on the Button <kbd>[Sign]</kbd> activates the role and signs the contract. For this an email with the contract as an attachment and the confirmation of the new role is sent to the active user.
 
@@ -65,7 +65,7 @@ Clicking on an active switch![Number 2](../images/Numbers/circle-2o.png) disable
 ![Deactivating a role](images/AccountProfile/DisableRole.png)
 Deactivating Role
 
-For deactivating a role it is mandatory to enter the first and last name again. This can be done in the field _Signatory_![Number 1](../images/Numbers/circle-1o.png). With a click on the button <kbd>[Sign]</kbd> the selected role gets deactivated immediately. As confirmation, an email with the resigning contract as attachment is sent to the active user.
+For deactivating a role it is mandatory to enter the first and last name again. This can be done in the field `Signatory`![Number 1](../images/Numbers/circle-1o.png). With a click on the button <kbd>[Sign]</kbd> the selected role gets deactivated immediately. As confirmation, an email with the resigning contract as attachment is sent to the active user.
 
 ![Email when deactivating a role](images/AccountProfile/DisableRole-eMail.png)
 Email when deactivating a role
@@ -77,13 +77,13 @@ Edit the master data of a company
 
 For editing the data of a company the<kbd>company menu</kbd>![Number 1](../images/Numbers/circle-1o.png) has to be opened and afterwards the command <kbd>Master data</kbd>![Number 2](../images/Numbers/circle-2o.png) has to be activated.
 
-All mandatory fields are marked with an asterisk (*) after the name. For preparing the fiskaltrust.SecurityMechanism, the usage of the fiskaltrust.Middleware and to be compliant with the law the _SIREN_![Number 3](../images/Numbers/circle-3o.png) and the _UID number_![Number 4](../images/Numbers/circle-4o.png) have to be entered and saved with the button <kbd>[Save<kbd>].
+All mandatory fields are marked with an asterisk (*) after the name. For preparing the fiskaltrust.SecurityMechanism, the usage of the fiskaltrust.Middleware and to be compliant with the law the `SIREN`![Number 3](../images/Numbers/circle-3o.png) and the `UID number`![Number 4](../images/Numbers/circle-4o.png) have to be entered and saved with the button <kbd>[Save]</kbd>.
 
 **One of the two commercial number fields has to be completed and checked in order to use the fiskaltrust.SecurityMechanism according to the French laws.**
 
 ##### Pass SIREN data check<a name="siren-data-check-passed"></a>
 
-The SIREN is an unique identifier for French companies, fiskaltrust uses this number as identifier for companies too. This 9-digit-number has to be entered in the field![Number 3](../images/Numbers/circle-3o.png) and afterwards a click on the _Data Check_-button on the right side of the field has to be performed.
+The SIREN is an unique identifier for French companies, fiskaltrust uses this number as identifier for companies too. This 9-digit-number has to be entered in the field![Number 3](../images/Numbers/circle-3o.png) and afterwards a click on the <kbd>Data Check</kbd>-button on the right side of the field has to be performed.
 
 ![Passed data check for a SIREN](images/AccountProfile/Edit-SIREN-Data-Check-ok.png)
 Passed data check for a SIREN
@@ -115,7 +115,7 @@ Data check for a SIREN with a wrong company name
 
 ##### UID data check
 
-The UID number is the unique identifier of the company assigned by the French fiscal authorities. If the company has no SIREN, than this number is mandatory in order to use the fiskaltrust.Service according to the French laws. This number has to be entered in the field![Number 4](../images/Numbers/circle-4o.png) and afterwards a click on the _Data Check_-button on the right side of the field has to be performed.
+The UID number is the unique identifier of the company assigned by the French fiscal authorities. If the company has no SIREN, than this number is mandatory in order to use the fiskaltrust.Middleware according to the French laws. This number has to be entered in the field![Number 4](../images/Numbers/circle-4o.png) and afterwards a click on the <kbd>Data Check</kbd>-button on the right side of the field has to be performed.
 
 ##### UID data check passed
 
@@ -126,7 +126,7 @@ If a correct UID number is entered the data check returns positive, the button t
 
 The check of the UID number is done against the official service offered by the European Union. The company has to be active and the number has to have been assigned for more than seven days. Furthermore the entered company name in the first field has to match the one in the files of the financial authorities of France in order to perform a positive check.
 
-For a correct UID check in France the company's address has to be in France (the field _Country_ contains `France` as value) and the UID has to start with the two letters `FR`.
+For a correct UID check in France the company's address has to be in France (the field `Country` contains <kbd>France</kbd> as value) and the UID has to start with the two letters <kbd>FR</kbd>.
 
 ##### Invalid UID number
 
@@ -172,10 +172,10 @@ Edit an outlet
 
 In the outlet management, all mandatory fields are marked with an asterisk. Further on the following field should be filled out and/or checked.
 
-The _Name_![Number 1](../images/Numbers/circle-1o.png) identifies the outlet in all lists used in the fiskaltrust.Portal. This field is only for internal use and helps you to identify the outlet. The _Outlet number_![Number 2](../images/Numbers/circle-2o.png) is an internal number for the fiskaltrust.Portal. But the number has to be an integer and unique for each outlet in the active account. With this identifier the [_CashBox_](configuration.md#Cashbox) can be connected to the outlet.
+The `Name`![Number 1](../images/Numbers/circle-1o.png) identifies the outlet in all lists used in the fiskaltrust.Portal. This field is only for internal use and helps you to identify the outlet. The `Outlet number`![Number 2](../images/Numbers/circle-2o.png) is an internal number for the fiskaltrust.Portal. But the number has to be an integer and unique for each outlet in the active account. With this identifier the [CashBox](configuration.md#Cashbox) can be connected to the outlet.
 
-The field _SIRET_![Number 3](../images/Numbers/circle-3o.png) in France, contains the SIRET of the outlet. To use this field correctly the SIREN of the company has to be saved upfront in the [<kbd>Master Data</kbd>](#company-master-data). The first 9 digits of the SIRET are exactly the SIREN, the following four digits are a given number from the French authorities and the last digit is a checksum. All 14 digits must be entered here and afterwards a _Data Check_![Number 5](../images/Numbers/circle-5o.png)has to be done. This check acts exactly like the [<kbd>SIREN Data Check</kbd>](#siren-data-check-passed) in the <kbd>Master Data</kbd>. Therefore, be able to use the outlet for a CashBox this data check has to be returned positive.
+The field `SIRET`![Number 3](../images/Numbers/circle-3o.png) in France, contains the SIRET of the outlet. To use this field correctly the SIREN of the company has to be saved upfront in the [<kbd>Master Data</kbd>](#company-master-data). The first 9 digits of the SIRET are exactly the SIREN, the following four digits are a given number from the French authorities and the last digit is a checksum. All 14 digits must be entered here and afterwards a <kbd>Data Check</kbd>![Number 5](../images/Numbers/circle-5o.png)has to be done. This check acts exactly like the [SIREN Data Check](#siren-data-check-passed) in the <kbd>Master Data</kbd>. Therefore, be able to use the outlet for a CashBox this data check has to be returned positive.
 
-The fields shown at ![Number 4](../images/Numbers/circle-4o.png) _Address_, _Postal code_ and _City_ are not mandatory by the ft.Portal but should be completed. For a control by the financial authorities this can be proof of correct data management. Further on this field can be used from the fiskaltrust.Service to print the outlet's address on any receipt.
+The fields shown at ![Number 4](../images/Numbers/circle-4o.png) `Address`, `Postal code` and `City` are not mandatory by the fiskaltrust.Portal but should be completed. For a control by the financial authorities this can be proof of correct data management. Further on this field can be used from the fiskaltrust.Middleware to print the outlet's address on any receipt.
 
 Once all data is completed and the data check performed positive the outlet data can be sent to the storage with the <kbd>[Save]</kbd>-Button.![Number 6](../images/Numbers/circle-6o.png)
