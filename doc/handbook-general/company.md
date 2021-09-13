@@ -45,7 +45,7 @@ The different authorizations are described in chapter "[Employees of the company
 
 ![Number 3](../images/Numbers/3.png) In this case, the primary contact of the company is displayed. This user always has full rights. These authorizations cannot be reset either. Therefore the sliders are grey and cannot be changed.
 
-If no employee has the administrative rights, you lose the possibility to access thee fiskaltrust portal. In this situation the [fiskaltrust.support](mailto:support@fiskaltrust.de) has to be contacted.
+If no employee has administrative rights, you lose the ability to access the fiskaltrust.Portal. In this situation fiskaltrust.Support has to be contacted.
 
 ![Number 4](../images/Numbers/4.png) With this button new employees can be added to the company.
 
