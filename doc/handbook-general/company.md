@@ -22,8 +22,8 @@ Your company has not yet been assigned for DATEV MeinFiskal access.  Please chan
 
 ![Number 4](../images/Numbers/4.png) **Text:** "API access
 
-Your cash register`s fiskaltrust.Helipad online-functions will need an account ID and an access token to work automatically.<br />
-If you are logged in as primary contact of your company you can reset these codes and thereby reassign them."
+You'll need the account ID and access token for automated rollouts via the fiskaltrust template API.<br />
+As primary contact, you can also roll the access token below and get a new one issued, if necessary."
 
 ![Number 5](../images/Numbers/5.png) Here an account ID is generated, which serves as identification of the company for the registration of the company to the ft.Helipad. This can be copied to the clipboard for manual transfer to the cash register.
 
