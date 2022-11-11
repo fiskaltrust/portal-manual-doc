@@ -17,7 +17,7 @@ Screenshot-AT 80: Overview of the "Download" menu item
 [![https://www.a-trust.at/downloads/](images/www.a-trust.at/downloads/001.png "https://www.a-trust.at/downloads/")](https://www.a-trust.at/downloads/)
 Screenshot-AT 81: Available downloads from the A-Trust website
 
-![Number 2](../images/Numbers/2.png) In order to use the ft.personalization tool the "a.Sign Cilent" must be downloaded first. This can be done by clicking on the hyperlink or directly via the [A-Trust website](https://www.a-trust.at/downloads/). The downloaded file must now be executed.
+![Number 2](../images/Numbers/2.png) In order to use the ft.personalization tool the "A.Sign Client" must be downloaded first. This can be done by clicking on the hyperlink or directly via the [A-Trust website](https://www.a-trust.at/downloads/). The downloaded file must now be executed.
 
 ![Number 3](../images/Numbers/3.png) Afterwards you can click on fiskaltrust.signing.tools.atrust.setup and start the download. Now the file must be executed and the installation must be initiated.
 
@@ -118,34 +118,39 @@ Please ensure that the following **minimum** information is available:
 | Information<br />PosDealer | For the (main) contact | Email address Contact |
 |---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|------------------------|
 | | Password | | |
-| | First Name || ||
-| Last name.
-| For the company | Company name | | |
+| | First Name | | |
+| |Last name | | |
+| **For the company** | | |
+| | Company name | | |
 | | E-mail address Company | | |
-| Zip code, city, country.
 | | UID Number (here optional) | | |
-For employees (optional): | e-mail address employees | | |
-| | First Name || ||
-| Last name.
-| PosOperator | For the (main) contact | Contact E-mail address |
-| | Contact First Name | | |
-| | Contact Surname | | |
+|**For employees** (optional): | | |
+|| e-mail address employees | | |
+| | First Name  | | |
+| |Last name | | |
+| **PosOperator** | | |
+| For the (main) contact | Contact E-mail address  | | |
+| | Contact First Name  | | |
+| | Contact Surname  | | |
 | | Password | | |
-For the company: | Company name | | |
-| Zip code, city, country.
+|For the company: | Company name | | |
+| |Zip code, city, country | | |
 | | UID Number | ||
 | | Company e-mail address | | |
-| FinanzOnline RK User (WebService) | Subscriber Identification | | |
+| FinanzOnline RK User (WebService) | | |
+| | Subscriber Identification | | |
 | | User Identification | | |
 | | PIN | ||
-| signature creation device | A-Trust SmartCard (per unit) | | |
-| Card reader.
-| fiskaltrust.map activation tool | Download in fiskaltrust.Portal | | |
-| A-Trust a.sign Client<br />(Full installation not necessary) | [https://www.a-trust.at/ATrust/asignclient.aspx](https://www.a-trust.at/ATrust/asignclient.aspx) | | |
-Payment in the webshop | Credit card (Mastercard, Visa) or <br />Paypal account (of **PosOperator** or **PosDealer**) | | |
+| signature creation device | | |
+ | A-Trust SmartCard (per unit) | | |
+|| Card reader | | |
+|| fiskaltrust.map activation tool | Download in fiskaltrust.Portal | | |
+| |A-Trust a.sign Client<br />(Full installation not necessary) | [https://www.a-trust.at/ATrust/asignclient.aspx](https://www.a-trust.at/ATrust/asignclient.aspx) | | |
+||Payment in the webshop | Credit card (Mastercard, Visa) or <br />Paypal account (of **PosOperator** or **PosDealer**) | | |
 
+| Tips |  |
+|-----|----------------------------------------------------------|
 | TIP | Make sure that you can retrieve e-mails from those e-mail addresses that are entered in the fiskaltrust.Portal or contact the persons who have access to them. This is also necessary for the tests in the sandbox. |
-|------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TIP | The UID number should be entered in any case.<br />This is useful for the later FinanzOnline messages.                                                                                                           |
 
 ### Create the **PosDealer** (contact and company)
@@ -323,8 +328,8 @@ Screenshot-AT 93: Create new template
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | In the list of signature creation devices created previously, click on the "question mark" at "FinanzOnline".                                                                                                                                                                                                                                                      |
 | 3 Perform message | Message type: "Signature creation device logon", IMPORTANT: "Check Sandbox mode\! Create notification.                                                                                                                                                                                                                                                    |
-| 4 Query status | You are taken to the FinanzOnline Overview, where the status of the message you just created is displayed and updated by browser refresh ("F5" key).                                                                                                                                                                                                      |
-TIP | 5 TIP | If there are problems during the execution of the online financial report, you will receive a meaningful error descriptions as a tooltip when you move the mouse over to the "Status" field. You can restart the message on the far right, or confirm it manually. <br />WARNING: In live operation, all FinanzOnline messages are contained in the carefree packages. |
+| 4 Query status | You are taken to the FinanzOnline Overview, where the status of the message you just created is displayed and updated by browser refresh (`F5` key).                                                                                                                                                                                                      |
+ 5 TIP | If there are problems during the execution of the online financial report, you will receive a meaningful error descriptions as a tooltip when you move the mouse over to the "Status" field. You can restart the message on the far right, or confirm it manually. <br />WARNING: In live operation, all FinanzOnline messages are contained in the carefree packages. |
 
 ### Register FinanzOnline PosSystem (Queue)
 
