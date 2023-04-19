@@ -9,7 +9,7 @@ title: Configuration
 
 These manuals are no longer maintained! 
 
-In case of any questions, we encourage you to refer to our current **[fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud/de/ "fiskaltrust Documentation Platform")**.  
+In case of any questions, we encourage you to refer to our current [fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud).  
 For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
 
 :::
