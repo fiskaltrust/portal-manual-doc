@@ -5,6 +5,15 @@ title: Introduction
 
 # Introduction (Austria)
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current **[fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud/de/ "fiskaltrust Documentation Platform")**.  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 ## General and important information
 
 The manual describes the most important functions of the fiskaltrust.portal. Also note the abbreviations in the "List of abbreviations"

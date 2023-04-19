@@ -5,6 +5,15 @@ title: fiskaltrust.Portal
 
 ## fiskaltrust.Portal
 
+:::danger
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current **[fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud/de/ "fiskaltrust Documentation Platform")**.  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 **[https://portal.fiskaltrust.at](https://portal.fiskaltrust.at)**
 
 Please note that various menus and functions presented in this manual are only visible and therefore available after the corresponding authorization has been assigned in the user administration.
@@ -27,7 +36,7 @@ Screenshot-AT 1: Homepage | [https://www.fiskaltrust.at](https://www.fiskaltrust
 
 The registration of a user and the company is explained in chapter "[Registration](registration-login.md#registration)".
 
-###<a name="landing-page"></a> Landing Page
+### Landing Page
 
 **[https://portal.fiskaltrust.at](https://portal.fiskaltrust.at)**
 

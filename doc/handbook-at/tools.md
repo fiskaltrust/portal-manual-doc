@@ -5,6 +5,15 @@ title: Tools
 
 ## Tools
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current **[fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud/de/ "fiskaltrust Documentation Platform")**.  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 ### Export
 
 [![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/Exports/001.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
@@ -25,7 +34,7 @@ By clicking on \[create new export\]  you can access the overview of the Queues.
 [![https://portal.fiskaltrust.at/AccountProfile/InterfaceTest](images/portal-sandbox.fiskaltrust.at/AccountProfile/InterfaceTest/001.png "https://portal.fiskaltrust.at/AccountProfile/InterfaceTest")](https://portal.fiskaltrust.at/AccountProfile/InterfaceTest)
 Screenshot-AT 52: Interface Test
 
-###<a name="scanned-qr-codes"></a> Scanned QR codes
+### Scanned QR codes
 
 Scanned QR codes are displayed here.
 

@@ -5,6 +5,15 @@ title: Shop
 
 ## Shop
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current **[fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud/de/ "fiskaltrust Documentation Platform")**.  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 The ft.Shop can be reached directly at 
 - Austria: [https://portal.fiskaltrust.at/shop/](https://portal.fiskaltrust.at/shop/)
 - Germany: [https://portal.fiskaltrust.de/shop/](https://portal.fiskaltrust.de/shop/)

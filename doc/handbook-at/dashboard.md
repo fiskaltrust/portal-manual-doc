@@ -5,6 +5,15 @@ title: Dashboard
 
 ### Dashboard
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current **[fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud/de/ "fiskaltrust Documentation Platform")**.  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 After a user has logged in, the dashboard an overview page is called up. Via the menu bar on the left side, you can access the functions that have been released for the respective user.
 
 Therefore, the menu structure may look different depending on the roles assigned.

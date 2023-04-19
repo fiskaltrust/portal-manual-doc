@@ -4,8 +4,14 @@ title: Introduction
 ---
 
 # Introduction
-This manual describes the functions of the fiskaltrust.Portal, both generally and for the respective markets fiskaltrust is operating in.
 
-<div class="alert alert--warning" role="alert">We're currently working on this part of our documentation to create content that is more streamlined to our customers' scenarios. Hence, the content presented in the following sections is expected to change soon.</div>
+These manuals described the functions of the fiskaltrust.Portal, both in general and for the particular markets in which fiskaltrust operates.
 
+:::danger **No maintenance anymore**
+
+We have updated and consolidated our documentation for PosCreators and PosDealers and will keep it up-to-date. As a result, we will no longer maintain any manuals.  
+In case of any questions, we encourage you to refer to our current **[fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud/de/ "fiskaltrust Documentation Platform")**.  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
 

@@ -5,6 +5,15 @@ title: Company
 
 ### Company<a name="company"></a>
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current **[fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud/de/ "fiskaltrust Documentation Platform")**.  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 A click on the company's name in the left sidebar opens the menu with the commands to manage all of the company related data.
 
 #### Overview of the company<a name="company-overview"></a>

@@ -6,6 +6,15 @@ title: fiskaltrust.Portal
 ## fiskaltrust.Portal
 **[https://portal.fiskaltrust.fr](https://portal.fiskaltrust.fr)**
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current **[fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud/de/ "fiskaltrust Documentation Platform")**.  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 Please note that various menus and functions presented in this manual are only visible and therefore available after the corresponding authorization has been assigned in the user administration.
 
 The _primary contact_ is the user who has all authorizations for a company and can therefore administer the authorizations.

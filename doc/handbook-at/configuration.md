@@ -5,6 +5,15 @@ title: Configuration
 
 ## Configuration
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current **[fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud/de/ "fiskaltrust Documentation Platform")**.  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 For further information for PosCreators or PosDealers Rollout see chapter [Rollout for PosCreators and PosDealers - Important process steps](fiskalization.md#rollout-for-poscreators-and-posdealers-important-process-steps).
 
 ### CashBox
@@ -33,7 +42,7 @@ Screenshot-AT 57: Configuration container - Add
 
 ![Number 4](../images/Numbers/4.png) Clicking \[Cancel\] cancels the operation without saving the changes.
 
-####<a name ="overview-firstcashbox"></a> Overview first CashBox
+#### Overview first CashBox
 
 [![https://portal-sandbox.fiskaltrust.at/CashBox](images/portal-sandbox.fiskaltrust.at/CashBox/004.png "http://portal.fiskaltrust.at/CashBox")](http://portal.fiskaltrust.at/CashBox)
 Screenshot-AT 58: Overview - First configuration container 
@@ -124,7 +133,7 @@ Screenshot-AT 64: Download Launcher
 
 For further information see chapter [Overview first CashBox](#overview-firstcashbox)
 
-###<a name="queue"></a> Queue
+### Queue
 
 #### Creating a queue
 

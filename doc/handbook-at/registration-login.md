@@ -3,9 +3,18 @@ slug: /portal-manual/austria/users-and-company/registration-login
 title: Registration and Login
 ---
 
-##<a name="user-and-company"></a> User and company
+## User and company
 
-###<a name="registration-and-login"></a> Registration and login
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current **[fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud/de/ "fiskaltrust Documentation Platform")**.  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
+### Registration and login
 
 The login or registration of a user takes place after clicking on [![Portal](../images/Buttons/035.png "Portal")](https://portal.fiskaltrust.at/Account/login)
 
@@ -18,7 +27,7 @@ Screenshot-AT 3: Login, link for registration with ft.Portal and password reset 
 
 ![Number 3](../images/Numbers/3.png) If you have forgotten your password as a user, you can click on "*If you have forgotten your password, please click here:*". This will take you to the page where you can request a new password. (see chapter "[Reset password](#reset-password)")
 
-####<a name="registration"></a> Registration: User's Email address
+#### Registration: User's Email address
 
 The "Registration" at the ft.Portal is the first registration of a user, as well as the associated company (company).
 
@@ -27,7 +36,7 @@ This procedure is valid for all users who are to subsequently perform a function
 [![https://portal.fiskaltrust.at/Account/Register](images/portal-sandbox.fiskaltrust.at/Account/002.png "https://portal.fiskaltrust.at/Account/Register")](https://portal.fiskaltrust.at/Account/Register)
 Screenshot-AT 4: Registration of a new user at the fiskaltrust.Portal | [https://portal.fiskaltrust.at/Account/Register](https://portal.fiskaltrust.at/Account/Register)
 
-#####<a name="enter-captcha"></a> Enter Captcha
+##### Enter Captcha
 
 ![Number 1](../images/Numbers/1.png) The checkbox at _I am not a robot_ must be activated to show that there is a manual activity of a person and no automated access by a (web) robot.
 
@@ -178,7 +187,7 @@ Screenshot-AT 14: Information page after calling the confirmation link
 
 By clicking on "this link" the login page of the ft.Portal will be opened. (see chapter "[Login](#login)")
 
-#####<a name="activation-link-has-expired-or-is-invalid"></a> Exception: Activation link has expired or is invalid
+##### Exception: Activation link has expired or is invalid
 
 If the activation link from the e-mail confirmation for the registration of a user has not been called up correctly (by click) within approximately 24 hours after sending, this activation link expires. An incorrect activation link can also clearly not lead to a confirmation of the e-mail address. If an expired or invalid activation link is called up, an information page is opened.
 
@@ -201,7 +210,7 @@ If you do not receive the e-mail with the confirmation link - e.g. because you d
 [![https://portal.fiskaltrust.at/Account/Login?returnUrl=%2fHome%2fDashboard](images/portal-sandbox.fiskaltrust.at/Account/012.png "https://portal.fiskaltrust.at/Account/Login")](https://portal.fiskaltrust.at/Account/Login?returnUrl=%2fHome%2fDashboard)
 Screenshot-AT 17: Login of a user
 
-###<a name="reset-password"></a> Reset password
+### Reset password
 
 If the user forgets his password, this function can be used to reset the password.
 

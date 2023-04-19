@@ -5,6 +5,15 @@ title: Fiscalization
 
 ## Fiscalization
 
+:::danger
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current **[fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud/de/ "fiskaltrust Documentation Platform")**.  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 ### ft.Personalization-Tool<a name="personalization-tool"></a>
 
 #### ft.Personalization-Tool Download & installation
@@ -103,7 +112,7 @@ If the completion of a FinanzOnline message has already been done manually, this
 
 ##### Receipt validation in dialog procedure
 
-###<a name="rollout-for-poscreators-and-posdealers-important-process-steps"></a> Rollout for PosCreators and PosDealers - Important process steps
+### Rollout for PosCreators and PosDealers - Important process steps
 
 **Overview:** The following steps are performed for an example rollout. If you have already done a rollout (such as creating an **PosDealer**), you can skip these points.
 

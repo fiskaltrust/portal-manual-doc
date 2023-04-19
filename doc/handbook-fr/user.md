@@ -6,6 +6,16 @@ title: User
 
 ### User<a name="user"></a>
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current **[fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud/de/ "fiskaltrust Documentation Platform")**.  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
+
 All the user data including password and user name can be managed by opening the menu by clicking on the _name of the user_![Number 1](../images/Numbers/circle-1o.png) in the left sidebar.
 
 #### Overview of the user<a name="user-overview"></a>

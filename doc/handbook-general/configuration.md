@@ -5,6 +5,15 @@ title: Configuration
 
 ## Configuration
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current **[fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud/de/ "fiskaltrust Documentation Platform")**.  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 For using a template or a package see chapter [Buying a package in the shop or using a template](shop.md#buy-package-in-shop-or-use-a-template).
 
 [![https://portal.fiskaltrust.at/CashBox/](images/CashBox/001.png "https://portal.fiskaltrust.at/CashBox/")](https://portal.fiskaltrust.at/CashBox/)
