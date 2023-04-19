@@ -131,8 +131,6 @@ Screenshot-AT 64: Download Launcher
 
 ![Number 1](../images/Numbers/1.png) By clicking on this button, you download the launcher you need for commissioning. This is a ZIP file that you download into the download folder. Extract the file from your download folder with a right-click, then click "Extract" and "Save".
 
-For further information see chapter [Overview first CashBox](#overview-firstcashbox)
-
 ### Queue
 
 #### Creating a queue

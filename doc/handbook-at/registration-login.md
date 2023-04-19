@@ -236,7 +236,7 @@ Screenshot-AT 21: Email with a password reset link.
 
 If the password reset link from the user registration confirmation email has not been called up correctly (by click) within 24 hours of sending, this activation link will expire. If an expired or invalid activation link is called up, an information page is opened.
 
-The procedure for the new login begins anew (see chapter [Exception: Activation link has expired or is invalid](#activation-link-has-expired-or-is-invalid))
+The procedure for the new login begins anew.
 
 If you do not receive the e-mail with the confirmation link - e.g. because you do not have access to the e-mail account - you can contact [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
 

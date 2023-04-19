@@ -23,19 +23,19 @@ The creation and management of the components is discussed in the following chap
 
 **in general**
 
-- [Signature creation device](#SCU)
+- [Signature creation device]()
 - [Helper](#helper)
 - [Queue](#queue)
 - [CashBox](#cashbox)
 
 **for Austria**
 
-- [Signature creation device](../handbook-at/configuration.md#SCU)
+- [Signature creation device](../handbook-at/configuration.md)
 - [CashBox](../handbook-at/configuration.md#cashbox)
 
 **in France**
 
-- [Signature creation device](../handbook-fr/configuration.md#SCU)
+- [Signature creation device](../handbook-fr/configuration.md)
 - [Queue](../handbook-fr/configuration.md#queue)
 - [CashBox](../handbook-fr/configuration.md#cashbox)
 

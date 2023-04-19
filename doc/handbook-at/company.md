@@ -105,7 +105,7 @@ Screenshot-AT 32: Active role as PosCreator - inactive partner role
 
 ![Number 1](../images/Numbers/1.png) **Text:** "These roles are currently assigned to your company in the fiskaltrust.Portal"
 
-![Number 2](../images/Numbers/2.png) The slider is set to \[Enabled\]. This indicates that the respective role is enabled. By clicking on the slider the role can be put back and the contract can be cancelled. (see chapter [Resetting the role of PosCreator](#Resetting-the-role-of-PosCreator))
+![Number 2](../images/Numbers/2.png) The slider is set to \[Enabled\]. This indicates that the respective role is enabled. By clicking on the slider the role can be put back and the contract can be cancelled. (see chapter [Resetting the role of PosCreator](#resetting-the-role-of-poscreator))
 
 ![Number 3](../images/Numbers/3.png) **Text:** "The cash register manufacturer role is already assigned to your company."
 

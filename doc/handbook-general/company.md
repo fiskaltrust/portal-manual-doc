@@ -52,7 +52,7 @@ Company - Employees
 
 ![Number 2](../images/Numbers/2.png) By clicking on the arrow next to the First name, the sliders for changing the authorizations are displayed.
 
-The different authorizations are described in chapter "[Employees of the company authorization administrations](#Employees-of-the-company-authorization-administration)".
+The different authorizations are described in chapter **Employees of the company authorization administrations**.
 
 ![Number 3](../images/Numbers/3.png) In this case, the primary contact of the company is displayed. This user always has full rights. These authorizations cannot be reset either. Therefore the sliders are grey and cannot be changed.
 

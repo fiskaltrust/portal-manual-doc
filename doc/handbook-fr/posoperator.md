@@ -108,7 +108,7 @@ Assigning, editing and deleting a PosOperator
 
 ![Number 3](../images/Numbers/circle-3o.png) By clicking on [+&nbsp;Add] a [manual invitation](#add-posoperator) can be created.
 
-![Number 4](../images/Numbers/circle-4o.png) A click on [Protocol](#protocol) shows the history of invitations of this account.
+![Number 4](../images/Numbers/circle-4o.png) A click on **Protocol** shows the history of invitations of this account.
 
 ![Number 5](../images/Numbers/circle-5o.png) By clicking on ![Email](../images/Buttons/004.png "Email") the email invitation can be sent to a single PosOperator. The email invitation can be sent as an attachment with an individually designed PDF document.
 ![example of an invitation email](images/PosOperator/PosOperator-Invitation-Email.png)

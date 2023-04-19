@@ -20,11 +20,11 @@ Please note that various menus and functions presented in this manual are only v
 The _primary contact_ is the user who has all authorizations for a company and can therefore administer the authorizations.
 
 ### Homepage
-The fiskaltrust.Portal (hereinafter _ft.Portal_ or simply _Portal_) can be used free of charge by all partners and their PosOperators. It can be reached directly via the URL https://portal.fiskaltrust.fr or via the hyperlink on the homepage https://www.fiskaltrust.fr.
+The fiskaltrust.Portal (hereinafter _ft.Portal_ or simply _Portal_) can be used free of charge by all partners and their PosOperators. It can be reached directly via the URL https://portal.fiskaltrust.fr or via the hyperlink on the homepage  .
 All PosOperators, PosDealers, Consultants and PosCreators can easily manage the necessary functions for operating the POS-Systems via the Portal. Further more auditors of the fiscal authorities can export fiscal archives with the functionality of the portal.
 
 ![Homepage of fiskaltrust](images/www.fiskaltrust.fr/portal-homepage.png)
-Homepage | [https://www.fiskaltrust.fr](https://www.fiskaltrust.fr) with link to fiskaltrust.Portal
+
 
 ![Number 1](../images/Numbers/circle-1o.png) By clicking on the hyperlink _PORTAIL_ on the homepage, the fiskaltrust.Portal can be accessed.
 The registration of the user and the company is explained in chapter [Registration](registration-login.md#registration).

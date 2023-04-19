@@ -31,9 +31,6 @@ You can order ft.products either through your PosDealer (as "Entitlements") or d
 
 A list and the current descriptions of our products can be found as a remuneration sheet on our homepage 
 
-- for Austria at [https://www.fiskaltrust.at/entgeltblatt](https://www.fiskaltrust.at/entgeltblatt)
-- for France at [https://www.fiskaltrust.fr/tarifs](https://www.fiskaltrust.fr/tarifs)
-
 ### Products
 
 Under the section _Products_ you will find all products offered by us. Here you can put the selected products into the shopping cart.
