@@ -5,6 +5,15 @@ title: Tools
 
 ## Tools
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current [fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud).  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 ### Export
 
 [![https://portal.fiskaltrust.at/Queue/](images/portal-sandbox.fiskaltrust.at/Queue/Exports/001.png "https://portal.fiskaltrust.at/Queue/")](https://portal.fiskaltrust.at/Queue/)
@@ -12,11 +21,7 @@ Screenshot-AT 80: Queue export
 
 If the POS-System is configured with an ft.Product to send the data to the ft.Portal, the data can be exported via the ft.Portal.
 
-These products contain the legally required online storage via the ft.Cloud:
-
-- 4154-0201 | fiskaltrust.carefree AT  [https://www.fiskaltrust.at/products/product_01/#1468153721989-91b86112-b158](https://www.fiskaltrust.at/products/product_01/#1468153721989-91b86112-b158)
-- 4154-0207 | fiskaltrust.SignatureCloud incl. carefree package AT [https://www.fiskaltrust.at/products/product_01/#1475349131348-1769c5fd-b93f](https://www.fiskaltrust.at/products/product_01/#1475349131348-1769c5fd-b93f)
-- Product No. 4154-0218 | fiskaltrust.POS Archive AT [https://www.fiskaltrust.at/products/product_01/#1518106534858-d3d2d959-b0fe](https://www.fiskaltrust.at/products/product_01/#1518106534858-d3d2d959-b0fe)
+Check the store for products, that contain the legally required online storage via the ft.Cloud.
 
 By clicking on \[create new export\]  you can access the overview of the Queues. For further information see chapter "[Configuration - Queue](configuration.md#queue)"
 
@@ -25,7 +30,7 @@ By clicking on \[create new export\]  you can access the overview of the Queues.
 [![https://portal.fiskaltrust.at/AccountProfile/InterfaceTest](images/portal-sandbox.fiskaltrust.at/AccountProfile/InterfaceTest/001.png "https://portal.fiskaltrust.at/AccountProfile/InterfaceTest")](https://portal.fiskaltrust.at/AccountProfile/InterfaceTest)
 Screenshot-AT 52: Interface Test
 
-###<a name="scanned-qr-codes"></a> Scanned QR codes
+### Scanned QR codes
 
 Scanned QR codes are displayed here.
 

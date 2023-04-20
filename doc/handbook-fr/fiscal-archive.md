@@ -5,6 +5,15 @@ title: Export fiscal archive
 
 ## Export fiscal archive
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current [fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud).  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 ### Login
 For exporting the fiscal archive the PosOperator has to login to the portal at https://portal.fiskaltrust.fr with his proper credentials.
 
@@ -87,23 +96,23 @@ A full export of the data that was sent from the Queue. The data will be aggrega
 In order to select the type of file locate the *Export format* column on the left side of the screen and click on the radio button beside the desired format of the export. Only one format may be selected, per export.
 
 List of journal included in the FR-DEX export:  
-* Ticket journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter("T" group export) [_Content of the FR-DEX_](#frdep)
+* Ticket journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter("T" group export) **Content of the FR-DEX**
 
-* Bill journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("B" group export) [_Content of the FR-DEX_](#frdep)
+* Bill journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("B" group export) **Content of the FR-DEX**
 
-* Invoice journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("I" group export) [_Content of the FR-DEX_](#frdep)
+* Invoice journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("I" group export) **Content of the FR-DEX**
 
-* Copy journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("C" group export) [_Content of the FR-DEX_](#frdep)
+* Copy journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("C" group export) **Content of the FR-DEX**
 
-* Payment Prove journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("P" group export) [_Content of the FR-DEX_](#frdep)
+* Payment Prove journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("P" group export) **Content of the FR-DEX**
 
-* Training journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("X" group export) [_Content of the FR-DEX_](#frdep)
+* Training journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("X" group export) **Content of the FR-DEX**
 
-* Grand total journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("G" group export) [_Content of the FR-DEX_](#frdep)
+* Grand total journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("G" group export) **Content of the FR-DEX**
 
-* Archive journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("A" group export) [_Content of the FR-DEX_](#frdep)
+* Archive journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("A" group export) **Content of the FR-DEX**
 
-* Log journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("L" group export) [_Content of the FR-DEX_](#frdep)
+* Log journal<br />This is a part of the content of FR-DEX. The fields are descriped in detail at the end of this document in chapter ("L" group export) **Content of the FR-DEX**
 
 **Full export (XML)**<br />This type is a combination of the eight journals mentioned above. These eight journals are converted to a xml-format containing the same data. This xml-file can be opened as clear text file with every editor. On the other hand the xml is formatted in that way, to be ready to open in _Microsoft Excel_ too.
 
@@ -268,7 +277,7 @@ The additional files are containing the detailed data of any receipt and are ref
 | ReceiptId                        | Up counting receipt number allocated through fiskaltrust.SecurityMechanisms when send a request. It consists of two values the up counting value in hexadecimal value starting with *ft* and ending with *#*. The second part is an up counting number within the used journal, which is written as starting letter. | `ft1F4#T499`                                   |
 | ReceiptMoment                    | The time of receipt creation in UTC (Coordinated Universal Time)                                                                                                                                                                                                                                                     | `08.06.2019  07:42:49`                         |
 | QueueItemId                      | Unique id for a single item in the queue; provided by the ft.SecurityMechanism                                                                                                                                                                                                                                       | `aae8709c-ad14-41ba-a684-ec8b92a26ee8`         |
-| JournalType                      | specifies the content of the journal like shown in [Receipt journals](#ReceiptJournal)                                                                                                                                                                                                                               | `T`                                            |
+| JournalType                      | specifies the content of the journal like shown in **ReceiptJournal**                                                                                                                                                                                                                               | `T`                                            |
 | ATotalizer                       | Archive totalizer overall: sums up all receipt totals in the archive; is reset on each send archive request to zero                                                                                                                                                                                                  | `145678.73`                                    |
 | ACINormal                        | Archive totalizer chargeitem normal: the total cost of items of *undefined type of service for FR normal*                                                                                                                                                                                                            | `89120.23`                                     |
 | ACIReduced1                      | Archive totalizer chargeitem reduced 1: the total cost of items of *undefined type of service for FR reduced-1*                                                                                                                                                                                                      | `36591.65`                                     |
@@ -343,7 +352,7 @@ The additional files are containing the detailed data of any receipt and are ref
 | SPIInternal                      | Shift totalizer payitem internal: The total amount of all payment types *payables*, *receivable*                                                                                                                                                                                                                     | `175.14`                                       |
 | SPIUnknown                       | Shift totalizer payitem unknown: The total amount of all payment types not listed before                                                                                                                                                                                                                             | `35.03`                                        |
 | CopiedReceiptReference           | Reference to the origin receipt used for a copy                                                                                                                                                                                                                                                                      | `Ticket-6890`                                  |
-| ReceiptCase                      | The kind of the receipt, shown in table [Receipt cases](#ReceiptCases)                                                                                                                                                                                                                                               | `5067112530745229313`                          |
+| ReceiptCase                      | The kind of the receipt, shown in table **ReceiptCases**                                                                                                                                                                                                                                               | `5067112530745229313`                          |
 | LastHash                         | The hash value of the preceding receipt                                                                                                                                                                                                                                                                              | `2LpY9Zw4tr8NjNmF60rdpIfof40MRtcrX0avsBj8gXY=` |
 | CertificateSerialNumber          | The serial number of the certificate used for signing the receipts                                                                                                                                                                                                                                                   | `08d791c48c4b727e`                             |
 

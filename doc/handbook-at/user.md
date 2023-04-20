@@ -5,6 +5,15 @@ title: User
 
 ### User
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current [fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud).  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 #### Overview
 
 In this menu area the master data of the user can be changed.

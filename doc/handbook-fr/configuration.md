@@ -5,6 +5,15 @@ title: Configuration
 
 ## Configuration
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current [fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud).  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 Before starting with the configuration, the master data of the enterprise and the outlet has to be completed and checked. For this see chapter [_Master data_](company.md#company-master-data) and [_Outlets_](company.md#outlets)
 
 ### CashBox<a name="Cashbox"></a>
@@ -60,7 +69,7 @@ Edit CashBox by Drag & Drop
 
 ![Number 2](../images/Numbers/circle-2o.png) The second widget shows all created Helpers, which can be used in a CashBox. For further information see chapter [_Helpers_](../handbook-general/configuration.md#helper).
 
-![Number 3](../images/Numbers/circle-3o.png) The last widget contains all the SCUs created in this account and can be used in a CashBox, further information can be found in chapter [_Signature creation unit_](#SCU).<br />A SCU must not be directly associated to a CashBox. Because the configuration container has a connection to the outlet and the SCU is coupled to an outlet, a loose coupling exists between them. It is essential for legal compliance to use the same outlet number in the SCU-configuration and the CashBox-configuration.<br />This loose coupling enables the usage of a single SCU for more than one queue in the **same** outlet.
+![Number 3](../images/Numbers/circle-3o.png) The last widget contains all the SCUs created in this account and can be used in a CashBox, further information can be found in chapter **Signature creation unit**.<br />A SCU must not be directly associated to a CashBox. Because the configuration container has a connection to the outlet and the SCU is coupled to an outlet, a loose coupling exists between them. It is essential for legal compliance to use the same outlet number in the SCU-configuration and the CashBox-configuration.<br />This loose coupling enables the usage of a single SCU for more than one queue in the **same** outlet.
 
 ![Number 4](../images/Numbers/circle-4o.png) The field _Outlet_ is mandatory and must contain the number of a valid outlet. For further information see chapter [_Outlets_](company.md#outlets).
 
@@ -113,7 +122,7 @@ Download Launcher
 ![Number 1](../images/Numbers/circle-1o.png) By clicking on one of these buttons, the launcher needed for commissioning is downloaded. This is a ZIP file that you download into the download folder. The zip-file can be founded in the local download-folder and extracted there for further use on a POS-System.
 Be aware, that after changement in the configuration the \[Rebuild\]-button should be click before a launcher is downloaded.
 
-For further information see chapter [Overview first CashBox](#overview-firstcashbox)
+For further information see chapter **Overview first CashBox**
 
 ### Queue<a name="queue"></a>
 
@@ -187,7 +196,7 @@ Queue overview
 
 ![Number 6](../images/Numbers/circle-6o.png) The queue export can be started by pressing the button ![Export](../images/Buttons/019.png "Export"). For further information see chapter [_Export a queue_](#export-a-queue).
 
-![Number 8](../images/Numbers/circle-8o.png) The last column contains the commands to manage a queue.<br /> By clicking on ![Used french signature creation unit](../images/Buttons/021.png "Used french signature creation unit") the connected SCUs can be displayed and managed. For further information see chapter [_SCUs used by a queue_](#scus-used-by-a-queue).<br />Here the configuration of the queue can be opened by clicking on ![Configure queue](../images/Buttons/009.png "Configure queue"), see [_Configure a queue_](#configure-a-queue).<br />Clicking on ![Edit](../images/Buttons/005.png "Edit") edits the description, package version and timeout of the queue, see [_Edit a queue_](#edit-a-queue).<br />Clicking on ![Trash](../images/Buttons/011.png "Trash") deletes the queue. However, the button for deleting the queue **is inactive for legal reasons**, so no queue can be deleted after creation. The possibility to delete a queue does not depend on the status or the content of a queue. Once created no deletion is possible. 
+![Number 8](../images/Numbers/circle-8o.png) The last column contains the commands to manage a queue.<br /> By clicking on ![Used french signature creation unit](../images/Buttons/021.png "Used french signature creation unit") the connected SCUs can be displayed and managed. For further information see chapter [_SCUs used by a queue_](#scus-used-by-a-queue).<br />Here the configuration of the queue can be opened by clicking on ![Configure queue](../images/Buttons/009.png "Configure queue"), see **Configure a queue**.<br />Clicking on ![Edit](../images/Buttons/005.png "Edit") edits the description, package version and timeout of the queue, see [_Edit a queue_](#edit-a-queue).<br />Clicking on ![Trash](../images/Buttons/011.png "Trash") deletes the queue. However, the button for deleting the queue **is inactive for legal reasons**, so no queue can be deleted after creation. The possibility to delete a queue does not depend on the status or the content of a queue. Once created no deletion is possible. 
 
 [![https://portal.fiskaltrust.fr/Queue/](images/Queue/Queue-Filter.png "https://portal.fiskaltrust.fr/Queue/")](https://portal.fiskaltrust.fr/Queue/)
 Filter the list of queues
@@ -813,4 +822,4 @@ Please enter the values for `cashboxid` and `accesstoken` in the `appSetting` ar
 
 Now you can deliver the launcher with the customized configuration file to the operator's POS system and start it with `fiskaltrust.exe` or install it with `install-service.cmd`. The launcher will automatically download the configuration container for the `cashboxid` specified in `fiskaltrust.exe.config` from the fiskaltrust.Server and configure and start the fiskaltrust.Middleware accordingly.
 
-Alternatively to adjusting the configuration in the `fiskaltrust.exe.config` file, you can pass the `cashboxid` and the `accesstoken` as parameters when starting the launcher (`fiskaltrust.exe`). This specification overwrites the existing configuration. The description of the possible start parameters can be found in the [middleware documentation](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/general/installation/installation.html).
+Alternatively to adjusting the configuration in the `fiskaltrust.exe.config` file, you can pass the `cashboxid` and the `accesstoken` as parameters when starting the launcher (`fiskaltrust.exe`). This specification overwrites the existing configuration. The description of the possible start parameters can be found in the **middleware documentation**.

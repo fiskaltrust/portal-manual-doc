@@ -5,6 +5,15 @@ title: PosOperator
 
 ## PosOperator
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current [fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud).  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 ### Invitation of PosOperators by PosDealers
 
 The invitation of a PosOperator can only be made by a PosDealer, but not by a manufacturer or consultant.
@@ -49,7 +58,7 @@ There are two ways to add PosOperators to a PosDealer:
 
 Import a PDF document, which is sent to the PosOperators as an attachment on the e-mail invitations. This PDF document can be individually adapted to the rollout concept (see chapter [Example of a PDF attachment](#example-of-a-pdf-attachment))
 
-####<a name="add-posoperator"></a> Add PosOperator
+#### Add PosOperator
 
 [![https://portal.fiskaltrust.at/PosOperator/CreatePosOperator/](images/portal-sandbox.fiskaltrust.at/PosOperator/CreatePosOperator/001.png "https://portal.fiskaltrust.at/PosOperator/CreatePosOperator/")](https://portal.fiskaltrust.at/PosOperator/CreatePosOperator/)
 
@@ -108,7 +117,7 @@ PosOperator
 
   By clicking on the link, the portal login is called up and the PosOperator has to register as a new user and as a new company or log in with his existing data. (see chapter "[Registration and Login](registration-login.md)")
 
-####<a name="example-of-a-pdf-attachment"></a> Example of a pdf-attachment
+#### Example of a pdf-attachment
 
 PosDealer name
 

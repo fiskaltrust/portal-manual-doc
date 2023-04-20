@@ -5,6 +5,15 @@ title: Shop
 
 ## Shop
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current [fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud).  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 The ft.Shop can be reached directly at 
 - Austria: [https://portal.fiskaltrust.at/shop/](https://portal.fiskaltrust.at/shop/)
 - Germany: [https://portal.fiskaltrust.de/shop/](https://portal.fiskaltrust.de/shop/)
@@ -21,9 +30,6 @@ You can order ft.products either through your PosDealer (as "Entitlements") or d
 ### Description of ft.Products
 
 A list and the current descriptions of our products can be found as a remuneration sheet on our homepage 
-
-- for Austria at [https://www.fiskaltrust.at/entgeltblatt](https://www.fiskaltrust.at/entgeltblatt)
-- for France at [https://www.fiskaltrust.fr/tarifs](https://www.fiskaltrust.fr/tarifs)
 
 ### Products
 

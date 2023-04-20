@@ -5,6 +5,15 @@ title: Registration and Login
 
 ## User and company<a name="user-and-company"></a>
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current [fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud).  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 ### Registration and Login<a name="registration-and-login"></a>
 
 The Login or registration of a user takes place after clicking on \[Portal\] or directly going to the URL https://portal.fiskaltrust.fr/Account/Login. These two actions are described in this chapter.

@@ -4,7 +4,18 @@ title: Company
 ---
 
 # fiskaltrust.Portal
+
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current [fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud).  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 ## User and Company
+
 ### Company
 
 #### Active roles and contractual relationships including API-access
@@ -41,7 +52,7 @@ Company - Employees
 
 ![Number 2](../images/Numbers/2.png) By clicking on the arrow next to the First name, the sliders for changing the authorizations are displayed.
 
-The different authorizations are described in chapter "[Employees of the company authorization administrations](#Employees-of-the-company-authorization-administration)".
+The different authorizations are described in chapter **Employees of the company authorization administrations**.
 
 ![Number 3](../images/Numbers/3.png) In this case, the primary contact of the company is displayed. This user always has full rights. These authorizations cannot be reset either. Therefore the sliders are grey and cannot be changed.
 
@@ -49,7 +60,7 @@ If no employee has administrative rights, you lose the ability to access the fis
 
 ![Number 4](../images/Numbers/4.png) With this button new employees can be added to the company.
 
-####<a name="add-employees"></a> Add employees
+#### Add employees
 
 ![Add employees](images/AccountProfile/AddEmployee.png)
 Add employees
@@ -88,7 +99,7 @@ After creating a new user - who is not yet registered as a contact in the fiskal
 ![Email invitation of employee](images/AccountProfile/AddNewEmployee-Email.png)
 Email invitation of a new employee who is to register in the portal and is already assigned to a company as a contact.
 
-###<a name="Employees-of-the-company-authorization-administration"></a> Employees of the company authorization administration
+### Employees of the company authorization administration
 
 ![Authorization management for an employee](images/AccountProfile/Employee-Rights.png)
 Authorization management for an employee

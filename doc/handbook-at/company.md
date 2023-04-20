@@ -5,7 +5,16 @@ title: Company
 
 ### Company
 
-####<a name="overview-of-roles-and-conctractual-relationships"></a> Overview of roles and contractual relationships
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current [fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud).  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
+#### Overview of roles and contractual relationships
 
 If a user has been assigned authorization to manage master data (or is the primary contact), these functions are available to the user.
 
@@ -28,7 +37,7 @@ The roles "PosOperator", "PosDealer", "PosOperator" and "Consultant" can be mana
 
 ![Number 5](../images/Numbers/5.png) Since the company is not assigned a role as a partner in this example, no slider is visible with which you can enter the company in the publicly accessible partner list [https://portal.fiskaltrust.at/public/filterpartners](https://portal.fiskaltrust.at/public/filterpartners).
 
-####<a name="company-role-poscreator"></a> Company role PosCreator
+#### Company role PosCreator
 
 This section describes how a company can activate and deactivate the role of a PosCreator. The respective contractual agreements between fiskaltrust consulting gmbh and the company can be concluded or terminated.
 
@@ -56,7 +65,7 @@ After changing the slider from disabled to enabled, the page with the content of
 
 This does not yet lead to the conclusion of the contract.
 
-#####<a name="conclusion-of-contract"></a> Conclusion of contract
+##### Conclusion of contract
 
 ![Screenshot-AT 31](images/portal-sandbox.fiskaltrust.at/AccountProfile/004.png)
 Screenshot-AT 31: Conclusion of a contract and thus for role activation.
@@ -96,7 +105,7 @@ Screenshot-AT 32: Active role as PosCreator - inactive partner role
 
 ![Number 1](../images/Numbers/1.png) **Text:** "These roles are currently assigned to your company in the fiskaltrust.Portal"
 
-![Number 2](../images/Numbers/2.png) The slider is set to \[Enabled\]. This indicates that the respective role is enabled. By clicking on the slider the role can be put back and the contract can be cancelled. (see chapter [Resetting the role of PosCreator](#Resetting-the-role-of-PosCreator))
+![Number 2](../images/Numbers/2.png) The slider is set to \[Enabled\]. This indicates that the respective role is enabled. By clicking on the slider the role can be put back and the contract can be cancelled. (see chapter [Resetting the role of PosCreator](#resetting-the-role-of-poscreator))
 
 ![Number 3](../images/Numbers/3.png) **Text:** "The cash register manufacturer role is already assigned to your company."
 
@@ -121,7 +130,7 @@ Screenshot-AT 34: Email confirmation: Activation of the fiskaltrust partner role
 
 This partnership is free of charge and enables e.g. the use of the ft.service as well as various advertising media.
 
-#####<a name="activating-the-role-public-partner-list"></a> Activating the role - public partner list
+##### Activating the role - public partner list
 
 With the status ft.partner it is possible to enter a company in the public partner list.
 
@@ -143,7 +152,7 @@ If this slider is set to ON, the corresponding contact details of your company w
 [![https://portal.fiskaltrust.at/public/filterpartners](images/portal-sandbox.fiskaltrust.at/AccountProfile/007.png "https://portal.fiskaltrust.at/public/filterpartners")](https://portal.fiskaltrust.at/public/filterpartners)
 Screenshot-AT 36: Public partner list | [https://portal.fiskaltrust.at/public/filterpartners](https://portal.fiskaltrust.at/public/filterpartners)
 
-####<a name="Resetting-the-role-of-PosCreator"></a> Resetting the role of PosCreator
+#### Resetting the role of PosCreator
 
 You can use this function to terminate the contractual relationships in accordance with the contractual agreement. For this you switch the slider of the role PosCreator to disabled and get to the termination page.
 

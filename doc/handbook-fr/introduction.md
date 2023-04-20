@@ -5,6 +5,15 @@ title: Introduction
 
 # Introduction (France)
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current [fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud).  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 ## General and important information<a name="general-and-important-information"></a>
 
 The manual describes the market specific functions of the fiskaltrust.Portal for France. Also note that there exists [a manual for the general functions](../introduction.md), which describes all the non-market fixed commands.
@@ -38,7 +47,7 @@ The PosCreator and fiskaltrust assure each other of mutual support at least to t
 
 Before contacting our support personally please read the information available on our website in advance.
 
-* Frequently asked questions: (https://www.fiskaltrust.fr/faq)
+* Frequently asked questions:
 * The existing knowledge base can be searched for articles and further information directly in the [fiskaltrust.Portal](https://portal.fiskaltrust.fr). Please enter the searched information at the top of the page in the _Search..._ area and start the search with pressing <kbd>ENTER</kbd>.
 
 The support offered by fiskaltrust includes:

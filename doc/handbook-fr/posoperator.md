@@ -5,6 +5,15 @@ title: PosOperator
 
 ## PosOperator
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current [fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud).  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 ### Invitation of PosOperators by PosDealers
 
 The invitation of a PosOperator can only be made by a PosDealer and not by a PosCreator or consultant.
@@ -99,7 +108,7 @@ Assigning, editing and deleting a PosOperator
 
 ![Number 3](../images/Numbers/circle-3o.png) By clicking on [+&nbsp;Add] a [manual invitation](#add-posoperator) can be created.
 
-![Number 4](../images/Numbers/circle-4o.png) A click on [Protocol](#protocol) shows the history of invitations of this account.
+![Number 4](../images/Numbers/circle-4o.png) A click on **Protocol** shows the history of invitations of this account.
 
 ![Number 5](../images/Numbers/circle-5o.png) By clicking on ![Email](../images/Buttons/004.png "Email") the email invitation can be sent to a single PosOperator. The email invitation can be sent as an attachment with an individually designed PDF document.
 ![example of an invitation email](images/PosOperator/PosOperator-Invitation-Email.png)

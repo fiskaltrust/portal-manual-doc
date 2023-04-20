@@ -5,6 +5,15 @@ title: Configuration
 
 ## Configuration
 
+:::danger **No maintenance anymore**
+
+These manuals are no longer maintained! 
+
+In case of any questions, we encourage you to refer to our current [fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud).  
+For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
+
+:::
+
 For using a template or a package see chapter [Buying a package in the shop or using a template](shop.md#buy-package-in-shop-or-use-a-template).
 
 [![https://portal.fiskaltrust.at/CashBox/](images/CashBox/001.png "https://portal.fiskaltrust.at/CashBox/")](https://portal.fiskaltrust.at/CashBox/)
@@ -14,19 +23,19 @@ The creation and management of the components is discussed in the following chap
 
 **in general**
 
-- [Signature creation device](#SCU)
+- [Signature creation device]()
 - [Helper](#helper)
 - [Queue](#queue)
 - [CashBox](#cashbox)
 
 **for Austria**
 
-- [Signature creation device](../handbook-at/configuration.md#SCU)
+- [Signature creation device](../handbook-at/configuration.md)
 - [CashBox](../handbook-at/configuration.md#cashbox)
 
 **in France**
 
-- [Signature creation device](../handbook-fr/configuration.md#SCU)
+- [Signature creation device](../handbook-fr/configuration.md)
 - [Queue](../handbook-fr/configuration.md#queue)
 - [CashBox](../handbook-fr/configuration.md#cashbox)
 
