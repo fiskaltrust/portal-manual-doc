@@ -7,7 +7,7 @@ title: fiskaltrust.Portal
 
 :::danger
 
-These manuals are no longer maintained! 
+The Portal manual is no longer maintained. For the latest documentation, please refer to the PosDealer or PosCreator section of this site.  
 
 In case of any questions, we encourage you to refer to our current [fiskaltrust Documentation Platform](https://docs.fiskaltrust.cloud).  
 For further details, check the corresponding Knowledge Base Articles (KBA), which can be found on the fiskaltrust.Portal.
