@@ -23,7 +23,6 @@ The creation and management of the components is discussed in the following chap
 
 **in general**
 
-- [Signature creation device](#SCU)
 - [Helper](#helper)
 - [Queue](#queue)
 - [CashBox](#cashbox)
@@ -115,10 +114,6 @@ Click on \[Save\] to save the Helper configuration.
 Helper - Delete
 
 For legal reasons it is currently not possible to delete the helper.
-
-### Signature Creation Unit<a name="SCU"></a>
-
-Refer to the chapters in the appendices for the national implementations of a signature creation unit.
 
 ### Update
 
