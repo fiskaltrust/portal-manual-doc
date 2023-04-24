@@ -1,5 +1,8 @@
 # fiskaltrust portal manual doc
 
+> **Warning**
+> This part of our documentation has been replaced by the process-oriented [rollout documentation](https://github.com/fiskaltrust/rollout-doc/) and is not maintained anymore. For the latest version of all docs, please refer to https://docs.fiskaltrust.cloud.
+
 ## Purpose and content
 Goal of this repository is to list and describe the available functionality of the ft.Portal, so that the usability and understanding of the portal can be increased by the here offered explanations and descriptions.
 
